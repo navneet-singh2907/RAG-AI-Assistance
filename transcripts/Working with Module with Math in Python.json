@@ -1,0 +1,1182 @@
+[
+    {
+        "id": 0,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 0.0,
+        "end": 8.76,
+        "start_time": "00:00",
+        "end_time": "00:08",
+        "text": "Now, once we know what are functions, let's go to the next topic, which is modules. See,"
+    },
+    {
+        "id": 1,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 8.76,
+        "end": 12.88,
+        "start_time": "00:08",
+        "end_time": "00:12",
+        "text": "for different tasks, we are going to create different functions, right? And we know that"
+    },
+    {
+        "id": 2,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 12.88,
+        "end": 17.44,
+        "start_time": "00:12",
+        "end_time": "00:17",
+        "text": "now. But when you say a task or a group of tasks, normally what you do is, let's say"
+    },
+    {
+        "id": 3,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 17.44,
+        "end": 22.96,
+        "start_time": "00:17",
+        "end_time": "00:22",
+        "text": "if you talk about calculations. Now, for calculations, you might be doing additions, subtraction,"
+    },
+    {
+        "id": 4,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 22.96,
+        "end": 28.12,
+        "start_time": "00:22",
+        "end_time": "00:28",
+        "text": "division, multiplication. That comes under one particular thing. On the other hand, we"
+    },
+    {
+        "id": 5,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 28.12,
+        "end": 34.08,
+        "start_time": "00:28",
+        "end_time": "00:34",
+        "text": "can talk about, let's say, logging to a system. So login, log out, maybe creating a new user,"
+    },
+    {
+        "id": 6,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 34.08,
+        "end": 38.44,
+        "start_time": "00:34",
+        "end_time": "00:38",
+        "text": "deleting the user. Those things come under one system. On the other hand, we can also"
+    },
+    {
+        "id": 7,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 38.44,
+        "end": 43.88,
+        "start_time": "00:38",
+        "end_time": "00:43",
+        "text": "talk about e-commerce, where you are adding a product, deleting a product, or maybe adding"
+    },
+    {
+        "id": 8,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 43.88,
+        "end": 48.72,
+        "start_time": "00:43",
+        "end_time": "00:48",
+        "text": "a product to the cart. Those things come under one thing. Now, of course, if you want to"
+    },
+    {
+        "id": 9,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 48.72,
+        "end": 53.400000000000006,
+        "start_time": "00:48",
+        "end_time": "00:53",
+        "text": "do individual things here, let's say adding two numbers, we get a function. If you want"
+    },
+    {
+        "id": 10,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 53.4,
+        "end": 59.08,
+        "start_time": "00:53",
+        "end_time": "00:59",
+        "text": "to log into a user, that is one function. If you are doing a checkout of a product on"
+    },
+    {
+        "id": 11,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 59.08,
+        "end": 64.16,
+        "start_time": "00:59",
+        "end_time": "01:04",
+        "text": "e-commerce website, that is one function. But all these functions are different, right?"
+    },
+    {
+        "id": 12,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 64.16,
+        "end": 68.6,
+        "start_time": "01:04",
+        "end_time": "01:08",
+        "text": "So there's a grouping of functions which we can create. And normally what you do is, you"
+    },
+    {
+        "id": 13,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 68.6,
+        "end": 74.58,
+        "start_time": "01:08",
+        "end_time": "01:14",
+        "text": "take this grouping of functions and put that in one module. Let me repeat, you take that"
+    },
+    {
+        "id": 14,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 74.58,
+        "end": 81.03999999999999,
+        "start_time": "01:14",
+        "end_time": "01:21",
+        "text": "bunch of related functions, or maybe functions that belong to one domain and put that into"
+    },
+    {
+        "id": 15,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 81.04,
+        "end": 85.80000000000001,
+        "start_time": "01:21",
+        "end_time": "01:25",
+        "text": "one module. So what is module? You can imagine module as a box in which you have all the"
+    },
+    {
+        "id": 16,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 85.80000000000001,
+        "end": 90.48,
+        "start_time": "01:25",
+        "end_time": "01:30",
+        "text": "related functions. Of course, you can have an unrelated functions, but then why someone"
+    },
+    {
+        "id": 17,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 90.48,
+        "end": 95.84,
+        "start_time": "01:30",
+        "end_time": "01:35",
+        "text": "will do that, right? So module will have all the related functions of one particular thing."
+    },
+    {
+        "id": 18,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 95.84,
+        "end": 99.64000000000001,
+        "start_time": "01:35",
+        "end_time": "01:39",
+        "text": "To give an example, let's go back to this thing here, and let's say I don't want to"
+    },
+    {
+        "id": 19,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 99.64000000000001,
+        "end": 104.4,
+        "start_time": "01:39",
+        "end_time": "01:44",
+        "text": "work with add anymore. We can remove it. In fact, let me remove everything. What I want"
+    },
+    {
+        "id": 20,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 104.4,
+        "end": 109.68,
+        "start_time": "01:44",
+        "end_time": "01:49",
+        "text": "to do here is, let's say I want to find a square root of a number. So if you want to"
+    },
+    {
+        "id": 21,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 110.08000000000001,
+        "end": 114.12,
+        "start_time": "01:50",
+        "end_time": "01:54",
+        "text": "find a square root of a number, let's say I will say result equal to, and in this result"
+    },
+    {
+        "id": 22,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 114.12,
+        "end": 118.72000000000001,
+        "start_time": "01:54",
+        "end_time": "01:58",
+        "text": "I want the square root of this number 25. And we know the square root of this number"
+    },
+    {
+        "id": 23,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 118.72000000000001,
+        "end": 123.68,
+        "start_time": "01:58",
+        "end_time": "02:03",
+        "text": "is five, but I want to do that with Python. Now you can write the code for it. We are"
+    },
+    {
+        "id": 24,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 123.68,
+        "end": 128.28,
+        "start_time": "02:03",
+        "end_time": "02:08",
+        "text": "expert in Python now, we are expert in maths. No, I'm kidding. We're into learning phase"
+    },
+    {
+        "id": 25,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 128.28,
+        "end": 132.4,
+        "start_time": "02:08",
+        "end_time": "02:12",
+        "text": "now, but you can do that. You can write a code to find a square root of a number using"
+    },
+    {
+        "id": 26,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 132.4,
+        "end": 137.4,
+        "start_time": "02:12",
+        "end_time": "02:17",
+        "text": "Python, like we did for finding a square root of a number. So let's say if you want to find"
+    },
+    {
+        "id": 27,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 137.48000000000002,
+        "end": 141.20000000000002,
+        "start_time": "02:17",
+        "end_time": "02:21",
+        "text": "a square root of a number four, you can simply say four into four. You will get the square"
+    },
+    {
+        "id": 28,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 141.20000000000002,
+        "end": 147.4,
+        "start_time": "02:21",
+        "end_time": "02:27",
+        "text": "root of it. But if you want to find the square root, instead of writing the complex mathematical"
+    },
+    {
+        "id": 29,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 147.4,
+        "end": 152.72,
+        "start_time": "02:27",
+        "end_time": "02:32",
+        "text": "formula here, what I can do is I can use some inbuilt functions. The way we have done with"
+    },
+    {
+        "id": 30,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 152.72,
+        "end": 158.16,
+        "start_time": "02:32",
+        "end_time": "02:38",
+        "text": "print, we have done with int. All these are inbuilt. In the same way, we got this particular"
+    },
+    {
+        "id": 31,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 158.16,
+        "end": 163.14000000000001,
+        "start_time": "02:38",
+        "end_time": "02:43",
+        "text": "function called sqrt, which is an inbuilt function. I can use that, and I can put my"
+    },
+    {
+        "id": 32,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 163.14,
+        "end": 167.26,
+        "start_time": "02:43",
+        "end_time": "02:47",
+        "text": "number, which is a num, and it should give me the square root. And at the end, I will"
+    },
+    {
+        "id": 33,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 167.26,
+        "end": 174.26,
+        "start_time": "02:47",
+        "end_time": "02:54",
+        "text": "just print it as simple as that. Okay, let me see if this works. So I'll say Python and"
+    },
+    {
+        "id": 34,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 175.54,
+        "end": 182.14,
+        "start_time": "02:55",
+        "end_time": "03:02",
+        "text": "demo.py. If I say enter, it's not working. If it is not working, let's stop the video"
+    },
+    {
+        "id": 35,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 182.14,
+        "end": 186.92,
+        "start_time": "03:02",
+        "end_time": "03:06",
+        "text": "and done. I'm not stopping the video. You can see the length of it. So why this is not"
+    },
+    {
+        "id": 36,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 186.92,
+        "end": 191.61999999999998,
+        "start_time": "03:06",
+        "end_time": "03:11",
+        "text": "working? So I'm saying that this is inbuilt and now it's not working. That means is it"
+    },
+    {
+        "id": 37,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 191.62,
+        "end": 197.5,
+        "start_time": "03:11",
+        "end_time": "03:17",
+        "text": "not inbuilt? It is actually inbuilt. It's just that this type of functions, which are"
+    },
+    {
+        "id": 38,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 197.5,
+        "end": 202.86,
+        "start_time": "03:17",
+        "end_time": "03:22",
+        "text": "not normally used, but yes, people do use it. So we don't openly put that to Python."
+    },
+    {
+        "id": 39,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 202.86,
+        "end": 207.22,
+        "start_time": "03:22",
+        "end_time": "03:27",
+        "text": "Hey, anyone can use it because sometimes you don't want to use it. Why it is openly available."
+    },
+    {
+        "id": 40,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 207.22,
+        "end": 213.94,
+        "start_time": "03:27",
+        "end_time": "03:33",
+        "text": "See, print, int, we always use. sqrt is a very special function, belongs to mathematics."
+    },
+    {
+        "id": 41,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 213.94,
+        "end": 220.22,
+        "start_time": "03:33",
+        "end_time": "03:40",
+        "text": "It will be used only when you want to do mathematical things. So in that scenario, we can say, okay,"
+    },
+    {
+        "id": 42,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 220.22,
+        "end": 225.62,
+        "start_time": "03:40",
+        "end_time": "03:45",
+        "text": "this is not openly available, but this belongs to a module which you can use. Okay, so what"
+    },
+    {
+        "id": 43,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 225.62,
+        "end": 230.6,
+        "start_time": "03:45",
+        "end_time": "03:50",
+        "text": "is module? A module will have a bunch of features or normally functions and this belongs to"
+    },
+    {
+        "id": 44,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 230.6,
+        "end": 236.7,
+        "start_time": "03:50",
+        "end_time": "03:56",
+        "text": "a module called math. Okay, so if you want to use that module, I can say import and I"
+    },
+    {
+        "id": 45,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 236.7,
+        "end": 240.46,
+        "start_time": "03:56",
+        "end_time": "04:00",
+        "text": "can mention the module name, which is math. There are a lot of modules available. So if"
+    },
+    {
+        "id": 46,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 240.46,
+        "end": 244.54,
+        "start_time": "04:00",
+        "end_time": "04:04",
+        "text": "you say import and control space, you will see a list here, I hope. Yeah, there are a"
+    },
+    {
+        "id": 47,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 244.54,
+        "end": 249.7,
+        "start_time": "04:04",
+        "end_time": "04:09",
+        "text": "lot of modules here. We've got base64 if you want to perform operations with that. You"
+    },
+    {
+        "id": 48,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 249.7,
+        "end": 255.61999999999998,
+        "start_time": "04:09",
+        "end_time": "04:15",
+        "text": "can use a calendar module. You can use Colorsys. Never used it, but we have an option. We've"
+    },
+    {
+        "id": 49,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 255.61999999999998,
+        "end": 263.5,
+        "start_time": "04:15",
+        "end_time": "04:23",
+        "text": "got concurrent module, important. We got date time module. In the same way, we got math"
+    },
+    {
+        "id": 50,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 263.5,
+        "end": 268.41999999999996,
+        "start_time": "04:23",
+        "end_time": "04:28",
+        "text": "module, which we're going to use. And when you say import math, basically you got this"
+    },
+    {
+        "id": 51,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 268.41999999999996,
+        "end": 275.78,
+        "start_time": "04:28",
+        "end_time": "04:35",
+        "text": "module and then using that, I can say math.sqrt. So sqrt is a function which belongs to math"
+    },
+    {
+        "id": 52,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 276.34,
+        "end": 281.78,
+        "start_time": "04:36",
+        "end_time": "04:41",
+        "text": "So if you want to use a function of a module, mention the module name dot the function name."
+    },
+    {
+        "id": 53,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 281.78,
+        "end": 287.26,
+        "start_time": "04:41",
+        "end_time": "04:47",
+        "text": "I hope this time this will work. If not, we'll stop the video for sure. It worked. And now"
+    },
+    {
+        "id": 54,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 287.26,
+        "end": 293.52,
+        "start_time": "04:47",
+        "end_time": "04:53",
+        "text": "we are not stopping it. So the answer is 5.0 is because sqrt normally gives you float values."
+    },
+    {
+        "id": 55,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 293.52,
+        "end": 297.65999999999997,
+        "start_time": "04:53",
+        "end_time": "04:57",
+        "text": "You will get 5.0. Yeah, if you want to convert that into int, you can just pass that into"
+    },
+    {
+        "id": 56,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 297.65999999999997,
+        "end": 303.14,
+        "start_time": "04:57",
+        "end_time": "05:03",
+        "text": "int function and it should work. Okay, this is how basically you use a module. Now, of"
+    },
+    {
+        "id": 57,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 303.14,
+        "end": 308.38,
+        "start_time": "05:03",
+        "end_time": "05:08",
+        "text": "course, we can create our own modules if you want. But at this point, we are just using"
+    },
+    {
+        "id": 58,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 308.38,
+        "end": 315.74,
+        "start_time": "05:08",
+        "end_time": "05:15",
+        "text": "the existing modules. So math is a module of which we are using a function and we are"
+    },
+    {
+        "id": 59,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 315.74,
+        "end": 320.38,
+        "start_time": "05:15",
+        "end_time": "05:20",
+        "text": "able to do the things. And of course, sqrt is not the only function available in math."
+    },
+    {
+        "id": 60,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 320.38,
+        "end": 325.38,
+        "start_time": "05:20",
+        "end_time": "05:25",
+        "text": "There are other functions as well. But this video is not about math. This video is about"
+    },
+    {
+        "id": 61,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 325.38,
+        "end": 330.26,
+        "start_time": "05:25",
+        "end_time": "05:30",
+        "text": "module. How do we import a module? That's what we have seen now. In fact, I want to"
+    },
+    {
+        "id": 62,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 330.26,
+        "end": 335.82,
+        "start_time": "05:30",
+        "end_time": "05:35",
+        "text": "show you one more thing with module. So let's say in math, basically we got one function"
+    },
+    {
+        "id": 63,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 335.82,
+        "end": 340.78,
+        "start_time": "05:35",
+        "end_time": "05:40",
+        "text": "which we are using, but we have multiple functions, right? Now, the moment you say import math,"
+    },
+    {
+        "id": 64,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 340.78,
+        "end": 344.9,
+        "start_time": "05:40",
+        "end_time": "05:44",
+        "text": "you can use all the functions in the code. But what if you don't want to use all the"
+    },
+    {
+        "id": 65,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 344.9,
+        "end": 350.78,
+        "start_time": "05:44",
+        "end_time": "05:50",
+        "text": "functions? You want to restrict how many functions I want to import. Also, I don't even want"
+    },
+    {
+        "id": 66,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 350.78,
+        "end": 356.28,
+        "start_time": "05:50",
+        "end_time": "05:56",
+        "text": "to write this math at the start. I can just remove it. But then Python will not be happy."
+    },
+    {
+        "id": 67,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 356.28,
+        "end": 360.47999999999996,
+        "start_time": "05:56",
+        "end_time": "06:00",
+        "text": "If you remove that Python will say, hey, what is this sqrt? So in that case, what you"
+    },
+    {
+        "id": 68,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 360.47999999999996,
+        "end": 364.28,
+        "start_time": "06:00",
+        "end_time": "06:04",
+        "text": "do is instead of using this particular statement, which you have used here, I will just comment"
+    },
+    {
+        "id": 69,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 364.28,
+        "end": 374.35999999999996,
+        "start_time": "06:04",
+        "end_time": "06:14",
+        "text": "it and then you say, from math, I want to import sqrt. Okay, there's a syntax for importing"
+    },
+    {
+        "id": 70,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 374.35999999999996,
+        "end": 379.79999999999995,
+        "start_time": "06:14",
+        "end_time": "06:19",
+        "text": "one or two or limited number of functions. So from math, import sqrt. Now you don't have"
+    },
+    {
+        "id": 71,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 379.79999999999995,
+        "end": 386.2,
+        "start_time": "06:19",
+        "end_time": "06:26",
+        "text": "to mention math here. And you can see there's no zigzag lines there. I can simply try this"
+    },
+    {
+        "id": 72,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 386.2,
+        "end": 392.52,
+        "start_time": "06:26",
+        "end_time": "06:32",
+        "text": "now and it worked. So yeah, that's about the working with modules. Since we are talking"
+    },
+    {
+        "id": 73,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 392.52,
+        "end": 397.92,
+        "start_time": "06:32",
+        "end_time": "06:37",
+        "text": "about math, let's check out some more functions. Now math has a few more functions to work"
+    },
+    {
+        "id": 74,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 397.92,
+        "end": 403.8,
+        "start_time": "06:37",
+        "end_time": "06:43",
+        "text": "with. In fact, if I go back here and if I say math dot, in fact, for that I have to"
+    },
+    {
+        "id": 75,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 403.8,
+        "end": 410.12,
+        "start_time": "06:43",
+        "end_time": "06:50",
+        "text": "also uncomment this part. And if I check math, there are so many functions. One of the function"
+    },
+    {
+        "id": 76,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 410.12,
+        "end": 416.56,
+        "start_time": "06:50",
+        "end_time": "06:56",
+        "text": "is seal. Now when you talk about a number, let's say float values, example, when I cleared"
+    },
+    {
+        "id": 77,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 416.56,
+        "end": 423.44,
+        "start_time": "06:56",
+        "end_time": "07:03",
+        "text": "my 10th standard, the percentage I got is 59.4. Now, whenever someone asks me, normally"
+    },
+    {
+        "id": 78,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 423.44,
+        "end": 429.56,
+        "start_time": "07:03",
+        "end_time": "07:09",
+        "text": "we do a round off, right? And when you do a round off for 59.4, it should be 59, right?"
+    },
+    {
+        "id": 79,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 429.56,
+        "end": 434.4,
+        "start_time": "07:09",
+        "end_time": "07:14",
+        "text": "Because you increase the value when it is above 0.5, but I used to say 60, because I"
+    },
+    {
+        "id": 80,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 434.4,
+        "end": 438.2,
+        "start_time": "07:14",
+        "end_time": "07:18",
+        "text": "used to always apply seal function. So what is seal basically? So let's say if you have"
+    },
+    {
+        "id": 81,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 438.2,
+        "end": 443.68,
+        "start_time": "07:18",
+        "end_time": "07:23",
+        "text": "a float and seal on top and if you have a value somewhere in between, if it is near"
+    },
+    {
+        "id": 82,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 443.68,
+        "end": 448.92,
+        "start_time": "07:23",
+        "end_time": "07:28",
+        "text": "to the lower value, it will go there, right? That's the round off. But in seal, it will"
+    },
+    {
+        "id": 83,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 448.92,
+        "end": 457.68,
+        "start_time": "07:28",
+        "end_time": "07:37",
+        "text": "always go to the maximum integer for that range. So example, if I say seal of 59.4 and"
+    },
+    {
+        "id": 84,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 457.68,
+        "end": 463.08,
+        "start_time": "07:37",
+        "end_time": "07:43",
+        "text": "if I try to save that result somewhere, so it's a result one equal to, and if I try to"
+    },
+    {
+        "id": 85,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 463.76,
+        "end": 468.88,
+        "start_time": "07:43",
+        "end_time": "07:48",
+        "text": "print the result one, let's see what output you get. So if you run this, you will get"
+    },
+    {
+        "id": 86,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 468.88,
+        "end": 476.38,
+        "start_time": "07:48",
+        "end_time": "07:56",
+        "text": "60. Okay, that's my 10th percentage, not 59.4, because I use seal. Otherwise, if I want to"
+    },
+    {
+        "id": 87,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 476.38,
+        "end": 481.03999999999996,
+        "start_time": "07:56",
+        "end_time": "08:01",
+        "text": "talk about someone else, let's say if I talk about my friend at home, even if that person"
+    },
+    {
+        "id": 88,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 481.03999999999996,
+        "end": 487.88,
+        "start_time": "08:01",
+        "end_time": "08:07",
+        "text": "gets 59.9, it's always 59. Okay, so float will give the lowest integer and seal will"
+    },
+    {
+        "id": 89,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 487.88,
+        "end": 491.79999999999995,
+        "start_time": "08:07",
+        "end_time": "08:11",
+        "text": "get the highest integer. Now why I'm showing you this is because I wanted to show you not"
+    },
+    {
+        "id": 90,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 491.8,
+        "end": 496.12,
+        "start_time": "08:11",
+        "end_time": "08:16",
+        "text": "my 10th percentage, but in math, you got multiple functions and that's how you can"
+    },
+    {
+        "id": 91,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 496.12,
+        "end": 500.96000000000004,
+        "start_time": "08:16",
+        "end_time": "08:20",
+        "text": "try out. In fact, there's one more way of checking documentation. So let's say I will"
+    },
+    {
+        "id": 92,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 500.96000000000004,
+        "end": 508.8,
+        "start_time": "08:20",
+        "end_time": "08:28",
+        "text": "just remove this line and also if you don't want to write mat dot seal, you can also import"
+    },
+    {
+        "id": 93,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 508.8,
+        "end": 515.4,
+        "start_time": "08:28",
+        "end_time": "08:35",
+        "text": "from mat import seal so that you don't have to write that here mat dot seal every time."
+    },
+    {
+        "id": 94,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 515.4,
+        "end": 520.0,
+        "start_time": "08:35",
+        "end_time": "08:40",
+        "text": "You can just use seal. One more way to get this, if I open terminal and if I increase"
+    },
+    {
+        "id": 95,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 520.0,
+        "end": 527.48,
+        "start_time": "08:40",
+        "end_time": "08:47",
+        "text": "the size here, that's huge. Okay, so if I go to Python now, and there's a function available,"
+    },
+    {
+        "id": 96,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 527.48,
+        "end": 533.28,
+        "start_time": "08:47",
+        "end_time": "08:53",
+        "text": "which is help. And in this help, you can mention what documentation you need. So I need a documentation"
+    },
+    {
+        "id": 97,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 533.28,
+        "end": 539.16,
+        "start_time": "08:53",
+        "end_time": "08:59",
+        "text": "for math, enter, and this is a documentation. So if you want to learn about a particular"
+    },
+    {
+        "id": 98,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 539.16,
+        "end": 544.88,
+        "start_time": "08:59",
+        "end_time": "09:04",
+        "text": "module, you can do like this. Otherwise, you can also, let me just clear this, you can"
+    },
+    {
+        "id": 99,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 544.88,
+        "end": 550.32,
+        "start_time": "09:04",
+        "end_time": "09:10",
+        "text": "also use help mat dot. Specifically, if you want to understand about seal, you can mention"
+    },
+    {
+        "id": 100,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 550.32,
+        "end": 556.52,
+        "start_time": "09:10",
+        "end_time": "09:16",
+        "text": "that it will talk about what seal does. So see the return of x as a, this is smallest"
+    },
+    {
+        "id": 101,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 556.52,
+        "end": 563.72,
+        "start_time": "09:16",
+        "end_time": "09:23",
+        "text": "integer, which is greater than x. Okay, that's the documentation. Apart from this, you can"
+    },
+    {
+        "id": 102,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 563.72,
+        "end": 571.16,
+        "start_time": "09:23",
+        "end_time": "09:31",
+        "text": "also use something called power for finding power of a value. Example result one is equal"
+    },
+    {
+        "id": 103,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 571.16,
+        "end": 577.7199999999999,
+        "start_time": "09:31",
+        "end_time": "09:37",
+        "text": "to power of, let's say, five raised to three. So it will give you five raised to three."
+    },
+    {
+        "id": 104,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 577.7199999999999,
+        "end": 581.12,
+        "start_time": "09:37",
+        "end_time": "09:41",
+        "text": "And you can, if you want, you can just print it here. I don't want to print this square"
+    },
+    {
+        "id": 105,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 581.12,
+        "end": 588.12,
+        "start_time": "09:41",
+        "end_time": "09:48",
+        "text": "root now. I'm lazy. So if you do that, it will also work. So that's how you can find"
+    },
+    {
+        "id": 106,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 588.12,
+        "end": 592.48,
+        "start_time": "09:48",
+        "end_time": "09:52",
+        "text": "the power. So there are a lot of functions you can try it out. So for every module, which"
+    },
+    {
+        "id": 107,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 592.48,
+        "end": 595.4399999999999,
+        "start_time": "09:52",
+        "end_time": "09:55",
+        "text": "you want to talk about, you can also do that. You can check out different functions and"
+    },
+    {
+        "id": 108,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 595.4399999999999,
+        "end": 599.8399999999999,
+        "start_time": "09:55",
+        "end_time": "09:59",
+        "text": "use it. One more thing about ID is, you know, this and this is different color because seal"
+    },
+    {
+        "id": 109,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 599.88,
+        "end": 603.6800000000001,
+        "start_time": "09:59",
+        "end_time": "10:03",
+        "text": "you're not using anywhere. So it's a different color. It helps you to understand which function"
+    },
+    {
+        "id": 110,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 603.6800000000001,
+        "end": 607.52,
+        "start_time": "10:03",
+        "end_time": "10:07",
+        "text": "you are importing from the module, but you're not using it. So that's a feature you can"
+    },
+    {
+        "id": 111,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 607.52,
+        "end": 612.0400000000001,
+        "start_time": "10:07",
+        "end_time": "10:12",
+        "text": "use. I just want to show you one more thing before you go. Let's say if you don't want"
+    },
+    {
+        "id": 112,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 612.0400000000001,
+        "end": 616.5600000000001,
+        "start_time": "10:12",
+        "end_time": "10:16",
+        "text": "to use this syntax, if you want to use import math and everywhere, if you want to mention"
+    },
+    {
+        "id": 113,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 616.5600000000001,
+        "end": 620.44,
+        "start_time": "10:16",
+        "end_time": "10:20",
+        "text": "math dot something. So instead of that, you can also say, if you don't want to use math"
+    },
+    {
+        "id": 114,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 620.44,
+        "end": 624.72,
+        "start_time": "10:20",
+        "end_time": "10:24",
+        "text": "as a word, see it is small, but sometimes you have a big module name. You can create"
+    },
+    {
+        "id": 115,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 624.8000000000001,
+        "end": 630.76,
+        "start_time": "10:24",
+        "end_time": "10:30",
+        "text": "allies of it. Something like import math as M and everywhere you can use M dot and that"
+    },
+    {
+        "id": 116,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 630.76,
+        "end": 636.0400000000001,
+        "start_time": "10:30",
+        "end_time": "10:36",
+        "text": "should work. Okay. Just to confirm. Yeah, it works. So that is from math module. See"
+    },
+    {
+        "id": 117,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start": 636.0400000000001,
+        "end": 636.6800000000001,
+        "start_time": "10:36",
+        "end_time": "10:36",
+        "text": "you in the next video."
+    }
+]

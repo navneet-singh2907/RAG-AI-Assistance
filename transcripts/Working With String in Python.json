@@ -1,0 +1,2142 @@
+[
+    {
+        "id": 0,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 0.0,
+        "end": 7.12,
+        "start_time": "00:00",
+        "end_time": "00:07",
+        "text": "So, till this point, we are working with numbers and everything is working fine."
+    },
+    {
+        "id": 1,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 7.12,
+        "end": 10.040000000000001,
+        "start_time": "00:07",
+        "end_time": "00:10",
+        "text": "But now, we want to work with text."
+    },
+    {
+        "id": 2,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 10.040000000000001,
+        "end": 12.14,
+        "start_time": "00:10",
+        "end_time": "00:12",
+        "text": "Now what happens when you work with text?"
+    },
+    {
+        "id": 3,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 12.14,
+        "end": 16.88,
+        "start_time": "00:12",
+        "end_time": "00:16",
+        "text": "And this text in programming are normally called string."
+    },
+    {
+        "id": 4,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 16.88,
+        "end": 17.88,
+        "start_time": "00:16",
+        "end_time": "00:17",
+        "text": "Okay?"
+    },
+    {
+        "id": 5,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 17.88,
+        "end": 18.88,
+        "start_time": "00:17",
+        "end_time": "00:18",
+        "text": "So, let's go with this."
+    },
+    {
+        "id": 6,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 18.88,
+        "end": 22.44,
+        "start_time": "00:18",
+        "end_time": "00:22",
+        "text": "So, when you say a number, so let's say if you want to represent a number, let's say"
+    },
+    {
+        "id": 7,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 22.44,
+        "end": 24.88,
+        "start_time": "00:22",
+        "end_time": "00:24",
+        "text": "45, when you say enter, that's a proper value."
+    },
+    {
+        "id": 8,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 24.88,
+        "end": 29.54,
+        "start_time": "00:24",
+        "end_time": "00:29",
+        "text": "Now, when you open a prompt, a Python prompt, and when you type something, it tries to convert"
+    },
+    {
+        "id": 9,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 29.54,
+        "end": 31.46,
+        "start_time": "00:29",
+        "end_time": "00:31",
+        "text": "that into some sensible thing."
+    },
+    {
+        "id": 10,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 31.46,
+        "end": 36.14,
+        "start_time": "00:31",
+        "end_time": "00:36",
+        "text": "Example, when you say 45, it knows that's a number, so it will take this number and"
+    },
+    {
+        "id": 11,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 36.14,
+        "end": 38.74,
+        "start_time": "00:36",
+        "end_time": "00:38",
+        "text": "say okay, I got your number, this is your number."
+    },
+    {
+        "id": 12,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 38.74,
+        "end": 41.019999999999996,
+        "start_time": "00:38",
+        "end_time": "00:41",
+        "text": "That's what you can see on the screen."
+    },
+    {
+        "id": 13,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 41.019999999999996,
+        "end": 44.94,
+        "start_time": "00:41",
+        "end_time": "00:44",
+        "text": "But now, if you type a statement, again, what is statement, we'll talk about that later,"
+    },
+    {
+        "id": 14,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 44.94,
+        "end": 50.739999999999995,
+        "start_time": "00:44",
+        "end_time": "00:50",
+        "text": "but in short, in Python, basically whatever code you write, each line is one statement."
+    },
+    {
+        "id": 15,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 50.739999999999995,
+        "end": 51.739999999999995,
+        "start_time": "00:50",
+        "end_time": "00:51",
+        "text": "Not always."
+    },
+    {
+        "id": 16,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 51.739999999999995,
+        "end": 53.18,
+        "start_time": "00:51",
+        "end_time": "00:53",
+        "text": "A statement is one thing."
+    },
+    {
+        "id": 17,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 53.18,
+        "end": 56.14,
+        "start_time": "00:53",
+        "end_time": "00:56",
+        "text": "So, normally we write one statement in one line."
+    },
+    {
+        "id": 18,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 56.14,
+        "end": 59.18,
+        "start_time": "00:56",
+        "end_time": "00:59",
+        "text": "It may happen that you write one statement in multiple lines."
+    },
+    {
+        "id": 19,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 59.18,
+        "end": 62.34,
+        "start_time": "00:59",
+        "end_time": "01:02",
+        "text": "It will make much more sense once we talk about this in the upcoming videos."
+    },
+    {
+        "id": 20,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 62.34,
+        "end": 66.38,
+        "start_time": "01:02",
+        "end_time": "01:06",
+        "text": "At this point, when you write a number or a statement, it will try to read that and"
+    },
+    {
+        "id": 21,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 66.38,
+        "end": 67.38,
+        "start_time": "01:06",
+        "end_time": "01:07",
+        "text": "convert that."
+    },
+    {
+        "id": 22,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 67.38,
+        "end": 69.14,
+        "start_time": "01:07",
+        "end_time": "01:09",
+        "text": "Here, 45 works."
+    },
+    {
+        "id": 23,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 69.14,
+        "end": 71.94,
+        "start_time": "01:09",
+        "end_time": "01:11",
+        "text": "But what if I say Navin?"
+    },
+    {
+        "id": 24,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 71.94,
+        "end": 79.22,
+        "start_time": "01:11",
+        "end_time": "01:19",
+        "text": "Now, Navin is my name, and when you try to do that, Python says what's wrong with you?"
+    },
+    {
+        "id": 25,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 79.22,
+        "end": 80.82,
+        "start_time": "01:19",
+        "end_time": "01:20",
+        "text": "Why are you saying Navin?"
+    },
+    {
+        "id": 26,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 80.82,
+        "end": 87.94,
+        "start_time": "01:20",
+        "end_time": "01:27",
+        "text": "See, when you have a variable, example, let's say if I say num is equal to 8, now num is"
+    },
+    {
+        "id": 27,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 87.94,
+        "end": 89.17999999999999,
+        "start_time": "01:27",
+        "end_time": "01:29",
+        "text": "a variable, right?"
+    },
+    {
+        "id": 28,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 89.17999999999999,
+        "end": 91.86,
+        "start_time": "01:29",
+        "end_time": "01:31",
+        "text": "And the value for num is 8."
+    },
+    {
+        "id": 29,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 91.86,
+        "end": 93.89999999999999,
+        "start_time": "01:31",
+        "end_time": "01:33",
+        "text": "And then when you try to print num, it works."
+    },
+    {
+        "id": 30,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 93.89999999999999,
+        "end": 95.94,
+        "start_time": "01:33",
+        "end_time": "01:35",
+        "text": "So this num is a variable."
+    },
+    {
+        "id": 31,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 95.94,
+        "end": 96.94,
+        "start_time": "01:35",
+        "end_time": "01:36",
+        "text": "Now Python knows it."
+    },
+    {
+        "id": 32,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 96.94,
+        "end": 101.86,
+        "start_time": "01:36",
+        "end_time": "01:41",
+        "text": "It's because you have assigned the value to num just before that particular statement"
+    },
+    {
+        "id": 33,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 101.86,
+        "end": 102.86,
+        "start_time": "01:41",
+        "end_time": "01:42",
+        "text": "when you're printing it."
+    },
+    {
+        "id": 34,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 102.86,
+        "end": 103.86,
+        "start_time": "01:42",
+        "end_time": "01:43",
+        "text": "What about this?"
+    },
+    {
+        "id": 35,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 103.86,
+        "end": 105.3,
+        "start_time": "01:43",
+        "end_time": "01:45",
+        "text": "This is not a variable."
+    },
+    {
+        "id": 36,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 105.3,
+        "end": 110.22,
+        "start_time": "01:45",
+        "end_time": "01:50",
+        "text": "And my intention was to treat that as a string or a text."
+    },
+    {
+        "id": 37,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 110.22,
+        "end": 111.22,
+        "start_time": "01:50",
+        "end_time": "01:51",
+        "text": "It's not happening."
+    },
+    {
+        "id": 38,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 111.22,
+        "end": 114.38,
+        "start_time": "01:51",
+        "end_time": "01:54",
+        "text": "It's because whenever you type something, Python tries to convert it."
+    },
+    {
+        "id": 39,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 114.38,
+        "end": 116.06,
+        "start_time": "01:54",
+        "end_time": "01:56",
+        "text": "So here, num, it knows."
+    },
+    {
+        "id": 40,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 116.06,
+        "end": 117.92,
+        "start_time": "01:56",
+        "end_time": "01:57",
+        "text": "Navin, it has no idea."
+    },
+    {
+        "id": 41,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 117.92,
+        "end": 121.36,
+        "start_time": "01:57",
+        "end_time": "02:01",
+        "text": "So we have to say, hey, you know, that Navin is not a variable."
+    },
+    {
+        "id": 42,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 121.36,
+        "end": 122.36,
+        "start_time": "02:01",
+        "end_time": "02:02",
+        "text": "It's a string."
+    },
+    {
+        "id": 43,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 122.36,
+        "end": 127.08,
+        "start_time": "02:02",
+        "end_time": "02:07",
+        "text": "It's basically a text which I want you to take and do whatever you want, but take that"
+    },
+    {
+        "id": 44,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 127.08,
+        "end": 128.08,
+        "start_time": "02:07",
+        "end_time": "02:08",
+        "text": "value."
+    },
+    {
+        "id": 45,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 128.08,
+        "end": 130.92000000000002,
+        "start_time": "02:08",
+        "end_time": "02:10",
+        "text": "And if you want to do that, you have to put that in a single quote."
+    },
+    {
+        "id": 46,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 130.92000000000002,
+        "end": 135.12,
+        "start_time": "02:10",
+        "end_time": "02:15",
+        "text": "So basically, you can write Navin, but you have to make sure that you put single quote"
+    },
+    {
+        "id": 47,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 135.12,
+        "end": 140.6,
+        "start_time": "02:15",
+        "end_time": "02:20",
+        "text": "at the start and the end to specify this is where it starts and this way it ends."
+    },
+    {
+        "id": 48,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 140.6,
+        "end": 142.52,
+        "start_time": "02:20",
+        "end_time": "02:22",
+        "text": "And it's not just a word."
+    },
+    {
+        "id": 49,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 142.52,
+        "end": 143.52,
+        "start_time": "02:22",
+        "end_time": "02:23",
+        "text": "It can be multiple words."
+    },
+    {
+        "id": 50,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 144.4,
+        "end": 145.4,
+        "start_time": "02:24",
+        "end_time": "02:25",
+        "text": "Navin ready, telusco."
+    },
+    {
+        "id": 51,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 145.4,
+        "end": 148.72,
+        "start_time": "02:25",
+        "end_time": "02:28",
+        "text": "So it can be multiple words in one particular string."
+    },
+    {
+        "id": 52,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 148.72,
+        "end": 150.8,
+        "start_time": "02:28",
+        "end_time": "02:30",
+        "text": "And at this point, I'm just wanting to focus on Navin."
+    },
+    {
+        "id": 53,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 150.8,
+        "end": 152.20000000000002,
+        "start_time": "02:30",
+        "end_time": "02:32",
+        "text": "I will say enter and it works."
+    },
+    {
+        "id": 54,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 152.20000000000002,
+        "end": 154.56,
+        "start_time": "02:32",
+        "end_time": "02:34",
+        "text": "You can say it says Navin as it is."
+    },
+    {
+        "id": 55,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 154.56,
+        "end": 158.8,
+        "start_time": "02:34",
+        "end_time": "02:38",
+        "text": "Of course, you can use print, which we were using before, and you can put that here."
+    },
+    {
+        "id": 56,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 158.8,
+        "end": 161.76000000000002,
+        "start_time": "02:38",
+        "end_time": "02:41",
+        "text": "Again, I'm not talking about print in detail yet."
+    },
+    {
+        "id": 57,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 161.76000000000002,
+        "end": 163.48000000000002,
+        "start_time": "02:41",
+        "end_time": "02:43",
+        "text": "We'll talk about that later."
+    },
+    {
+        "id": 58,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 163.48000000000002,
+        "end": 165.60000000000002,
+        "start_time": "02:43",
+        "end_time": "02:45",
+        "text": "But imagine print is printing something."
+    },
+    {
+        "id": 59,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 165.60000000000002,
+        "end": 169.20000000000002,
+        "start_time": "02:45",
+        "end_time": "02:49",
+        "text": "And at this point, I'm printing Navin and you have to make sure that you put that single"
+    },
+    {
+        "id": 60,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 169.20000000000002,
+        "end": 170.20000000000002,
+        "start_time": "02:49",
+        "end_time": "02:50",
+        "text": "quote."
+    },
+    {
+        "id": 61,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 170.76,
+        "end": 176.67999999999998,
+        "start_time": "02:50",
+        "end_time": "02:56",
+        "text": "If you don't put it, again, your Python will be unhappy by you by saying, watch it doing"
+    },
+    {
+        "id": 62,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 176.67999999999998,
+        "end": 178.0,
+        "start_time": "02:56",
+        "end_time": "02:58",
+        "text": "while you're saying Navin inside print."
+    },
+    {
+        "id": 63,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 178.0,
+        "end": 180.44,
+        "start_time": "02:58",
+        "end_time": "03:00",
+        "text": "I have no idea what you're talking about."
+    },
+    {
+        "id": 64,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 180.44,
+        "end": 185.0,
+        "start_time": "03:00",
+        "end_time": "03:05",
+        "text": "So when you say print, you have to put single quote and then Navin."
+    },
+    {
+        "id": 65,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 185.0,
+        "end": 186.76,
+        "start_time": "03:05",
+        "end_time": "03:06",
+        "text": "Then it knows, okay, that's a string."
+    },
+    {
+        "id": 66,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 186.76,
+        "end": 188.07999999999998,
+        "start_time": "03:06",
+        "end_time": "03:08",
+        "text": "I want to print it."
+    },
+    {
+        "id": 67,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 188.07999999999998,
+        "end": 192.16,
+        "start_time": "03:08",
+        "end_time": "03:12",
+        "text": "And now this time there's no single quote because when you simply say Navin with single"
+    },
+    {
+        "id": 68,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 192.16,
+        "end": 196.72,
+        "start_time": "03:12",
+        "end_time": "03:16",
+        "text": "quote, it will print single quote as well because that's what it is representing."
+    },
+    {
+        "id": 69,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 196.72,
+        "end": 197.79999999999998,
+        "start_time": "03:16",
+        "end_time": "03:17",
+        "text": "That's a string."
+    },
+    {
+        "id": 70,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 197.8,
+        "end": 200.76000000000002,
+        "start_time": "03:17",
+        "end_time": "03:20",
+        "text": "But when you print, it says, okay, I want to print Navin."
+    },
+    {
+        "id": 71,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 200.76000000000002,
+        "end": 202.16000000000003,
+        "start_time": "03:20",
+        "end_time": "03:22",
+        "text": "So it is what it's doing."
+    },
+    {
+        "id": 72,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 202.16000000000003,
+        "end": 205.84,
+        "start_time": "03:22",
+        "end_time": "03:25",
+        "text": "When you write multiple lines of code, when you want to do that, when you want to execute,"
+    },
+    {
+        "id": 73,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 205.84,
+        "end": 207.12,
+        "start_time": "03:25",
+        "end_time": "03:27",
+        "text": "we'll always use print."
+    },
+    {
+        "id": 74,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 207.12,
+        "end": 209.32000000000002,
+        "start_time": "03:27",
+        "end_time": "03:29",
+        "text": "We'll not be putting this openly there."
+    },
+    {
+        "id": 75,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 209.32000000000002,
+        "end": 212.88000000000002,
+        "start_time": "03:29",
+        "end_time": "03:32",
+        "text": "It's just for ideally, which we are using here, or the prompt."
+    },
+    {
+        "id": 76,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 212.88000000000002,
+        "end": 215.12,
+        "start_time": "03:32",
+        "end_time": "03:35",
+        "text": "So this is working."
+    },
+    {
+        "id": 77,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 215.12,
+        "end": 218.88000000000002,
+        "start_time": "03:35",
+        "end_time": "03:38",
+        "text": "But what if you want to print, so let's say I want to print something."
+    },
+    {
+        "id": 78,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 218.88000000000002,
+        "end": 221.36,
+        "start_time": "03:38",
+        "end_time": "03:41",
+        "text": "Example, I want to print Navin laptop."
+    },
+    {
+        "id": 79,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 221.36,
+        "end": 227.32000000000002,
+        "start_time": "03:41",
+        "end_time": "03:47",
+        "text": "So when you do that, when you say Navin laptop, or maybe Navin telisco."
+    },
+    {
+        "id": 80,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 227.32,
+        "end": 230.04,
+        "start_time": "03:47",
+        "end_time": "03:50",
+        "text": "It's time for self branding or self promotion."
+    },
+    {
+        "id": 81,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 230.04,
+        "end": 231.04,
+        "start_time": "03:50",
+        "end_time": "03:51",
+        "text": "Okay."
+    },
+    {
+        "id": 82,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 231.04,
+        "end": 233.32,
+        "start_time": "03:51",
+        "end_time": "03:53",
+        "text": "So when you say enter, you can see we got Navin telisco."
+    },
+    {
+        "id": 83,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 233.32,
+        "end": 235.4,
+        "start_time": "03:53",
+        "end_time": "03:55",
+        "text": "As I mentioned, you can have multiple words."
+    },
+    {
+        "id": 84,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 235.4,
+        "end": 238.12,
+        "start_time": "03:55",
+        "end_time": "03:58",
+        "text": "What if I want to be grammatically correct here?"
+    },
+    {
+        "id": 85,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 238.12,
+        "end": 239.12,
+        "start_time": "03:58",
+        "end_time": "03:59",
+        "text": "So something like this."
+    },
+    {
+        "id": 86,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 239.12,
+        "end": 241.95999999999998,
+        "start_time": "03:59",
+        "end_time": "04:01",
+        "text": "I want to print Navin's telisco."
+    },
+    {
+        "id": 87,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 241.95999999999998,
+        "end": 243.48,
+        "start_time": "04:01",
+        "end_time": "04:03",
+        "text": "Will this work?"
+    },
+    {
+        "id": 88,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 243.48,
+        "end": 245.92,
+        "start_time": "04:03",
+        "end_time": "04:05",
+        "text": "Think about this before I enter this."
+    },
+    {
+        "id": 89,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 245.92,
+        "end": 248.35999999999999,
+        "start_time": "04:05",
+        "end_time": "04:08",
+        "text": "If you have one in your mind, that's good."
+    },
+    {
+        "id": 90,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 248.35999999999999,
+        "end": 251.32,
+        "start_time": "04:08",
+        "end_time": "04:11",
+        "text": "Let me enter and verify if it is matching with yours."
+    },
+    {
+        "id": 91,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 251.32,
+        "end": 254.32,
+        "start_time": "04:11",
+        "end_time": "04:14",
+        "text": "Enter, oh, it's not working."
+    },
+    {
+        "id": 92,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 254.32,
+        "end": 257.08,
+        "start_time": "04:14",
+        "end_time": "04:17",
+        "text": "Why it's not working is actually very simple."
+    },
+    {
+        "id": 93,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 257.08,
+        "end": 260.44,
+        "start_time": "04:17",
+        "end_time": "04:20",
+        "text": "Because if you see here, let's talk about this particular thing."
+    },
+    {
+        "id": 94,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 260.44,
+        "end": 265.14,
+        "start_time": "04:20",
+        "end_time": "04:25",
+        "text": "Here when you say single quote and single quote, this single quote first is a starting"
+    },
+    {
+        "id": 95,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 265.14,
+        "end": 266.28,
+        "start_time": "04:25",
+        "end_time": "04:26",
+        "text": "point."
+    },
+    {
+        "id": 96,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 266.28,
+        "end": 267.91999999999996,
+        "start_time": "04:26",
+        "end_time": "04:27",
+        "text": "This is the ending point."
+    },
+    {
+        "id": 97,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 267.91999999999996,
+        "end": 269.91999999999996,
+        "start_time": "04:27",
+        "end_time": "04:29",
+        "text": "Perfectly works."
+    },
+    {
+        "id": 98,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 269.91999999999996,
+        "end": 274.88,
+        "start_time": "04:29",
+        "end_time": "04:34",
+        "text": "But here when you say this statement, this is the starting point."
+    },
+    {
+        "id": 99,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 274.88,
+        "end": 277.03999999999996,
+        "start_time": "04:34",
+        "end_time": "04:37",
+        "text": "Where is the ending point?"
+    },
+    {
+        "id": 100,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 277.03999999999996,
+        "end": 279.2,
+        "start_time": "04:37",
+        "end_time": "04:39",
+        "text": "Logically for us, it's here."
+    },
+    {
+        "id": 101,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 279.2,
+        "end": 280.96,
+        "start_time": "04:39",
+        "end_time": "04:40",
+        "text": "This is the ending point."
+    },
+    {
+        "id": 102,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 280.96,
+        "end": 285.71999999999997,
+        "start_time": "04:40",
+        "end_time": "04:45",
+        "text": "But then if you read this statement properly, this is where it starts."
+    },
+    {
+        "id": 103,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 285.72,
+        "end": 289.20000000000005,
+        "start_time": "04:45",
+        "end_time": "04:49",
+        "text": "And this is where it ends."
+    },
+    {
+        "id": 104,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 289.20000000000005,
+        "end": 290.8,
+        "start_time": "04:49",
+        "end_time": "04:50",
+        "text": "And there's no starting point again."
+    },
+    {
+        "id": 105,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 290.8,
+        "end": 292.08000000000004,
+        "start_time": "04:50",
+        "end_time": "04:52",
+        "text": "And then we are ending."
+    },
+    {
+        "id": 106,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 292.08000000000004,
+        "end": 293.48,
+        "start_time": "04:52",
+        "end_time": "04:53",
+        "text": "That's what Python is saying."
+    },
+    {
+        "id": 107,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 293.48,
+        "end": 295.52000000000004,
+        "start_time": "04:53",
+        "end_time": "04:55",
+        "text": "Okay, I'm happy with this."
+    },
+    {
+        "id": 108,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 295.52000000000004,
+        "end": 298.8,
+        "start_time": "04:55",
+        "end_time": "04:58",
+        "text": "This looks like one particular string."
+    },
+    {
+        "id": 109,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 298.8,
+        "end": 300.94000000000005,
+        "start_time": "04:58",
+        "end_time": "05:00",
+        "text": "What comes after I have no idea?"
+    },
+    {
+        "id": 110,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 300.94000000000005,
+        "end": 305.0,
+        "start_time": "05:00",
+        "end_time": "05:05",
+        "text": "And then you are putting extra quote here."
+    },
+    {
+        "id": 111,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 305.0,
+        "end": 308.32000000000005,
+        "start_time": "05:05",
+        "end_time": "05:08",
+        "text": "So it says, un-terminated string literal."
+    },
+    {
+        "id": 112,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 308.32000000000005,
+        "end": 310.98,
+        "start_time": "05:08",
+        "end_time": "05:10",
+        "text": "So this is where you start the string literal."
+    },
+    {
+        "id": 113,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 310.98,
+        "end": 313.24,
+        "start_time": "05:10",
+        "end_time": "05:13",
+        "text": "And you're not ending it."
+    },
+    {
+        "id": 114,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 313.24,
+        "end": 319.28000000000003,
+        "start_time": "05:13",
+        "end_time": "05:19",
+        "text": "If you end it here, then it will give you a new type of error because it says you forgot"
+    },
+    {
+        "id": 115,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 319.28000000000003,
+        "end": 320.72,
+        "start_time": "05:19",
+        "end_time": "05:20",
+        "text": "the comma or something."
+    },
+    {
+        "id": 116,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 320.72,
+        "end": 322.52,
+        "start_time": "05:20",
+        "end_time": "05:22",
+        "text": "There's no issue with this particular thing now."
+    },
+    {
+        "id": 117,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 322.52,
+        "end": 324.12,
+        "start_time": "05:22",
+        "end_time": "05:24",
+        "text": "It is creating issue with this."
+    },
+    {
+        "id": 118,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 324.12,
+        "end": 326.04,
+        "start_time": "05:24",
+        "end_time": "05:26",
+        "text": "What is this S after this name?"
+    },
+    {
+        "id": 119,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 326.04,
+        "end": 327.6,
+        "start_time": "05:26",
+        "end_time": "05:27",
+        "text": "Okay, let me just clear it out."
+    },
+    {
+        "id": 120,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 327.6,
+        "end": 329.44,
+        "start_time": "05:27",
+        "end_time": "05:29",
+        "text": "And now let's try to solve it."
+    },
+    {
+        "id": 121,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 329.44,
+        "end": 331.12,
+        "start_time": "05:29",
+        "end_time": "05:31",
+        "text": "This is what we're going to solve, right?"
+    },
+    {
+        "id": 122,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 331.12,
+        "end": 334.40000000000003,
+        "start_time": "05:31",
+        "end_time": "05:34",
+        "text": "What we want to achieve is, of course, if I remove this particular quote here, it will"
+    },
+    {
+        "id": 123,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 334.40000000000003,
+        "end": 335.40000000000003,
+        "start_time": "05:34",
+        "end_time": "05:35",
+        "text": "work."
+    },
+    {
+        "id": 124,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 335.40000000000003,
+        "end": 336.40000000000003,
+        "start_time": "05:35",
+        "end_time": "05:36",
+        "text": "But I don't want to remove it."
+    },
+    {
+        "id": 125,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 336.40000000000003,
+        "end": 340.16,
+        "start_time": "05:36",
+        "end_time": "05:40",
+        "text": "So in this case, instead of using a single quote, you can use a double quote."
+    },
+    {
+        "id": 126,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 340.16,
+        "end": 343.94,
+        "start_time": "05:40",
+        "end_time": "05:43",
+        "text": "So string you can represent with the help of single quote or double quote."
+    },
+    {
+        "id": 127,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 343.94,
+        "end": 345.38000000000005,
+        "start_time": "05:43",
+        "end_time": "05:45",
+        "text": "Both works."
+    },
+    {
+        "id": 128,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 345.38000000000005,
+        "end": 350.36,
+        "start_time": "05:45",
+        "end_time": "05:50",
+        "text": "So if I say enter now, there's no issue because it knows string is getting started with double"
+    },
+    {
+        "id": 129,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 350.36,
+        "end": 351.36,
+        "start_time": "05:50",
+        "end_time": "05:51",
+        "text": "quote."
+    },
+    {
+        "id": 130,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 351.36,
+        "end": 352.36,
+        "start_time": "05:51",
+        "end_time": "05:52",
+        "text": "It will end with double quote."
+    },
+    {
+        "id": 131,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 352.36,
+        "end": 355.28000000000003,
+        "start_time": "05:52",
+        "end_time": "05:55",
+        "text": "This single quote here is a part of the string."
+    },
+    {
+        "id": 132,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 355.28000000000003,
+        "end": 356.70000000000005,
+        "start_time": "05:55",
+        "end_time": "05:56",
+        "text": "There's no issue."
+    },
+    {
+        "id": 133,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 356.70000000000005,
+        "end": 362.04,
+        "start_time": "05:56",
+        "end_time": "06:02",
+        "text": "The problem starts when you want to print, let's say, telescope in double quotes."
+    },
+    {
+        "id": 134,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 362.04,
+        "end": 363.28000000000003,
+        "start_time": "06:02",
+        "end_time": "06:03",
+        "text": "Okay, something like this."
+    },
+    {
+        "id": 135,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 363.28000000000003,
+        "end": 367.56,
+        "start_time": "06:03",
+        "end_time": "06:07",
+        "text": "I will just delete this and I will show you what I want to print and then you help me."
+    },
+    {
+        "id": 136,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 367.56,
+        "end": 368.96000000000004,
+        "start_time": "06:07",
+        "end_time": "06:08",
+        "text": "So I want to print something like this."
+    },
+    {
+        "id": 137,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 368.96,
+        "end": 371.15999999999997,
+        "start_time": "06:08",
+        "end_time": "06:11",
+        "text": "I want to print Navines."
+    },
+    {
+        "id": 138,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 371.15999999999997,
+        "end": 372.15999999999997,
+        "start_time": "06:11",
+        "end_time": "06:12",
+        "text": "What did I do?"
+    },
+    {
+        "id": 139,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 372.15999999999997,
+        "end": 373.15999999999997,
+        "start_time": "06:12",
+        "end_time": "06:13",
+        "text": "Okay."
+    },
+    {
+        "id": 140,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 373.15999999999997,
+        "end": 374.23999999999995,
+        "start_time": "06:13",
+        "end_time": "06:14",
+        "text": "So this is what I want to do."
+    },
+    {
+        "id": 141,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 374.23999999999995,
+        "end": 379.2,
+        "start_time": "06:14",
+        "end_time": "06:19",
+        "text": "I want to print Navines, then space and then telescope in double quotes."
+    },
+    {
+        "id": 142,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 379.2,
+        "end": 383.44,
+        "start_time": "06:19",
+        "end_time": "06:23",
+        "text": "If you want to do that, of course, you have to put that in a print."
+    },
+    {
+        "id": 143,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 383.44,
+        "end": 387.03999999999996,
+        "start_time": "06:23",
+        "end_time": "06:27",
+        "text": "But then inside this print, you have to put some quote, single quote or double quote."
+    },
+    {
+        "id": 144,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 387.03999999999996,
+        "end": 388.88,
+        "start_time": "06:27",
+        "end_time": "06:28",
+        "text": "Now you think what will work."
+    },
+    {
+        "id": 145,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 388.88,
+        "end": 393.56,
+        "start_time": "06:28",
+        "end_time": "06:33",
+        "text": "If you put single quote, example, something like this, if you do that, then this particular"
+    },
+    {
+        "id": 146,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 393.56,
+        "end": 395.44,
+        "start_time": "06:33",
+        "end_time": "06:35",
+        "text": "single quote will feel bad."
+    },
+    {
+        "id": 147,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 395.44,
+        "end": 397.06,
+        "start_time": "06:35",
+        "end_time": "06:37",
+        "text": "I mean, why I'm here."
+    },
+    {
+        "id": 148,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 397.06,
+        "end": 399.78000000000003,
+        "start_time": "06:37",
+        "end_time": "06:39",
+        "text": "But if you put double quotes, then this telescope will feel bad."
+    },
+    {
+        "id": 149,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 399.78000000000003,
+        "end": 401.98,
+        "start_time": "06:39",
+        "end_time": "06:41",
+        "text": "Why the double quotes are here?"
+    },
+    {
+        "id": 150,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 401.98,
+        "end": 405.22,
+        "start_time": "06:41",
+        "end_time": "06:45",
+        "text": "Okay, so we have to keep something happy."
+    },
+    {
+        "id": 151,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 405.22,
+        "end": 408.28000000000003,
+        "start_time": "06:45",
+        "end_time": "06:48",
+        "text": "So what we can do is see this single quote here."
+    },
+    {
+        "id": 152,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 408.28000000000003,
+        "end": 413.18,
+        "start_time": "06:48",
+        "end_time": "06:53",
+        "text": "It has no special meaning because this has a meaning because this is where you are specifying"
+    },
+    {
+        "id": 153,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 413.18,
+        "end": 415.44,
+        "start_time": "06:53",
+        "end_time": "06:55",
+        "text": "starting and ending point."
+    },
+    {
+        "id": 154,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 415.44,
+        "end": 417.46,
+        "start_time": "06:55",
+        "end_time": "06:57",
+        "text": "This has no special meaning."
+    },
+    {
+        "id": 155,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 417.46,
+        "end": 422.54,
+        "start_time": "06:57",
+        "end_time": "07:02",
+        "text": "And we have to tell that to Python, hey, we don't want to treat this something special."
+    },
+    {
+        "id": 156,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 422.54,
+        "end": 427.74,
+        "start_time": "07:02",
+        "end_time": "07:07",
+        "text": "And if you want to cancel the special effect of the single quote, you can put a slash."
+    },
+    {
+        "id": 157,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 427.74,
+        "end": 431.98,
+        "start_time": "07:07",
+        "end_time": "07:11",
+        "text": "So whenever you want to cancel something, we will see that in the next section of this"
+    },
+    {
+        "id": 158,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 431.98,
+        "end": 432.98,
+        "start_time": "07:11",
+        "end_time": "07:12",
+        "text": "video."
+    },
+    {
+        "id": 159,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 432.98,
+        "end": 436.5,
+        "start_time": "07:12",
+        "end_time": "07:16",
+        "text": "If you want to cancel some special meaning, you put a slash."
+    },
+    {
+        "id": 160,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 436.5,
+        "end": 440.94,
+        "start_time": "07:16",
+        "end_time": "07:20",
+        "text": "And now when you do that, there's no problem because this particular single quote is treated"
+    },
+    {
+        "id": 161,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 440.94,
+        "end": 442.34000000000003,
+        "start_time": "07:20",
+        "end_time": "07:22",
+        "text": "as the starting of the string."
+    },
+    {
+        "id": 162,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 442.34000000000003,
+        "end": 444.18,
+        "start_time": "07:22",
+        "end_time": "07:24",
+        "text": "This is getting treated as the ending of the string."
+    },
+    {
+        "id": 163,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 444.18,
+        "end": 449.34000000000003,
+        "start_time": "07:24",
+        "end_time": "07:29",
+        "text": "And the special meaning of this quote is getting canceled by that backslash."
+    },
+    {
+        "id": 164,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 449.34000000000003,
+        "end": 450.54,
+        "start_time": "07:29",
+        "end_time": "07:30",
+        "text": "So that's important."
+    },
+    {
+        "id": 165,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 450.74,
+        "end": 452.54,
+        "start_time": "07:30",
+        "end_time": "07:32",
+        "text": "Next, I will just clear this out."
+    },
+    {
+        "id": 166,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 452.54,
+        "end": 454.38,
+        "start_time": "07:32",
+        "end_time": "07:34",
+        "text": "I just want to have a flash."
+    },
+    {
+        "id": 167,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 454.38,
+        "end": 456.62,
+        "start_time": "07:34",
+        "end_time": "07:36",
+        "text": "So let's say I want to print Naveen here."
+    },
+    {
+        "id": 168,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 456.62,
+        "end": 460.98,
+        "start_time": "07:36",
+        "end_time": "07:40",
+        "text": "And of course, it will work provided I put that in the single quote and I will do that"
+    },
+    {
+        "id": 169,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 460.98,
+        "end": 462.46000000000004,
+        "start_time": "07:40",
+        "end_time": "07:42",
+        "text": "enter."
+    },
+    {
+        "id": 170,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 462.46000000000004,
+        "end": 467.08000000000004,
+        "start_time": "07:42",
+        "end_time": "07:47",
+        "text": "But what if I want to print Naveen 10 times with a space, of course, I will just say Naveen"
+    },
+    {
+        "id": 171,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 467.08000000000004,
+        "end": 473.46000000000004,
+        "start_time": "07:47",
+        "end_time": "07:53",
+        "text": "space and then I will again say Naveen space and then I can keep doing that."
+    },
+    {
+        "id": 172,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 473.46000000000004,
+        "end": 474.46000000000004,
+        "start_time": "07:53",
+        "end_time": "07:54",
+        "text": "Okay."
+    },
+    {
+        "id": 173,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 474.46000000000004,
+        "end": 475.46000000000004,
+        "start_time": "07:54",
+        "end_time": "07:55",
+        "text": "And this will work."
+    },
+    {
+        "id": 174,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 475.46000000000004,
+        "end": 476.46000000000004,
+        "start_time": "07:55",
+        "end_time": "07:56",
+        "text": "If I say enter, this works."
+    },
+    {
+        "id": 175,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 476.46000000000004,
+        "end": 478.96000000000004,
+        "start_time": "07:56",
+        "end_time": "07:58",
+        "text": "But then I don't want to print this multiple times."
+    },
+    {
+        "id": 176,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 478.96,
+        "end": 481.76,
+        "start_time": "07:58",
+        "end_time": "08:01",
+        "text": "If I want to print 10 times, I have to type 10 times."
+    },
+    {
+        "id": 177,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 481.76,
+        "end": 484.56,
+        "start_time": "08:01",
+        "end_time": "08:04",
+        "text": "Instead of that, you can simply use a math here."
+    },
+    {
+        "id": 178,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 484.56,
+        "end": 488.64,
+        "start_time": "08:04",
+        "end_time": "08:08",
+        "text": "You can say I got a string and I want to do that 10 times."
+    },
+    {
+        "id": 179,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 488.64,
+        "end": 489.64,
+        "start_time": "08:08",
+        "end_time": "08:09",
+        "text": "It will work."
+    },
+    {
+        "id": 180,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 489.64,
+        "end": 490.64,
+        "start_time": "08:09",
+        "end_time": "08:10",
+        "text": "Okay."
+    },
+    {
+        "id": 181,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 490.64,
+        "end": 491.64,
+        "start_time": "08:10",
+        "end_time": "08:11",
+        "text": "It is that simple."
+    },
+    {
+        "id": 182,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 491.64,
+        "end": 494.47999999999996,
+        "start_time": "08:11",
+        "end_time": "08:14",
+        "text": "So Python is actually fun because you can do all these things with Python."
+    },
+    {
+        "id": 183,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 494.47999999999996,
+        "end": 495.76,
+        "start_time": "08:14",
+        "end_time": "08:15",
+        "text": "Now I want to try out one more thing."
+    },
+    {
+        "id": 184,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 495.76,
+        "end": 497.12,
+        "start_time": "08:15",
+        "end_time": "08:17",
+        "text": "I will just clear this string."
+    },
+    {
+        "id": 185,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 497.12,
+        "end": 499.47999999999996,
+        "start_time": "08:17",
+        "end_time": "08:19",
+        "text": "And here I want to, I'm saying Python."
+    },
+    {
+        "id": 186,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 499.47999999999996,
+        "end": 500.47999999999996,
+        "start_time": "08:19",
+        "end_time": "08:20",
+        "text": "It should be print."
+    },
+    {
+        "id": 187,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 500.47999999999996,
+        "end": 501.47999999999996,
+        "start_time": "08:20",
+        "end_time": "08:21",
+        "text": "Good."
+    },
+    {
+        "id": 188,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 501.47999999999996,
+        "end": 504.82,
+        "start_time": "08:21",
+        "end_time": "08:24",
+        "text": "I will say C colon slash users slash Naveen."
+    },
+    {
+        "id": 189,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 504.82,
+        "end": 507.2,
+        "start_time": "08:24",
+        "end_time": "08:27",
+        "text": "Now when you do that, what do you think will be the answer?"
+    },
+    {
+        "id": 190,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 507.2,
+        "end": 509.2,
+        "start_time": "08:27",
+        "end_time": "08:29",
+        "text": "Of course I'm putting that in single code."
+    },
+    {
+        "id": 191,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 509.2,
+        "end": 511.44,
+        "start_time": "08:29",
+        "end_time": "08:31",
+        "text": "There's no special symbols here."
+    },
+    {
+        "id": 192,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 511.44,
+        "end": 513.48,
+        "start_time": "08:31",
+        "end_time": "08:33",
+        "text": "And when I say enter, it should work."
+    },
+    {
+        "id": 193,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 513.48,
+        "end": 515.7,
+        "start_time": "08:33",
+        "end_time": "08:35",
+        "text": "The moment I do that, it is giving you error."
+    },
+    {
+        "id": 194,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 515.7,
+        "end": 521.3,
+        "start_time": "08:35",
+        "end_time": "08:41",
+        "text": "It says the Unicode error, Unicode escape, correct, cannot decode bytes in position two"
+    },
+    {
+        "id": 195,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 521.3,
+        "end": 524.36,
+        "start_time": "08:41",
+        "end_time": "08:44",
+        "text": "and three, which is zero, one, two, and three."
+    },
+    {
+        "id": 196,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 524.36,
+        "end": 525.36,
+        "start_time": "08:44",
+        "end_time": "08:45",
+        "text": "This too."
+    },
+    {
+        "id": 197,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 525.36,
+        "end": 531.0,
+        "start_time": "08:45",
+        "end_time": "08:51",
+        "text": "Now, why it's saying Unicode is because when you say slash U or slash N, so when you will"
+    },
+    {
+        "id": 198,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 531.0,
+        "end": 536.6,
+        "start_time": "08:51",
+        "end_time": "08:56",
+        "text": "have a character after slash, it treats or the alphabet after slash, it treats as a special"
+    },
+    {
+        "id": 199,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 537.0,
+        "end": 538.0,
+        "start_time": "08:57",
+        "end_time": "08:58",
+        "text": "example."
+    },
+    {
+        "id": 200,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 538.0,
+        "end": 540.08,
+        "start_time": "08:58",
+        "end_time": "09:00",
+        "text": "Slash N means new line."
+    },
+    {
+        "id": 201,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 540.08,
+        "end": 544.2,
+        "start_time": "09:00",
+        "end_time": "09:04",
+        "text": "There are multiple characters, multiple Unicodes here."
+    },
+    {
+        "id": 202,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 544.2,
+        "end": 547.5600000000001,
+        "start_time": "09:04",
+        "end_time": "09:07",
+        "text": "And it says you will have issues when you do that."
+    },
+    {
+        "id": 203,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 547.5600000000001,
+        "end": 551.08,
+        "start_time": "09:07",
+        "end_time": "09:11",
+        "text": "Now what I want to do is I want to cancel out the meaning of slash."
+    },
+    {
+        "id": 204,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 551.08,
+        "end": 554.5600000000001,
+        "start_time": "09:11",
+        "end_time": "09:14",
+        "text": "Again I will do slash because slash N itself is a special meaning."
+    },
+    {
+        "id": 205,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 554.5600000000001,
+        "end": 555.5600000000001,
+        "start_time": "09:14",
+        "end_time": "09:15",
+        "text": "Okay."
+    },
+    {
+        "id": 206,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 555.5600000000001,
+        "end": 557.5600000000001,
+        "start_time": "09:15",
+        "end_time": "09:17",
+        "text": "So when you say double slash, now it will work."
+    },
+    {
+        "id": 207,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 557.5600000000001,
+        "end": 560.76,
+        "start_time": "09:17",
+        "end_time": "09:20",
+        "text": "So this is something you have to remember when you work with slash or special thing"
+    },
+    {
+        "id": 208,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 560.76,
+        "end": 562.6800000000001,
+        "start_time": "09:20",
+        "end_time": "09:22",
+        "text": "inside your string."
+    },
+    {
+        "id": 209,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 562.6800000000001,
+        "end": 564.1600000000001,
+        "start_time": "09:22",
+        "end_time": "09:24",
+        "text": "You have to cancel the special meaning."
+    },
+    {
+        "id": 210,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 564.16,
+        "end": 567.92,
+        "start_time": "09:24",
+        "end_time": "09:27",
+        "text": "You can put one more slash to cancel the meaning of the slash itself."
+    },
+    {
+        "id": 211,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 567.92,
+        "end": 572.16,
+        "start_time": "09:27",
+        "end_time": "09:32",
+        "text": "I know that's tricky, but it's quite fun if you know how to work with it."
+    },
+    {
+        "id": 212,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 572.16,
+        "end": 573.76,
+        "start_time": "09:32",
+        "end_time": "09:33",
+        "text": "So yeah, that's about this video."
+    },
+    {
+        "id": 213,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start": 573.76,
+        "end": 575.6,
+        "start_time": "09:33",
+        "end_time": "09:35",
+        "text": "See you in the next part of string."
+    }
+]

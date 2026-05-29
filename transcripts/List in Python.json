@@ -1,0 +1,1732 @@
+[
+    {
+        "id": 0,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 0.0,
+        "end": 8.34,
+        "start_time": "00:00",
+        "end_time": "00:08",
+        "text": "Now in this video, we'll talk about list. And before we do that, instead of working"
+    },
+    {
+        "id": 1,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 8.34,
+        "end": 13.6,
+        "start_time": "00:08",
+        "end_time": "00:13",
+        "text": "with the prompt on the terminal, so basically till this point I was opening Python in the"
+    },
+    {
+        "id": 2,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 13.6,
+        "end": 19.6,
+        "start_time": "00:13",
+        "end_time": "00:19",
+        "text": "terminal, but now I'm going to use IDLE and we have talked about this before. So this"
+    },
+    {
+        "id": 3,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 19.6,
+        "end": 25.12,
+        "start_time": "00:19",
+        "end_time": "00:25",
+        "text": "is one way of testing your Python code or if you are learning Python, you can use this."
+    },
+    {
+        "id": 4,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 25.12,
+        "end": 28.88,
+        "start_time": "00:25",
+        "end_time": "00:28",
+        "text": "The reason I was using the terminal is because it looks good. The black screen, of course,"
+    },
+    {
+        "id": 5,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 28.88,
+        "end": 35.28,
+        "start_time": "00:28",
+        "end_time": "00:35",
+        "text": "I can set it black here, but then the font and other stuff are good there. But ideally"
+    },
+    {
+        "id": 6,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 35.28,
+        "end": 38.86,
+        "start_time": "00:35",
+        "end_time": "00:38",
+        "text": "provides you some extra features which we are going to see in this particular video"
+    },
+    {
+        "id": 7,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 38.86,
+        "end": 42.84,
+        "start_time": "00:38",
+        "end_time": "00:42",
+        "text": "or in the upcoming videos. In fact, when you open IDLE for the first time, it will give"
+    },
+    {
+        "id": 8,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 42.84,
+        "end": 49.68,
+        "start_time": "00:42",
+        "end_time": "00:49",
+        "text": "you a white light theme and the font will be small. So you can go to options, configure"
+    },
+    {
+        "id": 9,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 49.68,
+        "end": 56.36,
+        "start_time": "00:49",
+        "end_time": "00:56",
+        "text": "IDLE and then you can change things from here. Not that difficult. Now once you are here,"
+    },
+    {
+        "id": 10,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 56.36,
+        "end": 61.72,
+        "start_time": "00:56",
+        "end_time": "01:01",
+        "text": "now let me create a list. Now first of all, why in this world we need a list? See, when"
+    },
+    {
+        "id": 11,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 61.72,
+        "end": 65.92,
+        "start_time": "01:01",
+        "end_time": "01:05",
+        "text": "you talk about saving a number, if you want to store a string, it is very easy, right?"
+    },
+    {
+        "id": 12,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 65.92,
+        "end": 70.32,
+        "start_time": "01:05",
+        "end_time": "01:10",
+        "text": "You can simply take that value and store it in a variable and we have done that before."
+    },
+    {
+        "id": 13,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 70.32,
+        "end": 75.12,
+        "start_time": "01:10",
+        "end_time": "01:15",
+        "text": "Example, let's say if I want to store a number, I can create a variable which is num1 and"
+    },
+    {
+        "id": 14,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 75.12,
+        "end": 79.2,
+        "start_time": "01:15",
+        "end_time": "01:19",
+        "text": "in this I can store a number, let's say 65, which is so simple. If I say enter and if"
+    },
+    {
+        "id": 15,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 79.2,
+        "end": 84.16,
+        "start_time": "01:19",
+        "end_time": "01:24",
+        "text": "I try to print num1, it will print it. But what if you have multiple numbers? In that"
+    },
+    {
+        "id": 16,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 84.16,
+        "end": 88.67999999999999,
+        "start_time": "01:24",
+        "end_time": "01:28",
+        "text": "case we can create a variable num1, of course name doesn't matter. But here let's say I'm"
+    },
+    {
+        "id": 17,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 88.67999999999999,
+        "end": 93.08,
+        "start_time": "01:28",
+        "end_time": "01:33",
+        "text": "going for a variable named num1 and in this I want to have multiple values. So let's say"
+    },
+    {
+        "id": 18,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 93.08,
+        "end": 101.6,
+        "start_time": "01:33",
+        "end_time": "01:41",
+        "text": "45, 87, 21, 24 and 99. So we got all these numbers here and I want to store this in one"
+    },
+    {
+        "id": 19,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 101.6,
+        "end": 105.72,
+        "start_time": "01:41",
+        "end_time": "01:45",
+        "text": "variable. Even if I say enter, it will work because it's a different data type which we"
+    },
+    {
+        "id": 20,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 105.72,
+        "end": 110.88,
+        "start_time": "01:45",
+        "end_time": "01:50",
+        "text": "are going to talk about later. But if you want to create a list, okay, so what is list?"
+    },
+    {
+        "id": 21,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 110.88,
+        "end": 116.56,
+        "start_time": "01:50",
+        "end_time": "01:56",
+        "text": "List is basically a collection of values. So I'm going to put that in this square bracket."
+    },
+    {
+        "id": 22,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 116.56,
+        "end": 120.72,
+        "start_time": "01:56",
+        "end_time": "02:00",
+        "text": "So when you have this value in a square bracket and you saw some little animations there,"
+    },
+    {
+        "id": 23,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 120.72,
+        "end": 126.8,
+        "start_time": "02:00",
+        "end_time": "02:06",
+        "text": "it completed the list. So that's one list with five values. And if I say enter, no error,"
+    },
+    {
+        "id": 24,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 126.8,
+        "end": 132.64,
+        "start_time": "02:06",
+        "end_time": "02:12",
+        "text": "everything is happy. And if I print nums, this is your list. It's that simple. Okay,"
+    },
+    {
+        "id": 25,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 132.64,
+        "end": 137.2,
+        "start_time": "02:12",
+        "end_time": "02:17",
+        "text": "so whenever you want to have multiple values, we can store that in a list. Now what if you"
+    },
+    {
+        "id": 26,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 137.2,
+        "end": 141.83999999999997,
+        "start_time": "02:17",
+        "end_time": "02:21",
+        "text": "want to, of course, when you wanted to print everything, you did that. But what if you want"
+    },
+    {
+        "id": 27,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 141.83999999999997,
+        "end": 146.88,
+        "start_time": "02:21",
+        "end_time": "02:26",
+        "text": "to print a particular value? Let's say I want to fetch the first value. Can we do this? Now if"
+    },
+    {
+        "id": 28,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 146.88,
+        "end": 151.35999999999999,
+        "start_time": "02:26",
+        "end_time": "02:31",
+        "text": "you go back to the concept of string, which we talked about in string, of course, it's a"
+    },
+    {
+        "id": 29,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 151.35999999999999,
+        "end": 155.6,
+        "start_time": "02:31",
+        "end_time": "02:35",
+        "text": "sequence of characters or a bunch of characters coming together or I can say collection of"
+    },
+    {
+        "id": 30,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 155.6,
+        "end": 160.64,
+        "start_time": "02:35",
+        "end_time": "02:40",
+        "text": "characters coming together. And if you want to fetch a particular character, of course,"
+    },
+    {
+        "id": 31,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 160.64,
+        "end": 166.48,
+        "start_time": "02:40",
+        "end_time": "02:46",
+        "text": "you can use the index numbers. Here we can use the index numbers. How? So I will say"
+    },
+    {
+        "id": 32,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 167.04,
+        "end": 173.67999999999998,
+        "start_time": "02:47",
+        "end_time": "02:53",
+        "text": "nums and in this square bracket again, I have to mention the index number. Okay. See,"
+    },
+    {
+        "id": 33,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 173.67999999999998,
+        "end": 178.0,
+        "start_time": "02:53",
+        "end_time": "02:58",
+        "text": "you have to remember where to use square bracket, where to use round bracket, and that's all about"
+    },
+    {
+        "id": 34,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 178.0,
+        "end": 183.35999999999999,
+        "start_time": "02:58",
+        "end_time": "03:03",
+        "text": "programming. Okay. Programming is fun. It's more English. It's just that you need to remember which"
+    },
+    {
+        "id": 35,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 183.35999999999999,
+        "end": 188.0,
+        "start_time": "03:03",
+        "end_time": "03:08",
+        "text": "bracket to use where. So when we use list, we have to use square bracket. In the upcoming videos,"
+    },
+    {
+        "id": 36,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 188.0,
+        "end": 193.04,
+        "start_time": "03:08",
+        "end_time": "03:13",
+        "text": "we'll see some other data structures, which will have some other type. Okay. So we got nums of zero."
+    },
+    {
+        "id": 37,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 193.04,
+        "end": 200.56,
+        "start_time": "03:13",
+        "end_time": "03:20",
+        "text": "And if I say enter, we got 45. Yes, you can also print the 99 here. So I can say nums and maybe I"
+    },
+    {
+        "id": 38,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 200.56,
+        "end": 206.23999999999998,
+        "start_time": "03:20",
+        "end_time": "03:26",
+        "text": "can use the index number five. If you remember, this is one of the issue with index numbers."
+    },
+    {
+        "id": 39,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 206.23999999999998,
+        "end": 211.51999999999998,
+        "start_time": "03:26",
+        "end_time": "03:31",
+        "text": "Start with zero. We got five values. So index number, if I say five, of course, it will give you"
+    },
+    {
+        "id": 40,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 211.51999999999998,
+        "end": 218.72,
+        "start_time": "03:31",
+        "end_time": "03:38",
+        "text": "bad words. It will say, stay in your limit in its own way. It says least index out of range. Okay."
+    },
+    {
+        "id": 41,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 218.72,
+        "end": 224.64,
+        "start_time": "03:38",
+        "end_time": "03:44",
+        "text": "So I know the last index is four and this will work. But you know, since I was not sure at the"
+    },
+    {
+        "id": 42,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 224.64,
+        "end": 230.64,
+        "start_time": "03:44",
+        "end_time": "03:50",
+        "text": "start what will be the last index value, I said five and I'm saying four. It is working. But"
+    },
+    {
+        "id": 43,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 231.28,
+        "end": 238.4,
+        "start_time": "03:51",
+        "end_time": "03:58",
+        "text": "can we use negative values? Remember in string, we have done that. So here, if I say minus one,"
+    },
+    {
+        "id": 44,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 238.4,
+        "end": 244.32,
+        "start_time": "03:58",
+        "end_time": "04:04",
+        "text": "it works. Right. So this is the advantage of using the positive and negative index values."
+    },
+    {
+        "id": 45,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 244.32,
+        "end": 249.6,
+        "start_time": "04:04",
+        "end_time": "04:09",
+        "text": "Now we can also do slicing here. Now if you remember in string also, we wanted to print"
+    },
+    {
+        "id": 46,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 249.6,
+        "end": 255.6,
+        "start_time": "04:09",
+        "end_time": "04:15",
+        "text": "a specific section of a string. Now that is called slicing. Now in this example, let's say we got a"
+    },
+    {
+        "id": 47,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 255.6,
+        "end": 260.4,
+        "start_time": "04:15",
+        "end_time": "04:20",
+        "text": "list here and out of this list, I want to print the last three values or maybe last two, these two"
+    },
+    {
+        "id": 48,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 260.4,
+        "end": 267.84,
+        "start_time": "04:20",
+        "end_time": "04:27",
+        "text": "values, 21 and 24. So the index number is two here for 21 and then index number three. This is what"
+    },
+    {
+        "id": 49,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 267.84,
+        "end": 273.36,
+        "start_time": "04:27",
+        "end_time": "04:33",
+        "text": "I want to print. So I can say nums and then I can specify from where I want to start. I want to start"
+    },
+    {
+        "id": 50,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 273.36,
+        "end": 279.28000000000003,
+        "start_time": "04:33",
+        "end_time": "04:39",
+        "text": "from two and then I want to stop at three. So we have to say four because four is excluded."
+    },
+    {
+        "id": 51,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 279.28000000000003,
+        "end": 284.16,
+        "start_time": "04:39",
+        "end_time": "04:44",
+        "text": "And if you say enter, we got those two values. Okay. So this is called slicing because you're"
+    },
+    {
+        "id": 52,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 284.16,
+        "end": 291.6,
+        "start_time": "04:44",
+        "end_time": "04:51",
+        "text": "getting a slice of a particular list. Okay. What else we can do here? Can I print from 21 to 99?"
+    },
+    {
+        "id": 53,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 291.6,
+        "end": 297.76,
+        "start_time": "04:51",
+        "end_time": "04:57",
+        "text": "Yes, we can. So the way we have done it. Okay. So when I say up, it is not printing. I think I"
+    },
+    {
+        "id": 54,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 297.76,
+        "end": 305.76,
+        "start_time": "04:57",
+        "end_time": "05:05",
+        "text": "have to do some setting for that. History previous is alt p. Okay. So if you want to get the previous"
+    },
+    {
+        "id": 55,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 305.76,
+        "end": 311.59999999999997,
+        "start_time": "05:05",
+        "end_time": "05:11",
+        "text": "value, it is alt p. That's what I got to know from the configuration. And if you ignore this,"
+    },
+    {
+        "id": 56,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 311.59999999999997,
+        "end": 316.71999999999997,
+        "start_time": "05:11",
+        "end_time": "05:16",
+        "text": "if you say two colon, it will go till the end. Is that easy? Till this point, we only had the"
+    },
+    {
+        "id": 57,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 316.71999999999997,
+        "end": 320.96,
+        "start_time": "05:16",
+        "end_time": "05:20",
+        "text": "numbers. What if you want to have different data type? Yes, you can do that. It's not just about,"
+    },
+    {
+        "id": 58,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 321.92,
+        "end": 326.64,
+        "start_time": "05:21",
+        "end_time": "05:26",
+        "text": "okay, you can't even clear it here. That's one tricky part. But okay, let me do it."
+    },
+    {
+        "id": 59,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 327.44,
+        "end": 332.0,
+        "start_time": "05:27",
+        "end_time": "05:32",
+        "text": "You by giving enter. So I will say names. So I want to have a string array here,"
+    },
+    {
+        "id": 60,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 332.64,
+        "end": 336.88,
+        "start_time": "05:32",
+        "end_time": "05:36",
+        "text": "or string list here. So I will say Navin. So I have to make sure that you put"
+    },
+    {
+        "id": 61,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 337.44,
+        "end": 342.64,
+        "start_time": "05:37",
+        "end_time": "05:42",
+        "text": "the single code there. And then you will say, let's say, harsh, then you give a comma,"
+    },
+    {
+        "id": 62,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 342.64,
+        "end": 348.15999999999997,
+        "start_time": "05:42",
+        "end_time": "05:48",
+        "text": "you will say, Kieran. So you got all these values. And if you say enter, and when you try to print"
+    },
+    {
+        "id": 63,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 348.15999999999997,
+        "end": 356.0,
+        "start_time": "05:48",
+        "end_time": "05:56",
+        "text": "names, you got all the values. It works. Right. And not just the names, of course, you had string"
+    },
+    {
+        "id": 64,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 356.0,
+        "end": 361.2,
+        "start_time": "05:56",
+        "end_time": "06:01",
+        "text": "here, you had numbers, but we can create a separate list which will have different values."
+    },
+    {
+        "id": 65,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 361.2,
+        "end": 368.0,
+        "start_time": "06:01",
+        "end_time": "06:08",
+        "text": "So let's say I want to have a name here, then I want to have 67 as a number, then maybe I want"
+    },
+    {
+        "id": 66,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 368.0,
+        "end": 373.84,
+        "start_time": "06:08",
+        "end_time": "06:13",
+        "text": "to go for float value as well, 6.5. So you can have different type of data in one list. There's"
+    },
+    {
+        "id": 67,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 373.84,
+        "end": 379.36,
+        "start_time": "06:13",
+        "end_time": "06:19",
+        "text": "no restriction that it is homogeneous where it only has one type of data. So if you say enter,"
+    },
+    {
+        "id": 68,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 379.36,
+        "end": 386.0,
+        "start_time": "06:19",
+        "end_time": "06:26",
+        "text": "and if you try to print makes, it works. Okay. So this is the beauty of list. You can have"
+    },
+    {
+        "id": 69,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 386.0,
+        "end": 393.2,
+        "start_time": "06:26",
+        "end_time": "06:33",
+        "text": "mixed values. So we got integers, we got, I mean, we got numbers, we got string, and we also got a"
+    },
+    {
+        "id": 70,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 393.2,
+        "end": 404.40000000000003,
+        "start_time": "06:33",
+        "end_time": "06:44",
+        "text": "mixed value. But can I create the mixture of nums and names? I mean, I want to have this list. So"
+    },
+    {
+        "id": 71,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 404.4,
+        "end": 410.56,
+        "start_time": "06:44",
+        "end_time": "06:50",
+        "text": "this is first list. This is second list. Can I combine that in one list? Okay. So when I say"
+    },
+    {
+        "id": 72,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 410.56,
+        "end": 415.84,
+        "start_time": "06:50",
+        "end_time": "06:55",
+        "text": "combine, there are two meanings of it. So I will say mix here. And in this mix, I'm just using the"
+    },
+    {
+        "id": 73,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 415.84,
+        "end": 421.67999999999995,
+        "start_time": "06:55",
+        "end_time": "07:01",
+        "text": "same variable again. I can say nums and I can say names. Now what I'm trying to do is I have two"
+    },
+    {
+        "id": 74,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 421.67999999999995,
+        "end": 428.79999999999995,
+        "start_time": "07:01",
+        "end_time": "07:08",
+        "text": "lists, nums and names, and I'm putting that inside a list. So this is list inside the list. So when"
+    },
+    {
+        "id": 75,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 428.8,
+        "end": 434.40000000000003,
+        "start_time": "07:08",
+        "end_time": "07:14",
+        "text": "I say enter, there's no error. It is working. So when I say mix, you can see we got the mixed"
+    },
+    {
+        "id": 76,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 434.40000000000003,
+        "end": 439.6,
+        "start_time": "07:14",
+        "end_time": "07:19",
+        "text": "values. You can see it is starting from here and it is ending here. That's your list. And inside"
+    },
+    {
+        "id": 77,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 439.6,
+        "end": 447.92,
+        "start_time": "07:19",
+        "end_time": "07:27",
+        "text": "this list, we got two lists, one and two. Now why this is important? So let's say if you try to"
+    },
+    {
+        "id": 78,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 447.92,
+        "end": 453.84000000000003,
+        "start_time": "07:27",
+        "end_time": "07:33",
+        "text": "print the first value of a list, if I say mix zero, what do you think? Which one will print?"
+    },
+    {
+        "id": 79,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 453.84000000000003,
+        "end": 458.0,
+        "start_time": "07:33",
+        "end_time": "07:38",
+        "text": "Now this is tricky, right? Now if you think this is going to print 45, because that's the first"
+    },
+    {
+        "id": 80,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 458.0,
+        "end": 464.32,
+        "start_time": "07:38",
+        "end_time": "07:44",
+        "text": "value. No, that's not the case. It is printing the entire list of numbers. Reason? If you say the"
+    },
+    {
+        "id": 81,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 464.32,
+        "end": 471.68,
+        "start_time": "07:44",
+        "end_time": "07:51",
+        "text": "size of this mix, okay, so if you try to find the length of this mix, you can see the size is only"
+    },
+    {
+        "id": 82,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 471.68,
+        "end": 477.04,
+        "start_time": "07:51",
+        "end_time": "07:57",
+        "text": "two. That means we only got two elements in mix. This is the first element and this is the second"
+    },
+    {
+        "id": 83,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 477.04,
+        "end": 484.08,
+        "start_time": "07:57",
+        "end_time": "08:04",
+        "text": "element. So the entire list here is one element. Okay. And then you will say, okay, I want to fetch"
+    },
+    {
+        "id": 84,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 484.08,
+        "end": 490.0,
+        "start_time": "08:04",
+        "end_time": "08:10",
+        "text": "this 45. How will I do it? That's fine. You can say mix and then you can specify, okay, I want to"
+    },
+    {
+        "id": 85,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 490.0,
+        "end": 496.64,
+        "start_time": "08:10",
+        "end_time": "08:16",
+        "text": "get the first list, which is this particular entire list here. And from this list, I want to get the"
+    },
+    {
+        "id": 86,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 496.64,
+        "end": 501.36,
+        "start_time": "08:16",
+        "end_time": "08:21",
+        "text": "first value. So then again, you can write a square bracket and you can say zero. So it will print 45."
+    },
+    {
+        "id": 87,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 501.91999999999996,
+        "end": 508.15999999999997,
+        "start_time": "08:21",
+        "end_time": "08:28",
+        "text": "What if you want to print, let's say, Kitten here? So in this case, you will say mix and inside this,"
+    },
+    {
+        "id": 88,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 508.16,
+        "end": 515.2,
+        "start_time": "08:28",
+        "end_time": "08:35",
+        "text": "you will specify, okay, from the mix list, I want to get the index value one. And from this next"
+    },
+    {
+        "id": 89,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 515.2,
+        "end": 522.4,
+        "start_time": "08:35",
+        "end_time": "08:42",
+        "text": "value one, I want index value two. So you can say two, enter and you got Kitten. So this is how"
+    },
+    {
+        "id": 90,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 522.4,
+        "end": 527.28,
+        "start_time": "08:42",
+        "end_time": "08:47",
+        "text": "basically you can have a list inside a list. In fact, if you remember, we talked about mixing this"
+    },
+    {
+        "id": 91,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 527.28,
+        "end": 533.28,
+        "start_time": "08:47",
+        "end_time": "08:53",
+        "text": "two list. So of course we got that. We got one list inside this, we got two lists. But what if you"
+    },
+    {
+        "id": 92,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 533.28,
+        "end": 538.16,
+        "start_time": "08:53",
+        "end_time": "08:58",
+        "text": "want to create a single list, which will have all the values? In that case, you can say mix equal to"
+    },
+    {
+        "id": 93,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 539.04,
+        "end": 545.04,
+        "start_time": "08:59",
+        "end_time": "09:05",
+        "text": "nums plus names. So if you want to combine the values, you do this and you can see all the values"
+    },
+    {
+        "id": 94,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 545.04,
+        "end": 551.28,
+        "start_time": "09:05",
+        "end_time": "09:11",
+        "text": "are combined now. So let's see what else we can do with list. I've restarted this window. So I have"
+    },
+    {
+        "id": 95,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 551.28,
+        "end": 558.16,
+        "start_time": "09:11",
+        "end_time": "09:18",
+        "text": "entered this value once again, nums and names. And of course I can print this, but before I do that,"
+    },
+    {
+        "id": 96,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 558.16,
+        "end": 565.1999999999999,
+        "start_time": "09:18",
+        "end_time": "09:25",
+        "text": "I also want to create mix, which is the combination of nums and names. And if I try to print mix,"
+    },
+    {
+        "id": 97,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 565.1999999999999,
+        "end": 570.8,
+        "start_time": "09:25",
+        "end_time": "09:30",
+        "text": "this is what we got here. So what I'm trying to do now, now when you check, let's say nums,"
+    },
+    {
+        "id": 98,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 570.8,
+        "end": 577.12,
+        "start_time": "09:30",
+        "end_time": "09:37",
+        "text": "and if you say dot and this only works with the IDLE, the moment I say dot, it will take some time,"
+    },
+    {
+        "id": 99,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 577.12,
+        "end": 582.4,
+        "start_time": "09:37",
+        "end_time": "09:42",
+        "text": "maybe two seconds, and it will pop up some functions there. So these functions are operations,"
+    },
+    {
+        "id": 100,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 582.4,
+        "end": 586.9599999999999,
+        "start_time": "09:42",
+        "end_time": "09:46",
+        "text": "which you can do with your list. Like you can do append. Of course, in the post, we'll try to zoom"
+    },
+    {
+        "id": 101,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 586.96,
+        "end": 592.32,
+        "start_time": "09:46",
+        "end_time": "09:52",
+        "text": "it so that you can see it. So we can say append, clear, copy. I don't want to clear now because I"
+    },
+    {
+        "id": 102,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 592.32,
+        "end": 600.72,
+        "start_time": "09:52",
+        "end_time": "10:00",
+        "text": "will lose the value. Copy, count, extend, index, insert, pop, remove, reverse, and there is also"
+    },
+    {
+        "id": 103,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 600.72,
+        "end": 606.24,
+        "start_time": "10:00",
+        "end_time": "10:06",
+        "text": "sort at the end. Okay. So we've got all these functions here. Now we'll start with append. Now"
+    },
+    {
+        "id": 104,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 606.24,
+        "end": 612.8000000000001,
+        "start_time": "10:06",
+        "end_time": "10:12",
+        "text": "what is append here? So append takes a value from you. Okay. That's what it says. So let's say I'm"
+    },
+    {
+        "id": 105,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 612.8,
+        "end": 620.16,
+        "start_time": "10:12",
+        "end_time": "10:20",
+        "text": "going to add 33. Now what will happen is we got the nums with all these values. When you say nums"
+    },
+    {
+        "id": 106,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 620.16,
+        "end": 627.28,
+        "start_time": "10:20",
+        "end_time": "10:27",
+        "text": "dot append 33, it will add that value in the list at the end. Okay. So if you say enter, and if you"
+    },
+    {
+        "id": 107,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 627.28,
+        "end": 634.3199999999999,
+        "start_time": "10:27",
+        "end_time": "10:34",
+        "text": "try to print nums, that's what you got. You got this value 33 at the end. Okay. So apart from append,"
+    },
+    {
+        "id": 108,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 634.3199999999999,
+        "end": 639.5999999999999,
+        "start_time": "10:34",
+        "end_time": "10:39",
+        "text": "what else we have? So we can say nums dot. So let's try to explore the other methods. If the popup is"
+    },
+    {
+        "id": 109,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 639.6,
+        "end": 646.32,
+        "start_time": "10:39",
+        "end_time": "10:46",
+        "text": "not coming, you can even say control space. It will be quick. Then you can also use something called"
+    },
+    {
+        "id": 110,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 646.32,
+        "end": 651.6,
+        "start_time": "10:46",
+        "end_time": "10:51",
+        "text": "count to give you the count of values. Oh, sorry. So when you say nums dot count, and you have to"
+    },
+    {
+        "id": 111,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 651.6,
+        "end": 657.12,
+        "start_time": "10:51",
+        "end_time": "10:57",
+        "text": "mention the number. So let's, I want to see how many times 14 occurred. So when you say 14, it says"
+    },
+    {
+        "id": 112,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 657.12,
+        "end": 664.96,
+        "start_time": "10:57",
+        "end_time": "11:04",
+        "text": "one. And if we use a different value here, so let's say 15, and there's no instance of 15. What else"
+    },
+    {
+        "id": 113,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 664.96,
+        "end": 670.4000000000001,
+        "start_time": "11:04",
+        "end_time": "11:10",
+        "text": "we can do here? So I will say control space. I can even find the index of a particular value."
+    },
+    {
+        "id": 114,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 670.4000000000001,
+        "end": 675.2800000000001,
+        "start_time": "11:10",
+        "end_time": "11:15",
+        "text": "I can insert a value. Now what's the difference between insert and append? Of course, insert will"
+    },
+    {
+        "id": 115,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 675.2800000000001,
+        "end": 682.72,
+        "start_time": "11:15",
+        "end_time": "11:22",
+        "text": "also insert the value in the list. And when you say append, basically you add at the end. But using"
+    },
+    {
+        "id": 116,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 682.72,
+        "end": 688.88,
+        "start_time": "11:22",
+        "end_time": "11:28",
+        "text": "insert, you can insert in between. Let's say I want to insert a value of 55, but I want to do that at"
+    },
+    {
+        "id": 117,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 688.96,
+        "end": 697.04,
+        "start_time": "11:28",
+        "end_time": "11:37",
+        "text": "index number, let's say one. So what will happen is currently the index number one is 56 here. Now"
+    },
+    {
+        "id": 118,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 697.04,
+        "end": 704.24,
+        "start_time": "11:37",
+        "end_time": "11:44",
+        "text": "when you say at index one, I want to add 55, all this value will be pushed and then 55 will be here."
+    },
+    {
+        "id": 119,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 704.24,
+        "end": 709.92,
+        "start_time": "11:44",
+        "end_time": "11:49",
+        "text": "So when you say enter, and if you try to print nums, you can see we got 55 and then 56 and the"
+    },
+    {
+        "id": 120,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 709.92,
+        "end": 716.0,
+        "start_time": "11:49",
+        "end_time": "11:56",
+        "text": "entire values. Now, if you observe one thing, when we were trying to work with string and when we were"
+    },
+    {
+        "id": 121,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 716.0,
+        "end": 721.44,
+        "start_time": "11:56",
+        "end_time": "12:01",
+        "text": "trying to change the values or the characters of a string, it was not allowing it because it was"
+    },
+    {
+        "id": 122,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 721.44,
+        "end": 725.6,
+        "start_time": "12:01",
+        "end_time": "12:05",
+        "text": "immutable. List on the other hand is mutable and that's why you're able to do that. So mutable"
+    },
+    {
+        "id": 123,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 725.6,
+        "end": 731.84,
+        "start_time": "12:05",
+        "end_time": "12:11",
+        "text": "simply means it can be changed. So we are able to change the values of a list because it is mutable."
+    },
+    {
+        "id": 124,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 731.84,
+        "end": 737.44,
+        "start_time": "12:11",
+        "end_time": "12:17",
+        "text": "Okay, what else we can do? Now since we can insert or add, we should be also able to remove the"
+    },
+    {
+        "id": 125,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 737.44,
+        "end": 744.0,
+        "start_time": "12:17",
+        "end_time": "12:24",
+        "text": "value. So I can say nums.remove and in this remove, I can pass a value. So let's say I want to pass"
+    },
+    {
+        "id": 126,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 744.0,
+        "end": 750.4,
+        "start_time": "12:24",
+        "end_time": "12:30",
+        "text": "a value 56. I want to remove 56, I can simply enter that and it's removed. It is not reading"
+    },
+    {
+        "id": 127,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 750.4,
+        "end": 755.28,
+        "start_time": "12:30",
+        "end_time": "12:35",
+        "text": "anything and that's why it's not printing anything there. But if you say nums, now there's no 56."
+    },
+    {
+        "id": 128,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 755.28,
+        "end": 761.04,
+        "start_time": "12:35",
+        "end_time": "12:41",
+        "text": "But what if you want to remove not from the value but from the index? Because here when you say"
+    },
+    {
+        "id": 129,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 761.04,
+        "end": 765.36,
+        "start_time": "12:41",
+        "end_time": "12:45",
+        "text": "remove, we are passing the value, right? If you want to provide the index, then you can't use"
+    },
+    {
+        "id": 130,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 765.36,
+        "end": 771.12,
+        "start_time": "12:45",
+        "end_time": "12:51",
+        "text": "remove. In that case, we have to use pop. And in this, you can pass the index value. Let's say I"
+    },
+    {
+        "id": 131,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 771.12,
+        "end": 780.08,
+        "start_time": "12:51",
+        "end_time": "13:00",
+        "text": "want to remove 45 from here. So this is 0, 1, 2, 3, 4. So I can remove 4. Now why this word pop? See,"
+    },
+    {
+        "id": 132,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 780.08,
+        "end": 785.76,
+        "start_time": "13:00",
+        "end_time": "13:05",
+        "text": "when you talk about programming, we have this beautiful type of data structure which is called"
+    },
+    {
+        "id": 133,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 785.76,
+        "end": 793.12,
+        "start_time": "13:05",
+        "end_time": "13:13",
+        "text": "stack and queue. So stack is a data structure like list. The difference is stack follows last in,"
+    },
+    {
+        "id": 134,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 793.12,
+        "end": 798.48,
+        "start_time": "13:13",
+        "end_time": "13:18",
+        "text": "first out. So the last element which I've added will be popped out first. And that's why it says"
+    },
+    {
+        "id": 135,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 798.48,
+        "end": 804.4,
+        "start_time": "13:18",
+        "end_time": "13:24",
+        "text": "pop. It's like when you have a stack of books and the last book which you kept will be the first book"
+    },
+    {
+        "id": 136,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 804.4,
+        "end": 810.0,
+        "start_time": "13:24",
+        "end_time": "13:30",
+        "text": "will take it out. So that pops. And when you say enter, now you can see it returns the value 45"
+    },
+    {
+        "id": 137,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 810.0,
+        "end": 816.08,
+        "start_time": "13:30",
+        "end_time": "13:36",
+        "text": "and then it also removes it. So if I say nums now, 45 has been removed. In fact, you can also write"
+    },
+    {
+        "id": 138,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 816.08,
+        "end": 821.44,
+        "start_time": "13:36",
+        "end_time": "13:41",
+        "text": "pop without passing the index value. And you know which one it will remove? We have just discussed."
+    },
+    {
+        "id": 139,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 821.44,
+        "end": 827.44,
+        "start_time": "13:41",
+        "end_time": "13:47",
+        "text": "Last in, first out. So the last value will be popped out. In fact, we can remove multiple values."
+    },
+    {
+        "id": 140,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 827.5200000000001,
+        "end": 833.2800000000001,
+        "start_time": "13:47",
+        "end_time": "13:53",
+        "text": "So there is a keyword in Python, an inbuilt keyword, which is called del. And you can perform"
+    },
+    {
+        "id": 141,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 833.2800000000001,
+        "end": 838.4000000000001,
+        "start_time": "13:53",
+        "end_time": "13:58",
+        "text": "the operations on list with the help of del. So you can say nums. And you can specify from where"
+    },
+    {
+        "id": 142,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 838.4000000000001,
+        "end": 843.5200000000001,
+        "start_time": "13:58",
+        "end_time": "14:03",
+        "text": "to where you want to delete. So let's say I want to delete 14 and 36, these two numbers."
+    },
+    {
+        "id": 143,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 844.08,
+        "end": 850.48,
+        "start_time": "14:04",
+        "end_time": "14:10",
+        "text": "So I can start from 2 and I can say 4 because 4 is excluding. Enter. And it is not returning"
+    },
+    {
+        "id": 144,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 850.48,
+        "end": 856.4,
+        "start_time": "14:10",
+        "end_time": "14:16",
+        "text": "anything. So if we try to print nums, so 14, 36 have been, okay, so it is 4 is included."
+    },
+    {
+        "id": 145,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 857.2,
+        "end": 863.28,
+        "start_time": "14:17",
+        "end_time": "14:23",
+        "text": "No, 36 was already removed. And now we have removed 14 and 36. Okay. So we only left with"
+    },
+    {
+        "id": 146,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 863.28,
+        "end": 870.0,
+        "start_time": "14:23",
+        "end_time": "14:30",
+        "text": "23 and 55. So the list which started with huge amount of values, we only got 2 now. Okay. Now,"
+    },
+    {
+        "id": 147,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 870.0,
+        "end": 874.64,
+        "start_time": "14:30",
+        "end_time": "14:34",
+        "text": "since we are removing the values, maybe I want to add more values here. So let's say, let me insert"
+    },
+    {
+        "id": 148,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 874.64,
+        "end": 880.72,
+        "start_time": "14:34",
+        "end_time": "14:40",
+        "text": "some values. Now, to insert the value, we can use append. We can use insert. But what if I want to"
+    },
+    {
+        "id": 149,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 880.72,
+        "end": 886.24,
+        "start_time": "14:40",
+        "end_time": "14:46",
+        "text": "insert multiple values? In that case, we can use something called extend. And in this extend,"
+    },
+    {
+        "id": 150,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 886.24,
+        "end": 894.16,
+        "start_time": "14:46",
+        "end_time": "14:54",
+        "text": "you can pass a list in which you can pass a value. Let's say 44, 56, 11, and 99. So when you say enter,"
+    },
+    {
+        "id": 151,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 894.16,
+        "end": 898.96,
+        "start_time": "14:54",
+        "end_time": "14:58",
+        "text": "so all these values got added to nums. So if we try to print nums, this is what you got."
+    },
+    {
+        "id": 152,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 898.96,
+        "end": 905.0400000000001,
+        "start_time": "14:58",
+        "end_time": "15:05",
+        "text": "So we have talked about list as a immutable type, right? So what we can also do is if you try to"
+    },
+    {
+        "id": 153,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 905.0400000000001,
+        "end": 909.36,
+        "start_time": "15:05",
+        "end_time": "15:09",
+        "text": "print nums here, we got all the values, right? But let's say I want to replace these two values,"
+    },
+    {
+        "id": 154,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 909.36,
+        "end": 916.72,
+        "start_time": "15:09",
+        "end_time": "15:16",
+        "text": "44 and 56. So in this case, I can say nums and I'm going to replace the index number 2, 2, 3. So we"
+    },
+    {
+        "id": 155,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 916.72,
+        "end": 924.08,
+        "start_time": "15:16",
+        "end_time": "15:24",
+        "text": "have to say 4 equal to, and then we can replace those values, let's say 54 and 76. Now when you"
+    },
+    {
+        "id": 156,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 924.08,
+        "end": 930.0,
+        "start_time": "15:24",
+        "end_time": "15:30",
+        "text": "do that, and if you check the new list, we have replaced those two values. So yeah, we can also"
+    },
+    {
+        "id": 157,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 930.0,
+        "end": 936.08,
+        "start_time": "15:30",
+        "end_time": "15:36",
+        "text": "replace a particular value with the help of this syntax here. Okay, now let's explore some Python"
+    },
+    {
+        "id": 158,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 936.08,
+        "end": 942.48,
+        "start_time": "15:36",
+        "end_time": "15:42",
+        "text": "inbuilt functions. In fact, okay, so let's finish the functions of list first. So we can also use"
+    },
+    {
+        "id": 159,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 942.48,
+        "end": 947.36,
+        "start_time": "15:42",
+        "end_time": "15:47",
+        "text": "something called reverse to reverse a list. So when you say reverse, and if you try to print"
+    },
+    {
+        "id": 160,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 947.92,
+        "end": 955.2,
+        "start_time": "15:47",
+        "end_time": "15:55",
+        "text": "the list, so the sequence was 23, 55, 54, 76, 11, 99. Now it is reversed. We can even do"
+    },
+    {
+        "id": 161,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 955.2,
+        "end": 960.16,
+        "start_time": "15:55",
+        "end_time": "16:00",
+        "text": "sorting. So I can say sort, and if we try to print nums, this is what you got. So these are the"
+    },
+    {
+        "id": 162,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 960.16,
+        "end": 964.88,
+        "start_time": "16:00",
+        "end_time": "16:04",
+        "text": "inbuilt functions of, or these are the functions of a list. But in Python, we got some inbuilt"
+    },
+    {
+        "id": 163,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 964.88,
+        "end": 971.12,
+        "start_time": "16:04",
+        "end_time": "16:11",
+        "text": "functions we can use on them, which is min. Now when you pass a list inside a min, it will basically"
+    },
+    {
+        "id": 164,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 971.12,
+        "end": 976.0,
+        "start_time": "16:11",
+        "end_time": "16:16",
+        "text": "find the minimum number. And when you say max, it will, of course, now you know, it will find the"
+    },
+    {
+        "id": 165,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 976.0,
+        "end": 981.92,
+        "start_time": "16:16",
+        "end_time": "16:21",
+        "text": "maximum number. We can even do sum on this nums, which will give you the sum of numbers. Okay,"
+    },
+    {
+        "id": 166,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 981.92,
+        "end": 988.56,
+        "start_time": "16:21",
+        "end_time": "16:28",
+        "text": "can I apply min on names because we do have names. There's no issue. It says, okay, minimum is hush."
+    },
+    {
+        "id": 167,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 988.56,
+        "end": 995.44,
+        "start_time": "16:28",
+        "end_time": "16:35",
+        "text": "Now you know why it is hush? Because if you go up, this is where names and hush is minimum,"
+    },
+    {
+        "id": 168,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 995.44,
+        "end": 1002.64,
+        "start_time": "16:35",
+        "end_time": "16:42",
+        "text": "is because nummin starts with n, kden starts with k, and hush starts with h. So h comes before"
+    },
+    {
+        "id": 169,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 1003.1999999999999,
+        "end": 1009.36,
+        "start_time": "16:43",
+        "end_time": "16:49",
+        "text": "n and k. That's why. Okay, what about max? You now, you know, you will get Navin there, but can I do"
+    },
+    {
+        "id": 170,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 1009.36,
+        "end": 1017.84,
+        "start_time": "16:49",
+        "end_time": "16:57",
+        "text": "sum on names and Python will be unhappy with you, what you're doing. Okay. Cool. So these are the"
+    },
+    {
+        "id": 171,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 1017.84,
+        "end": 1023.76,
+        "start_time": "16:57",
+        "end_time": "17:03",
+        "text": "things you can do with Python. You can apply different functions and it's cool. List is cool."
+    },
+    {
+        "id": 172,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start": 1023.76,
+        "end": 1027.92,
+        "start_time": "17:03",
+        "end_time": "17:07",
+        "text": "So that's it from list. We'll talk about other things in the upcoming videos."
+    }
+]

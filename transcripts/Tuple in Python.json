@@ -1,0 +1,1042 @@
+[
+    {
+        "id": 0,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 0.0,
+        "end": 7.640000000000001,
+        "start_time": "00:00",
+        "end_time": "00:07",
+        "text": "So when you want to store multiple values, we have an option of least which we have used"
+    },
+    {
+        "id": 1,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 7.640000000000001,
+        "end": 13.8,
+        "start_time": "00:07",
+        "end_time": "00:13",
+        "text": "before. But then there are other signals which we can use and one of them is tuple. So let's"
+    },
+    {
+        "id": 2,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 13.8,
+        "end": 19.64,
+        "start_time": "00:13",
+        "end_time": "00:19",
+        "text": "try tuple and let's see what it does. So I'm creating a variable called tuple or tube,"
+    },
+    {
+        "id": 3,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 19.64,
+        "end": 23.88,
+        "start_time": "00:19",
+        "end_time": "00:23",
+        "text": "doesn't matter what you call it. In this if you want to store multiple values, the way"
+    },
+    {
+        "id": 4,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 23.88,
+        "end": 33.44,
+        "start_time": "00:23",
+        "end_time": "00:33",
+        "text": "you can do that is let's say 23, 45, 67 and 43. Now when you create a list, we have used"
+    },
+    {
+        "id": 5,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 33.44,
+        "end": 39.2,
+        "start_time": "00:33",
+        "end_time": "00:39",
+        "text": "a bracket which was the square bracket, right? And when you do that, so this is your list"
+    },
+    {
+        "id": 6,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 39.2,
+        "end": 43.64,
+        "start_time": "00:39",
+        "end_time": "00:43",
+        "text": "and how do I know that? Of course with not the name there, name can be anything, but"
+    },
+    {
+        "id": 7,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 43.64,
+        "end": 48.519999999999996,
+        "start_time": "00:43",
+        "end_time": "00:48",
+        "text": "there's a function in Python called type. Now when you say type and when you mention"
+    },
+    {
+        "id": 8,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 48.52,
+        "end": 54.56,
+        "start_time": "00:48",
+        "end_time": "00:54",
+        "text": "a value there or a variable which is tuple in this case and when you say enter, you can"
+    },
+    {
+        "id": 9,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 54.56,
+        "end": 59.400000000000006,
+        "start_time": "00:54",
+        "end_time": "00:59",
+        "text": "see it says class list. Again, what is class? We'll talk about that later, but this is of"
+    },
+    {
+        "id": 10,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 59.400000000000006,
+        "end": 67.66,
+        "start_time": "00:59",
+        "end_time": "01:07",
+        "text": "type list. Now if you want to create a tuple, how do you do it? There are two options. One,"
+    },
+    {
+        "id": 11,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 67.66,
+        "end": 72.28,
+        "start_time": "01:07",
+        "end_time": "01:12",
+        "text": "you can remove the brackets and keep it empty like this. Now this is also a tuple when you"
+    },
+    {
+        "id": 12,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 72.28,
+        "end": 78.76,
+        "start_time": "01:12",
+        "end_time": "01:18",
+        "text": "say enter and when you check the tuple again or the type again, okay, that's, okay, so when you"
+    },
+    {
+        "id": 13,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 78.76,
+        "end": 83.72,
+        "start_time": "01:18",
+        "end_time": "01:23",
+        "text": "see the type, it is tuple. Okay, now there's one more thing which I did now. When I clicked on the"
+    },
+    {
+        "id": 14,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 83.72,
+        "end": 88.12,
+        "start_time": "01:23",
+        "end_time": "01:28",
+        "text": "up arrow, I can see the last commands. Normally this is how you do in the command prompt or the"
+    },
+    {
+        "id": 15,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 88.12,
+        "end": 94.28,
+        "start_time": "01:28",
+        "end_time": "01:34",
+        "text": "terminal, but in the ideally you will not get that support by default. So what you do is you go to"
+    },
+    {
+        "id": 16,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 94.28,
+        "end": 99.32,
+        "start_time": "01:34",
+        "end_time": "01:39",
+        "text": "option, click on configure and there's an option of keys here. In this if you scroll down, there"
+    },
+    {
+        "id": 17,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 99.32,
+        "end": 104.6,
+        "start_time": "01:39",
+        "end_time": "01:44",
+        "text": "should be history, next history previous. Make sure that you change these options and once you"
+    },
+    {
+        "id": 18,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 104.6,
+        "end": 109.8,
+        "start_time": "01:44",
+        "end_time": "01:49",
+        "text": "do that, you can click up and you will get the last command or last history basically. So that's"
+    },
+    {
+        "id": 19,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 109.8,
+        "end": 115.56,
+        "start_time": "01:49",
+        "end_time": "01:55",
+        "text": "one. You can keep this number without specifying any bracket or you can keep a round bracket. Both"
+    },
+    {
+        "id": 20,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 115.56,
+        "end": 120.03999999999999,
+        "start_time": "01:55",
+        "end_time": "02:00",
+        "text": "works and when you say enter, again when you check the type, it is tuple. So that's how basically you"
+    },
+    {
+        "id": 21,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 120.03999999999999,
+        "end": 124.52,
+        "start_time": "02:00",
+        "end_time": "02:04",
+        "text": "can create a tuple and the way you have done in the list, you can do that those things here."
+    },
+    {
+        "id": 22,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 124.52,
+        "end": 130.35999999999999,
+        "start_time": "02:04",
+        "end_time": "02:10",
+        "text": "Example, let's say if you want to find the minimum value out of this thing, it's 23 which is the first"
+    },
+    {
+        "id": 23,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 130.35999999999999,
+        "end": 136.35999999999999,
+        "start_time": "02:10",
+        "end_time": "02:16",
+        "text": "value and when you say max, you will get 67. So these things work. So you can also do sum here."
+    },
+    {
+        "id": 24,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 136.35999999999999,
+        "end": 143.0,
+        "start_time": "02:16",
+        "end_time": "02:23",
+        "text": "Now notice difference between tuple and list here. Now when you said list before, you used to get"
+    },
+    {
+        "id": 25,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 143.0,
+        "end": 150.6,
+        "start_time": "02:23",
+        "end_time": "02:30",
+        "text": "multiple options, right? We had an option of remove, pop, then we have also seen append, insert. Now you"
+    },
+    {
+        "id": 26,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 150.6,
+        "end": 156.35999999999999,
+        "start_time": "02:30",
+        "end_time": "02:36",
+        "text": "can do those things because list is mutable. That means you can change the values or you can"
+    },
+    {
+        "id": 27,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 156.35999999999999,
+        "end": 161.32,
+        "start_time": "02:36",
+        "end_time": "02:41",
+        "text": "change the elements of it. Now in this case, when you set up and when you say dot, control space if"
+    },
+    {
+        "id": 28,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 161.32,
+        "end": 167.24,
+        "start_time": "02:41",
+        "end_time": "02:47",
+        "text": "it is not popping up quickly, you can see we got two options. We got count and index. What count does?"
+    },
+    {
+        "id": 29,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 167.24,
+        "end": 172.76,
+        "start_time": "02:47",
+        "end_time": "02:52",
+        "text": "Count basically checks for a particular number, how much occurrence you have of the same number"
+    },
+    {
+        "id": 30,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 172.76,
+        "end": 178.12,
+        "start_time": "02:52",
+        "end_time": "02:58",
+        "text": "and second index will give you the index value of a particular value but there are no methods"
+    },
+    {
+        "id": 31,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 178.12,
+        "end": 184.6,
+        "start_time": "02:58",
+        "end_time": "03:04",
+        "text": "which talks about inserting or removing. That means tuple is immutable. Let me show you how."
+    },
+    {
+        "id": 32,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 184.6,
+        "end": 189.32,
+        "start_time": "03:04",
+        "end_time": "03:09",
+        "text": "So if I want to fetch a particular value, let's say I want to fetch this 67 here, the way you can"
+    },
+    {
+        "id": 33,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 189.32,
+        "end": 194.04,
+        "start_time": "03:09",
+        "end_time": "03:14",
+        "text": "do that is by mentioning the index number. Again, we have to use square bracket whenever you want to"
+    },
+    {
+        "id": 34,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 194.6,
+        "end": 199.4,
+        "start_time": "03:14",
+        "end_time": "03:19",
+        "text": "use the index value. That's something you have to remember and when you do that, you will get 67."
+    },
+    {
+        "id": 35,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 199.4,
+        "end": 205.56,
+        "start_time": "03:19",
+        "end_time": "03:25",
+        "text": "Straightforward. But if you try to change the value, let's say if you want to have the 65"
+    },
+    {
+        "id": 36,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 205.56,
+        "end": 210.44,
+        "start_time": "03:25",
+        "end_time": "03:30",
+        "text": "and when you say enter, it will not work. It will say tuple object does not support item assignment."
+    },
+    {
+        "id": 37,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 210.44,
+        "end": 214.84,
+        "start_time": "03:30",
+        "end_time": "03:34",
+        "text": "That means you can't change the value or the elements of a tuple. There's something you"
+    },
+    {
+        "id": 38,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 214.84,
+        "end": 221.64000000000001,
+        "start_time": "03:34",
+        "end_time": "03:41",
+        "text": "remember. It's immutable. Now why this immutability and mutability is important. Now once we go in the"
+    },
+    {
+        "id": 39,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 221.64000000000001,
+        "end": 225.64000000000001,
+        "start_time": "03:41",
+        "end_time": "03:45",
+        "text": "upcoming sessions when you talk about different topics, I will mention, hey, you know, this"
+    },
+    {
+        "id": 40,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 225.64000000000001,
+        "end": 231.88,
+        "start_time": "03:45",
+        "end_time": "03:51",
+        "text": "particular type or the structure supports only mutable data or it only supports immutable data."
+    },
+    {
+        "id": 41,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 231.88,
+        "end": 235.88,
+        "start_time": "03:51",
+        "end_time": "03:55",
+        "text": "So you should know which is mutable, which is not mutable and when you work on a project and if"
+    },
+    {
+        "id": 42,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 235.88,
+        "end": 239.88,
+        "start_time": "03:55",
+        "end_time": "03:59",
+        "text": "something is not working, the value is not getting changed, you should know, okay, this is tuple. I"
+    },
+    {
+        "id": 43,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 239.88,
+        "end": 244.68,
+        "start_time": "03:59",
+        "end_time": "04:04",
+        "text": "can't change the value. So those are things important and that's why this immutability and"
+    },
+    {
+        "id": 44,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 244.68,
+        "end": 250.76,
+        "start_time": "04:04",
+        "end_time": "04:10",
+        "text": "mutability makes sense. Now apart from minmax or type function, we can also use a function which"
+    },
+    {
+        "id": 45,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 250.76,
+        "end": 256.28,
+        "start_time": "04:10",
+        "end_time": "04:16",
+        "text": "is length to check the length of a tuple and it says four because you got four values here. So"
+    },
+    {
+        "id": 46,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 256.35999999999996,
+        "end": 259.47999999999996,
+        "start_time": "04:16",
+        "end_time": "04:19",
+        "text": "there's something you can do. Apart from this, we can do one more thing. Let me say"
+    },
+    {
+        "id": 47,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 260.35999999999996,
+        "end": 266.84,
+        "start_time": "04:20",
+        "end_time": "04:26",
+        "text": "tuple a is equal to, so that's the variable and in this let me have some values and it's not just"
+    },
+    {
+        "id": 48,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 266.84,
+        "end": 272.2,
+        "start_time": "04:26",
+        "end_time": "04:32",
+        "text": "you should have a value of the same type. It can be of different types. Example, I will say two here"
+    },
+    {
+        "id": 49,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 272.2,
+        "end": 279.32,
+        "start_time": "04:32",
+        "end_time": "04:39",
+        "text": "and I will say Navin and maybe I can have 7.9 as a float value. When you say enter, there's no problem."
+    },
+    {
+        "id": 50,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 279.32,
+        "end": 284.59999999999997,
+        "start_time": "04:39",
+        "end_time": "04:44",
+        "text": "If I try to print up a, you got all these values. Now there's one beauty about Python as being"
+    },
+    {
+        "id": 51,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 284.84000000000003,
+        "end": 290.04,
+        "start_time": "04:44",
+        "end_time": "04:50",
+        "text": "easiest language to work with. When you say this value, which is tuple a has all these values,"
+    },
+    {
+        "id": 52,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 290.04,
+        "end": 296.12,
+        "start_time": "04:50",
+        "end_time": "04:56",
+        "text": "we got two, Navin and 7.9. What if you want to store this value in a particular variable? So"
+    },
+    {
+        "id": 53,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 296.12,
+        "end": 301.48,
+        "start_time": "04:56",
+        "end_time": "05:01",
+        "text": "let's say I want to store this two in a variable num. The way you can do that is by saying tuple"
+    },
+    {
+        "id": 54,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 301.48,
+        "end": 306.36,
+        "start_time": "05:01",
+        "end_time": "05:06",
+        "text": "a, you can give a square back and you can say zero. So with the zero index, this will be picked and"
+    },
+    {
+        "id": 55,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 306.36,
+        "end": 310.92,
+        "start_time": "05:06",
+        "end_time": "05:10",
+        "text": "it will be stored in num. There's no problem with that. But what I want to achieve is I want to have"
+    },
+    {
+        "id": 56,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 310.92,
+        "end": 317.56,
+        "start_time": "05:10",
+        "end_time": "05:17",
+        "text": "three different variables for num, I mean for two, for my name and for this value. So I can say num,"
+    },
+    {
+        "id": 57,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 317.56,
+        "end": 324.04,
+        "start_time": "05:17",
+        "end_time": "05:24",
+        "text": "comma, I can say name, comma and I can say num one, another value. Now what will happen is"
+    },
+    {
+        "id": 58,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 324.04,
+        "end": 329.16,
+        "start_time": "05:24",
+        "end_time": "05:29",
+        "text": "all these values will go into these variables and if I want to show you how, if I say num,"
+    },
+    {
+        "id": 59,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 329.16,
+        "end": 335.56,
+        "start_time": "05:29",
+        "end_time": "05:35",
+        "text": "you can say num is two. If I say name, it's Navin and if I say num one, it is 7.9. So this is more"
+    },
+    {
+        "id": 60,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 335.56,
+        "end": 340.68,
+        "start_time": "05:35",
+        "end_time": "05:40",
+        "text": "of a unpacking sequence because we are unpacking this stuff here into the variables and this"
+    },
+    {
+        "id": 61,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 340.68,
+        "end": 345.72,
+        "start_time": "05:40",
+        "end_time": "05:45",
+        "text": "is the beauty of Python. It makes things very very easy. There's only one thing you have to remember."
+    },
+    {
+        "id": 62,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 345.72,
+        "end": 351.24,
+        "start_time": "05:45",
+        "end_time": "05:51",
+        "text": "When you do this operation which I have done just now, so this particular operation, let's say if you"
+    },
+    {
+        "id": 63,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 351.24,
+        "end": 357.64,
+        "start_time": "05:51",
+        "end_time": "05:57",
+        "text": "try to fetch one more thing which is num two. Now will this work? Logically it should not work is"
+    },
+    {
+        "id": 64,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 357.64,
+        "end": 362.6,
+        "start_time": "05:57",
+        "end_time": "06:02",
+        "text": "because we got one value, two value and three values. So in total we got three values here."
+    },
+    {
+        "id": 65,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 362.6,
+        "end": 368.84000000000003,
+        "start_time": "06:02",
+        "end_time": "06:08",
+        "text": "So the length of this tuple a or tuple a is three and the variables you're trying to assign here is"
+    },
+    {
+        "id": 66,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 369.56,
+        "end": 373.88,
+        "start_time": "06:09",
+        "end_time": "06:13",
+        "text": "four. Now at this point, Python will feel bad and it will give you some bad words by saying"
+    },
+    {
+        "id": 67,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 373.88,
+        "end": 379.47999999999996,
+        "start_time": "06:13",
+        "end_time": "06:19",
+        "text": "what you're doing. It says not enough values to unpack. Expected value of four and got three"
+    },
+    {
+        "id": 68,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 379.47999999999996,
+        "end": 385.4,
+        "start_time": "06:19",
+        "end_time": "06:25",
+        "text": "because in tuple a, in your tuple or tuple, you got only three values. So now we know that tuple is"
+    },
+    {
+        "id": 69,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 385.4,
+        "end": 391.71999999999997,
+        "start_time": "06:25",
+        "end_time": "06:31",
+        "text": "immutable but let me show you one thing where you can make it mutable. So let's say, okay not mutable"
+    },
+    {
+        "id": 70,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 391.71999999999997,
+        "end": 396.35999999999996,
+        "start_time": "06:31",
+        "end_time": "06:36",
+        "text": "in that sense but let's see the out example. So let's say I'm creating a new tuple which is tuple,"
+    },
+    {
+        "id": 71,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 396.36,
+        "end": 400.28000000000003,
+        "start_time": "06:36",
+        "end_time": "06:40",
+        "text": "let's say this is b instead of two so that you will not get confused with the numbers"
+    },
+    {
+        "id": 72,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 401.0,
+        "end": 406.76,
+        "start_time": "06:41",
+        "end_time": "06:46",
+        "text": "and in this I'm going to have some values. Let's say 34 is the first value, then my name Navin and"
+    },
+    {
+        "id": 73,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 406.76,
+        "end": 413.48,
+        "start_time": "06:46",
+        "end_time": "06:53",
+        "text": "then I'm going to have let's say a list of values. Okay and that's right you can do this. You can have"
+    },
+    {
+        "id": 74,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 413.48,
+        "end": 418.92,
+        "start_time": "06:53",
+        "end_time": "06:58",
+        "text": "a list inside a tuple. In fact not just list inside a tuple, you can have a tuple inside the list,"
+    },
+    {
+        "id": 75,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 418.92,
+        "end": 423.32,
+        "start_time": "06:58",
+        "end_time": "07:03",
+        "text": "you can have a list inside the list, you can have a tuple inside the tuple. So because those are"
+    },
+    {
+        "id": 76,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 423.32,
+        "end": 430.12,
+        "start_time": "07:03",
+        "end_time": "07:10",
+        "text": "the types right and this is actually one element. So for a collection of values this is one element."
+    },
+    {
+        "id": 77,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 430.68,
+        "end": 437.4,
+        "start_time": "07:10",
+        "end_time": "07:17",
+        "text": "So for the tuple this thing 34 is one element, Navin is one element and this is one element."
+    },
+    {
+        "id": 78,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 438.12,
+        "end": 443.56,
+        "start_time": "07:18",
+        "end_time": "07:23",
+        "text": "Now with this thing if you try to change, let's say if you try to change the first value 24,"
+    },
+    {
+        "id": 79,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 444.28,
+        "end": 448.36,
+        "start_time": "07:24",
+        "end_time": "07:28",
+        "text": "of course it will give you some bad words. It will say what you're doing, no this will not work."
+    },
+    {
+        "id": 80,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 449.0,
+        "end": 454.6,
+        "start_time": "07:29",
+        "end_time": "07:34",
+        "text": "Makes sense and if you do that with the list as well, if you try to assign a different list"
+    },
+    {
+        "id": 81,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 454.6,
+        "end": 458.6,
+        "start_time": "07:34",
+        "end_time": "07:38",
+        "text": "or different value altogether or different type of data altogether, there should not be an issue."
+    },
+    {
+        "id": 82,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 458.6,
+        "end": 462.52000000000004,
+        "start_time": "07:38",
+        "end_time": "07:42",
+        "text": "I mean of course it should not work and with this also it will not work. You can't assign the value"
+    },
+    {
+        "id": 83,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 462.52000000000004,
+        "end": 467.72,
+        "start_time": "07:42",
+        "end_time": "07:47",
+        "text": "and we have talked about this before tuples are immutable so you can't do this thing. So I'm"
+    },
+    {
+        "id": 84,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 467.72,
+        "end": 473.64,
+        "start_time": "07:47",
+        "end_time": "07:53",
+        "text": "trying to replace this with this and it is saying the same thing but let me try this. I will say"
+    },
+    {
+        "id": 85,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 474.52,
+        "end": 481.0,
+        "start_time": "07:54",
+        "end_time": "08:01",
+        "text": "and if I want to change a value of a list, so let's say in this tuple we got this list and in"
+    },
+    {
+        "id": 86,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 481.0,
+        "end": 485.47999999999996,
+        "start_time": "08:01",
+        "end_time": "08:05",
+        "text": "which I have a value which is let's say five. I want to make this five nine. So I can say tuple,"
+    },
+    {
+        "id": 87,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 485.47999999999996,
+        "end": 491.0,
+        "start_time": "08:05",
+        "end_time": "08:11",
+        "text": "first I have to target this particular list and this list is your index number two. So I'll say"
+    },
+    {
+        "id": 88,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 491.0,
+        "end": 497.08,
+        "start_time": "08:11",
+        "end_time": "08:17",
+        "text": "two here and this from this list I want to fetch this five again which is two. In fact let's try"
+    },
+    {
+        "id": 89,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 497.08,
+        "end": 501.32,
+        "start_time": "08:17",
+        "end_time": "08:21",
+        "text": "to change four because that's into other some index so that you will not get confused with two"
+    },
+    {
+        "id": 90,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 501.32,
+        "end": 507.15999999999997,
+        "start_time": "08:21",
+        "end_time": "08:27",
+        "text": "and two. So I'm trying to change this four and make it nine. So if you say nine there is no issue."
+    },
+    {
+        "id": 91,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 507.15999999999997,
+        "end": 514.36,
+        "start_time": "08:27",
+        "end_time": "08:34",
+        "text": "If we try to print the tuple you can see it is working. So you are able to store or you are able"
+    },
+    {
+        "id": 92,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 514.36,
+        "end": 519.48,
+        "start_time": "08:34",
+        "end_time": "08:39",
+        "text": "to change the value of a list because that's immutable. Yes that's a part of a tuple but you're"
+    },
+    {
+        "id": 93,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 519.48,
+        "end": 524.52,
+        "start_time": "08:39",
+        "end_time": "08:44",
+        "text": "not changing the tuple you're changing the list. So it's just one element which is immutable but"
+    },
+    {
+        "id": 94,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 524.52,
+        "end": 529.96,
+        "start_time": "08:44",
+        "end_time": "08:49",
+        "text": "the element inside that list can be changed. I know it might look complex and that's why you"
+    },
+    {
+        "id": 95,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 529.96,
+        "end": 533.5600000000001,
+        "start_time": "08:49",
+        "end_time": "08:53",
+        "text": "have to try by yourself to make a sense out of it. In fact you can do one more thing. I want to"
+    },
+    {
+        "id": 96,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 533.5600000000001,
+        "end": 541.1600000000001,
+        "start_time": "08:53",
+        "end_time": "09:01",
+        "text": "introduce a new keyword here. So let's say I want to check if 34 is a part of this tuple or not."
+    },
+    {
+        "id": 97,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 541.1600000000001,
+        "end": 547.88,
+        "start_time": "09:01",
+        "end_time": "09:07",
+        "text": "So I can say 34 into B it will say true. True means this is so true and false those are the"
+    },
+    {
+        "id": 98,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 547.88,
+        "end": 553.32,
+        "start_time": "09:07",
+        "end_time": "09:13",
+        "text": "Boolean values and it checks 34 is in tuple B basically in will check if it is there. If it"
+    },
+    {
+        "id": 99,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 553.32,
+        "end": 558.2,
+        "start_time": "09:13",
+        "end_time": "09:18",
+        "text": "is there it will return true. If it is not there it will return false. Example is if you try to match"
+    },
+    {
+        "id": 100,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 558.2,
+        "end": 565.72,
+        "start_time": "09:18",
+        "end_time": "09:25",
+        "text": "Navin into B you can see it says false. Now this Navin is this Navin difference because there is"
+    },
+    {
+        "id": 101,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 565.72,
+        "end": 570.2800000000001,
+        "start_time": "09:25",
+        "end_time": "09:30",
+        "text": "a capital N here. Okay that's something you remember. Yeah that's about tuple and the most"
+    },
+    {
+        "id": 102,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 570.2800000000001,
+        "end": 575.48,
+        "start_time": "09:30",
+        "end_time": "09:35",
+        "text": "important thing is two. One is this learned brackets and second it's immutable."
+    },
+    {
+        "id": 103,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start": 588.2,
+        "end": 588.44,
+        "start_time": "09:48",
+        "end_time": "09:48",
+        "text": "you"
+    }
+]

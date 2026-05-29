@@ -1,0 +1,1642 @@
+[
+    {
+        "id": 0,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 0.0,
+        "end": 8.2,
+        "start_time": "00:00",
+        "end_time": "00:08",
+        "text": "So we have talked about sequences where we talked about list, tuple and set."
+    },
+    {
+        "id": 1,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 8.2,
+        "end": 13.48,
+        "start_time": "00:08",
+        "end_time": "00:13",
+        "text": "Now when you go back to list, normally we can have multiple values in one place which"
+    },
+    {
+        "id": 2,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 13.48,
+        "end": 14.56,
+        "start_time": "00:13",
+        "end_time": "00:14",
+        "text": "is a list."
+    },
+    {
+        "id": 3,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 14.56,
+        "end": 18.0,
+        "start_time": "00:14",
+        "end_time": "00:18",
+        "text": "The thing is when you work with list you work with the index values."
+    },
+    {
+        "id": 4,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 18.0,
+        "end": 21.96,
+        "start_time": "00:18",
+        "end_time": "00:21",
+        "text": "Example if you see on the screen if you have multiple values and if I want to pick a particular"
+    },
+    {
+        "id": 5,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 21.96,
+        "end": 25.84,
+        "start_time": "00:21",
+        "end_time": "00:25",
+        "text": "value there I have to use the index numbers."
+    },
+    {
+        "id": 6,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 25.84,
+        "end": 31.28,
+        "start_time": "00:25",
+        "end_time": "00:31",
+        "text": "That's good but let's say if you want to create a phone book how will you do it?"
+    },
+    {
+        "id": 7,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 31.28,
+        "end": 36.84,
+        "start_time": "00:31",
+        "end_time": "00:36",
+        "text": "So let's say you got a phone numbers as values and if I want to fetch them I need the index"
+    },
+    {
+        "id": 8,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 36.84,
+        "end": 37.84,
+        "start_time": "00:36",
+        "end_time": "00:37",
+        "text": "number."
+    },
+    {
+        "id": 9,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 37.84,
+        "end": 39.4,
+        "start_time": "00:37",
+        "end_time": "00:39",
+        "text": "Difficult to find right?"
+    },
+    {
+        "id": 10,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 39.4,
+        "end": 43.68,
+        "start_time": "00:39",
+        "end_time": "00:43",
+        "text": "And that's where we can use something called a dictionary which sounds like a dictionary"
+    },
+    {
+        "id": 11,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 43.68,
+        "end": 46.64,
+        "start_time": "00:43",
+        "end_time": "00:46",
+        "text": "like this and yes we got words and the meaning of it."
+    },
+    {
+        "id": 12,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 46.64,
+        "end": 51.36,
+        "start_time": "00:46",
+        "end_time": "00:51",
+        "text": "So that's the key and a value pair where you have a word and the meaning."
+    },
+    {
+        "id": 13,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 51.36,
+        "end": 54.900000000000006,
+        "start_time": "00:51",
+        "end_time": "00:54",
+        "text": "On the other hand you got a key and a value."
+    },
+    {
+        "id": 14,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 54.9,
+        "end": 56.339999999999996,
+        "start_time": "00:54",
+        "end_time": "00:56",
+        "text": "That's what we want to do here."
+    },
+    {
+        "id": 15,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 56.339999999999996,
+        "end": 57.339999999999996,
+        "start_time": "00:56",
+        "end_time": "00:57",
+        "text": "Something like this."
+    },
+    {
+        "id": 16,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 57.339999999999996,
+        "end": 61.18,
+        "start_time": "00:57",
+        "end_time": "01:01",
+        "text": "So let's say I want to create a data here so we can have any values here right?"
+    },
+    {
+        "id": 17,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 61.18,
+        "end": 64.78,
+        "start_time": "01:01",
+        "end_time": "01:04",
+        "text": "And then to refer this we need to use the index numbers."
+    },
+    {
+        "id": 18,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 64.78,
+        "end": 67.66,
+        "start_time": "01:04",
+        "end_time": "01:07",
+        "text": "Now when it comes to dictionary this is not how you do it."
+    },
+    {
+        "id": 19,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 67.66,
+        "end": 71.74,
+        "start_time": "01:07",
+        "end_time": "01:11",
+        "text": "You basically need a value which is there but you also need a key for it."
+    },
+    {
+        "id": 20,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 71.74,
+        "end": 73.34,
+        "start_time": "01:11",
+        "end_time": "01:13",
+        "text": "So how will you define that?"
+    },
+    {
+        "id": 21,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 73.34,
+        "end": 76.34,
+        "start_time": "01:13",
+        "end_time": "01:16",
+        "text": "First of all you can't use square brackets we have to use the curly brackets but now"
+    },
+    {
+        "id": 22,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 76.34,
+        "end": 80.82,
+        "start_time": "01:16",
+        "end_time": "01:20",
+        "text": "you will say hey that's for the set we can't use it for the dictionary."
+    },
+    {
+        "id": 23,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 81.58,
+        "end": 85.94,
+        "start_time": "01:21",
+        "end_time": "01:25",
+        "text": "If you remember in the video of the set we have talked about the curly brackets where"
+    },
+    {
+        "id": 24,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 85.94,
+        "end": 92.66,
+        "start_time": "01:25",
+        "end_time": "01:32",
+        "text": "we wanted to create the empty set and then the type was dictionary is because this curly"
+    },
+    {
+        "id": 25,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 92.66,
+        "end": 96.17999999999999,
+        "start_time": "01:32",
+        "end_time": "01:36",
+        "text": "brackets is actually for the dictionary which we can use in set."
+    },
+    {
+        "id": 26,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 96.17999999999999,
+        "end": 99.97999999999999,
+        "start_time": "01:36",
+        "end_time": "01:39",
+        "text": "Okay so this is the set now it is not dictionary yet."
+    },
+    {
+        "id": 27,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 99.97999999999999,
+        "end": 101.38,
+        "start_time": "01:39",
+        "end_time": "01:41",
+        "text": "How will you mention this is a dictionary?"
+    },
+    {
+        "id": 28,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 101.38,
+        "end": 103.5,
+        "start_time": "01:41",
+        "end_time": "01:43",
+        "text": "You have to specify the key for it."
+    },
+    {
+        "id": 29,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 103.5,
+        "end": 109.06,
+        "start_time": "01:43",
+        "end_time": "01:49",
+        "text": "Example I can say this is the key which is 0 is the key for 34, 1 is the key for 35,"
+    },
+    {
+        "id": 30,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 109.46000000000001,
+        "end": 114.26,
+        "start_time": "01:49",
+        "end_time": "01:54",
+        "text": "2 is the key for 67 and 3 is the key for 8 and it works."
+    },
+    {
+        "id": 31,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 114.26,
+        "end": 117.74000000000001,
+        "start_time": "01:54",
+        "end_time": "01:57",
+        "text": "You can see there is no error and if I want to fetch a value here let's say I want to"
+    },
+    {
+        "id": 32,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 117.74000000000001,
+        "end": 122.10000000000001,
+        "start_time": "01:57",
+        "end_time": "02:02",
+        "text": "fetch this 67 here so I have to say 2 and this will work."
+    },
+    {
+        "id": 33,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 122.10000000000001,
+        "end": 125.34,
+        "start_time": "02:02",
+        "end_time": "02:05",
+        "text": "Now you will say hey that's what we can do in list as well right?"
+    },
+    {
+        "id": 34,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 125.34,
+        "end": 127.02000000000001,
+        "start_time": "02:05",
+        "end_time": "02:07",
+        "text": "Anyway we are using index numbers here."
+    },
+    {
+        "id": 35,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 127.02000000000001,
+        "end": 133.34,
+        "start_time": "02:07",
+        "end_time": "02:13",
+        "text": "So the beauty is this key can be anything but in the case of list it has to be index"
+    },
+    {
+        "id": 36,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 133.34,
+        "end": 134.38,
+        "start_time": "02:13",
+        "end_time": "02:14",
+        "text": "value."
+    },
+    {
+        "id": 37,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 134.38,
+        "end": 138.2,
+        "start_time": "02:14",
+        "end_time": "02:18",
+        "text": "So let me create another type of dictionary here with different values."
+    },
+    {
+        "id": 38,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 138.2,
+        "end": 148.28,
+        "start_time": "02:18",
+        "end_time": "02:28",
+        "text": "So let's say this 8 is Navin, this 2 is Harsh, 1 is Sushil and 0 is Kiran."
+    },
+    {
+        "id": 39,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 148.28,
+        "end": 154.0,
+        "start_time": "02:28",
+        "end_time": "02:34",
+        "text": "Now what we are doing is for every value here we are specifying the key for it."
+    },
+    {
+        "id": 40,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 154.0,
+        "end": 157.72,
+        "start_time": "02:34",
+        "end_time": "02:37",
+        "text": "Now when you say enter there is no error but if you want to fetch a particular value let's"
+    },
+    {
+        "id": 41,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 157.72,
+        "end": 164.44,
+        "start_time": "02:37",
+        "end_time": "02:44",
+        "text": "say this values can be anything it can be age or it can be okay that's not my age 8"
+    },
+    {
+        "id": 42,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 164.44,
+        "end": 167.98,
+        "start_time": "02:44",
+        "end_time": "02:47",
+        "text": "but this can be anything this can be age this can be roll numbers this can be a phone number"
+    },
+    {
+        "id": 43,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 168.26,
+        "end": 169.64,
+        "start_time": "02:48",
+        "end_time": "02:49",
+        "text": "this can be anything."
+    },
+    {
+        "id": 44,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 169.64,
+        "end": 173.2,
+        "start_time": "02:49",
+        "end_time": "02:53",
+        "text": "Now if you want to fetch a particular value I have to specify the key."
+    },
+    {
+        "id": 45,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 173.2,
+        "end": 174.73999999999998,
+        "start_time": "02:53",
+        "end_time": "02:54",
+        "text": "We can't work with index numbers now."
+    },
+    {
+        "id": 46,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 174.73999999999998,
+        "end": 178.23999999999998,
+        "start_time": "02:54",
+        "end_time": "02:58",
+        "text": "So if you say 1 which is not the index number right?"
+    },
+    {
+        "id": 47,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 178.23999999999998,
+        "end": 183.22,
+        "start_time": "02:58",
+        "end_time": "03:03",
+        "text": "You can see it says hey you are saying 1 but there is a key error."
+    },
+    {
+        "id": 48,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 183.22,
+        "end": 186.01999999999998,
+        "start_time": "03:03",
+        "end_time": "03:06",
+        "text": "I am not able to find any key here which is 1."
+    },
+    {
+        "id": 49,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 186.01999999999998,
+        "end": 187.85999999999999,
+        "start_time": "03:06",
+        "end_time": "03:07",
+        "text": "So you have to be very specific with the key now."
+    },
+    {
+        "id": 50,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 187.85999999999999,
+        "end": 191.54,
+        "start_time": "03:07",
+        "end_time": "03:11",
+        "text": "So you can specify okay I want to fetch data with Harsh."
+    },
+    {
+        "id": 51,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 191.54,
+        "end": 194.5,
+        "start_time": "03:11",
+        "end_time": "03:14",
+        "text": "So Harsh is a key and 67 is the value."
+    },
+    {
+        "id": 52,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 194.5,
+        "end": 195.73999999999998,
+        "start_time": "03:14",
+        "end_time": "03:15",
+        "text": "You can't do other way around."
+    },
+    {
+        "id": 53,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 195.74,
+        "end": 200.5,
+        "start_time": "03:15",
+        "end_time": "03:20",
+        "text": "You can't specify the value and say okay I want to get the key in this syntax."
+    },
+    {
+        "id": 54,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 200.5,
+        "end": 201.78,
+        "start_time": "03:20",
+        "end_time": "03:21",
+        "text": "So this is how it works."
+    },
+    {
+        "id": 55,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 201.78,
+        "end": 206.70000000000002,
+        "start_time": "03:21",
+        "end_time": "03:26",
+        "text": "Now one thing to observe when you say 1 here of course 1 is not the key and that's why"
+    },
+    {
+        "id": 56,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 206.70000000000002,
+        "end": 210.46,
+        "start_time": "03:26",
+        "end_time": "03:30",
+        "text": "you got the error here and Harsh is there and that's why you got the value."
+    },
+    {
+        "id": 57,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 210.46,
+        "end": 212.70000000000002,
+        "start_time": "03:30",
+        "end_time": "03:32",
+        "text": "There is another way of getting this data."
+    },
+    {
+        "id": 58,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 212.70000000000002,
+        "end": 216.3,
+        "start_time": "03:32",
+        "end_time": "03:36",
+        "text": "So you can say data.get and you can pass the key here."
+    },
+    {
+        "id": 59,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 216.3,
+        "end": 217.84,
+        "start_time": "03:36",
+        "end_time": "03:37",
+        "text": "So you can pass Harsh."
+    },
+    {
+        "id": 60,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 217.84,
+        "end": 222.5,
+        "start_time": "03:37",
+        "end_time": "03:42",
+        "text": "So get is a function belongs traditionally and when you do this you will get the same"
+    },
+    {
+        "id": 61,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 222.5,
+        "end": 223.54000000000002,
+        "start_time": "03:42",
+        "end_time": "03:43",
+        "text": "value."
+    },
+    {
+        "id": 62,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 223.54,
+        "end": 227.34,
+        "start_time": "03:43",
+        "end_time": "03:47",
+        "text": "So this syntax and this syntax are different but does the same thing."
+    },
+    {
+        "id": 63,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 227.34,
+        "end": 233.73999999999998,
+        "start_time": "03:47",
+        "end_time": "03:53",
+        "text": "It will give you data but it differs when you are saying get and specify something some"
+    },
+    {
+        "id": 64,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 233.73999999999998,
+        "end": 236.42,
+        "start_time": "03:53",
+        "end_time": "03:56",
+        "text": "key which does not exist."
+    },
+    {
+        "id": 65,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 236.42,
+        "end": 238.26,
+        "start_time": "03:56",
+        "end_time": "03:58",
+        "text": "In that case it will not give you error."
+    },
+    {
+        "id": 66,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 238.26,
+        "end": 239.82,
+        "start_time": "03:58",
+        "end_time": "03:59",
+        "text": "It will say okay I am not able to find it."
+    },
+    {
+        "id": 67,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 239.82,
+        "end": 241.26,
+        "start_time": "03:59",
+        "end_time": "04:01",
+        "text": "What are you trying to get?"
+    },
+    {
+        "id": 68,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 241.26,
+        "end": 242.26,
+        "start_time": "04:01",
+        "end_time": "04:02",
+        "text": "Let's do this."
+    },
+    {
+        "id": 69,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 242.26,
+        "end": 245.1,
+        "start_time": "04:02",
+        "end_time": "04:05",
+        "text": "Let's try to print and let's see what get returns when it doesn't find."
+    },
+    {
+        "id": 70,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 245.1,
+        "end": 246.1,
+        "start_time": "04:05",
+        "end_time": "04:06",
+        "text": "It says none."
+    },
+    {
+        "id": 71,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 246.1,
+        "end": 248.66,
+        "start_time": "04:06",
+        "end_time": "04:08",
+        "text": "Okay so it says none when it's not able to find it."
+    },
+    {
+        "id": 72,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 248.66,
+        "end": 251.66,
+        "start_time": "04:08",
+        "end_time": "04:11",
+        "text": "But this is not something I want to show to my users right."
+    },
+    {
+        "id": 73,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 251.7,
+        "end": 256.34,
+        "start_time": "04:11",
+        "end_time": "04:16",
+        "text": "In that case what you can do is you can say data.get and let's say I want to specify a"
+    },
+    {
+        "id": 74,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 256.34,
+        "end": 257.34,
+        "start_time": "04:16",
+        "end_time": "04:17",
+        "text": "key which exists."
+    },
+    {
+        "id": 75,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 257.34,
+        "end": 263.26,
+        "start_time": "04:17",
+        "end_time": "04:23",
+        "text": "Let's say Kiran and alternately of course Kiran will print 34 we know that but in case"
+    },
+    {
+        "id": 76,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 263.26,
+        "end": 267.42,
+        "start_time": "04:23",
+        "end_time": "04:27",
+        "text": "if you have this dictionary which is created dynamically where you are not sure what are"
+    },
+    {
+        "id": 77,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 267.42,
+        "end": 269.1,
+        "start_time": "04:27",
+        "end_time": "04:29",
+        "text": "the keys and values."
+    },
+    {
+        "id": 78,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 269.1,
+        "end": 274.5,
+        "start_time": "04:29",
+        "end_time": "04:34",
+        "text": "In that case you can have an alternate text where you can say okay I am not found."
+    },
+    {
+        "id": 79,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 274.5,
+        "end": 278.4,
+        "start_time": "04:34",
+        "end_time": "04:38",
+        "text": "So if Kiran is there in the dictionary great you will get the value."
+    },
+    {
+        "id": 80,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 278.4,
+        "end": 280.46,
+        "start_time": "04:38",
+        "end_time": "04:40",
+        "text": "If not it should print not found."
+    },
+    {
+        "id": 81,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 280.46,
+        "end": 285.02,
+        "start_time": "04:40",
+        "end_time": "04:45",
+        "text": "When you say enter you got 34 because Kiran is there in the list or in the dictionary."
+    },
+    {
+        "id": 82,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 285.02,
+        "end": 291.02,
+        "start_time": "04:45",
+        "end_time": "04:51",
+        "text": "But if you try to use let's say one here which is not there in the dictionary or any value"
+    },
+    {
+        "id": 83,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 291.02,
+        "end": 296.09999999999997,
+        "start_time": "04:51",
+        "end_time": "04:56",
+        "text": "not just one even if I say a different name here let's say Gaurav enter you can see it"
+    },
+    {
+        "id": 84,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 296.09999999999997,
+        "end": 297.09999999999997,
+        "start_time": "04:56",
+        "end_time": "04:57",
+        "text": "says not found."
+    },
+    {
+        "id": 85,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 297.09999999999997,
+        "end": 299.02,
+        "start_time": "04:57",
+        "end_time": "04:59",
+        "text": "It's because it's not there."
+    },
+    {
+        "id": 86,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 299.02,
+        "end": 302.85999999999996,
+        "start_time": "04:59",
+        "end_time": "05:02",
+        "text": "Gaurav is not there in the dictionary and that's why you got not found."
+    },
+    {
+        "id": 87,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 302.85999999999996,
+        "end": 303.85999999999996,
+        "start_time": "05:02",
+        "end_time": "05:03",
+        "text": "Let's try something."
+    },
+    {
+        "id": 88,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 303.85999999999996,
+        "end": 309.02,
+        "start_time": "05:03",
+        "end_time": "05:09",
+        "text": "So I want to create this data once again okay the way we have done but with one change."
+    },
+    {
+        "id": 89,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 309.02,
+        "end": 310.58,
+        "start_time": "05:09",
+        "end_time": "05:10",
+        "text": "Let me repeat a key here."
+    },
+    {
+        "id": 90,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 310.58,
+        "end": 314.46,
+        "start_time": "05:10",
+        "end_time": "05:14",
+        "text": "Let's say I want to repeat Harsh and then I want to repeat a value as well let's say"
+    },
+    {
+        "id": 91,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 314.46,
+        "end": 316.06,
+        "start_time": "05:14",
+        "end_time": "05:16",
+        "text": "34 okay."
+    },
+    {
+        "id": 92,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 316.06,
+        "end": 318.62,
+        "start_time": "05:16",
+        "end_time": "05:18",
+        "text": "So you can see the value 34 has been repeated."
+    },
+    {
+        "id": 93,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 318.62,
+        "end": 321.03999999999996,
+        "start_time": "05:18",
+        "end_time": "05:21",
+        "text": "The key Harsh is also repeated."
+    },
+    {
+        "id": 94,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 321.03999999999996,
+        "end": 324.38,
+        "start_time": "05:21",
+        "end_time": "05:24",
+        "text": "Now when I do this and when I print data observe something."
+    },
+    {
+        "id": 95,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 324.38,
+        "end": 329.5,
+        "start_time": "05:24",
+        "end_time": "05:29",
+        "text": "Harsh is getting printed only once I mean Harsh is there only once and the value 34 is"
+    },
+    {
+        "id": 96,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 329.5,
+        "end": 330.53999999999996,
+        "start_time": "05:29",
+        "end_time": "05:30",
+        "text": "two times."
+    },
+    {
+        "id": 97,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 330.53999999999996,
+        "end": 332.59999999999997,
+        "start_time": "05:30",
+        "end_time": "05:32",
+        "text": "That means this key is here."
+    },
+    {
+        "id": 98,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 332.59999999999997,
+        "end": 337.58,
+        "start_time": "05:32",
+        "end_time": "05:37",
+        "text": "This Kiran, Sushil, Harsh, Navin those are the keys that represents a set."
+    },
+    {
+        "id": 99,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 337.62,
+        "end": 340.18,
+        "start_time": "05:37",
+        "end_time": "05:40",
+        "text": "That means a key is a collection of set."
+    },
+    {
+        "id": 100,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 340.18,
+        "end": 346.02,
+        "start_time": "05:40",
+        "end_time": "05:46",
+        "text": "So you can say keys are set and the values are list."
+    },
+    {
+        "id": 101,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 346.02,
+        "end": 350.38,
+        "start_time": "05:46",
+        "end_time": "05:50",
+        "text": "Okay and that's why you can see the values are getting repeated because in list we can"
+    },
+    {
+        "id": 102,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 350.38,
+        "end": 351.38,
+        "start_time": "05:50",
+        "end_time": "05:51",
+        "text": "repeat it."
+    },
+    {
+        "id": 103,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 351.38,
+        "end": 356.46,
+        "start_time": "05:51",
+        "end_time": "05:56",
+        "text": "Now with that knowledge if I want to create a dictionary from a set and a value can we"
+    },
+    {
+        "id": 104,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 356.46,
+        "end": 357.46,
+        "start_time": "05:56",
+        "end_time": "05:57",
+        "text": "do this."
+    },
+    {
+        "id": 105,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 357.46,
+        "end": 358.46,
+        "start_time": "05:57",
+        "end_time": "05:58",
+        "text": "Let's try."
+    },
+    {
+        "id": 106,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 358.46,
+        "end": 364.38,
+        "start_time": "05:58",
+        "end_time": "06:04",
+        "text": "Let me create keys here which will be a set we know that now and let me have Navin and"
+    },
+    {
+        "id": 107,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 364.38,
+        "end": 368.18,
+        "start_time": "06:04",
+        "end_time": "06:08",
+        "text": "let's say Hitesh and Sharmik."
+    },
+    {
+        "id": 108,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 368.18,
+        "end": 373.62,
+        "start_time": "06:08",
+        "end_time": "06:13",
+        "text": "So we got these keys here and of course even if I repeat the elements it will have unique"
+    },
+    {
+        "id": 109,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 373.62,
+        "end": 379.82,
+        "start_time": "06:13",
+        "end_time": "06:19",
+        "text": "values and then let's say we have values which will be a part of a list and we can give some"
+    },
+    {
+        "id": 110,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 379.82,
+        "end": 383.02,
+        "start_time": "06:19",
+        "end_time": "06:23",
+        "text": "values to it and doesn't matter what these values are and you have to make sure that"
+    },
+    {
+        "id": 111,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 383.02,
+        "end": 384.74,
+        "start_time": "06:23",
+        "end_time": "06:24",
+        "text": "these are matching."
+    },
+    {
+        "id": 112,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 384.74,
+        "end": 388.9,
+        "start_time": "06:24",
+        "end_time": "06:28",
+        "text": "So three values three keys three values enter no problem."
+    },
+    {
+        "id": 113,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 388.9,
+        "end": 391.62,
+        "start_time": "06:28",
+        "end_time": "06:31",
+        "text": "So we got a set here we got a list here."
+    },
+    {
+        "id": 114,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 391.62,
+        "end": 396.74,
+        "start_time": "06:31",
+        "end_time": "06:36",
+        "text": "Now I can create a dictionary let's say one and I can combine these two."
+    },
+    {
+        "id": 115,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 396.74,
+        "end": 399.14,
+        "start_time": "06:36",
+        "end_time": "06:39",
+        "text": "So how do you combine a keys and a value."
+    },
+    {
+        "id": 116,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 399.14,
+        "end": 403.54,
+        "start_time": "06:39",
+        "end_time": "06:43",
+        "text": "Now when you want to combine something there is a function in build in Python called zip"
+    },
+    {
+        "id": 117,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 403.54,
+        "end": 406.94,
+        "start_time": "06:43",
+        "end_time": "06:46",
+        "text": "in which you can pass the keys and you can pass the values."
+    },
+    {
+        "id": 118,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 406.94,
+        "end": 412.06,
+        "start_time": "06:46",
+        "end_time": "06:52",
+        "text": "Now what zip will do is zip will basically take these values and it will combine it but"
+    },
+    {
+        "id": 119,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 412.06,
+        "end": 414.54,
+        "start_time": "06:52",
+        "end_time": "06:54",
+        "text": "it will not create a dictionary out of it."
+    },
+    {
+        "id": 120,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 414.54,
+        "end": 420.68,
+        "start_time": "06:54",
+        "end_time": "07:00",
+        "text": "So if you want to convert this zip output into a dictionary you have to use a function"
+    },
+    {
+        "id": 121,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 420.76,
+        "end": 424.68,
+        "start_time": "07:00",
+        "end_time": "07:04",
+        "text": "which is in build again which is called dict and when you say enter let's try to print"
+    },
+    {
+        "id": 122,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 424.68,
+        "end": 426.8,
+        "start_time": "07:04",
+        "end_time": "07:06",
+        "text": "dict one and you can see we got the values."
+    },
+    {
+        "id": 123,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 426.8,
+        "end": 433.34000000000003,
+        "start_time": "07:06",
+        "end_time": "07:13",
+        "text": "So Hitesh is 34 Navin is 64 Sharmik is 87 and things to remember the sequence is not"
+    },
+    {
+        "id": 124,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 433.34000000000003,
+        "end": 434.34000000000003,
+        "start_time": "07:13",
+        "end_time": "07:14",
+        "text": "maintained."
+    },
+    {
+        "id": 125,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 434.34000000000003,
+        "end": 438.28000000000003,
+        "start_time": "07:14",
+        "end_time": "07:18",
+        "text": "Navin was supposed to be 34 but Hitesh is 34 so there is something you have to also"
+    },
+    {
+        "id": 126,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 438.28000000000003,
+        "end": 441.36,
+        "start_time": "07:18",
+        "end_time": "07:21",
+        "text": "understand the behavior of the set."
+    },
+    {
+        "id": 127,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 441.36,
+        "end": 445.8,
+        "start_time": "07:21",
+        "end_time": "07:25",
+        "text": "If you don't want this to happen then you have to use the list here that should work."
+    },
+    {
+        "id": 128,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 445.8,
+        "end": 450.28000000000003,
+        "start_time": "07:25",
+        "end_time": "07:30",
+        "text": "So let me clear the screen and let's say let me print the data again just to see if the"
+    },
+    {
+        "id": 129,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 450.28,
+        "end": 451.28,
+        "start_time": "07:30",
+        "end_time": "07:31",
+        "text": "data is there."
+    },
+    {
+        "id": 130,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 451.28,
+        "end": 452.28,
+        "start_time": "07:31",
+        "end_time": "07:32",
+        "text": "Yes."
+    },
+    {
+        "id": 131,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 452.28,
+        "end": 453.84,
+        "start_time": "07:32",
+        "end_time": "07:33",
+        "text": "What if I want to remove the element?"
+    },
+    {
+        "id": 132,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 453.84,
+        "end": 460.35999999999996,
+        "start_time": "07:33",
+        "end_time": "07:40",
+        "text": "In that case you can say data dot pop so there's a function called pop inside the dictionary"
+    },
+    {
+        "id": 133,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 460.35999999999996,
+        "end": 462.11999999999995,
+        "start_time": "07:40",
+        "end_time": "07:42",
+        "text": "and you can specify the index value here."
+    },
+    {
+        "id": 134,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 462.11999999999995,
+        "end": 466.79999999999995,
+        "start_time": "07:42",
+        "end_time": "07:46",
+        "text": "So let's say I want to remove Navin from here so I can say that and delete."
+    },
+    {
+        "id": 135,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 466.79999999999995,
+        "end": 471.84,
+        "start_time": "07:46",
+        "end_time": "07:51",
+        "text": "It returns the value of Navin but now if you print data Navin is not there."
+    },
+    {
+        "id": 136,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 471.84,
+        "end": 476.47999999999996,
+        "start_time": "07:51",
+        "end_time": "07:56",
+        "text": "Not just this you can also use del which we have used before and you can specify the dictionary"
+    },
+    {
+        "id": 137,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 476.8,
+        "end": 479.56,
+        "start_time": "07:56",
+        "end_time": "07:59",
+        "text": "But this time you have to say something like this."
+    },
+    {
+        "id": 138,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 479.56,
+        "end": 480.56,
+        "start_time": "07:59",
+        "end_time": "08:00",
+        "text": "This syntax."
+    },
+    {
+        "id": 139,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 480.56,
+        "end": 484.84000000000003,
+        "start_time": "08:00",
+        "end_time": "08:04",
+        "text": "Social and now I hope social is not there."
+    },
+    {
+        "id": 140,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 484.84000000000003,
+        "end": 486.68,
+        "start_time": "08:04",
+        "end_time": "08:06",
+        "text": "So Kiran and Harsh both 34."
+    },
+    {
+        "id": 141,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 486.68,
+        "end": 491.40000000000003,
+        "start_time": "08:06",
+        "end_time": "08:11",
+        "text": "In fact you can also have a dictionary inside dictionary something like this."
+    },
+    {
+        "id": 142,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 491.40000000000003,
+        "end": 496.08000000000004,
+        "start_time": "08:11",
+        "end_time": "08:16",
+        "text": "Let's say I want to create data and I want to get a new dictionary now and let's say"
+    },
+    {
+        "id": 143,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 496.08000000000004,
+        "end": 498.36,
+        "start_time": "08:16",
+        "end_time": "08:18",
+        "text": "this time we are going for the programming languages."
+    },
+    {
+        "id": 144,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 498.36,
+        "end": 500.58000000000004,
+        "start_time": "08:18",
+        "end_time": "08:20",
+        "text": "The programming languages with the IDs."
+    },
+    {
+        "id": 145,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 500.58000000000004,
+        "end": 503.84000000000003,
+        "start_time": "08:20",
+        "end_time": "08:23",
+        "text": "So let's say for JavaScript we use VS code."
+    },
+    {
+        "id": 146,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 503.84,
+        "end": 511.03999999999996,
+        "start_time": "08:23",
+        "end_time": "08:31",
+        "text": "For Python I'm going to use the list because for Python we can use VS code or we can use"
+    },
+    {
+        "id": 147,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 511.03999999999996,
+        "end": 518.6,
+        "start_time": "08:31",
+        "end_time": "08:38",
+        "text": "PyCharm and for let's say for Java the thing is for Java for different modules of Java"
+    },
+    {
+        "id": 148,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 518.6,
+        "end": 519.6,
+        "start_time": "08:38",
+        "end_time": "08:39",
+        "text": "we use different IDs."
+    },
+    {
+        "id": 149,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 519.6,
+        "end": 524.36,
+        "start_time": "08:39",
+        "end_time": "08:44",
+        "text": "Example let's say if you want to work with co-Java use something else."
+    },
+    {
+        "id": 150,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 524.36,
+        "end": 529.68,
+        "start_time": "08:44",
+        "end_time": "08:49",
+        "text": "So I can use a dictionary here and I will say for co-Java I'm going to use let's say"
+    },
+    {
+        "id": 151,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 529.68,
+        "end": 537.0799999999999,
+        "start_time": "08:49",
+        "end_time": "08:57",
+        "text": "VS code and when it comes to Spring let's say I'm going to use IntelliJ IDEA."
+    },
+    {
+        "id": 152,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 537.0799999999999,
+        "end": 540.04,
+        "start_time": "08:57",
+        "end_time": "09:00",
+        "text": "Okay now that's a big dictionary."
+    },
+    {
+        "id": 153,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 540.04,
+        "end": 545.5999999999999,
+        "start_time": "09:00",
+        "end_time": "09:05",
+        "text": "And when you enter there is no error if you print data this is what you got."
+    },
+    {
+        "id": 154,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 545.5999999999999,
+        "end": 550.68,
+        "start_time": "09:05",
+        "end_time": "09:10",
+        "text": "Now let's say if I want to know about JS of course I can say JS here there should not"
+    },
+    {
+        "id": 155,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 550.68,
+        "end": 552.92,
+        "start_time": "09:10",
+        "end_time": "09:12",
+        "text": "be an issue it says VS code the ID."
+    },
+    {
+        "id": 156,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 552.92,
+        "end": 557.76,
+        "start_time": "09:12",
+        "end_time": "09:17",
+        "text": "When it comes to Python it will give you a list then you can specify okay I want to get"
+    },
+    {
+        "id": 157,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 558.08,
+        "end": 560.18,
+        "start_time": "09:18",
+        "end_time": "09:20",
+        "text": "value and it will give you a VS code."
+    },
+    {
+        "id": 158,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 560.18,
+        "end": 562.72,
+        "start_time": "09:20",
+        "end_time": "09:22",
+        "text": "Now when it comes to Java you got a dictionary."
+    },
+    {
+        "id": 159,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 562.72,
+        "end": 566.12,
+        "start_time": "09:22",
+        "end_time": "09:26",
+        "text": "Now if you want to be specific okay I want to work with Spring in that case you can say"
+    },
+    {
+        "id": 160,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 566.12,
+        "end": 569.04,
+        "start_time": "09:26",
+        "end_time": "09:29",
+        "text": "Java and you can say Spring it will say IntelliJ IDEA."
+    },
+    {
+        "id": 161,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 569.04,
+        "end": 572.2,
+        "start_time": "09:29",
+        "end_time": "09:32",
+        "text": "So that's how basically you can work with dictionary so dictionary can have a list dictionary"
+    },
+    {
+        "id": 162,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 572.2,
+        "end": 576.3199999999999,
+        "start_time": "09:32",
+        "end_time": "09:36",
+        "text": "can have a dictionary inside it and yeah that's all about dictionary."
+    },
+    {
+        "id": 163,
+        "source_file": "Dictionary in Python.mp3",
+        "video_title": "Dictionary in Python",
+        "start": 576.3199999999999,
+        "end": 578.36,
+        "start_time": "09:36",
+        "end_time": "09:38",
+        "text": "So that's it from this video see you in the next part."
+    }
+]

@@ -1,0 +1,952 @@
+[
+    {
+        "id": 0,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 0.0,
+        "end": 8.44,
+        "start_time": "00:00",
+        "end_time": "00:08",
+        "text": "So in this video, we'll focus on data types. In fact, we have worked with them before."
+    },
+    {
+        "id": 1,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 8.44,
+        "end": 14.08,
+        "start_time": "00:08",
+        "end_time": "00:14",
+        "text": "We have to work with numbers, string. In fact, in sequence, we have talked about list, set,"
+    },
+    {
+        "id": 2,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 14.08,
+        "end": 18.5,
+        "start_time": "00:14",
+        "end_time": "00:18",
+        "text": "tuple, dictionary, right? So we have all those things. But there are certain extra things"
+    },
+    {
+        "id": 3,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 18.5,
+        "end": 23.080000000000002,
+        "start_time": "00:18",
+        "end_time": "00:23",
+        "text": "which I want to add in this video. And of course, we'll revise the old concepts as well."
+    },
+    {
+        "id": 4,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 23.080000000000002,
+        "end": 27.080000000000002,
+        "start_time": "00:23",
+        "end_time": "00:27",
+        "text": "So let's say if I want to work with a variable and if I in that variable, let's say the variable"
+    },
+    {
+        "id": 5,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 27.08,
+        "end": 34.6,
+        "start_time": "00:27",
+        "end_time": "00:34",
+        "text": "is X and I want to store a number 10, of course, the type of this variable X is 10 is int, right?"
+    },
+    {
+        "id": 6,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 34.6,
+        "end": 40.599999999999994,
+        "start_time": "00:34",
+        "end_time": "00:40",
+        "text": "So if I say X, it's of type int. Remember this, this is a class type int. We'll talk about what"
+    },
+    {
+        "id": 7,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 40.599999999999994,
+        "end": 46.44,
+        "start_time": "00:40",
+        "end_time": "00:46",
+        "text": "is class later at this point, read it as type int. Now, apart from this, if I want to work with"
+    },
+    {
+        "id": 8,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 46.44,
+        "end": 53.28,
+        "start_time": "00:46",
+        "end_time": "00:53",
+        "text": "float values or point values, I can say pi value is 3.14. Okay, I did something weird there. It"
+    },
+    {
+        "id": 9,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 53.28,
+        "end": 60.72,
+        "start_time": "00:53",
+        "end_time": "01:00",
+        "text": "should be 3.14. And if I try to find the type of it, if I say pi, it is float. So we got a type"
+    },
+    {
+        "id": 10,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 60.72,
+        "end": 65.88,
+        "start_time": "01:00",
+        "end_time": "01:05",
+        "text": "int, we got a type float. Apart from this, we have some more types which you can look at. One of it"
+    },
+    {
+        "id": 11,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 65.88,
+        "end": 70.76,
+        "start_time": "01:05",
+        "end_time": "01:10",
+        "text": "is complex numbers. Now, if you remember, if you go back to your maths concept, we had this concept"
+    },
+    {
+        "id": 12,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 70.76,
+        "end": 78.8,
+        "start_time": "01:10",
+        "end_time": "01:18",
+        "text": "of complex numbers, which is something like A plus B I or IB, depend upon which standard or which"
+    },
+    {
+        "id": 13,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 78.8,
+        "end": 84.16,
+        "start_time": "01:18",
+        "end_time": "01:24",
+        "text": "book you're referring. But yeah, so we have this complex numbers, right? Where I defines a imaginary"
+    },
+    {
+        "id": 14,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 84.16,
+        "end": 88.24,
+        "start_time": "01:24",
+        "end_time": "01:28",
+        "text": "number. Now, if you want to define that in programming, the way you do that is not with I,"
+    },
+    {
+        "id": 15,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 88.24,
+        "end": 92.72,
+        "start_time": "01:28",
+        "end_time": "01:32",
+        "text": "but with J. And we can do that in Python. Okay, so let me show you. So let's say if I create a"
+    },
+    {
+        "id": 16,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 92.72,
+        "end": 102.08,
+        "start_time": "01:32",
+        "end_time": "01:42",
+        "text": "variable called C and if I want to create a complex number, I can say 6 plus 8 I. Okay, not I, but J."
+    },
+    {
+        "id": 17,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 102.08,
+        "end": 106.47999999999999,
+        "start_time": "01:42",
+        "end_time": "01:46",
+        "text": "There's something to remember. In Python, we have to say J. If you say I, it will give you error and"
+    },
+    {
+        "id": 18,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 106.48,
+        "end": 112.24000000000001,
+        "start_time": "01:46",
+        "end_time": "01:52",
+        "text": "you can try it out. If I say enter, no problem. And if I try to print C, that's a complex number."
+    },
+    {
+        "id": 19,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 112.24000000000001,
+        "end": 117.12,
+        "start_time": "01:52",
+        "end_time": "01:57",
+        "text": "How do we know that's a complex number? You can check the type of it and that is complex. In fact,"
+    },
+    {
+        "id": 20,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 117.12,
+        "end": 120.96000000000001,
+        "start_time": "01:57",
+        "end_time": "02:00",
+        "text": "there's another way of creating a complex number. So let's say if you have these values in some"
+    },
+    {
+        "id": 21,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 120.96000000000001,
+        "end": 126.16,
+        "start_time": "02:00",
+        "end_time": "02:06",
+        "text": "variable, let's say you got A equal to 2 and B equal to 3. So we got these two numbers. And with"
+    },
+    {
+        "id": 22,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 126.16,
+        "end": 132.8,
+        "start_time": "02:06",
+        "end_time": "02:12",
+        "text": "these two values, I want to create a complex number. So it should be something like 2 plus 3 I. In that"
+    },
+    {
+        "id": 23,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 132.8,
+        "end": 139.12,
+        "start_time": "02:12",
+        "end_time": "02:19",
+        "text": "case, you can create a variable C and you can use an inbuilt function in Python called complex"
+    },
+    {
+        "id": 24,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 139.12,
+        "end": 143.92000000000002,
+        "start_time": "02:19",
+        "end_time": "02:23",
+        "text": "and you can pass these two values. You can pass 2 comma 3 or since you have these values in a"
+    },
+    {
+        "id": 25,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 143.92000000000002,
+        "end": 149.44,
+        "start_time": "02:23",
+        "end_time": "02:29",
+        "text": "variable, you can say A comma B. And if you try to print C, that's the complex number. Now,"
+    },
+    {
+        "id": 26,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 149.44,
+        "end": 154.64000000000001,
+        "start_time": "02:29",
+        "end_time": "02:34",
+        "text": "these functions are inbuilt functions and not just complex. We got functions like int, float."
+    },
+    {
+        "id": 27,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 154.64000000000001,
+        "end": 161.60000000000002,
+        "start_time": "02:34",
+        "end_time": "02:41",
+        "text": "Now, why you'll be using them? Example, let's say I got this pi value, which is pi 3.14. And if I"
+    },
+    {
+        "id": 28,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 161.6,
+        "end": 167.12,
+        "start_time": "02:41",
+        "end_time": "02:47",
+        "text": "want to store that in a variable and I want to make it type int, let's try that. So let's say the"
+    },
+    {
+        "id": 29,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 167.12,
+        "end": 173.12,
+        "start_time": "02:47",
+        "end_time": "02:53",
+        "text": "variable is k and in this, I want to store the value of pi, but in the integer format. So if you"
+    },
+    {
+        "id": 30,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 173.12,
+        "end": 178.24,
+        "start_time": "02:53",
+        "end_time": "02:58",
+        "text": "say pi, then the k becomes a float value because pi is float. Now, if you want to convert that into"
+    },
+    {
+        "id": 31,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 178.24,
+        "end": 183.28,
+        "start_time": "02:58",
+        "end_time": "03:03",
+        "text": "integer, you have to pass that pi value in the int function. This is again an inbuilt function,"
+    },
+    {
+        "id": 32,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 183.28,
+        "end": 190.4,
+        "start_time": "03:03",
+        "end_time": "03:10",
+        "text": "which will take a value and convert that into an integer value. Enter. And if you say the type of"
+    },
+    {
+        "id": 33,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 190.4,
+        "end": 197.04000000000002,
+        "start_time": "03:10",
+        "end_time": "03:17",
+        "text": "k, it is int, but what will be the value of it? Since we are converting this number into integer,"
+    },
+    {
+        "id": 34,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 197.04000000000002,
+        "end": 200.88,
+        "start_time": "03:17",
+        "end_time": "03:20",
+        "text": "you are going to lose some data. And what data you're going to lose? The point value. So if you"
+    },
+    {
+        "id": 35,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 200.88,
+        "end": 206.72,
+        "start_time": "03:20",
+        "end_time": "03:26",
+        "text": "try to print k, it will be only three. On the other hand, if you have an integer value, which is k in"
+    },
+    {
+        "id": 36,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 206.72,
+        "end": 213.04000000000002,
+        "start_time": "03:26",
+        "end_time": "03:33",
+        "text": "this case, and if I want to create a new variable, let's say p, and I want this p to be a float value"
+    },
+    {
+        "id": 37,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 213.04000000000002,
+        "end": 218.32,
+        "start_time": "03:33",
+        "end_time": "03:38",
+        "text": "and the value should be coming from k, which is of type int. So if you say k, of course the p becomes"
+    },
+    {
+        "id": 38,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 218.32,
+        "end": 223.44,
+        "start_time": "03:38",
+        "end_time": "03:43",
+        "text": "int now. In that case, you have to convert that into float by using a float function."
+    },
+    {
+        "id": 39,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 223.44,
+        "end": 229.84,
+        "start_time": "03:43",
+        "end_time": "03:49",
+        "text": "And now if you check the type of p, it's of type float. And yes, if you try to print p, it will be"
+    },
+    {
+        "id": 40,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 229.84,
+        "end": 236.0,
+        "start_time": "03:49",
+        "end_time": "03:56",
+        "text": "3.0. Now, all these are numbers. We can also work with string, which we have talked before. So if you"
+    },
+    {
+        "id": 41,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 236.0,
+        "end": 243.35999999999999,
+        "start_time": "03:56",
+        "end_time": "04:03",
+        "text": "say a name, and if you say a name is Navin, and if you check the type of this name, it will be string."
+    },
+    {
+        "id": 42,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 243.35999999999999,
+        "end": 247.92,
+        "start_time": "04:03",
+        "end_time": "04:07",
+        "text": "So we have talked about this. This is just a revision for you. The only new thing I think was"
+    },
+    {
+        "id": 43,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 247.92,
+        "end": 253.67999999999998,
+        "start_time": "04:07",
+        "end_time": "04:13",
+        "text": "about complex numbers. But in numbers, we got one more thing, which is of type Boolean. I know"
+    },
+    {
+        "id": 44,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 253.67999999999998,
+        "end": 259.12,
+        "start_time": "04:13",
+        "end_time": "04:19",
+        "text": "Boolean would be true and false, why it would be integers or numbers. Let's check this out. So let's"
+    },
+    {
+        "id": 45,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 259.12,
+        "end": 265.76,
+        "start_time": "04:19",
+        "end_time": "04:25",
+        "text": "say if I try to create a variable, let's say a is equal to 7 and b is equal to 6, we got these two"
+    },
+    {
+        "id": 46,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 265.76,
+        "end": 273.68,
+        "start_time": "04:25",
+        "end_time": "04:33",
+        "text": "values. And I want to check which is greater. So I believe that a is, or b is greater than a, which"
+    },
+    {
+        "id": 47,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 273.68,
+        "end": 279.6,
+        "start_time": "04:33",
+        "end_time": "04:39",
+        "text": "is not the case. But you can believe anything, right? So if I say greater equal to, and I can"
+    },
+    {
+        "id": 48,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 279.6,
+        "end": 286.16,
+        "start_time": "04:39",
+        "end_time": "04:46",
+        "text": "use an operator here, and I believe that b is greater than a, which is false. But in my mind,"
+    },
+    {
+        "id": 49,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 286.16,
+        "end": 292.72,
+        "start_time": "04:46",
+        "end_time": "04:52",
+        "text": "it's true. And let's try to print it. And that's false. I am wrong. And I'm happy with it. So this"
+    },
+    {
+        "id": 50,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 292.72,
+        "end": 298.8,
+        "start_time": "04:52",
+        "end_time": "04:58",
+        "text": "is false, right? Because b is, yes, this is smaller than a. And this is a Boolean value. So false is a"
+    },
+    {
+        "id": 51,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 298.8,
+        "end": 305.04,
+        "start_time": "04:58",
+        "end_time": "05:05",
+        "text": "Boolean value. And we got two options only. We got true or false. Example, if I convert that from"
+    },
+    {
+        "id": 52,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 305.04,
+        "end": 310.48,
+        "start_time": "05:05",
+        "end_time": "05:10",
+        "text": "less than, then greater than. So we change it to less than now. And it will be, I have to print it"
+    },
+    {
+        "id": 53,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 310.48,
+        "end": 316.32,
+        "start_time": "05:10",
+        "end_time": "05:16",
+        "text": "also. It will be true. So we got two options. We got false and we got true or true and false. In fact,"
+    },
+    {
+        "id": 54,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 316.32,
+        "end": 322.24,
+        "start_time": "05:16",
+        "end_time": "05:22",
+        "text": "you can directly store this value to a variable. I can check, is it? Okay. Doesn't matter. Is it true?"
+    },
+    {
+        "id": 55,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 322.8,
+        "end": 328.16,
+        "start_time": "05:22",
+        "end_time": "05:28",
+        "text": "And if I try to print, is it, it says true. Okay. So you can assign the values, not just true or"
+    },
+    {
+        "id": 56,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 328.16,
+        "end": 332.88000000000005,
+        "start_time": "05:28",
+        "end_time": "05:32",
+        "text": "false. I mean, not just true, it can also assign false. Now, why I'm saying these are numbers a few"
+    },
+    {
+        "id": 57,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 332.88000000000005,
+        "end": 337.28000000000003,
+        "start_time": "05:32",
+        "end_time": "05:37",
+        "text": "minutes ago, it's because you can convert this Boolean value into numbers. Example, if I say"
+    },
+    {
+        "id": 58,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 337.92,
+        "end": 343.84000000000003,
+        "start_time": "05:37",
+        "end_time": "05:43",
+        "text": "k is equal to, and if I say true, of course the value of k would be true. But what if I try to"
+    },
+    {
+        "id": 59,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 343.84000000000003,
+        "end": 349.04,
+        "start_time": "05:43",
+        "end_time": "05:49",
+        "text": "convert that into integer? What will happen? If I try to print the value of k, it is int. The same"
+    },
+    {
+        "id": 60,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 349.04,
+        "end": 357.04,
+        "start_time": "05:49",
+        "end_time": "05:57",
+        "text": "thing happens when you do that with false. It is k is zero. So true is one and false is zero. There's"
+    },
+    {
+        "id": 61,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 357.04,
+        "end": 362.32,
+        "start_time": "05:57",
+        "end_time": "06:02",
+        "text": "something to remember because we're going to talk about this in the upcoming sessions or videos."
+    },
+    {
+        "id": 62,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 362.32,
+        "end": 366.8,
+        "start_time": "06:02",
+        "end_time": "06:06",
+        "text": "So that's the Boolean type. Apart from Boolean type, we also got something called none. If you're"
+    },
+    {
+        "id": 63,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 366.8,
+        "end": 372.08000000000004,
+        "start_time": "06:06",
+        "end_time": "06:12",
+        "text": "coming from other languages, we got something called null there. But in Python, we got none."
+    },
+    {
+        "id": 64,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 372.08000000000004,
+        "end": 377.04,
+        "start_time": "06:12",
+        "end_time": "06:17",
+        "text": "Example, I can say result is equal to, or maybe I will say result. And if I try to print result,"
+    },
+    {
+        "id": 65,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 377.04,
+        "end": 381.28000000000003,
+        "start_time": "06:17",
+        "end_time": "06:21",
+        "text": "we're not getting anything. But if you try to print it, I just hope it will print something and"
+    },
+    {
+        "id": 66,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 381.28000000000003,
+        "end": 385.76,
+        "start_time": "06:21",
+        "end_time": "06:25",
+        "text": "it prints none because there's no value assigned to it. And you can manually assign the value,"
+    },
+    {
+        "id": 67,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 385.76,
+        "end": 390.96,
+        "start_time": "06:25",
+        "end_time": "06:30",
+        "text": "which is none. Even that works. If you try to print, it will be none. Now let's shift our focus"
+    },
+    {
+        "id": 68,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 390.96,
+        "end": 396.64,
+        "start_time": "06:30",
+        "end_time": "06:36",
+        "text": "to sequences. So we have worked with list and okay, let's say L. And in this L, if you say four,"
+    },
+    {
+        "id": 69,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 396.64,
+        "end": 404.32,
+        "start_time": "06:36",
+        "end_time": "06:44",
+        "text": "five, any value, this is the type of list. And if you try to find the type of it, it is list. Apart"
+    },
+    {
+        "id": 70,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 404.32,
+        "end": 409.28,
+        "start_time": "06:44",
+        "end_time": "06:49",
+        "text": "from this, we also got something called tuple. So we'll just change that square bracket to round"
+    },
+    {
+        "id": 71,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 409.28,
+        "end": 416.32,
+        "start_time": "06:49",
+        "end_time": "06:56",
+        "text": "bracket. And if I say T, and if I check the type of T, that's tuple. We can also create a set. And"
+    },
+    {
+        "id": 72,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 416.32,
+        "end": 421.03999999999996,
+        "start_time": "06:56",
+        "end_time": "07:01",
+        "text": "if I see the type of this S, that is set. And we have also worked with the dictionary, right? But"
+    },
+    {
+        "id": 73,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 421.03999999999996,
+        "end": 426.23999999999995,
+        "start_time": "07:01",
+        "end_time": "07:06",
+        "text": "apart from this, we got one more way of creating a sequence and that is called a range. So how do"
+    },
+    {
+        "id": 74,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 426.23999999999995,
+        "end": 432.47999999999996,
+        "start_time": "07:06",
+        "end_time": "07:12",
+        "text": "we create a range? So you say range. Let's assign the value somewhere. Let me assign that to R."
+    },
+    {
+        "id": 75,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 432.47999999999996,
+        "end": 438.96,
+        "start_time": "07:12",
+        "end_time": "07:18",
+        "text": "So R range, and I will assign, let's say 10. Now this R is a range. If you print R, that's a"
+    },
+    {
+        "id": 76,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 438.96,
+        "end": 446.4,
+        "start_time": "07:18",
+        "end_time": "07:26",
+        "text": "range. And if you try to find the type of it, it's a type range. But why you will reuse something"
+    },
+    {
+        "id": 77,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 446.4,
+        "end": 452.64,
+        "start_time": "07:26",
+        "end_time": "07:32",
+        "text": "called a range here? So first of all, range is a function which takes a parameter and it returns a"
+    },
+    {
+        "id": 78,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 452.64,
+        "end": 457.67999999999995,
+        "start_time": "07:32",
+        "end_time": "07:37",
+        "text": "range. But why do we use it? See, if you want to create a list, okay, so something like this. If"
+    },
+    {
+        "id": 79,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 457.67999999999995,
+        "end": 463.28,
+        "start_time": "07:37",
+        "end_time": "07:43",
+        "text": "you want to get a list and if you pass R in this list, see what happens. Okay, great. It gives you"
+    },
+    {
+        "id": 80,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 463.52,
+        "end": 470.47999999999996,
+        "start_time": "07:43",
+        "end_time": "07:50",
+        "text": "error. Let me try with set. Maybe I have used list as a variable somewhere before doing this. Anyway,"
+    },
+    {
+        "id": 81,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 470.47999999999996,
+        "end": 476.23999999999995,
+        "start_time": "07:50",
+        "end_time": "07:56",
+        "text": "so if you try with set, you can see we got this value. So when you say range, range starts with"
+    },
+    {
+        "id": 82,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 476.23999999999995,
+        "end": 481.28,
+        "start_time": "07:56",
+        "end_time": "08:01",
+        "text": "zero by default and ends just before the number you have assigned, which is 10. But let's say if"
+    },
+    {
+        "id": 83,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 481.28,
+        "end": 486.64,
+        "start_time": "08:01",
+        "end_time": "08:06",
+        "text": "you want to include a 10, then you will say 11. Okay, but now let's say, let me just print R,"
+    },
+    {
+        "id": 84,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 486.64,
+        "end": 491.59999999999997,
+        "start_time": "08:06",
+        "end_time": "08:11",
+        "text": "range is still there and set is still there. Okay, set, I'll specify R, this is still there."
+    },
+    {
+        "id": 85,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 491.6,
+        "end": 496.96000000000004,
+        "start_time": "08:11",
+        "end_time": "08:16",
+        "text": "But what if I want to print even numbers still 10? So the way you can do that, you can say set,"
+    },
+    {
+        "id": 86,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 496.96000000000004,
+        "end": 502.0,
+        "start_time": "08:16",
+        "end_time": "08:22",
+        "text": "and again, you will use range inside this. But if you set 10, it will print the same sequence again."
+    },
+    {
+        "id": 87,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 502.0,
+        "end": 506.24,
+        "start_time": "08:22",
+        "end_time": "08:26",
+        "text": "So you have to start from two, because that's where the even number starts. And then you have"
+    },
+    {
+        "id": 88,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 506.24,
+        "end": 511.36,
+        "start_time": "08:26",
+        "end_time": "08:31",
+        "text": "to end at 10 because I want to include 10. So you have to end it at 11. But you have to also mention"
+    },
+    {
+        "id": 89,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 511.36,
+        "end": 518.0,
+        "start_time": "08:31",
+        "end_time": "08:38",
+        "text": "the steps. By default, the step is one and that's why you can see zero, one, two, three, that's a"
+    },
+    {
+        "id": 90,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 518.0,
+        "end": 523.2,
+        "start_time": "08:38",
+        "end_time": "08:43",
+        "text": "sequence. But if you want a step of two, you will specify two here. And you can see it is"
+    },
+    {
+        "id": 91,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 523.92,
+        "end": 529.52,
+        "start_time": "08:43",
+        "end_time": "08:49",
+        "text": "two, four, six, eight, 10, step of two and starting from two, ending at 10. And that's how range"
+    },
+    {
+        "id": 92,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 529.52,
+        "end": 534.4,
+        "start_time": "08:49",
+        "end_time": "08:54",
+        "text": "works. There's another way of using range using loops, which we're going to see later. But at this"
+    },
+    {
+        "id": 93,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 534.4,
+        "end": 538.48,
+        "start_time": "08:54",
+        "end_time": "08:58",
+        "text": "point, this thing works. So these are the types which are available in Python, which you can use."
+    },
+    {
+        "id": 94,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start": 538.48,
+        "end": 542.48,
+        "start_time": "08:58",
+        "end_time": "09:02",
+        "text": "There are other types as well, but these are highly used. See you in the next video."
+    }
+]

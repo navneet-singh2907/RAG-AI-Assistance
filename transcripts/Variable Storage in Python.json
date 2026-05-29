@@ -1,0 +1,1702 @@
+[
+    {
+        "id": 0,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 0.0,
+        "end": 7.18,
+        "start_time": "00:00",
+        "end_time": "00:07",
+        "text": "Till this point, we have talked about variables, we have talked about different type of data."
+    },
+    {
+        "id": 1,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 7.18,
+        "end": 11.98,
+        "start_time": "00:07",
+        "end_time": "00:11",
+        "text": "So we have worked with normal variables in which we can have numbers, we can have string,"
+    },
+    {
+        "id": 2,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 11.98,
+        "end": 15.860000000000001,
+        "start_time": "00:11",
+        "end_time": "00:15",
+        "text": "we have worked with list, tuple, dictionary, set."
+    },
+    {
+        "id": 3,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 15.860000000000001,
+        "end": 18.16,
+        "start_time": "00:15",
+        "end_time": "00:18",
+        "text": "Now let's go back to the basics of variable."
+    },
+    {
+        "id": 4,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 18.16,
+        "end": 22.78,
+        "start_time": "00:18",
+        "end_time": "00:22",
+        "text": "So what I'm going to do is, let's say I have A as a variable and I'm trying to store the"
+    },
+    {
+        "id": 5,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 22.78,
+        "end": 24.32,
+        "start_time": "00:22",
+        "end_time": "00:24",
+        "text": "value which is five."
+    },
+    {
+        "id": 6,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 24.32,
+        "end": 29.26,
+        "start_time": "00:24",
+        "end_time": "00:29",
+        "text": "A simple expression where you're saying A equal to five and we know when you print A,"
+    },
+    {
+        "id": 7,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 29.26,
+        "end": 30.26,
+        "start_time": "00:29",
+        "end_time": "00:30",
+        "text": "it will be five."
+    },
+    {
+        "id": 8,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 30.26,
+        "end": 31.540000000000003,
+        "start_time": "00:30",
+        "end_time": "00:31",
+        "text": "Now what is happening behind the scene?"
+    },
+    {
+        "id": 9,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 31.540000000000003,
+        "end": 35.300000000000004,
+        "start_time": "00:31",
+        "end_time": "00:35",
+        "text": "So we are assuming that there will be a box inside the memory which will be having this"
+    },
+    {
+        "id": 10,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 35.300000000000004,
+        "end": 40.300000000000004,
+        "start_time": "00:35",
+        "end_time": "00:40",
+        "text": "value five and the name of that variable or the box is A, right?"
+    },
+    {
+        "id": 11,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 40.300000000000004,
+        "end": 41.56,
+        "start_time": "00:40",
+        "end_time": "00:41",
+        "text": "That's what we are thinking now."
+    },
+    {
+        "id": 12,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 41.56,
+        "end": 45.36,
+        "start_time": "00:41",
+        "end_time": "00:45",
+        "text": "Now when I say B equal to five, so of course it should make a different box."
+    },
+    {
+        "id": 13,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 45.36,
+        "end": 51.660000000000004,
+        "start_time": "00:45",
+        "end_time": "00:51",
+        "text": "So there should be two boxes, one with name A and one with name B and if you try to print"
+    },
+    {
+        "id": 14,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 51.660000000000004,
+        "end": 54.46,
+        "start_time": "00:51",
+        "end_time": "00:54",
+        "text": "B, of course it will also print five, right?"
+    },
+    {
+        "id": 15,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 54.46,
+        "end": 59.72,
+        "start_time": "00:54",
+        "end_time": "00:59",
+        "text": "So two boxes, same value, five and five and we got a name A and B."
+    },
+    {
+        "id": 16,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 59.72,
+        "end": 63.02,
+        "start_time": "00:59",
+        "end_time": "01:03",
+        "text": "So let's say if you are storing this value in the memory, so of course there should be"
+    },
+    {
+        "id": 17,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 63.02,
+        "end": 64.74,
+        "start_time": "01:03",
+        "end_time": "01:04",
+        "text": "an address to it."
+    },
+    {
+        "id": 18,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 64.74,
+        "end": 67.98,
+        "start_time": "01:04",
+        "end_time": "01:07",
+        "text": "Now when you say you have an address there, I want to print it."
+    },
+    {
+        "id": 19,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 67.98,
+        "end": 68.98,
+        "start_time": "01:07",
+        "end_time": "01:08",
+        "text": "How do I do that?"
+    },
+    {
+        "id": 20,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 68.98,
+        "end": 72.88,
+        "start_time": "01:08",
+        "end_time": "01:12",
+        "text": "May not be an address but there should be some identity to it and that's what I want"
+    },
+    {
+        "id": 21,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 72.88,
+        "end": 77.58,
+        "start_time": "01:12",
+        "end_time": "01:17",
+        "text": "to print and that's where inside Python we got this inbuilt function called id where"
+    },
+    {
+        "id": 22,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 77.58,
+        "end": 82.88,
+        "start_time": "01:17",
+        "end_time": "01:22",
+        "text": "you can pass the variable which is A and it will print the identity of it and that's what"
+    },
+    {
+        "id": 23,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 82.88,
+        "end": 84.22,
+        "start_time": "01:22",
+        "end_time": "01:24",
+        "text": "you got here."
+    },
+    {
+        "id": 24,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 84.22,
+        "end": 88.98,
+        "start_time": "01:24",
+        "end_time": "01:28",
+        "text": "So this is the huge number but remember the last three digit which is 056."
+    },
+    {
+        "id": 25,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 88.98,
+        "end": 90.14,
+        "start_time": "01:28",
+        "end_time": "01:30",
+        "text": "Let me try it for B."
+    },
+    {
+        "id": 26,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 90.14,
+        "end": 94.9,
+        "start_time": "01:30",
+        "end_time": "01:34",
+        "text": "Of course it should have a different id but when you print it, you will get the same value."
+    },
+    {
+        "id": 27,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 94.9,
+        "end": 96.26,
+        "start_time": "01:34",
+        "end_time": "01:36",
+        "text": "I mean that's weird."
+    },
+    {
+        "id": 28,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 96.26,
+        "end": 98.98,
+        "start_time": "01:36",
+        "end_time": "01:38",
+        "text": "Why two different boxes have the same address?"
+    },
+    {
+        "id": 29,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 98.98,
+        "end": 99.98,
+        "start_time": "01:38",
+        "end_time": "01:39",
+        "text": "Something like this on the screen."
+    },
+    {
+        "id": 30,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 99.98,
+        "end": 101.08,
+        "start_time": "01:39",
+        "end_time": "01:41",
+        "text": "It's a conflict, right?"
+    },
+    {
+        "id": 31,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 101.08,
+        "end": 105.74,
+        "start_time": "01:41",
+        "end_time": "01:45",
+        "text": "Now what is happening is, let me try, okay so let me explain with these changes."
+    },
+    {
+        "id": 32,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 105.74,
+        "end": 108.06,
+        "start_time": "01:45",
+        "end_time": "01:48",
+        "text": "Let me make B with value six."
+    },
+    {
+        "id": 33,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 108.06,
+        "end": 113.14,
+        "start_time": "01:48",
+        "end_time": "01:53",
+        "text": "When I do this and when you try to find the id of a B, so before I do that, what do you"
+    },
+    {
+        "id": 34,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 113.14,
+        "end": 114.14,
+        "start_time": "01:53",
+        "end_time": "01:54",
+        "text": "think?"
+    },
+    {
+        "id": 35,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 114.14,
+        "end": 118.9,
+        "start_time": "01:54",
+        "end_time": "01:58",
+        "text": "Are you finding the value of the box from five to six with the name B?"
+    },
+    {
+        "id": 36,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 118.9,
+        "end": 120.66,
+        "start_time": "01:58",
+        "end_time": "02:00",
+        "text": "If that's what you're thinking, say this."
+    },
+    {
+        "id": 37,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 120.66,
+        "end": 122.74,
+        "start_time": "02:00",
+        "end_time": "02:02",
+        "text": "We got a different address."
+    },
+    {
+        "id": 38,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 122.74,
+        "end": 124.3,
+        "start_time": "02:02",
+        "end_time": "02:04",
+        "text": "That means B is not the name of the box."
+    },
+    {
+        "id": 39,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 124.3,
+        "end": 130.94,
+        "start_time": "02:04",
+        "end_time": "02:10",
+        "text": "It's basically every box will have an id and A, B, all those things are just references."
+    },
+    {
+        "id": 40,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 130.94,
+        "end": 132.3,
+        "start_time": "02:10",
+        "end_time": "02:12",
+        "text": "But referring to what?"
+    },
+    {
+        "id": 41,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 132.3,
+        "end": 135.56,
+        "start_time": "02:12",
+        "end_time": "02:15",
+        "text": "They are referring to something called objects."
+    },
+    {
+        "id": 42,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 135.56,
+        "end": 137.42000000000002,
+        "start_time": "02:15",
+        "end_time": "02:17",
+        "text": "Everything in Python is an object."
+    },
+    {
+        "id": 43,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 137.42000000000002,
+        "end": 139.7,
+        "start_time": "02:17",
+        "end_time": "02:19",
+        "text": "A simple number like five is an object."
+    },
+    {
+        "id": 44,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 139.7,
+        "end": 141.42000000000002,
+        "start_time": "02:19",
+        "end_time": "02:21",
+        "text": "A name like Navin is an object."
+    },
+    {
+        "id": 45,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 141.42,
+        "end": 145.33999999999997,
+        "start_time": "02:21",
+        "end_time": "02:25",
+        "text": "A list which have multiple values is an object."
+    },
+    {
+        "id": 46,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 145.33999999999997,
+        "end": 146.7,
+        "start_time": "02:25",
+        "end_time": "02:26",
+        "text": "Everything in Python is an object."
+    },
+    {
+        "id": 47,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 146.7,
+        "end": 151.26,
+        "start_time": "02:26",
+        "end_time": "02:31",
+        "text": "Okay, so what we are doing is those boxes are your objects and inside this object you"
+    },
+    {
+        "id": 48,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 151.26,
+        "end": 156.06,
+        "start_time": "02:31",
+        "end_time": "02:36",
+        "text": "got values and all this A, B and whatever variable name which you use, they are just"
+    },
+    {
+        "id": 49,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 156.06,
+        "end": 158.33999999999997,
+        "start_time": "02:36",
+        "end_time": "02:38",
+        "text": "references and they are referring to it."
+    },
+    {
+        "id": 50,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 158.33999999999997,
+        "end": 162.7,
+        "start_time": "02:38",
+        "end_time": "02:42",
+        "text": "So in the initial case when you said A equal to five, we got a box there with five and"
+    },
+    {
+        "id": 51,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 162.7,
+        "end": 165.26,
+        "start_time": "02:42",
+        "end_time": "02:45",
+        "text": "it will also check, do we already have five in the memory?"
+    },
+    {
+        "id": 52,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 165.26,
+        "end": 167.94,
+        "start_time": "02:45",
+        "end_time": "02:47",
+        "text": "If you already have five, it will not create a new box."
+    },
+    {
+        "id": 53,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 167.94,
+        "end": 169.79999999999998,
+        "start_time": "02:47",
+        "end_time": "02:49",
+        "text": "It will use the existing box."
+    },
+    {
+        "id": 54,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 169.8,
+        "end": 173.32000000000002,
+        "start_time": "02:49",
+        "end_time": "02:53",
+        "text": "But since we executed this as the first line, we don't have five anywhere."
+    },
+    {
+        "id": 55,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 173.32000000000002,
+        "end": 177.32000000000002,
+        "start_time": "02:53",
+        "end_time": "02:57",
+        "text": "So it will create five and it will refer A to that address."
+    },
+    {
+        "id": 56,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 177.32000000000002,
+        "end": 184.58,
+        "start_time": "02:57",
+        "end_time": "03:04",
+        "text": "So there should be some area where you have a mapping of the references and the objects."
+    },
+    {
+        "id": 57,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 184.58,
+        "end": 190.0,
+        "start_time": "03:04",
+        "end_time": "03:10",
+        "text": "So A is referring to five box and then when you create B equal to five, here also we are"
+    },
+    {
+        "id": 58,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 190.0,
+        "end": 193.28,
+        "start_time": "03:10",
+        "end_time": "03:13",
+        "text": "creating a variable which is referring to a box five."
+    },
+    {
+        "id": 59,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 193.28,
+        "end": 197.54000000000002,
+        "start_time": "03:13",
+        "end_time": "03:17",
+        "text": "Now since we already have five here, it will not create a new box."
+    },
+    {
+        "id": 60,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 197.54000000000002,
+        "end": 199.28,
+        "start_time": "03:17",
+        "end_time": "03:19",
+        "text": "It will refer to the same box."
+    },
+    {
+        "id": 61,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 199.28,
+        "end": 202.1,
+        "start_time": "03:19",
+        "end_time": "03:22",
+        "text": "So A and B referring to the same box."
+    },
+    {
+        "id": 62,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 202.1,
+        "end": 206.64000000000001,
+        "start_time": "03:22",
+        "end_time": "03:26",
+        "text": "And that's why when you try to print the identity of it, you got the same values."
+    },
+    {
+        "id": 63,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 206.64000000000001,
+        "end": 208.64,
+        "start_time": "03:26",
+        "end_time": "03:28",
+        "text": "But what happens when you say B equal to six?"
+    },
+    {
+        "id": 64,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 208.64,
+        "end": 212.28,
+        "start_time": "03:28",
+        "end_time": "03:32",
+        "text": "Now in this scenario, it will say, okay, I'm trying to save six."
+    },
+    {
+        "id": 65,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 212.28,
+        "end": 213.98,
+        "start_time": "03:32",
+        "end_time": "03:33",
+        "text": "I don't see six anywhere."
+    },
+    {
+        "id": 66,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 213.98,
+        "end": 217.78,
+        "start_time": "03:33",
+        "end_time": "03:37",
+        "text": "So I need to create a new six box or a box with value six."
+    },
+    {
+        "id": 67,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 217.78,
+        "end": 222.2,
+        "start_time": "03:37",
+        "end_time": "03:42",
+        "text": "So it will create that box and that box will have a different ID and that's what you are"
+    },
+    {
+        "id": 68,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 222.2,
+        "end": 223.64,
+        "start_time": "03:42",
+        "end_time": "03:43",
+        "text": "printing it here."
+    },
+    {
+        "id": 69,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 223.64,
+        "end": 229.35999999999999,
+        "start_time": "03:43",
+        "end_time": "03:49",
+        "text": "So B which was initially referring to the box five, it is referring to box six now."
+    },
+    {
+        "id": 70,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 229.35999999999999,
+        "end": 231.07999999999998,
+        "start_time": "03:49",
+        "end_time": "03:51",
+        "text": "It's all references."
+    },
+    {
+        "id": 71,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 231.07999999999998,
+        "end": 232.23999999999998,
+        "start_time": "03:51",
+        "end_time": "03:52",
+        "text": "Let me try one more thing."
+    },
+    {
+        "id": 72,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 232.23999999999998,
+        "end": 236.61999999999998,
+        "start_time": "03:52",
+        "end_time": "03:56",
+        "text": "I will create a variable called K and K will be referring to let's say five."
+    },
+    {
+        "id": 73,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 236.61999999999998,
+        "end": 237.61999999999998,
+        "start_time": "03:56",
+        "end_time": "03:57",
+        "text": "Now what do you think?"
+    },
+    {
+        "id": 74,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 237.61999999999998,
+        "end": 239.2,
+        "start_time": "03:57",
+        "end_time": "03:59",
+        "text": "Are we creating a new box of five?"
+    },
+    {
+        "id": 75,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 239.2,
+        "end": 241.77999999999997,
+        "start_time": "03:59",
+        "end_time": "04:01",
+        "text": "No, we have talked about that before."
+    },
+    {
+        "id": 76,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 241.77999999999997,
+        "end": 246.92,
+        "start_time": "04:01",
+        "end_time": "04:06",
+        "text": "We have the same box of five, but K as a new variable is referring to the box five."
+    },
+    {
+        "id": 77,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 246.92,
+        "end": 250.83999999999997,
+        "start_time": "04:06",
+        "end_time": "04:10",
+        "text": "Okay, so there are two variables referring to box five and one variable referring to"
+    },
+    {
+        "id": 78,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 250.83999999999997,
+        "end": 252.2,
+        "start_time": "04:10",
+        "end_time": "04:12",
+        "text": "box six."
+    },
+    {
+        "id": 79,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 252.2,
+        "end": 258.28,
+        "start_time": "04:12",
+        "end_time": "04:18",
+        "text": "Now if I say B is equal to let's say nine, now we got a new value and if I try to find,"
+    },
+    {
+        "id": 80,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 258.28,
+        "end": 260.47999999999996,
+        "start_time": "04:18",
+        "end_time": "04:20",
+        "text": "okay, first of all, let me print the ID of K."
+    },
+    {
+        "id": 81,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 260.47999999999996,
+        "end": 262.03999999999996,
+        "start_time": "04:20",
+        "end_time": "04:22",
+        "text": "We have not done that."
+    },
+    {
+        "id": 82,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 262.03999999999996,
+        "end": 267.71999999999997,
+        "start_time": "04:22",
+        "end_time": "04:27",
+        "text": "So you can see it is the same value as A and if you try to print the ID of B, it's a new"
+    },
+    {
+        "id": 83,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 267.71999999999997,
+        "end": 268.71999999999997,
+        "start_time": "04:27",
+        "end_time": "04:28",
+        "text": "value now."
+    },
+    {
+        "id": 84,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 268.71999999999997,
+        "end": 274.44,
+        "start_time": "04:28",
+        "end_time": "04:34",
+        "text": "Okay, so now we got two variables referring to A, referring to five, which is A and K."
+    },
+    {
+        "id": 85,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 274.44,
+        "end": 280.12,
+        "start_time": "04:34",
+        "end_time": "04:40",
+        "text": "We got one variable referring to nine and there's no variable referring to six."
+    },
+    {
+        "id": 86,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 280.12,
+        "end": 282.48,
+        "start_time": "04:40",
+        "end_time": "04:42",
+        "text": "Now what happens to that box six?"
+    },
+    {
+        "id": 87,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 282.48,
+        "end": 283.68,
+        "start_time": "04:42",
+        "end_time": "04:43",
+        "text": "Because nobody is referring to it."
+    },
+    {
+        "id": 88,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 283.68,
+        "end": 284.86,
+        "start_time": "04:43",
+        "end_time": "04:44",
+        "text": "It's a memory wastage, right?"
+    },
+    {
+        "id": 89,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 284.86,
+        "end": 287.48,
+        "start_time": "04:44",
+        "end_time": "04:47",
+        "text": "Because you have a box there and nobody is referring to it."
+    },
+    {
+        "id": 90,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 287.48,
+        "end": 288.72,
+        "start_time": "04:47",
+        "end_time": "04:48",
+        "text": "So what happens in this case?"
+    },
+    {
+        "id": 91,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 288.72,
+        "end": 291.68,
+        "start_time": "04:48",
+        "end_time": "04:51",
+        "text": "Now in Python, we got something called a garbage collection."
+    },
+    {
+        "id": 92,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 291.68,
+        "end": 296.32,
+        "start_time": "04:51",
+        "end_time": "04:56",
+        "text": "So garbage collection is like a mini software which comes to your memory and say, okay,"
+    },
+    {
+        "id": 93,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 296.32,
+        "end": 297.72,
+        "start_time": "04:56",
+        "end_time": "04:57",
+        "text": "I want to clean up."
+    },
+    {
+        "id": 94,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 297.72,
+        "end": 299.96,
+        "start_time": "04:57",
+        "end_time": "04:59",
+        "text": "Now which object will clean up?"
+    },
+    {
+        "id": 95,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 299.96,
+        "end": 301.12,
+        "start_time": "04:59",
+        "end_time": "05:01",
+        "text": "Will it clean up five?"
+    },
+    {
+        "id": 96,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 301.12,
+        "end": 306.16,
+        "start_time": "05:01",
+        "end_time": "05:06",
+        "text": "No, because five is referred by A and also K. Will it clear nine?"
+    },
+    {
+        "id": 97,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 306.16,
+        "end": 309.6,
+        "start_time": "05:06",
+        "end_time": "05:09",
+        "text": "No, because nine is referred by B. What about six?"
+    },
+    {
+        "id": 98,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 309.6,
+        "end": 311.12,
+        "start_time": "05:09",
+        "end_time": "05:11",
+        "text": "No one is referring to six."
+    },
+    {
+        "id": 99,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 311.12,
+        "end": 314.40000000000003,
+        "start_time": "05:11",
+        "end_time": "05:14",
+        "text": "Now in this case, garbage collection will say, okay, I got this object."
+    },
+    {
+        "id": 100,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 314.40000000000003,
+        "end": 315.56,
+        "start_time": "05:14",
+        "end_time": "05:15",
+        "text": "Nobody is referring to it."
+    },
+    {
+        "id": 101,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 315.56,
+        "end": 317.04,
+        "start_time": "05:15",
+        "end_time": "05:17",
+        "text": "Let me clean it."
+    },
+    {
+        "id": 102,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 317.04,
+        "end": 318.52000000000004,
+        "start_time": "05:17",
+        "end_time": "05:18",
+        "text": "And that's what it is doing."
+    },
+    {
+        "id": 103,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 318.52000000000004,
+        "end": 320.96000000000004,
+        "start_time": "05:18",
+        "end_time": "05:20",
+        "text": "And the same thing we do in our daily life, right?"
+    },
+    {
+        "id": 104,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 320.96000000000004,
+        "end": 325.64000000000004,
+        "start_time": "05:20",
+        "end_time": "05:25",
+        "text": "So let's say if you are cleaning a room and if you see a box or maybe if you see a remote"
+    },
+    {
+        "id": 105,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 325.64000000000004,
+        "end": 329.20000000000005,
+        "start_time": "05:25",
+        "end_time": "05:29",
+        "text": "lying on a floor, you know this remote is getting used for something."
+    },
+    {
+        "id": 106,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 329.20000000000005,
+        "end": 331.24,
+        "start_time": "05:29",
+        "end_time": "05:31",
+        "text": "So you will keep it on the table."
+    },
+    {
+        "id": 107,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 331.24,
+        "end": 335.22,
+        "start_time": "05:31",
+        "end_time": "05:35",
+        "text": "But if you find a paper, which is nobody is referring to it, you will throw it."
+    },
+    {
+        "id": 108,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 335.22,
+        "end": 336.72,
+        "start_time": "05:35",
+        "end_time": "05:36",
+        "text": "So it's all about references."
+    },
+    {
+        "id": 109,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 337.32000000000005,
+        "end": 339.88000000000005,
+        "start_time": "05:37",
+        "end_time": "05:39",
+        "text": "If you find an object, nobody is referring to it, just throw it."
+    },
+    {
+        "id": 110,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 339.88000000000005,
+        "end": 342.0,
+        "start_time": "05:39",
+        "end_time": "05:42",
+        "text": "And now it's not just for numbers."
+    },
+    {
+        "id": 111,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 342.0,
+        "end": 344.36,
+        "start_time": "05:42",
+        "end_time": "05:44",
+        "text": "We can also use it for, let's say, string."
+    },
+    {
+        "id": 112,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 344.36,
+        "end": 350.84000000000003,
+        "start_time": "05:44",
+        "end_time": "05:50",
+        "text": "So let me create a variable called name and let me have my name there, which is Navin."
+    },
+    {
+        "id": 113,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 350.84000000000003,
+        "end": 351.84000000000003,
+        "start_time": "05:50",
+        "end_time": "05:51",
+        "text": "And let me create one more."
+    },
+    {
+        "id": 114,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 351.84000000000003,
+        "end": 356.8,
+        "start_time": "05:51",
+        "end_time": "05:56",
+        "text": "And I will say this is name one is equal to, and I will say Navin."
+    },
+    {
+        "id": 115,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 356.8,
+        "end": 363.44000000000005,
+        "start_time": "05:56",
+        "end_time": "06:03",
+        "text": "Now when you try to print the ID of name and the ID of name one, you will find they are"
+    },
+    {
+        "id": 116,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 363.44000000000005,
+        "end": 364.44000000000005,
+        "start_time": "06:03",
+        "end_time": "06:04",
+        "text": "similar."
+    },
+    {
+        "id": 117,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 364.44,
+        "end": 368.8,
+        "start_time": "06:04",
+        "end_time": "06:08",
+        "text": "So whatever we have talked about here is also applied for the name."
+    },
+    {
+        "id": 118,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 368.8,
+        "end": 373.64,
+        "start_time": "06:08",
+        "end_time": "06:13",
+        "text": "So what is happening is inside your memory, you got this object called Navin."
+    },
+    {
+        "id": 119,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 373.64,
+        "end": 376.68,
+        "start_time": "06:13",
+        "end_time": "06:16",
+        "text": "And I mean, of course, you got the object and you got a value Navin."
+    },
+    {
+        "id": 120,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 376.68,
+        "end": 378.64,
+        "start_time": "06:16",
+        "end_time": "06:18",
+        "text": "And there are two variables referring to it."
+    },
+    {
+        "id": 121,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 378.64,
+        "end": 381.5,
+        "start_time": "06:18",
+        "end_time": "06:21",
+        "text": "And this concept is called string interning."
+    },
+    {
+        "id": 122,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 381.5,
+        "end": 387.28,
+        "start_time": "06:21",
+        "end_time": "06:27",
+        "text": "So basically, when you create a new string, it will check, okay, we got a string pool."
+    },
+    {
+        "id": 123,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 387.28,
+        "end": 391.86,
+        "start_time": "06:27",
+        "end_time": "06:31",
+        "text": "Inside this pool, let's create this variable or let's create this data Navin, if not found."
+    },
+    {
+        "id": 124,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 391.86,
+        "end": 394.90000000000003,
+        "start_time": "06:31",
+        "end_time": "06:34",
+        "text": "And then when you try to do that for the next time, it will say, okay, we already have"
+    },
+    {
+        "id": 125,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 394.90000000000003,
+        "end": 396.08000000000004,
+        "start_time": "06:34",
+        "end_time": "06:36",
+        "text": "Navin in the pool."
+    },
+    {
+        "id": 126,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 396.08000000000004,
+        "end": 398.26,
+        "start_time": "06:36",
+        "end_time": "06:38",
+        "text": "Let them refer to the same object."
+    },
+    {
+        "id": 127,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 398.26,
+        "end": 399.26,
+        "start_time": "06:38",
+        "end_time": "06:39",
+        "text": "Why to create new one?"
+    },
+    {
+        "id": 128,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 399.26,
+        "end": 400.98,
+        "start_time": "06:39",
+        "end_time": "06:40",
+        "text": "That's the fun thing which Python does here."
+    },
+    {
+        "id": 129,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 400.98,
+        "end": 405.14,
+        "start_time": "06:40",
+        "end_time": "06:45",
+        "text": "Now this string interning works with the normal data, right?"
+    },
+    {
+        "id": 130,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 405.14,
+        "end": 409.46000000000004,
+        "start_time": "06:45",
+        "end_time": "06:49",
+        "text": "If you have a small string, it will work when one or two words."
+    },
+    {
+        "id": 131,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 409.46000000000004,
+        "end": 413.3,
+        "start_time": "06:49",
+        "end_time": "06:53",
+        "text": "But let's say I will just clear this out and let me get a new variable called a."
+    },
+    {
+        "id": 132,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 413.3,
+        "end": 416.5,
+        "start_time": "06:53",
+        "end_time": "06:56",
+        "text": "And in this a, I'm going to create a string."
+    },
+    {
+        "id": 133,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 416.5,
+        "end": 419.98,
+        "start_time": "06:56",
+        "end_time": "06:59",
+        "text": "I will say my favorite color is black."
+    },
+    {
+        "id": 134,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 419.98,
+        "end": 421.24,
+        "start_time": "06:59",
+        "end_time": "07:01",
+        "text": "That's the first string."
+    },
+    {
+        "id": 135,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 421.24,
+        "end": 424.0,
+        "start_time": "07:01",
+        "end_time": "07:04",
+        "text": "And even b is the same."
+    },
+    {
+        "id": 136,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 424.0,
+        "end": 428.52,
+        "start_time": "07:04",
+        "end_time": "07:08",
+        "text": "Now whatever we have talked about till now, I have not changed anything in this text here."
+    },
+    {
+        "id": 137,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 428.52,
+        "end": 430.12,
+        "start_time": "07:08",
+        "end_time": "07:10",
+        "text": "Okay, both are same."
+    },
+    {
+        "id": 138,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 430.12,
+        "end": 432.84000000000003,
+        "start_time": "07:10",
+        "end_time": "07:12",
+        "text": "So of course, it should be created only once in the memory."
+    },
+    {
+        "id": 139,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 432.84000000000003,
+        "end": 436.28000000000003,
+        "start_time": "07:12",
+        "end_time": "07:16",
+        "text": "So if you try to get the idea of a, it's this."
+    },
+    {
+        "id": 140,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 436.28000000000003,
+        "end": 439.2,
+        "start_time": "07:16",
+        "end_time": "07:19",
+        "text": "And if you try to find the idea of b, it's this."
+    },
+    {
+        "id": 141,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 439.2,
+        "end": 440.36,
+        "start_time": "07:19",
+        "end_time": "07:20",
+        "text": "And they are not matching."
+    },
+    {
+        "id": 142,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 440.36,
+        "end": 442.96000000000004,
+        "start_time": "07:20",
+        "end_time": "07:22",
+        "text": "Why string interning is not working here?"
+    },
+    {
+        "id": 143,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 442.96000000000004,
+        "end": 449.40000000000003,
+        "start_time": "07:22",
+        "end_time": "07:29",
+        "text": "It's because string interning works with small words or maybe a couple of words, but not"
+    },
+    {
+        "id": 144,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 449.40000000000003,
+        "end": 450.96000000000004,
+        "start_time": "07:29",
+        "end_time": "07:30",
+        "text": "a string like this."
+    },
+    {
+        "id": 145,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 450.96,
+        "end": 456.64,
+        "start_time": "07:30",
+        "end_time": "07:36",
+        "text": "Why is because if you try to store everything in a string pool, you're wasting your string"
+    },
+    {
+        "id": 146,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 456.64,
+        "end": 459.03999999999996,
+        "start_time": "07:36",
+        "end_time": "07:39",
+        "text": "pool memory because it's a small memory."
+    },
+    {
+        "id": 147,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 459.03999999999996,
+        "end": 461.52,
+        "start_time": "07:39",
+        "end_time": "07:41",
+        "text": "And if you try to put big string, it's of no use."
+    },
+    {
+        "id": 148,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 461.52,
+        "end": 465.32,
+        "start_time": "07:41",
+        "end_time": "07:45",
+        "text": "Maybe in normal life, we don't repeat the same string again and again."
+    },
+    {
+        "id": 149,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 465.32,
+        "end": 468.21999999999997,
+        "start_time": "07:45",
+        "end_time": "07:48",
+        "text": "You do repeat words, but not the entire string."
+    },
+    {
+        "id": 150,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 468.21999999999997,
+        "end": 473.28,
+        "start_time": "07:48",
+        "end_time": "07:53",
+        "text": "But yes, if you feel I got a message which is of 10 words and you want to repeat it,"
+    },
+    {
+        "id": 151,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 473.28,
+        "end": 474.28,
+        "start_time": "07:53",
+        "end_time": "07:54",
+        "text": "you can do string interning."
+    },
+    {
+        "id": 152,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 474.28,
+        "end": 475.71999999999997,
+        "start_time": "07:54",
+        "end_time": "07:55",
+        "text": "There's a process for it."
+    },
+    {
+        "id": 153,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 475.71999999999997,
+        "end": 480.08,
+        "start_time": "07:55",
+        "end_time": "08:00",
+        "text": "Manually, you can ask your Python to say, hey, you know, I want this to be done using"
+    },
+    {
+        "id": 154,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 480.08,
+        "end": 481.08,
+        "start_time": "08:00",
+        "end_time": "08:01",
+        "text": "string interning."
+    },
+    {
+        "id": 155,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 481.08,
+        "end": 482.08,
+        "start_time": "08:01",
+        "end_time": "08:02",
+        "text": "It will do it."
+    },
+    {
+        "id": 156,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 482.08,
+        "end": 484.35999999999996,
+        "start_time": "08:02",
+        "end_time": "08:04",
+        "text": "But normally it will not."
+    },
+    {
+        "id": 157,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 484.35999999999996,
+        "end": 486.4,
+        "start_time": "08:04",
+        "end_time": "08:06",
+        "text": "And not just for string."
+    },
+    {
+        "id": 158,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 486.4,
+        "end": 491.59999999999997,
+        "start_time": "08:06",
+        "end_time": "08:11",
+        "text": "Let's say if you work with numbers, because earlier we have worked with small numbers,"
+    },
+    {
+        "id": 159,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 491.59999999999997,
+        "end": 493.47999999999996,
+        "start_time": "08:11",
+        "end_time": "08:13",
+        "text": "five, six, nine."
+    },
+    {
+        "id": 160,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 493.47999999999996,
+        "end": 495.76,
+        "start_time": "08:13",
+        "end_time": "08:15",
+        "text": "What happens when you work with big numbers like this?"
+    },
+    {
+        "id": 161,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 495.76,
+        "end": 499.71999999999997,
+        "start_time": "08:15",
+        "end_time": "08:19",
+        "text": "If you say a is equal to 1000 and b is equal to 1000."
+    },
+    {
+        "id": 162,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 499.71999999999997,
+        "end": 500.71999999999997,
+        "start_time": "08:19",
+        "end_time": "08:20",
+        "text": "Now what do you think?"
+    },
+    {
+        "id": 163,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 500.71999999999997,
+        "end": 503.28,
+        "start_time": "08:20",
+        "end_time": "08:23",
+        "text": "Will it be the same idea or different idea?"
+    },
+    {
+        "id": 164,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 503.28,
+        "end": 504.41999999999996,
+        "start_time": "08:23",
+        "end_time": "08:24",
+        "text": "They're different."
+    },
+    {
+        "id": 165,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 504.41999999999996,
+        "end": 509.91999999999996,
+        "start_time": "08:24",
+        "end_time": "08:29",
+        "text": "So even that gaseous stuff works only for the small numbers, not even for big integers."
+    },
+    {
+        "id": 166,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 509.92,
+        "end": 514.4,
+        "start_time": "08:29",
+        "end_time": "08:34",
+        "text": "Otherwise, you're wasting memory because you repeat small numbers, not the big numbers."
+    },
+    {
+        "id": 167,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 514.4,
+        "end": 515.88,
+        "start_time": "08:34",
+        "end_time": "08:35",
+        "text": "So Python is smart in that case."
+    },
+    {
+        "id": 168,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 515.88,
+        "end": 520.44,
+        "start_time": "08:35",
+        "end_time": "08:40",
+        "text": "So yeah, that's what about how your variable gets stored in Python."
+    },
+    {
+        "id": 169,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start": 520.44,
+        "end": 521.12,
+        "start_time": "08:40",
+        "end_time": "08:41",
+        "text": "See you in the next video."
+    }
+]

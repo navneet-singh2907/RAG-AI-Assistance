@@ -1,0 +1,2612 @@
+[
+    {
+        "id": 0,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 0.0,
+        "end": 7.4,
+        "start_time": "00:00",
+        "end_time": "00:07",
+        "text": "Now, once we have the setup done for the Python, then we have done for the ideas we are going"
+    },
+    {
+        "id": 1,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 7.4,
+        "end": 8.4,
+        "start_time": "00:07",
+        "end_time": "00:08",
+        "text": "to use."
+    },
+    {
+        "id": 2,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 8.4,
+        "end": 10.4,
+        "start_time": "00:08",
+        "end_time": "00:10",
+        "text": "Of course, we're not going to use all."
+    },
+    {
+        "id": 3,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 10.4,
+        "end": 12.4,
+        "start_time": "00:10",
+        "end_time": "00:12",
+        "text": "We'll start with one."
+    },
+    {
+        "id": 4,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 12.4,
+        "end": 18.16,
+        "start_time": "00:12",
+        "end_time": "00:18",
+        "text": "But before we jump into VS Code or PyCharm, the idea is when you learn a language, you"
+    },
+    {
+        "id": 5,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 18.16,
+        "end": 20.1,
+        "start_time": "00:18",
+        "end_time": "00:20",
+        "text": "want to start from the basics."
+    },
+    {
+        "id": 6,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 20.1,
+        "end": 22.32,
+        "start_time": "00:20",
+        "end_time": "00:22",
+        "text": "And that's what we are going to do now."
+    },
+    {
+        "id": 7,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 22.32,
+        "end": 26.44,
+        "start_time": "00:22",
+        "end_time": "00:26",
+        "text": "And when you install Python, so in fact, before we go for Python, I want to show you one more"
+    },
+    {
+        "id": 8,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 26.44,
+        "end": 27.44,
+        "start_time": "00:26",
+        "end_time": "00:27",
+        "text": "thing."
+    },
+    {
+        "id": 9,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 27.64,
+        "end": 30.84,
+        "start_time": "00:27",
+        "end_time": "00:30",
+        "text": "When you open a command prompt on Windows, this is the command prompt which you can see"
+    },
+    {
+        "id": 10,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 30.84,
+        "end": 32.28,
+        "start_time": "00:30",
+        "end_time": "00:32",
+        "text": "on the screen."
+    },
+    {
+        "id": 11,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 32.28,
+        "end": 37.52,
+        "start_time": "00:32",
+        "end_time": "00:37",
+        "text": "And on this command prompt, when you perform some operations, so let's try dir."
+    },
+    {
+        "id": 12,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 37.52,
+        "end": 42.54,
+        "start_time": "00:37",
+        "end_time": "00:42",
+        "text": "Now when I say, when I do that, it will list all the files in this particular folder."
+    },
+    {
+        "id": 13,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 42.54,
+        "end": 45.7,
+        "start_time": "00:42",
+        "end_time": "00:45",
+        "text": "So in the Naveen folder, I got all these files, right?"
+    },
+    {
+        "id": 14,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 45.7,
+        "end": 49.040000000000006,
+        "start_time": "00:45",
+        "end_time": "00:49",
+        "text": "So basically command prompt understands the command."
+    },
+    {
+        "id": 15,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 49.040000000000006,
+        "end": 51.040000000000006,
+        "start_time": "00:49",
+        "end_time": "00:51",
+        "text": "Example, cls will clear it."
+    },
+    {
+        "id": 16,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 51.04,
+        "end": 57.8,
+        "start_time": "00:51",
+        "end_time": "00:57",
+        "text": "But when I perform 2 plus 3, it will say 2 plus 3 is not recognized as internal or external"
+    },
+    {
+        "id": 17,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 57.8,
+        "end": 58.8,
+        "start_time": "00:57",
+        "end_time": "00:58",
+        "text": "commands."
+    },
+    {
+        "id": 18,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 58.8,
+        "end": 61.879999999999995,
+        "start_time": "00:58",
+        "end_time": "01:01",
+        "text": "That basically means your command prompt work with the commands."
+    },
+    {
+        "id": 19,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 61.879999999999995,
+        "end": 64.28,
+        "start_time": "01:01",
+        "end_time": "01:04",
+        "text": "So pre-built commands, it can be internal or external."
+    },
+    {
+        "id": 20,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 64.28,
+        "end": 69.3,
+        "start_time": "01:04",
+        "end_time": "01:09",
+        "text": "But on the other hand, in Windows, basically we got something called a PowerShell."
+    },
+    {
+        "id": 21,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 69.3,
+        "end": 74.24,
+        "start_time": "01:09",
+        "end_time": "01:14",
+        "text": "Now in this PowerShell, which looks like a command prompt, but bit different, this is"
+    },
+    {
+        "id": 22,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 74.24,
+        "end": 80.6,
+        "start_time": "01:14",
+        "end_time": "01:20",
+        "text": "a tool built by Microsoft to have their own shell kind of thing, which we have in Linux"
+    },
+    {
+        "id": 23,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 80.6,
+        "end": 82.16,
+        "start_time": "01:20",
+        "end_time": "01:22",
+        "text": "based OS or Mac."
+    },
+    {
+        "id": 24,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 82.16,
+        "end": 85.8,
+        "start_time": "01:22",
+        "end_time": "01:25",
+        "text": "So we got shell there where we use bash."
+    },
+    {
+        "id": 25,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 85.8,
+        "end": 88.03999999999999,
+        "start_time": "01:25",
+        "end_time": "01:28",
+        "text": "Here they have created something called bash."
+    },
+    {
+        "id": 26,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 88.03999999999999,
+        "end": 89.75999999999999,
+        "start_time": "01:28",
+        "end_time": "01:29",
+        "text": "I mean, sounds good."
+    },
+    {
+        "id": 27,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 89.75999999999999,
+        "end": 93.33999999999999,
+        "start_time": "01:29",
+        "end_time": "01:33",
+        "text": "But it's more like a bash, but then for Windows."
+    },
+    {
+        "id": 28,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 93.33999999999999,
+        "end": 97.08,
+        "start_time": "01:33",
+        "end_time": "01:37",
+        "text": "And now they have open sourced it so we can use it in multiple places."
+    },
+    {
+        "id": 29,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 97.08,
+        "end": 100.0,
+        "start_time": "01:37",
+        "end_time": "01:40",
+        "text": "Now PowerShell supports scripting."
+    },
+    {
+        "id": 30,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 100.0,
+        "end": 105.44,
+        "start_time": "01:40",
+        "end_time": "01:45",
+        "text": "So when I say the same command dir, I think the command dir works here, command ls works"
+    },
+    {
+        "id": 31,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 105.44,
+        "end": 110.19999999999999,
+        "start_time": "01:45",
+        "end_time": "01:50",
+        "text": "here for the same thing because ls coming from the shell background."
+    },
+    {
+        "id": 32,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 110.2,
+        "end": 111.96000000000001,
+        "start_time": "01:50",
+        "end_time": "01:51",
+        "text": "I can also use clear for clearing."
+    },
+    {
+        "id": 33,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 111.96000000000001,
+        "end": 113.52000000000001,
+        "start_time": "01:51",
+        "end_time": "01:53",
+        "text": "I can also use cls."
+    },
+    {
+        "id": 34,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 113.52000000000001,
+        "end": 117.9,
+        "start_time": "01:53",
+        "end_time": "01:57",
+        "text": "So it's a combination of command prompt with shell and it's fun."
+    },
+    {
+        "id": 35,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 117.9,
+        "end": 122.76,
+        "start_time": "01:57",
+        "end_time": "02:02",
+        "text": "But since you can run a scripting language, so even Python people call it scripting language"
+    },
+    {
+        "id": 36,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 122.76,
+        "end": 126.0,
+        "start_time": "02:02",
+        "end_time": "02:06",
+        "text": "and make sense because you can write scripts there."
+    },
+    {
+        "id": 37,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 126.0,
+        "end": 128.54,
+        "start_time": "02:06",
+        "end_time": "02:08",
+        "text": "But then by default we got this shell."
+    },
+    {
+        "id": 38,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 128.54,
+        "end": 132.24,
+        "start_time": "02:08",
+        "end_time": "02:12",
+        "text": "And in shell if you say 2 plus 3, you do get the output as 5."
+    },
+    {
+        "id": 39,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 132.24,
+        "end": 133.24,
+        "start_time": "02:12",
+        "end_time": "02:13",
+        "text": "Okay?"
+    },
+    {
+        "id": 40,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 133.24,
+        "end": 134.6,
+        "start_time": "02:13",
+        "end_time": "02:14",
+        "text": "So this is how you run shell."
+    },
+    {
+        "id": 41,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 134.6,
+        "end": 139.32,
+        "start_time": "02:14",
+        "end_time": "02:19",
+        "text": "Again, we're not here to run shell programming, but you can write shell commands here like"
+    },
+    {
+        "id": 42,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 139.4,
+        "end": 142.95999999999998,
+        "start_time": "02:19",
+        "end_time": "02:22",
+        "text": "echo, echo and if I say navin, it will print navin."
+    },
+    {
+        "id": 43,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 142.95999999999998,
+        "end": 147.04,
+        "start_time": "02:22",
+        "end_time": "02:27",
+        "text": "So echo is a command in shell to print something."
+    },
+    {
+        "id": 44,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 147.04,
+        "end": 149.72,
+        "start_time": "02:27",
+        "end_time": "02:29",
+        "text": "But if you want to do that in Python, how will you do that?"
+    },
+    {
+        "id": 45,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 149.72,
+        "end": 154.84,
+        "start_time": "02:29",
+        "end_time": "02:34",
+        "text": "So let's say I want to get into Python and that's why you can type Python in the command"
+    },
+    {
+        "id": 46,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 154.84,
+        "end": 156.68,
+        "start_time": "02:34",
+        "end_time": "02:36",
+        "text": "prompt or in the PowerShell."
+    },
+    {
+        "id": 47,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 156.68,
+        "end": 157.76,
+        "start_time": "02:36",
+        "end_time": "02:37",
+        "text": "It works."
+    },
+    {
+        "id": 48,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 157.76,
+        "end": 160.76,
+        "start_time": "02:37",
+        "end_time": "02:40",
+        "text": "When you say enter, it will open a prompt."
+    },
+    {
+        "id": 49,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 160.76,
+        "end": 164.84,
+        "start_time": "02:40",
+        "end_time": "02:44",
+        "text": "Now this is called the Python IDLE."
+    },
+    {
+        "id": 50,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 164.84,
+        "end": 168.34,
+        "start_time": "02:44",
+        "end_time": "02:48",
+        "text": "In fact you can open that Python ideally in a separate window."
+    },
+    {
+        "id": 51,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 168.38,
+        "end": 170.66,
+        "start_time": "02:48",
+        "end_time": "02:50",
+        "text": "But you can do all the things here."
+    },
+    {
+        "id": 52,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 170.66,
+        "end": 175.74,
+        "start_time": "02:50",
+        "end_time": "02:55",
+        "text": "So let's say if you don't want to do that here, so I can say ideally and it will open"
+    },
+    {
+        "id": 53,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 175.74,
+        "end": 179.34,
+        "start_time": "02:55",
+        "end_time": "02:59",
+        "text": "a separate prompt where you can perform the operations."
+    },
+    {
+        "id": 54,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 179.34,
+        "end": 181.54,
+        "start_time": "02:59",
+        "end_time": "03:01",
+        "text": "So we have an option of creating a file."
+    },
+    {
+        "id": 55,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 181.54,
+        "end": 182.82,
+        "start_time": "03:01",
+        "end_time": "03:02",
+        "text": "You can edit the file."
+    },
+    {
+        "id": 56,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 182.82,
+        "end": 186.88,
+        "start_time": "03:02",
+        "end_time": "03:06",
+        "text": "You can run the script and you can configure."
+    },
+    {
+        "id": 57,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 186.88,
+        "end": 190.26,
+        "start_time": "03:06",
+        "end_time": "03:10",
+        "text": "So there are a lot of options here which you can work with."
+    },
+    {
+        "id": 58,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 190.26,
+        "end": 194.66,
+        "start_time": "03:10",
+        "end_time": "03:14",
+        "text": "If the font is small, okay, it's assuming the height, not the font."
+    },
+    {
+        "id": 59,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 194.66,
+        "end": 195.66,
+        "start_time": "03:14",
+        "end_time": "03:15",
+        "text": "Okay."
+    },
+    {
+        "id": 60,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 195.66,
+        "end": 198.22,
+        "start_time": "03:15",
+        "end_time": "03:18",
+        "text": "But we have to find some setting for the increasing of the font."
+    },
+    {
+        "id": 61,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 198.22,
+        "end": 203.58,
+        "start_time": "03:18",
+        "end_time": "03:23",
+        "text": "This is the Python IDLE, which is the integrated development learning environment."
+    },
+    {
+        "id": 62,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 203.58,
+        "end": 206.57999999999998,
+        "start_time": "03:23",
+        "end_time": "03:26",
+        "text": "So it makes sense to test something, to learn."
+    },
+    {
+        "id": 63,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 206.57999999999998,
+        "end": 209.54,
+        "start_time": "03:26",
+        "end_time": "03:29",
+        "text": "But then we are going to use prompt here, the Python prompt."
+    },
+    {
+        "id": 64,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 209.54,
+        "end": 217.74,
+        "start_time": "03:29",
+        "end_time": "03:37",
+        "text": "And this is also a REPL which is read, evaluate, print, loop REPL where you can read the text,"
+    },
+    {
+        "id": 65,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 217.74,
+        "end": 222.14,
+        "start_time": "03:37",
+        "end_time": "03:42",
+        "text": "you can write the text, you can evaluate something, you can print something."
+    },
+    {
+        "id": 66,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 222.14,
+        "end": 223.14,
+        "start_time": "03:42",
+        "end_time": "03:43",
+        "text": "So that's how it is."
+    },
+    {
+        "id": 67,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 223.14,
+        "end": 224.14,
+        "start_time": "03:43",
+        "end_time": "03:44",
+        "text": "Okay."
+    },
+    {
+        "id": 68,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 224.14,
+        "end": 225.14,
+        "start_time": "03:44",
+        "end_time": "03:45",
+        "text": "So here what I'm going to do."
+    },
+    {
+        "id": 69,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 225.14,
+        "end": 226.68,
+        "start_time": "03:45",
+        "end_time": "03:46",
+        "text": "First of all, I will say 2 plus 3."
+    },
+    {
+        "id": 70,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 226.68,
+        "end": 227.92000000000002,
+        "start_time": "03:46",
+        "end_time": "03:47",
+        "text": "The space is not mandatory."
+    },
+    {
+        "id": 71,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 227.92000000000002,
+        "end": 230.72,
+        "start_time": "03:47",
+        "end_time": "03:50",
+        "text": "I will just increase the size a bit."
+    },
+    {
+        "id": 72,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 230.72,
+        "end": 232.76000000000002,
+        "start_time": "03:50",
+        "end_time": "03:52",
+        "text": "So the space is not mandatory here, but it looks good."
+    },
+    {
+        "id": 73,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 232.76000000000002,
+        "end": 234.6,
+        "start_time": "03:52",
+        "end_time": "03:54",
+        "text": "I will say enter and you got 5."
+    },
+    {
+        "id": 74,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 234.6,
+        "end": 235.6,
+        "start_time": "03:54",
+        "end_time": "03:55",
+        "text": "Okay."
+    },
+    {
+        "id": 75,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 235.6,
+        "end": 236.6,
+        "start_time": "03:55",
+        "end_time": "03:56",
+        "text": "That works."
+    },
+    {
+        "id": 76,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 236.6,
+        "end": 237.6,
+        "start_time": "03:56",
+        "end_time": "03:57",
+        "text": "What else we can do?"
+    },
+    {
+        "id": 77,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 237.6,
+        "end": 239.72,
+        "start_time": "03:57",
+        "end_time": "03:59",
+        "text": "We can perform multiple mathematical operations here."
+    },
+    {
+        "id": 78,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 239.72,
+        "end": 241.36,
+        "start_time": "03:59",
+        "end_time": "04:01",
+        "text": "So we have done for the addition."
+    },
+    {
+        "id": 79,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 241.36,
+        "end": 244.48000000000002,
+        "start_time": "04:01",
+        "end_time": "04:04",
+        "text": "Maybe if you want to do subtraction, you can do that."
+    },
+    {
+        "id": 80,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 244.48000000000002,
+        "end": 247.92000000000002,
+        "start_time": "04:04",
+        "end_time": "04:07",
+        "text": "Maybe if you want to multiply, you can do that."
+    },
+    {
+        "id": 81,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 247.92000000000002,
+        "end": 251.08,
+        "start_time": "04:07",
+        "end_time": "04:11",
+        "text": "When you can have not just one operations, but multiple."
+    },
+    {
+        "id": 82,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 251.08,
+        "end": 254.72,
+        "start_time": "04:11",
+        "end_time": "04:14",
+        "text": "So let's say 5 plus 9 minus 4."
+    },
+    {
+        "id": 83,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 254.72,
+        "end": 255.72,
+        "start_time": "04:14",
+        "end_time": "04:15",
+        "text": "Even that works."
+    },
+    {
+        "id": 84,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 255.76,
+        "end": 256.76,
+        "start_time": "04:15",
+        "end_time": "04:16",
+        "text": "Okay."
+    },
+    {
+        "id": 85,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 256.76,
+        "end": 257.76,
+        "start_time": "04:16",
+        "end_time": "04:17",
+        "text": "I was, we got the same 10 10."
+    },
+    {
+        "id": 86,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 257.76,
+        "end": 260.96,
+        "start_time": "04:17",
+        "end_time": "04:20",
+        "text": "Just a coincidence, but it has to follow some grammar, right?"
+    },
+    {
+        "id": 87,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 260.96,
+        "end": 265.76,
+        "start_time": "04:20",
+        "end_time": "04:25",
+        "text": "Example let's say if I say 8 plus 9 minus 4, it will work."
+    },
+    {
+        "id": 88,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 265.76,
+        "end": 267.6,
+        "start_time": "04:25",
+        "end_time": "04:27",
+        "text": "But what if I miss 4 there?"
+    },
+    {
+        "id": 89,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 267.6,
+        "end": 268.6,
+        "start_time": "04:27",
+        "end_time": "04:28",
+        "text": "Will it work?"
+    },
+    {
+        "id": 90,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 268.6,
+        "end": 271.18,
+        "start_time": "04:28",
+        "end_time": "04:31",
+        "text": "If I say enter, it will give you some bad words."
+    },
+    {
+        "id": 91,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 271.18,
+        "end": 275.12,
+        "start_time": "04:31",
+        "end_time": "04:35",
+        "text": "It will say Python has some issues in the file, which is creating the behind the scene."
+    },
+    {
+        "id": 92,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 275.12,
+        "end": 276.64,
+        "start_time": "04:35",
+        "end_time": "04:36",
+        "text": "It says invalid syntax."
+    },
+    {
+        "id": 93,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 276.64,
+        "end": 278.68,
+        "start_time": "04:36",
+        "end_time": "04:38",
+        "text": "So this is not a syntax which will work."
+    },
+    {
+        "id": 94,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 278.68,
+        "end": 279.68,
+        "start_time": "04:38",
+        "end_time": "04:39",
+        "text": "Okay."
+    },
+    {
+        "id": 95,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 279.68,
+        "end": 280.68,
+        "start_time": "04:39",
+        "end_time": "04:40",
+        "text": "So I will just play it out."
+    },
+    {
+        "id": 96,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 280.68,
+        "end": 281.72,
+        "start_time": "04:40",
+        "end_time": "04:41",
+        "text": "I want an empty screen."
+    },
+    {
+        "id": 97,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 281.72,
+        "end": 283.32,
+        "start_time": "04:41",
+        "end_time": "04:43",
+        "text": "So yeah, you, it will follow the grammar."
+    },
+    {
+        "id": 98,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 283.32,
+        "end": 284.32,
+        "start_time": "04:43",
+        "end_time": "04:44",
+        "text": "You have to follow it."
+    },
+    {
+        "id": 99,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 284.32,
+        "end": 285.32,
+        "start_time": "04:44",
+        "end_time": "04:45",
+        "text": "Otherwise it will not work."
+    },
+    {
+        "id": 100,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 285.32,
+        "end": 290.15999999999997,
+        "start_time": "04:45",
+        "end_time": "04:50",
+        "text": "Let's say I'm going to say 9 plus 2 multiplied by 3."
+    },
+    {
+        "id": 101,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 290.15999999999997,
+        "end": 292.71999999999997,
+        "start_time": "04:50",
+        "end_time": "04:52",
+        "text": "Now of course there should be some output for this."
+    },
+    {
+        "id": 102,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 292.71999999999997,
+        "end": 296.15999999999997,
+        "start_time": "04:52",
+        "end_time": "04:56",
+        "text": "And when I read this from start to end, it will be 9 plus 2, 11."
+    },
+    {
+        "id": 103,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 296.15999999999997,
+        "end": 297.92,
+        "start_time": "04:56",
+        "end_time": "04:57",
+        "text": "11 into 3 is 33."
+    },
+    {
+        "id": 104,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 297.92,
+        "end": 299.52,
+        "start_time": "04:57",
+        "end_time": "04:59",
+        "text": "That's what I'm expecting."
+    },
+    {
+        "id": 105,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 299.52,
+        "end": 304.4,
+        "start_time": "04:59",
+        "end_time": "05:04",
+        "text": "On the other hand, if you know the rules of board mass where multiplication will come"
+    },
+    {
+        "id": 106,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 304.4,
+        "end": 307.0,
+        "start_time": "05:04",
+        "end_time": "05:07",
+        "text": "first, then it will be doing the addition."
+    },
+    {
+        "id": 107,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 307.0,
+        "end": 309.08,
+        "start_time": "05:07",
+        "end_time": "05:09",
+        "text": "In that scenario, it will be 2 into 3, which is 6."
+    },
+    {
+        "id": 108,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 309.08,
+        "end": 310.44,
+        "start_time": "05:09",
+        "end_time": "05:10",
+        "text": "6 plus 9 is 15."
+    },
+    {
+        "id": 109,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 310.44,
+        "end": 311.44,
+        "start_time": "05:10",
+        "end_time": "05:11",
+        "text": "So what do you think?"
+    },
+    {
+        "id": 110,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 311.44,
+        "end": 313.03999999999996,
+        "start_time": "05:11",
+        "end_time": "05:13",
+        "text": "Will it be 33 or 15?"
+    },
+    {
+        "id": 111,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 313.03999999999996,
+        "end": 314.03999999999996,
+        "start_time": "05:13",
+        "end_time": "05:14",
+        "text": "Let's try it out."
+    },
+    {
+        "id": 112,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 314.04,
+        "end": 317.56,
+        "start_time": "05:14",
+        "end_time": "05:17",
+        "text": "So here we got 15 is because it is following the board mass."
+    },
+    {
+        "id": 113,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 317.56,
+        "end": 319.84000000000003,
+        "start_time": "05:17",
+        "end_time": "05:19",
+        "text": "So it is multiplying first, then it is adding it."
+    },
+    {
+        "id": 114,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 319.84000000000003,
+        "end": 323.24,
+        "start_time": "05:19",
+        "end_time": "05:23",
+        "text": "But what if I want to add first, then I want to multiply."
+    },
+    {
+        "id": 115,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 323.24,
+        "end": 326.34000000000003,
+        "start_time": "05:23",
+        "end_time": "05:26",
+        "text": "So as for the board mass, we have to put a brackets there."
+    },
+    {
+        "id": 116,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 326.34000000000003,
+        "end": 331.56,
+        "start_time": "05:26",
+        "end_time": "05:31",
+        "text": "So I can put a bracket 9 plus 2 and then I will say multiplied by 3."
+    },
+    {
+        "id": 117,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 331.56,
+        "end": 333.90000000000003,
+        "start_time": "05:31",
+        "end_time": "05:33",
+        "text": "And when I say enter, it will be 33."
+    },
+    {
+        "id": 118,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 333.90000000000003,
+        "end": 335.8,
+        "start_time": "05:33",
+        "end_time": "05:35",
+        "text": "So yeah, board mass is there."
+    },
+    {
+        "id": 119,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 335.8,
+        "end": 337.88,
+        "start_time": "05:35",
+        "end_time": "05:37",
+        "text": "So what else we can do here?"
+    },
+    {
+        "id": 120,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 337.88,
+        "end": 340.6,
+        "start_time": "05:37",
+        "end_time": "05:40",
+        "text": "Let's say I want to find a cube of a number."
+    },
+    {
+        "id": 121,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 340.6,
+        "end": 343.04,
+        "start_time": "05:40",
+        "end_time": "05:43",
+        "text": "So 8 into 8 into 8."
+    },
+    {
+        "id": 122,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 343.04,
+        "end": 344.6,
+        "start_time": "05:43",
+        "end_time": "05:44",
+        "text": "That's how you find a cube."
+    },
+    {
+        "id": 123,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 344.6,
+        "end": 346.68,
+        "start_time": "05:44",
+        "end_time": "05:46",
+        "text": "Of course, square is 8 into 8."
+    },
+    {
+        "id": 124,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 346.68,
+        "end": 348.18,
+        "start_time": "05:46",
+        "end_time": "05:48",
+        "text": "Cube is 8 into 8 into 8."
+    },
+    {
+        "id": 125,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 348.18,
+        "end": 353.64000000000004,
+        "start_time": "05:48",
+        "end_time": "05:53",
+        "text": "If you want to find 8 power 4, it will be 8 into 8 into 8 into 8."
+    },
+    {
+        "id": 126,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 353.64000000000004,
+        "end": 355.56,
+        "start_time": "05:53",
+        "end_time": "05:55",
+        "text": "I'm not sure how many times I have said 8."
+    },
+    {
+        "id": 127,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 355.56,
+        "end": 356.56,
+        "start_time": "05:55",
+        "end_time": "05:56",
+        "text": "It doesn't matter."
+    },
+    {
+        "id": 128,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 356.56,
+        "end": 357.56,
+        "start_time": "05:56",
+        "end_time": "05:57",
+        "text": "But you got the point."
+    },
+    {
+        "id": 129,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 357.56,
+        "end": 359.46000000000004,
+        "start_time": "05:57",
+        "end_time": "05:59",
+        "text": "When I say enter, we got 5 and 2."
+    },
+    {
+        "id": 130,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 359.46000000000004,
+        "end": 364.46000000000004,
+        "start_time": "05:59",
+        "end_time": "06:04",
+        "text": "But what if I want to find 8 power 12 or 8 power 10?"
+    },
+    {
+        "id": 131,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 364.46000000000004,
+        "end": 365.84000000000003,
+        "start_time": "06:04",
+        "end_time": "06:05",
+        "text": "That's a big number."
+    },
+    {
+        "id": 132,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 365.84000000000003,
+        "end": 369.52000000000004,
+        "start_time": "06:05",
+        "end_time": "06:09",
+        "text": "So of course, I can damage my keyboard by typing all those things."
+    },
+    {
+        "id": 133,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 369.52,
+        "end": 373.76,
+        "start_time": "06:09",
+        "end_time": "06:13",
+        "text": "Or we can use something called a power, something like a carriage sign."
+    },
+    {
+        "id": 134,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 373.76,
+        "end": 376.06,
+        "start_time": "06:13",
+        "end_time": "06:16",
+        "text": "This should work, but it's not working."
+    },
+    {
+        "id": 135,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 376.06,
+        "end": 377.06,
+        "start_time": "06:16",
+        "end_time": "06:17",
+        "text": "It's not working."
+    },
+    {
+        "id": 136,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 377.06,
+        "end": 378.06,
+        "start_time": "06:17",
+        "end_time": "06:18",
+        "text": "It is doing something else."
+    },
+    {
+        "id": 137,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 378.06,
+        "end": 380.84,
+        "start_time": "06:18",
+        "end_time": "06:20",
+        "text": "We'll talk about it, what it's doing later."
+    },
+    {
+        "id": 138,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 380.84,
+        "end": 382.41999999999996,
+        "start_time": "06:20",
+        "end_time": "06:22",
+        "text": "Something to do with bitwise."
+    },
+    {
+        "id": 139,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 382.41999999999996,
+        "end": 384.21999999999997,
+        "start_time": "06:22",
+        "end_time": "06:24",
+        "text": "But at this point, it's not working."
+    },
+    {
+        "id": 140,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 384.21999999999997,
+        "end": 387.56,
+        "start_time": "06:24",
+        "end_time": "06:27",
+        "text": "So we have to use double star to do the power."
+    },
+    {
+        "id": 141,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 387.56,
+        "end": 389.15999999999997,
+        "start_time": "06:27",
+        "end_time": "06:29",
+        "text": "So 8 power 10."
+    },
+    {
+        "id": 142,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 389.15999999999997,
+        "end": 390.15999999999997,
+        "start_time": "06:29",
+        "end_time": "06:30",
+        "text": "And this is the number."
+    },
+    {
+        "id": 143,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 390.15999999999997,
+        "end": 391.97999999999996,
+        "start_time": "06:30",
+        "end_time": "06:31",
+        "text": "I'm not sure if 8 power 10 is that number."
+    },
+    {
+        "id": 144,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 391.97999999999996,
+        "end": 394.08,
+        "start_time": "06:31",
+        "end_time": "06:34",
+        "text": "We just have to accept whatever Python says."
+    },
+    {
+        "id": 145,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 394.08,
+        "end": 396.26,
+        "start_time": "06:34",
+        "end_time": "06:36",
+        "text": "Or we can just find for 3."
+    },
+    {
+        "id": 146,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 396.26,
+        "end": 399.42,
+        "start_time": "06:36",
+        "end_time": "06:39",
+        "text": "If it says 5 and 2, then the previous one should be correct."
+    },
+    {
+        "id": 147,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 399.42,
+        "end": 404.7,
+        "start_time": "06:39",
+        "end_time": "06:44",
+        "text": "But why did the value, the output of this is not out of range?"
+    },
+    {
+        "id": 148,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 404.7,
+        "end": 405.7,
+        "start_time": "06:44",
+        "end_time": "06:45",
+        "text": "So that's the tricky part."
+    },
+    {
+        "id": 149,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 405.7,
+        "end": 409.3,
+        "start_time": "06:45",
+        "end_time": "06:49",
+        "text": "Anyway, the point is, this is how you do the power."
+    },
+    {
+        "id": 150,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 409.3,
+        "end": 410.98,
+        "start_time": "06:49",
+        "end_time": "06:50",
+        "text": "We have not tried the division."
+    },
+    {
+        "id": 151,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 410.98,
+        "end": 412.3,
+        "start_time": "06:50",
+        "end_time": "06:52",
+        "text": "Let's try division now."
+    },
+    {
+        "id": 152,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 412.3,
+        "end": 415.5,
+        "start_time": "06:52",
+        "end_time": "06:55",
+        "text": "So let's say I want to do 8 divided by 2."
+    },
+    {
+        "id": 153,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 415.5,
+        "end": 417.42,
+        "start_time": "06:55",
+        "end_time": "06:57",
+        "text": "Of course, it should be 4."
+    },
+    {
+        "id": 154,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 417.42,
+        "end": 418.78,
+        "start_time": "06:57",
+        "end_time": "06:58",
+        "text": "But then we are not getting 4."
+    },
+    {
+        "id": 155,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 418.78,
+        "end": 419.78,
+        "start_time": "06:58",
+        "end_time": "06:59",
+        "text": "We are getting 4.0."
+    },
+    {
+        "id": 156,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 419.78,
+        "end": 420.78,
+        "start_time": "06:59",
+        "end_time": "07:00",
+        "text": "Why?"
+    },
+    {
+        "id": 157,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 420.78,
+        "end": 424.53999999999996,
+        "start_time": "07:00",
+        "end_time": "07:04",
+        "text": "It's because when you say 9 divided by 2, you got 4.5."
+    },
+    {
+        "id": 158,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 424.54,
+        "end": 428.38,
+        "start_time": "07:04",
+        "end_time": "07:08",
+        "text": "That means when you do divisions, you do get the point values."
+    },
+    {
+        "id": 159,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 428.38,
+        "end": 430.90000000000003,
+        "start_time": "07:08",
+        "end_time": "07:10",
+        "text": "Now, these are called float numbers."
+    },
+    {
+        "id": 160,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 430.90000000000003,
+        "end": 433.72,
+        "start_time": "07:10",
+        "end_time": "07:13",
+        "text": "So it says 9 divided by 2, of course, you are getting 4.5."
+    },
+    {
+        "id": 161,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 433.72,
+        "end": 439.66,
+        "start_time": "07:13",
+        "end_time": "07:19",
+        "text": "That means when you do 8 divided by 2, you might get the decimal value or the point values"
+    },
+    {
+        "id": 162,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 439.66,
+        "end": 440.66,
+        "start_time": "07:19",
+        "end_time": "07:20",
+        "text": "here."
+    },
+    {
+        "id": 163,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 440.66,
+        "end": 443.02000000000004,
+        "start_time": "07:20",
+        "end_time": "07:23",
+        "text": "So 4.0 makes sense."
+    },
+    {
+        "id": 164,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 443.02000000000004,
+        "end": 449.82000000000005,
+        "start_time": "07:23",
+        "end_time": "07:29",
+        "text": "But then when you try to understand the division of a number, what you get is you get two outputs."
+    },
+    {
+        "id": 165,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 450.82,
+        "end": 455.06,
+        "start_time": "07:30",
+        "end_time": "07:35",
+        "text": "So if you see on the screen here, we got, let's say if you are dividing 9 by 2, you"
+    },
+    {
+        "id": 166,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 455.06,
+        "end": 456.06,
+        "start_time": "07:35",
+        "end_time": "07:36",
+        "text": "got two things."
+    },
+    {
+        "id": 167,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 456.06,
+        "end": 459.82,
+        "start_time": "07:36",
+        "end_time": "07:39",
+        "text": "One is the quotient, which is 4, and the remainder, which is 1."
+    },
+    {
+        "id": 168,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 459.82,
+        "end": 460.86,
+        "start_time": "07:39",
+        "end_time": "07:40",
+        "text": "So how do I do that?"
+    },
+    {
+        "id": 169,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 460.86,
+        "end": 463.34,
+        "start_time": "07:40",
+        "end_time": "07:43",
+        "text": "What if I want quotient and remainder separately?"
+    },
+    {
+        "id": 170,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 463.34,
+        "end": 466.8,
+        "start_time": "07:43",
+        "end_time": "07:46",
+        "text": "In that case, you can say 9, you just have to put double slash."
+    },
+    {
+        "id": 171,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 466.8,
+        "end": 469.9,
+        "start_time": "07:46",
+        "end_time": "07:49",
+        "text": "And when you say 2, now you will only get the quotient."
+    },
+    {
+        "id": 172,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 469.9,
+        "end": 471.46,
+        "start_time": "07:49",
+        "end_time": "07:51",
+        "text": "But what if you want a remainder?"
+    },
+    {
+        "id": 173,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 471.46,
+        "end": 475.86,
+        "start_time": "07:51",
+        "end_time": "07:55",
+        "text": "In that case, you have to use something called a mod symbol."
+    },
+    {
+        "id": 174,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 475.86,
+        "end": 478.42,
+        "start_time": "07:55",
+        "end_time": "07:58",
+        "text": "And you say 2, and you got 1."
+    },
+    {
+        "id": 175,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 478.42,
+        "end": 485.66,
+        "start_time": "07:58",
+        "end_time": "08:05",
+        "text": "This will make much more sense once we start with even our examples with the conditional"
+    },
+    {
+        "id": 176,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 485.66,
+        "end": 486.66,
+        "start_time": "08:05",
+        "end_time": "08:06",
+        "text": "statements."
+    },
+    {
+        "id": 177,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 486.66,
+        "end": 487.78000000000003,
+        "start_time": "08:06",
+        "end_time": "08:07",
+        "text": "But you will see that later."
+    },
+    {
+        "id": 178,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 487.78000000000003,
+        "end": 492.78000000000003,
+        "start_time": "08:07",
+        "end_time": "08:12",
+        "text": "At this point, just remember, if you want a quotient from a division, you say 4, I mean"
+    },
+    {
+        "id": 179,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 492.78000000000003,
+        "end": 494.14000000000004,
+        "start_time": "08:12",
+        "end_time": "08:14",
+        "text": "you say double slash."
+    },
+    {
+        "id": 180,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 494.14000000000004,
+        "end": 497.46000000000004,
+        "start_time": "08:14",
+        "end_time": "08:17",
+        "text": "If you want a remainder, you use a percentage symbol."
+    },
+    {
+        "id": 181,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 497.46000000000004,
+        "end": 498.98,
+        "start_time": "08:17",
+        "end_time": "08:18",
+        "text": "We can also call it as a mod."
+    },
+    {
+        "id": 182,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 498.98,
+        "end": 502.78000000000003,
+        "start_time": "08:18",
+        "end_time": "08:22",
+        "text": "So that's how you basically perform the operations in the Python prompt."
+    },
+    {
+        "id": 183,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 502.78000000000003,
+        "end": 506.3,
+        "start_time": "08:22",
+        "end_time": "08:26",
+        "text": "Again, we are not using the VS code or other stuff at this point."
+    },
+    {
+        "id": 184,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 506.46000000000004,
+        "end": 507.46000000000004,
+        "start_time": "08:26",
+        "end_time": "08:27",
+        "text": "We'll do that later."
+    },
+    {
+        "id": 185,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 507.46000000000004,
+        "end": 509.38,
+        "start_time": "08:27",
+        "end_time": "08:29",
+        "text": "But this is what it is."
+    },
+    {
+        "id": 186,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 509.38,
+        "end": 511.54,
+        "start_time": "08:29",
+        "end_time": "08:31",
+        "text": "So let me talk about something about variables."
+    },
+    {
+        "id": 187,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 511.54,
+        "end": 513.22,
+        "start_time": "08:31",
+        "end_time": "08:33",
+        "text": "Of course, we'll not go in detail."
+    },
+    {
+        "id": 188,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 513.22,
+        "end": 516.26,
+        "start_time": "08:33",
+        "end_time": "08:36",
+        "text": "There should be a separate video dedicated for variables."
+    },
+    {
+        "id": 189,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 516.26,
+        "end": 518.54,
+        "start_time": "08:36",
+        "end_time": "08:38",
+        "text": "So let's say I want to perform some operation."
+    },
+    {
+        "id": 190,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 518.54,
+        "end": 521.0600000000001,
+        "start_time": "08:38",
+        "end_time": "08:41",
+        "text": "Maybe we can pick up from any one of it."
+    },
+    {
+        "id": 191,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 521.0600000000001,
+        "end": 523.14,
+        "start_time": "08:41",
+        "end_time": "08:43",
+        "text": "Maybe I want to pick up this particular operation here."
+    },
+    {
+        "id": 192,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 523.14,
+        "end": 528.1,
+        "start_time": "08:43",
+        "end_time": "08:48",
+        "text": "So in the prompt, you can just keep the, you can press the arrow button up, or then you"
+    },
+    {
+        "id": 193,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 528.1,
+        "end": 530.52,
+        "start_time": "08:48",
+        "end_time": "08:50",
+        "text": "will get the previous commands."
+    },
+    {
+        "id": 194,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 530.52,
+        "end": 534.16,
+        "start_time": "08:50",
+        "end_time": "08:54",
+        "text": "Now here, when I do that, of course I got 512."
+    },
+    {
+        "id": 195,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 534.16,
+        "end": 540.76,
+        "start_time": "08:54",
+        "end_time": "09:00",
+        "text": "And then if I want to use this value in the next operation, so let's say I'm performing"
+    },
+    {
+        "id": 196,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 540.76,
+        "end": 546.8,
+        "start_time": "09:00",
+        "end_time": "09:06",
+        "text": "5+, and I want to say 5 plus 512, but then I'm not sure about the previous value."
+    },
+    {
+        "id": 197,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 546.8,
+        "end": 550.04,
+        "start_time": "09:06",
+        "end_time": "09:10",
+        "text": "I'm saying 512 here, but maybe I'm not sure about the previous values."
+    },
+    {
+        "id": 198,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 550.04,
+        "end": 554.0,
+        "start_time": "09:10",
+        "end_time": "09:14",
+        "text": "In that case, if I want to pick the last value, how will I do it?"
+    },
+    {
+        "id": 199,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 554.0,
+        "end": 559.5,
+        "start_time": "09:14",
+        "end_time": "09:19",
+        "text": "In that case, you can use something called an underscore, which is kind of a box which"
+    },
+    {
+        "id": 200,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 559.54,
+        "end": 561.02,
+        "start_time": "09:19",
+        "end_time": "09:21",
+        "text": "stores the previous value."
+    },
+    {
+        "id": 201,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 561.02,
+        "end": 563.78,
+        "start_time": "09:21",
+        "end_time": "09:23",
+        "text": "I can say variable, but we don't have a name for it."
+    },
+    {
+        "id": 202,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 563.78,
+        "end": 565.34,
+        "start_time": "09:23",
+        "end_time": "09:25",
+        "text": "Now what do you mean by variable?"
+    },
+    {
+        "id": 203,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 565.34,
+        "end": 569.74,
+        "start_time": "09:25",
+        "end_time": "09:29",
+        "text": "Imagine variable as a box in which you have a value, if that makes sense."
+    },
+    {
+        "id": 204,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 569.74,
+        "end": 572.82,
+        "start_time": "09:29",
+        "end_time": "09:32",
+        "text": "So a box where you have a value and we are naming it something."
+    },
+    {
+        "id": 205,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 572.82,
+        "end": 576.82,
+        "start_time": "09:32",
+        "end_time": "09:36",
+        "text": "So here the underscore is a name for it, because that's the only box you can see in front of"
+    },
+    {
+        "id": 206,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 576.82,
+        "end": 577.82,
+        "start_time": "09:36",
+        "end_time": "09:37",
+        "text": "you."
+    },
+    {
+        "id": 207,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 577.82,
+        "end": 578.82,
+        "start_time": "09:37",
+        "end_time": "09:38",
+        "text": "So it says 5 plus box."
+    },
+    {
+        "id": 208,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 578.82,
+        "end": 579.82,
+        "start_time": "09:38",
+        "end_time": "09:39",
+        "text": "Okay."
+    },
+    {
+        "id": 209,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 579.82,
+        "end": 580.86,
+        "start_time": "09:39",
+        "end_time": "09:40",
+        "text": "And box says 512."
+    },
+    {
+        "id": 210,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 580.86,
+        "end": 583.08,
+        "start_time": "09:40",
+        "end_time": "09:43",
+        "text": "When you say enter, we got 517."
+    },
+    {
+        "id": 211,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 583.08,
+        "end": 589.3,
+        "start_time": "09:43",
+        "end_time": "09:49",
+        "text": "But now if I say 2 plus 512, I can't say underscore, because when you say underscore now, it will"
+    },
+    {
+        "id": 212,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 589.3,
+        "end": 592.0999999999999,
+        "start_time": "09:49",
+        "end_time": "09:52",
+        "text": "pick up the last value, which is 517."
+    },
+    {
+        "id": 213,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 592.0999999999999,
+        "end": 593.0999999999999,
+        "start_time": "09:52",
+        "end_time": "09:53",
+        "text": "Okay."
+    },
+    {
+        "id": 214,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 593.0999999999999,
+        "end": 594.0999999999999,
+        "start_time": "09:53",
+        "end_time": "09:54",
+        "text": "What I want is 512."
+    },
+    {
+        "id": 215,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 594.0999999999999,
+        "end": 595.0999999999999,
+        "start_time": "09:54",
+        "end_time": "09:55",
+        "text": "Let me show you the proof."
+    },
+    {
+        "id": 216,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 595.0999999999999,
+        "end": 599.2199999999999,
+        "start_time": "09:55",
+        "end_time": "09:59",
+        "text": "When I say enter, we got 519, because 2 plus the previous value, which is 517."
+    },
+    {
+        "id": 217,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 599.2199999999999,
+        "end": 600.3,
+        "start_time": "09:59",
+        "end_time": "10:00",
+        "text": "But I want 512."
+    },
+    {
+        "id": 218,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 600.3,
+        "end": 603.0999999999999,
+        "start_time": "10:00",
+        "end_time": "10:03",
+        "text": "Now if you want to do that, we have a simple concept."
+    },
+    {
+        "id": 219,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 603.0999999999999,
+        "end": 604.0999999999999,
+        "start_time": "10:03",
+        "end_time": "10:04",
+        "text": "Let me clear it out."
+    },
+    {
+        "id": 220,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 604.0999999999999,
+        "end": 611.62,
+        "start_time": "10:04",
+        "end_time": "10:11",
+        "text": "What you do is you store this operation, which is this, in a variable, a named variable."
+    },
+    {
+        "id": 221,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 611.62,
+        "end": 614.02,
+        "start_time": "10:11",
+        "end_time": "10:14",
+        "text": "So let's say, I will say num1 equal to."
+    },
+    {
+        "id": 222,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 614.02,
+        "end": 615.02,
+        "start_time": "10:14",
+        "end_time": "10:15",
+        "text": "Now what is this num1?"
+    },
+    {
+        "id": 223,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 615.02,
+        "end": 620.22,
+        "start_time": "10:15",
+        "end_time": "10:20",
+        "text": "num1 is the variable, a box with a name as num1."
+    },
+    {
+        "id": 224,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 620.22,
+        "end": 625.42,
+        "start_time": "10:20",
+        "end_time": "10:25",
+        "text": "Then in that box, you are storing a value which is 8 power 3, that equal to is for the"
+    },
+    {
+        "id": 225,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 625.42,
+        "end": 626.54,
+        "start_time": "10:25",
+        "end_time": "10:26",
+        "text": "assignment."
+    },
+    {
+        "id": 226,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 626.54,
+        "end": 629.92,
+        "start_time": "10:26",
+        "end_time": "10:29",
+        "text": "So this value is getting assigned to this num1."
+    },
+    {
+        "id": 227,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 629.92,
+        "end": 634.9399999999999,
+        "start_time": "10:29",
+        "end_time": "10:34",
+        "text": "So of course, it will first evaluate the value, which is 512, goes into num1."
+    },
+    {
+        "id": 228,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 634.9399999999999,
+        "end": 640.54,
+        "start_time": "10:34",
+        "end_time": "10:40",
+        "text": "Now when I say enter, you can see it is executed, but you're not getting anything, because in"
+    },
+    {
+        "id": 229,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 640.54,
+        "end": 643.62,
+        "start_time": "10:40",
+        "end_time": "10:43",
+        "text": "the previous operation, when you were doing, whatever we are doing, you are getting the"
+    },
+    {
+        "id": 230,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 643.94,
+        "end": 645.22,
+        "start_time": "10:43",
+        "end_time": "10:45",
+        "text": "print of it in the next line."
+    },
+    {
+        "id": 231,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 645.22,
+        "end": 649.38,
+        "start_time": "10:45",
+        "end_time": "10:49",
+        "text": "But here it's not doing it, it's because when you assign a value, it says, okay, I am done"
+    },
+    {
+        "id": 232,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 649.38,
+        "end": 650.38,
+        "start_time": "10:49",
+        "end_time": "10:50",
+        "text": "my job."
+    },
+    {
+        "id": 233,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 650.38,
+        "end": 651.78,
+        "start_time": "10:50",
+        "end_time": "10:51",
+        "text": "I am assigning that value to a variable."
+    },
+    {
+        "id": 234,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 651.78,
+        "end": 655.02,
+        "start_time": "10:51",
+        "end_time": "10:55",
+        "text": "If you want to print it, just mention that you want to print it."
+    },
+    {
+        "id": 235,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 655.02,
+        "end": 656.28,
+        "start_time": "10:55",
+        "end_time": "10:56",
+        "text": "So you say num1."
+    },
+    {
+        "id": 236,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 656.28,
+        "end": 660.48,
+        "start_time": "10:56",
+        "end_time": "11:00",
+        "text": "But then in actual programming of Python, when you do that later, you will be using"
+    },
+    {
+        "id": 237,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 660.48,
+        "end": 661.48,
+        "start_time": "11:00",
+        "end_time": "11:01",
+        "text": "something called print."
+    },
+    {
+        "id": 238,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 661.48,
+        "end": 665.48,
+        "start_time": "11:01",
+        "end_time": "11:05",
+        "text": "Again, we have not talked about what is print till this point, but it works."
+    },
+    {
+        "id": 239,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 665.48,
+        "end": 667.42,
+        "start_time": "11:05",
+        "end_time": "11:07",
+        "text": "We'll talk about this later what is print is."
+    },
+    {
+        "id": 240,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 667.42,
+        "end": 670.54,
+        "start_time": "11:07",
+        "end_time": "11:10",
+        "text": "This is a way you do that in the upcoming sessions, not here."
+    },
+    {
+        "id": 241,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 670.54,
+        "end": 672.42,
+        "start_time": "11:10",
+        "end_time": "11:12",
+        "text": "But here num1 works."
+    },
+    {
+        "id": 242,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 672.74,
+        "end": 678.0999999999999,
+        "start_time": "11:12",
+        "end_time": "11:18",
+        "text": "Now if I want to perform some operation, let's say 4 plus 8, and this is 12."
+    },
+    {
+        "id": 243,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 678.0999999999999,
+        "end": 680.74,
+        "start_time": "11:18",
+        "end_time": "11:20",
+        "text": "But now I want to perform the operation, which is 5 plus."
+    },
+    {
+        "id": 244,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 680.74,
+        "end": 683.2199999999999,
+        "start_time": "11:20",
+        "end_time": "11:23",
+        "text": "Now this plus, I want to add 512."
+    },
+    {
+        "id": 245,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 683.2199999999999,
+        "end": 687.8199999999999,
+        "start_time": "11:23",
+        "end_time": "11:27",
+        "text": "So of course I can type 512 or I can't use underscore, because underscore will be the"
+    },
+    {
+        "id": 246,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 687.8199999999999,
+        "end": 689.62,
+        "start_time": "11:27",
+        "end_time": "11:29",
+        "text": "last value, which is 12."
+    },
+    {
+        "id": 247,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 689.62,
+        "end": 695.3,
+        "start_time": "11:29",
+        "end_time": "11:35",
+        "text": "I can use num1, if that makes sense."
+    },
+    {
+        "id": 248,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 695.3,
+        "end": 699.4599999999999,
+        "start_time": "11:35",
+        "end_time": "11:39",
+        "text": "Not just num1, I can create num2 as well with a new value, let's say simply 8."
+    },
+    {
+        "id": 249,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 699.46,
+        "end": 704.96,
+        "start_time": "11:39",
+        "end_time": "11:44",
+        "text": "And now I'm saying num1 plus num2, and you can see we got 520."
+    },
+    {
+        "id": 250,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 704.96,
+        "end": 709.82,
+        "start_time": "11:44",
+        "end_time": "11:49",
+        "text": "And the beauty is you can create another variable, you can store the addition of num1 plus num2"
+    },
+    {
+        "id": 251,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 709.82,
+        "end": 710.82,
+        "start_time": "11:49",
+        "end_time": "11:50",
+        "text": "in this."
+    },
+    {
+        "id": 252,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 710.82,
+        "end": 712.62,
+        "start_time": "11:50",
+        "end_time": "11:52",
+        "text": "And now I can print num3."
+    },
+    {
+        "id": 253,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 712.62,
+        "end": 714.6,
+        "start_time": "11:52",
+        "end_time": "11:54",
+        "text": "So it's that awesome."
+    },
+    {
+        "id": 254,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 714.6,
+        "end": 716.9000000000001,
+        "start_time": "11:54",
+        "end_time": "11:56",
+        "text": "So this is how you can store the values here."
+    },
+    {
+        "id": 255,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 716.9000000000001,
+        "end": 718.4000000000001,
+        "start_time": "11:56",
+        "end_time": "11:58",
+        "text": "So yeah, that's about it."
+    },
+    {
+        "id": 256,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 718.4000000000001,
+        "end": 723.22,
+        "start_time": "11:58",
+        "end_time": "12:03",
+        "text": "Now what if you want to work with text, because at this point we are only working with numbers."
+    },
+    {
+        "id": 257,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 723.22,
+        "end": 725.14,
+        "start_time": "12:03",
+        "end_time": "12:05",
+        "text": "We're not working with text."
+    },
+    {
+        "id": 258,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 725.14,
+        "end": 726.14,
+        "start_time": "12:05",
+        "end_time": "12:06",
+        "text": "How will you do that?"
+    },
+    {
+        "id": 259,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 726.14,
+        "end": 727.14,
+        "start_time": "12:06",
+        "end_time": "12:07",
+        "text": "How will you perform operation on that?"
+    },
+    {
+        "id": 260,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start": 727.14,
+        "end": 728.86,
+        "start_time": "12:07",
+        "end_time": "12:08",
+        "text": "Let's see that in the next video."
+    }
+]

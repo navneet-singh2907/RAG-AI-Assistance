@@ -1,0 +1,1772 @@
+[
+    {
+        "id": 0,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 0.0,
+        "end": 8.6,
+        "start_time": "00:00",
+        "end_time": "00:08",
+        "text": "So in the previous video, we have seen how do you run Python code online."
+    },
+    {
+        "id": 1,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 8.6,
+        "end": 10.76,
+        "start_time": "00:08",
+        "end_time": "00:10",
+        "text": "But then I want the setup in my machine."
+    },
+    {
+        "id": 2,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 10.76,
+        "end": 11.76,
+        "start_time": "00:10",
+        "end_time": "00:11",
+        "text": "So how do you get this setup?"
+    },
+    {
+        "id": 3,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 11.76,
+        "end": 12.76,
+        "start_time": "00:11",
+        "end_time": "00:12",
+        "text": "See, it's very simple."
+    },
+    {
+        "id": 4,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 12.76,
+        "end": 16.04,
+        "start_time": "00:12",
+        "end_time": "00:16",
+        "text": "When you write a code, of course you want to execute somewhere."
+    },
+    {
+        "id": 5,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 16.04,
+        "end": 20.2,
+        "start_time": "00:16",
+        "end_time": "00:20",
+        "text": "And where you're going to write the code, you can use notepad or you can use any editor"
+    },
+    {
+        "id": 6,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 20.2,
+        "end": 21.44,
+        "start_time": "00:20",
+        "end_time": "00:21",
+        "text": "for that matter."
+    },
+    {
+        "id": 7,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 21.44,
+        "end": 25.740000000000002,
+        "start_time": "00:21",
+        "end_time": "00:25",
+        "text": "Example, if I open my notepad and if I type a command or let's say if I want to print"
+    },
+    {
+        "id": 8,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 25.740000000000002,
+        "end": 29.86,
+        "start_time": "00:25",
+        "end_time": "00:29",
+        "text": "something and I'm going to explain what this print and stuff later."
+    },
+    {
+        "id": 9,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 29.86,
+        "end": 34.58,
+        "start_time": "00:29",
+        "end_time": "00:34",
+        "text": "But let's say if I say print hello, I want to execute this and when I'm going to do this"
+    },
+    {
+        "id": 10,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 34.58,
+        "end": 37.68,
+        "start_time": "00:34",
+        "end_time": "00:37",
+        "text": "and that's where you need the Python interpreter."
+    },
+    {
+        "id": 11,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 37.68,
+        "end": 43.82,
+        "start_time": "00:37",
+        "end_time": "00:43",
+        "text": "So to do that, go to the official website of Python and intentionally I'm saying official"
+    },
+    {
+        "id": 12,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 43.82,
+        "end": 47.260000000000005,
+        "start_time": "00:43",
+        "end_time": "00:47",
+        "text": "is because there are a lot of place where you can get the Python setup, but they might"
+    },
+    {
+        "id": 13,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 47.260000000000005,
+        "end": 48.4,
+        "start_time": "00:47",
+        "end_time": "00:48",
+        "text": "be malicious."
+    },
+    {
+        "id": 14,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 48.4,
+        "end": 53.620000000000005,
+        "start_time": "00:48",
+        "end_time": "00:53",
+        "text": "So better to go on the official website and go to downloads and based on which OS you"
+    },
+    {
+        "id": 15,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 53.620000000000005,
+        "end": 54.620000000000005,
+        "start_time": "00:53",
+        "end_time": "00:54",
+        "text": "are working with."
+    },
+    {
+        "id": 16,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 54.620000000000005,
+        "end": 56.0,
+        "start_time": "00:54",
+        "end_time": "00:56",
+        "text": "So if you are working with Windows, select that."
+    },
+    {
+        "id": 17,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 56.0,
+        "end": 60.14,
+        "start_time": "00:56",
+        "end_time": "01:00",
+        "text": "If you are working with Mac and other platforms, I'm using Windows here."
+    },
+    {
+        "id": 18,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 60.14,
+        "end": 64.3,
+        "start_time": "01:00",
+        "end_time": "01:04",
+        "text": "I will click on Windows and in this you have multiple versions."
+    },
+    {
+        "id": 19,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 64.3,
+        "end": 68.42,
+        "start_time": "01:04",
+        "end_time": "01:08",
+        "text": "Version of Python as well as the version of Windows we are working with."
+    },
+    {
+        "id": 20,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 68.42,
+        "end": 73.7,
+        "start_time": "01:08",
+        "end_time": "01:13",
+        "text": "Example if your Windows machine is 64 bit like I5, I7, Ryzen."
+    },
+    {
+        "id": 21,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 73.7,
+        "end": 76.34,
+        "start_time": "01:13",
+        "end_time": "01:16",
+        "text": "So you can go with the Windows installer 64."
+    },
+    {
+        "id": 22,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 76.34,
+        "end": 82.18,
+        "start_time": "01:16",
+        "end_time": "01:22",
+        "text": "If you are using the ARM based chip, you can check that with your laptop and desktop."
+    },
+    {
+        "id": 23,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 82.18,
+        "end": 85.02,
+        "start_time": "01:22",
+        "end_time": "01:25",
+        "text": "If it says ARM processor, go with this one."
+    },
+    {
+        "id": 24,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 85.03999999999999,
+        "end": 91.88,
+        "start_time": "01:25",
+        "end_time": "01:31",
+        "text": "Now since in this machine I got Intel chip back to the 64 bit, I will go with this version."
+    },
+    {
+        "id": 25,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 91.88,
+        "end": 93.28,
+        "start_time": "01:31",
+        "end_time": "01:33",
+        "text": "Even the Windows is 64 bit."
+    },
+    {
+        "id": 26,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 93.28,
+        "end": 98.32,
+        "start_time": "01:33",
+        "end_time": "01:38",
+        "text": "I will click on this and before I do that, make sure that you download the stable version."
+    },
+    {
+        "id": 27,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 98.32,
+        "end": 103.03999999999999,
+        "start_time": "01:38",
+        "end_time": "01:43",
+        "text": "The problem is if you download the previous version, which might have a few extra features,"
+    },
+    {
+        "id": 28,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 103.03999999999999,
+        "end": 107.32,
+        "start_time": "01:43",
+        "end_time": "01:47",
+        "text": "but then all this beta versions are not fully tested properly."
+    },
+    {
+        "id": 29,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 107.32,
+        "end": 110.56,
+        "start_time": "01:47",
+        "end_time": "01:50",
+        "text": "And if something goes wrong, you have no idea what's going wrong."
+    },
+    {
+        "id": 30,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 110.56,
+        "end": 113.47999999999999,
+        "start_time": "01:50",
+        "end_time": "01:53",
+        "text": "Is it you or your Python setup?"
+    },
+    {
+        "id": 31,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 114.38000000000001,
+        "end": 118.86,
+        "start_time": "01:54",
+        "end_time": "01:58",
+        "text": "See, of course, once you understand the language better, once you have built certain projects,"
+    },
+    {
+        "id": 32,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 118.86,
+        "end": 120.66,
+        "start_time": "01:58",
+        "end_time": "02:00",
+        "text": "you can try out the previous version."
+    },
+    {
+        "id": 33,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 120.66,
+        "end": 124.5,
+        "start_time": "02:00",
+        "end_time": "02:04",
+        "text": "But now at this point, I won't suggest you to go with this."
+    },
+    {
+        "id": 34,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 124.5,
+        "end": 129.22,
+        "start_time": "02:04",
+        "end_time": "02:09",
+        "text": "Go for stable version, click on this and it will download."
+    },
+    {
+        "id": 35,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 129.22,
+        "end": 131.98000000000002,
+        "start_time": "02:09",
+        "end_time": "02:11",
+        "text": "Now I do have the setup already downloaded."
+    },
+    {
+        "id": 36,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 131.98000000000002,
+        "end": 136.06,
+        "start_time": "02:11",
+        "end_time": "02:16",
+        "text": "Now before you do this, in fact, I wanted you to check one more thing,"
+    },
+    {
+        "id": 37,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 136.06,
+        "end": 138.62,
+        "start_time": "02:16",
+        "end_time": "02:18",
+        "text": "which is do you already have Python in your machine?"
+    },
+    {
+        "id": 38,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 138.68,
+        "end": 144.52,
+        "start_time": "02:18",
+        "end_time": "02:24",
+        "text": "If you have, then that step was not required, but I don't think anyone will have by default"
+    },
+    {
+        "id": 39,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 144.52,
+        "end": 146.6,
+        "start_time": "02:24",
+        "end_time": "02:26",
+        "text": "if you have not worked before on Python."
+    },
+    {
+        "id": 40,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 146.6,
+        "end": 151.04,
+        "start_time": "02:26",
+        "end_time": "02:31",
+        "text": "Okay, so now open your terminal and how do you check if you have Python or not?"
+    },
+    {
+        "id": 41,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 151.04,
+        "end": 154.04,
+        "start_time": "02:31",
+        "end_time": "02:34",
+        "text": "Just type Python and version."
+    },
+    {
+        "id": 42,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 154.04,
+        "end": 159.36,
+        "start_time": "02:34",
+        "end_time": "02:39",
+        "text": "And if you see something like this by saying Python was not found, that means you don't have it."
+    },
+    {
+        "id": 43,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 159.36,
+        "end": 165.0,
+        "start_time": "02:39",
+        "end_time": "02:45",
+        "text": "Also, sometime, you know, when you install Python 3, that's the latest version of Python,"
+    },
+    {
+        "id": 44,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 165.0,
+        "end": 167.48000000000002,
+        "start_time": "02:45",
+        "end_time": "02:47",
+        "text": "sometime you get Python 3 as well."
+    },
+    {
+        "id": 45,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 167.5,
+        "end": 172.54,
+        "start_time": "02:47",
+        "end_time": "02:52",
+        "text": "So check with this command as well, Python 3, and make sure you don't have any of that."
+    },
+    {
+        "id": 46,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 172.54,
+        "end": 175.42,
+        "start_time": "02:52",
+        "end_time": "02:55",
+        "text": "If you don't have any of that, then you can install Python."
+    },
+    {
+        "id": 47,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 175.42,
+        "end": 179.7,
+        "start_time": "02:55",
+        "end_time": "02:59",
+        "text": "So download it and then click on this simple installation."
+    },
+    {
+        "id": 48,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 179.7,
+        "end": 181.38,
+        "start_time": "02:59",
+        "end_time": "03:01",
+        "text": "It will open this prompt."
+    },
+    {
+        "id": 49,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 181.38,
+        "end": 186.29999999999998,
+        "start_time": "03:01",
+        "end_time": "03:06",
+        "text": "Now on the first screen, make sure that you tick this add Python.exe to path"
+    },
+    {
+        "id": 50,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 186.29999999999998,
+        "end": 190.54,
+        "start_time": "03:06",
+        "end_time": "03:10",
+        "text": "so that you don't have to manually do all the process of setting the path."
+    },
+    {
+        "id": 51,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 190.54,
+        "end": 196.29999999999998,
+        "start_time": "03:10",
+        "end_time": "03:16",
+        "text": "Why someone will do this is because when you save the files of Python,"
+    },
+    {
+        "id": 52,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 196.32000000000002,
+        "end": 198.4,
+        "start_time": "03:16",
+        "end_time": "03:18",
+        "text": "you store it in some other folder."
+    },
+    {
+        "id": 53,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 198.4,
+        "end": 200.64000000000001,
+        "start_time": "03:18",
+        "end_time": "03:20",
+        "text": "The Python setup will be some other folder."
+    },
+    {
+        "id": 54,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 200.64000000000001,
+        "end": 203.28,
+        "start_time": "03:20",
+        "end_time": "03:23",
+        "text": "So you have to link the path then."
+    },
+    {
+        "id": 55,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 203.28,
+        "end": 207.08,
+        "start_time": "03:23",
+        "end_time": "03:27",
+        "text": "If you don't want to do that, just tick this and click on install now."
+    },
+    {
+        "id": 56,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 207.08,
+        "end": 211.76000000000002,
+        "start_time": "03:27",
+        "end_time": "03:31",
+        "text": "Simple setup you have, you might have to say next at some point and it will be done."
+    },
+    {
+        "id": 57,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 211.76000000000002,
+        "end": 215.24,
+        "start_time": "03:31",
+        "end_time": "03:35",
+        "text": "So it's happening, happening, happening, taking some time."
+    },
+    {
+        "id": 58,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 215.24,
+        "end": 218.04000000000002,
+        "start_time": "03:35",
+        "end_time": "03:38",
+        "text": "Okay, so Python installed successfully."
+    },
+    {
+        "id": 59,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 218.04000000000002,
+        "end": 219.16000000000003,
+        "start_time": "03:38",
+        "end_time": "03:39",
+        "text": "That's what I'm getting."
+    },
+    {
+        "id": 60,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 219.16000000000003,
+        "end": 220.8,
+        "start_time": "03:39",
+        "end_time": "03:40",
+        "text": "Okay, so how do you verify this?"
+    },
+    {
+        "id": 61,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 220.8,
+        "end": 223.84,
+        "start_time": "03:40",
+        "end_time": "03:43",
+        "text": "Go to your terminal and say Python version."
+    },
+    {
+        "id": 62,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 223.84,
+        "end": 225.32000000000002,
+        "start_time": "03:43",
+        "end_time": "03:45",
+        "text": "And when you say enter, it will not work."
+    },
+    {
+        "id": 63,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 225.32,
+        "end": 227.34,
+        "start_time": "03:45",
+        "end_time": "03:47",
+        "text": "But you will say, hey, you got Python there."
+    },
+    {
+        "id": 64,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 227.34,
+        "end": 228.98,
+        "start_time": "03:47",
+        "end_time": "03:48",
+        "text": "It's not working anymore."
+    },
+    {
+        "id": 65,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 228.98,
+        "end": 233.78,
+        "start_time": "03:48",
+        "end_time": "03:53",
+        "text": "See, the thing is when you install softwares and when you try to run the command,"
+    },
+    {
+        "id": 66,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 233.78,
+        "end": 236.29999999999998,
+        "start_time": "03:53",
+        "end_time": "03:56",
+        "text": "you have to make sure that you reopen your terminal."
+    },
+    {
+        "id": 67,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 236.29999999999998,
+        "end": 242.82,
+        "start_time": "03:56",
+        "end_time": "04:02",
+        "text": "And why I'm saying that is because people do miss it and then they feel bad."
+    },
+    {
+        "id": 68,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 242.82,
+        "end": 245.54,
+        "start_time": "04:02",
+        "end_time": "04:05",
+        "text": "Hey, we have done all the setups, they're not working."
+    },
+    {
+        "id": 69,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 245.54,
+        "end": 249.54,
+        "start_time": "04:05",
+        "end_time": "04:09",
+        "text": "It's because you forgot to reopen your terminal."
+    },
+    {
+        "id": 70,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 249.54,
+        "end": 254.24,
+        "start_time": "04:09",
+        "end_time": "04:14",
+        "text": "Now, once you reopen it, just try it now and it will work."
+    },
+    {
+        "id": 71,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 254.24,
+        "end": 255.18,
+        "start_time": "04:14",
+        "end_time": "04:15",
+        "text": "Cool, right?"
+    },
+    {
+        "id": 72,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 255.20000000000002,
+        "end": 258.88,
+        "start_time": "04:15",
+        "end_time": "04:18",
+        "text": "But in case if Python is not working, try Python 3."
+    },
+    {
+        "id": 73,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 258.88,
+        "end": 261.56,
+        "start_time": "04:18",
+        "end_time": "04:21",
+        "text": "If that works, you still should be happy."
+    },
+    {
+        "id": 74,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 261.56,
+        "end": 265.92,
+        "start_time": "04:21",
+        "end_time": "04:25",
+        "text": "But if that work, if Python 3 works and then you want to say, hey, you know, I want, I'm"
+    },
+    {
+        "id": 75,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 265.92,
+        "end": 266.92,
+        "start_time": "04:25",
+        "end_time": "04:26",
+        "text": "happy with this command."
+    },
+    {
+        "id": 76,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 266.92,
+        "end": 268.76,
+        "start_time": "04:26",
+        "end_time": "04:28",
+        "text": "I don't want Python 3, then you can change it."
+    },
+    {
+        "id": 77,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 268.76,
+        "end": 270.16,
+        "start_time": "04:28",
+        "end_time": "04:30",
+        "text": "There's allies you can use."
+    },
+    {
+        "id": 78,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 270.16,
+        "end": 272.32,
+        "start_time": "04:30",
+        "end_time": "04:32",
+        "text": "Ask the AI models and it will give you the answer."
+    },
+    {
+        "id": 79,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 272.32,
+        "end": 273.64,
+        "start_time": "04:32",
+        "end_time": "04:33",
+        "text": "How do you do the allies?"
+    },
+    {
+        "id": 80,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 273.64,
+        "end": 277.16,
+        "start_time": "04:33",
+        "end_time": "04:37",
+        "text": "Anyway, so for me, the Python command is working."
+    },
+    {
+        "id": 81,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 277.16,
+        "end": 278.62,
+        "start_time": "04:37",
+        "end_time": "04:38",
+        "text": "So I will just work with that."
+    },
+    {
+        "id": 82,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 278.62,
+        "end": 283.8,
+        "start_time": "04:38",
+        "end_time": "04:43",
+        "text": "Now once you have Python installed, what you can do is you can open the Python prompt."
+    },
+    {
+        "id": 83,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 283.8,
+        "end": 288.42,
+        "start_time": "04:43",
+        "end_time": "04:48",
+        "text": "See if you have Python installed and in the terminal itself, if you say, hey, you know,"
+    },
+    {
+        "id": 84,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 288.42,
+        "end": 289.42,
+        "start_time": "04:48",
+        "end_time": "04:49",
+        "text": "I got print."
+    },
+    {
+        "id": 85,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 289.42,
+        "end": 294.26,
+        "start_time": "04:49",
+        "end_time": "04:54",
+        "text": "I want to execute a Python function or Python statement."
+    },
+    {
+        "id": 86,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 294.26,
+        "end": 298.90000000000003,
+        "start_time": "04:54",
+        "end_time": "04:58",
+        "text": "If I say enter, you can't run your Python code directly here."
+    },
+    {
+        "id": 87,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 298.90000000000003,
+        "end": 302.90000000000003,
+        "start_time": "04:58",
+        "end_time": "05:02",
+        "text": "You basically need a prompt, Python prompt."
+    },
+    {
+        "id": 88,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 302.90000000000003,
+        "end": 307.54,
+        "start_time": "05:02",
+        "end_time": "05:07",
+        "text": "And the way you can get that is go to a terminal and just say Python and say enter."
+    },
+    {
+        "id": 89,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 308.0,
+        "end": 314.72,
+        "start_time": "05:08",
+        "end_time": "05:14",
+        "text": "When you do this, you will get a pop up here or you will get something which says Python"
+    },
+    {
+        "id": 90,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 314.72,
+        "end": 317.44,
+        "start_time": "05:14",
+        "end_time": "05:17",
+        "text": "with the version and this three arrows here."
+    },
+    {
+        "id": 91,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 317.44,
+        "end": 320.72,
+        "start_time": "05:17",
+        "end_time": "05:20",
+        "text": "That means now you can execute your Python code here."
+    },
+    {
+        "id": 92,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 320.72,
+        "end": 322.0,
+        "start_time": "05:20",
+        "end_time": "05:22",
+        "text": "Now which code I want to execute?"
+    },
+    {
+        "id": 93,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 322.0,
+        "end": 324.56,
+        "start_time": "05:22",
+        "end_time": "05:24",
+        "text": "I will stick to my print."
+    },
+    {
+        "id": 94,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 324.56,
+        "end": 328.0,
+        "start_time": "05:24",
+        "end_time": "05:28",
+        "text": "So I will say hello, enter and you got hello there."
+    },
+    {
+        "id": 95,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 328.0,
+        "end": 329.0,
+        "start_time": "05:28",
+        "end_time": "05:29",
+        "text": "Congratulations."
+    },
+    {
+        "id": 96,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 329.0,
+        "end": 333.0,
+        "start_time": "05:29",
+        "end_time": "05:33",
+        "text": "This is your first step to run Python code on your machine."
+    },
+    {
+        "id": 97,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 333.0,
+        "end": 334.96000000000004,
+        "start_time": "05:33",
+        "end_time": "05:34",
+        "text": "So that's how you print hello here."
+    },
+    {
+        "id": 98,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 334.96000000000004,
+        "end": 335.96000000000004,
+        "start_time": "05:34",
+        "end_time": "05:35",
+        "text": "Okay."
+    },
+    {
+        "id": 99,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 336.7,
+        "end": 342.21999999999997,
+        "start_time": "05:36",
+        "end_time": "05:42",
+        "text": "What if you have multiple lines of code, not just one, maybe 10 lines of code, maybe 100,"
+    },
+    {
+        "id": 100,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 342.21999999999997,
+        "end": 343.65999999999997,
+        "start_time": "05:42",
+        "end_time": "05:43",
+        "text": "maybe 1000."
+    },
+    {
+        "id": 101,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 343.65999999999997,
+        "end": 350.06,
+        "start_time": "05:43",
+        "end_time": "05:50",
+        "text": "Not a good idea to have all the lines of code in one file, but let's say imaginary stuff."
+    },
+    {
+        "id": 102,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 350.06,
+        "end": 351.06,
+        "start_time": "05:50",
+        "end_time": "05:51",
+        "text": "How will you do that?"
+    },
+    {
+        "id": 103,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 351.06,
+        "end": 355.09999999999997,
+        "start_time": "05:51",
+        "end_time": "05:55",
+        "text": "Of course, you can type all the statements here, but then if you do that, how will you"
+    },
+    {
+        "id": 104,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 355.09999999999997,
+        "end": 356.09999999999997,
+        "start_time": "05:55",
+        "end_time": "05:56",
+        "text": "debug?"
+    },
+    {
+        "id": 105,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 356.09999999999997,
+        "end": 357.09999999999997,
+        "start_time": "05:56",
+        "end_time": "05:57",
+        "text": "How will you modify?"
+    },
+    {
+        "id": 106,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 357.09999999999997,
+        "end": 358.62,
+        "start_time": "05:57",
+        "end_time": "05:58",
+        "text": "A lot of problems, right?"
+    },
+    {
+        "id": 107,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 358.62,
+        "end": 361.78,
+        "start_time": "05:58",
+        "end_time": "06:01",
+        "text": "In that case, you need a place where you will type the code."
+    },
+    {
+        "id": 108,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 361.78,
+        "end": 362.78,
+        "start_time": "06:01",
+        "end_time": "06:02",
+        "text": "Not here."
+    },
+    {
+        "id": 109,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 362.78,
+        "end": 363.78,
+        "start_time": "06:02",
+        "end_time": "06:03",
+        "text": "I don't want to type in prompt."
+    },
+    {
+        "id": 110,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 363.78,
+        "end": 364.97999999999996,
+        "start_time": "06:03",
+        "end_time": "06:04",
+        "text": "I will just say exit."
+    },
+    {
+        "id": 111,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 365.0,
+        "end": 366.0,
+        "start_time": "06:05",
+        "end_time": "06:06",
+        "text": "Come out."
+    },
+    {
+        "id": 112,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 366.0,
+        "end": 371.72,
+        "start_time": "06:06",
+        "end_time": "06:11",
+        "text": "Now once you're out, go to your notepad and type the code here as I did here."
+    },
+    {
+        "id": 113,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 371.72,
+        "end": 373.96000000000004,
+        "start_time": "06:11",
+        "end_time": "06:13",
+        "text": "So you can see which says print hello."
+    },
+    {
+        "id": 114,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 373.96000000000004,
+        "end": 375.68,
+        "start_time": "06:13",
+        "end_time": "06:15",
+        "text": "But then how will you execute this file?"
+    },
+    {
+        "id": 115,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 375.68,
+        "end": 376.68,
+        "start_time": "06:15",
+        "end_time": "06:16",
+        "text": "It's very simple."
+    },
+    {
+        "id": 116,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 376.68,
+        "end": 377.68,
+        "start_time": "06:16",
+        "end_time": "06:17",
+        "text": "Just save this."
+    },
+    {
+        "id": 117,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 377.68,
+        "end": 381.42,
+        "start_time": "06:17",
+        "end_time": "06:21",
+        "text": "Now when I'm going to save this, I will just store that in a C drive."
+    },
+    {
+        "id": 118,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 381.42,
+        "end": 384.20000000000005,
+        "start_time": "06:21",
+        "end_time": "06:24",
+        "text": "So the C drive create the folder as Python codes."
+    },
+    {
+        "id": 119,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 384.20000000000005,
+        "end": 385.64000000000004,
+        "start_time": "06:24",
+        "end_time": "06:25",
+        "text": "I already want to store it."
+    },
+    {
+        "id": 120,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 385.64000000000004,
+        "end": 389.64000000000004,
+        "start_time": "06:25",
+        "end_time": "06:29",
+        "text": "And in fact, I will just use another thing."
+    },
+    {
+        "id": 121,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 389.64000000000004,
+        "end": 392.72,
+        "start_time": "06:29",
+        "end_time": "06:32",
+        "text": "Also Python prx because Python code I'm using for some other thing."
+    },
+    {
+        "id": 122,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 392.72,
+        "end": 394.94000000000005,
+        "start_time": "06:32",
+        "end_time": "06:34",
+        "text": "So we got Python prx here."
+    },
+    {
+        "id": 123,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 394.94000000000005,
+        "end": 397.22,
+        "start_time": "06:34",
+        "end_time": "06:37",
+        "text": "And give a name to your file."
+    },
+    {
+        "id": 124,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 397.22,
+        "end": 398.58000000000004,
+        "start_time": "06:37",
+        "end_time": "06:38",
+        "text": "So I'm giving demo here."
+    },
+    {
+        "id": 125,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 398.58000000000004,
+        "end": 400.18,
+        "start_time": "06:38",
+        "end_time": "06:40",
+        "text": "Any file name will do."
+    },
+    {
+        "id": 126,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 400.18,
+        "end": 401.54,
+        "start_time": "06:40",
+        "end_time": "06:41",
+        "text": "Click on save and done."
+    },
+    {
+        "id": 127,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 401.54,
+        "end": 404.98,
+        "start_time": "06:41",
+        "end_time": "06:44",
+        "text": "You got your file with your Python code."
+    },
+    {
+        "id": 128,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 404.98,
+        "end": 405.98,
+        "start_time": "06:44",
+        "end_time": "06:45",
+        "text": "How do you run it?"
+    },
+    {
+        "id": 129,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 405.98,
+        "end": 407.42,
+        "start_time": "06:45",
+        "end_time": "06:47",
+        "text": "It should be simple."
+    },
+    {
+        "id": 130,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 407.42,
+        "end": 414.46000000000004,
+        "start_time": "06:47",
+        "end_time": "06:54",
+        "text": "So type Python, first of all the command Python, and then mention the file name, which is demo.txt."
+    },
+    {
+        "id": 131,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 414.46000000000004,
+        "end": 420.02000000000004,
+        "start_time": "06:54",
+        "end_time": "07:00",
+        "text": "Oh, unfortunately, I don't have this file in this navin folder."
+    },
+    {
+        "id": 132,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 420.02000000000004,
+        "end": 421.3,
+        "start_time": "07:00",
+        "end_time": "07:01",
+        "text": "It's in the C drive."
+    },
+    {
+        "id": 133,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 421.32,
+        "end": 423.32,
+        "start_time": "07:01",
+        "end_time": "07:03",
+        "text": "So we'll just go back."
+    },
+    {
+        "id": 134,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 423.32,
+        "end": 424.32,
+        "start_time": "07:03",
+        "end_time": "07:04",
+        "text": "Go back."
+    },
+    {
+        "id": 135,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 424.32,
+        "end": 428.36,
+        "start_time": "07:04",
+        "end_time": "07:08",
+        "text": "And now in this, I have a folder called Python prx."
+    },
+    {
+        "id": 136,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 428.36,
+        "end": 430.8,
+        "start_time": "07:08",
+        "end_time": "07:10",
+        "text": "That is a folder name."
+    },
+    {
+        "id": 137,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 430.8,
+        "end": 431.8,
+        "start_time": "07:10",
+        "end_time": "07:11",
+        "text": "Clear."
+    },
+    {
+        "id": 138,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 431.8,
+        "end": 433.82,
+        "start_time": "07:11",
+        "end_time": "07:13",
+        "text": "And once you are in this folder, you can check."
+    },
+    {
+        "id": 139,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 433.82,
+        "end": 436.56,
+        "start_time": "07:13",
+        "end_time": "07:16",
+        "text": "In this folder, I have this file, which is demo.txt."
+    },
+    {
+        "id": 140,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 436.56,
+        "end": 438.06,
+        "start_time": "07:16",
+        "end_time": "07:18",
+        "text": "And now I can run that command."
+    },
+    {
+        "id": 141,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 438.06,
+        "end": 439.06,
+        "start_time": "07:18",
+        "end_time": "07:19",
+        "text": "So Python."
+    },
+    {
+        "id": 142,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 439.06,
+        "end": 442.96000000000004,
+        "start_time": "07:19",
+        "end_time": "07:22",
+        "text": "And I can mention the demo.txt file name."
+    },
+    {
+        "id": 143,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 442.96000000000004,
+        "end": 445.2,
+        "start_time": "07:22",
+        "end_time": "07:25",
+        "text": "Enter and it says hello."
+    },
+    {
+        "id": 144,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 445.2,
+        "end": 446.2,
+        "start_time": "07:25",
+        "end_time": "07:26",
+        "text": "Awesome."
+    },
+    {
+        "id": 145,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 446.2,
+        "end": 447.2,
+        "start_time": "07:26",
+        "end_time": "07:27",
+        "text": "Okay."
+    },
+    {
+        "id": 146,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 447.2,
+        "end": 448.2,
+        "start_time": "07:27",
+        "end_time": "07:28",
+        "text": "This is working."
+    },
+    {
+        "id": 147,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 448.2,
+        "end": 449.2,
+        "start_time": "07:28",
+        "end_time": "07:29",
+        "text": "But now the problem is."
+    },
+    {
+        "id": 148,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 449.2,
+        "end": 450.2,
+        "start_time": "07:29",
+        "end_time": "07:30",
+        "text": "Okay."
+    },
+    {
+        "id": 149,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 450.2,
+        "end": 451.2,
+        "start_time": "07:30",
+        "end_time": "07:31",
+        "text": "What's the problem?"
+    },
+    {
+        "id": 150,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 452.09999999999997,
+        "end": 454.09999999999997,
+        "start_time": "07:32",
+        "end_time": "07:34",
+        "text": "See, the file name is .txt."
+    },
+    {
+        "id": 151,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 454.09999999999997,
+        "end": 457.09999999999997,
+        "start_time": "07:34",
+        "end_time": "07:37",
+        "text": "Nothing wrong with txt in a major sense."
+    },
+    {
+        "id": 152,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 457.09999999999997,
+        "end": 462.9,
+        "start_time": "07:37",
+        "end_time": "07:42",
+        "text": "But when you create a Python file, make sure that the extension of your file is .py."
+    },
+    {
+        "id": 153,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 462.9,
+        "end": 465.53999999999996,
+        "start_time": "07:42",
+        "end_time": "07:45",
+        "text": "Again, there's no compulsion."
+    },
+    {
+        "id": 154,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 465.53999999999996,
+        "end": 466.94,
+        "start_time": "07:45",
+        "end_time": "07:46",
+        "text": "It will still work."
+    },
+    {
+        "id": 155,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 466.94,
+        "end": 471.78,
+        "start_time": "07:46",
+        "end_time": "07:51",
+        "text": "But there are certain features which we are going to learn later, like importing, where"
+    },
+    {
+        "id": 156,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 471.78,
+        "end": 474.09999999999997,
+        "start_time": "07:51",
+        "end_time": "07:54",
+        "text": "you need to have Python extension."
+    },
+    {
+        "id": 157,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 474.09999999999997,
+        "end": 478.38,
+        "start_time": "07:54",
+        "end_time": "07:58",
+        "text": "Next, when you work with the IDEs, we'll talk about IDEs later."
+    },
+    {
+        "id": 158,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 479.28,
+        "end": 498.36,
+        "start_time": "07:59",
+        "end_time": "08:18",
+        "text": "So, I will just change this file extension here."
+    },
+    {
+        "id": 159,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 498.36,
+        "end": 499.36,
+        "start_time": "08:18",
+        "end_time": "08:19",
+        "text": "Save as."
+    },
+    {
+        "id": 160,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 499.36,
+        "end": 502.12,
+        "start_time": "08:19",
+        "end_time": "08:22",
+        "text": "And instead of txt, I will say .py."
+    },
+    {
+        "id": 161,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 502.12,
+        "end": 505.8,
+        "start_time": "08:22",
+        "end_time": "08:25",
+        "text": "Now, when I do that, you can see the file is changed."
+    },
+    {
+        "id": 162,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 505.8,
+        "end": 506.8,
+        "start_time": "08:25",
+        "end_time": "08:26",
+        "text": "It is demo.py."
+    },
+    {
+        "id": 163,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 507.54,
+        "end": 508.54,
+        "start_time": "08:27",
+        "end_time": "08:28",
+        "text": "I can also check."
+    },
+    {
+        "id": 164,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 508.54,
+        "end": 510.3,
+        "start_time": "08:28",
+        "end_time": "08:30",
+        "text": "There are two files here now."
+    },
+    {
+        "id": 165,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 510.3,
+        "end": 513.78,
+        "start_time": "08:30",
+        "end_time": "08:33",
+        "text": "One is .txt, one is .py."
+    },
+    {
+        "id": 166,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 513.78,
+        "end": 516.58,
+        "start_time": "08:33",
+        "end_time": "08:36",
+        "text": "And now I will just try to run the command."
+    },
+    {
+        "id": 167,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 516.58,
+        "end": 517.58,
+        "start_time": "08:36",
+        "end_time": "08:37",
+        "text": "So demo.py."
+    },
+    {
+        "id": 168,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 517.58,
+        "end": 518.58,
+        "start_time": "08:37",
+        "end_time": "08:38",
+        "text": "Enter."
+    },
+    {
+        "id": 169,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 518.58,
+        "end": 520.98,
+        "start_time": "08:38",
+        "end_time": "08:40",
+        "text": "It says hello."
+    },
+    {
+        "id": 170,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 520.98,
+        "end": 524.02,
+        "start_time": "08:40",
+        "end_time": "08:44",
+        "text": "So finally, we are able to run the Python code on the machine."
+    },
+    {
+        "id": 171,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 524.02,
+        "end": 526.26,
+        "start_time": "08:44",
+        "end_time": "08:46",
+        "text": "I know a simple code."
+    },
+    {
+        "id": 172,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 526.26,
+        "end": 528.9,
+        "start_time": "08:46",
+        "end_time": "08:48",
+        "text": "And we are not even talked about what is this print and stuff."
+    },
+    {
+        "id": 173,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 528.9,
+        "end": 530.5,
+        "start_time": "08:48",
+        "end_time": "08:50",
+        "text": "We'll talk about that later."
+    },
+    {
+        "id": 174,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 530.5,
+        "end": 533.74,
+        "start_time": "08:50",
+        "end_time": "08:53",
+        "text": "At this point, the Python setup is working."
+    },
+    {
+        "id": 175,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 533.74,
+        "end": 534.74,
+        "start_time": "08:53",
+        "end_time": "08:54",
+        "text": "Catch you in the next video."
+    },
+    {
+        "id": 176,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start": 534.74,
+        "end": 535.74,
+        "start_time": "08:54",
+        "end_time": "08:55",
+        "text": "Bye-bye."
+    }
+]
