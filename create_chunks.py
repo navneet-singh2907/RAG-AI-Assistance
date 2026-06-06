@@ -1,9 +1,13 @@
 import whisper
 import json
-import os 
-
+import os
+from pathlib import Path
 
 model = whisper.load_model("medium")
+
+audio_dir = Path('audios')
+transcripts = Path('transcripts')
+transcripts.mkdir(exist_ok=True)
 
 audios = os.listdir('audios')
 for audio in audios:
