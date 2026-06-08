@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "source_file": "sample_clip.mp3",
+    "video_title": "sample_clip",
+    "start": 0.0,
+    "end": 2.42,
+    "start_time": "00:00",
+    "end_time": "00:02",
+    "text": "So we got a type int, we got a type float."
+  },
+  {
+    "id": 1,
+    "source_file": "sample_clip.mp3",
+    "video_title": "sample_clip",
+    "start": 2.42,
+    "end": 4.48,
+    "start_time": "00:02",
+    "end_time": "00:04",
+    "text": "Apart from this, we have some more types,"
+  },
+  {
+    "id": 2,
+    "source_file": "sample_clip.mp3",
+    "video_title": "sample_clip",
+    "start": 4.48,
+    "end": 5.48,
+    "start_time": "00:04",
+    "end_time": "00:05",
+    "text": "which you can look at."
+  },
+  {
+    "id": 3,
+    "source_file": "sample_clip.mp3",
+    "video_title": "sample_clip",
+    "start": 5.48,
+    "end": 7.12,
+    "start_time": "00:05",
+    "end_time": "00:07",
+    "text": "One of it is complex numbers."
+  },
+  {
+    "id": 4,
+    "source_file": "sample_clip.mp3",
+    "video_title": "sample_clip",
+    "start": 7.12,
+    "end": 9.84,
+    "start_time": "00:07",
+    "end_time": "00:09",
+    "text": "Now if you remember, if you go back to your maths concept,"
+  }
+]
