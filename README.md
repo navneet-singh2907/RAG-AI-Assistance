@@ -8,14 +8,18 @@ Online courses can have dozens of videos. When a student wants to revise a speci
 
 **Example query:**
 ```
-What is a string in Python?
+What is a set in Python?
 ```
 **Example output:**
 ```
-Score: 0.69 | More on String in Python (13:36)
-Score: 0.62 | Working With String in Python (02:01)
+Score: 0.65 | Set in Python (01:15)
+Score: 0.64 | Set in Python (00:19)
+Score: 0.63 | Dictionary in Python (07:18)
 
-AI Answer: In Python, a string is a sequence of characters used to represent text...
+AI Answer: This topic is covered in Set in Python at 00:19 and 01:15.
+A set in Python is a collection of unique elements. It cannot contain
+duplicate values. This concept is also referenced in Dictionary in
+Python at 07:18 when discussing set behavior.
 ```
 
 ## Architecture
