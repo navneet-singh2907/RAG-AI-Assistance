@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 def create_embedding(text_list):
     r = requests.post("http://localhost:11434/api/embed", json={"model": "bge-m3", "input": text_list })
     return r.json()["embeddings"]
-print(create_embedding(["hello world", "how are you?"]))
+    
 
 # --- THE FIX: Load your pre-computed vectors right here ---
 pkl_path = "transcripts_with_vectors.pkl"
@@ -35,3 +35,45 @@ print("\n--- TOP MATCHES ---")
 for index, row in top_results.iterrows():
     print(f"\nScore: {row['similarity']:.4f} | {row['video_title']} ({row['start_time']})")
     print(f"Text: {row['text']}")
+    
+    
+    
+# --- STEP 5: LLM GENERATION ---
+
+# Combine the top matching text chunks into a single string block
+context_text = "\n\n".join([f"--- Source: {row['video_title']} ({row['start_time']}) ---\n{row['text']}" for _, row in top_results.iterrows()])
+
+# Design a system prompt that forces the LLM to stick to your data
+system_prompt = (
+    "You are a helpful Teaching Assistant AI. Answer the user's question using ONLY the provided video transcript context below. "
+    "You have to answer where and how much content is tought in which video and at what timestamp. Always refer to the source video and timestamp for your answers. "
+    "If the answer cannot be found in the context, say 'I do not have that information in my video records.' "
+    "Do not make up facts outside of this text."
+)
+
+# Create the final structured prompt layout
+full_prompt = f"Context from video transcripts:\n{context_text}\n\nUser Question: {incoming_query}\n\nAnswer:"
+
+print("\n--- Generating Answer from Local LLM ---")
+
+# Hit your local generation endpoint (Adjust the URL path/payload to match your specific local server, e.g., /api/generate)
+try:
+    response = requests.post(
+        "http://localhost:11434/api/generate", # Change port/endpoint if your LLM server runs elsewhere
+        json={
+            "model": "deepseek-r1", # Change to the exact text model you have loaded
+            "prompt": full_prompt,
+            "system": system_prompt,
+            "stream": False
+        }
+    )
+    
+    # Extract the text response key from your server's JSON output
+    ai_answer = response.json()["response"]
+    
+    print("\n=== AI TEACHING ASSISTANT RESPONSE ===")
+    print(ai_answer)
+    print("=======================================")
+
+except Exception as e:
+    print(f"\n[Error] Failed to communicate with LLM server: {e}")
