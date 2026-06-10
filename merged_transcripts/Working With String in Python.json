@@ -1,0 +1,346 @@
+[
+    {
+        "id": 0,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "00:00",
+        "end_time": "00:17",
+        "text": "So, till this point, we are working with numbers and everything is working fine. But now, we want to work with text. Now what happens when you work with text? And this text in programming are normally called string. Okay?"
+    },
+    {
+        "id": 5,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "00:17",
+        "end_time": "00:31",
+        "text": "So, let's go with this. So, when you say a number, so let's say if you want to represent a number, let's say 45, when you say enter, that's a proper value. Now, when you open a prompt, a Python prompt, and when you type something, it tries to convert that into some sensible thing."
+    },
+    {
+        "id": 10,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "00:31",
+        "end_time": "00:50",
+        "text": "Example, when you say 45, it knows that's a number, so it will take this number and say okay, I got your number, this is your number. That's what you can see on the screen. But now, if you type a statement, again, what is statement, we'll talk about that later, but in short, in Python, basically whatever code you write, each line is one statement."
+    },
+    {
+        "id": 15,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "00:50",
+        "end_time": "01:02",
+        "text": "Not always. A statement is one thing. So, normally we write one statement in one line. It may happen that you write one statement in multiple lines. It will make much more sense once we talk about this in the upcoming videos."
+    },
+    {
+        "id": 20,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "01:02",
+        "end_time": "01:19",
+        "text": "At this point, when you write a number or a statement, it will try to read that and convert that. Here, 45 works. But what if I say Navin? Now, Navin is my name, and when you try to do that, Python says what's wrong with you?"
+    },
+    {
+        "id": 25,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "01:19",
+        "end_time": "01:33",
+        "text": "Why are you saying Navin? See, when you have a variable, example, let's say if I say num is equal to 8, now num is a variable, right? And the value for num is 8. And then when you try to print num, it works."
+    },
+    {
+        "id": 30,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "01:33",
+        "end_time": "01:43",
+        "text": "So this num is a variable. Now Python knows it. It's because you have assigned the value to num just before that particular statement when you're printing it. What about this?"
+    },
+    {
+        "id": 35,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "01:43",
+        "end_time": "01:56",
+        "text": "This is not a variable. And my intention was to treat that as a string or a text. It's not happening. It's because whenever you type something, Python tries to convert it. So here, num, it knows."
+    },
+    {
+        "id": 40,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "01:56",
+        "end_time": "02:08",
+        "text": "Navin, it has no idea. So we have to say, hey, you know, that Navin is not a variable. It's a string. It's basically a text which I want you to take and do whatever you want, but take that value."
+    },
+    {
+        "id": 45,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "02:08",
+        "end_time": "02:23",
+        "text": "And if you want to do that, you have to put that in a single quote. So basically, you can write Navin, but you have to make sure that you put single quote at the start and the end to specify this is where it starts and this way it ends. And it's not just a word. It can be multiple words."
+    },
+    {
+        "id": 50,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "02:24",
+        "end_time": "02:34",
+        "text": "Navin ready, telusco. So it can be multiple words in one particular string. And at this point, I'm just wanting to focus on Navin. I will say enter and it works. You can say it says Navin as it is."
+    },
+    {
+        "id": 55,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "02:34",
+        "end_time": "02:49",
+        "text": "Of course, you can use print, which we were using before, and you can put that here. Again, I'm not talking about print in detail yet. We'll talk about that later. But imagine print is printing something. And at this point, I'm printing Navin and you have to make sure that you put that single"
+    },
+    {
+        "id": 60,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "02:49",
+        "end_time": "03:05",
+        "text": "quote. If you don't put it, again, your Python will be unhappy by you by saying, watch it doing while you're saying Navin inside print. I have no idea what you're talking about. So when you say print, you have to put single quote and then Navin."
+    },
+    {
+        "id": 65,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "03:05",
+        "end_time": "03:17",
+        "text": "Then it knows, okay, that's a string. I want to print it. And now this time there's no single quote because when you simply say Navin with single quote, it will print single quote as well because that's what it is representing. That's a string."
+    },
+    {
+        "id": 70,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "03:17",
+        "end_time": "03:29",
+        "text": "But when you print, it says, okay, I want to print Navin. So it is what it's doing. When you write multiple lines of code, when you want to do that, when you want to execute, we'll always use print. We'll not be putting this openly there."
+    },
+    {
+        "id": 75,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "03:29",
+        "end_time": "03:47",
+        "text": "It's just for ideally, which we are using here, or the prompt. So this is working. But what if you want to print, so let's say I want to print something. Example, I want to print Navin laptop. So when you do that, when you say Navin laptop, or maybe Navin telisco."
+    },
+    {
+        "id": 80,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "03:47",
+        "end_time": "03:58",
+        "text": "It's time for self branding or self promotion. Okay. So when you say enter, you can see we got Navin telisco. As I mentioned, you can have multiple words. What if I want to be grammatically correct here?"
+    },
+    {
+        "id": 85,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "03:58",
+        "end_time": "04:08",
+        "text": "So something like this. I want to print Navin's telisco. Will this work? Think about this before I enter this. If you have one in your mind, that's good."
+    },
+    {
+        "id": 90,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "04:08",
+        "end_time": "04:25",
+        "text": "Let me enter and verify if it is matching with yours. Enter, oh, it's not working. Why it's not working is actually very simple. Because if you see here, let's talk about this particular thing. Here when you say single quote and single quote, this single quote first is a starting"
+    },
+    {
+        "id": 95,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "04:25",
+        "end_time": "04:37",
+        "text": "point. This is the ending point. Perfectly works. But here when you say this statement, this is the starting point. Where is the ending point?"
+    },
+    {
+        "id": 100,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "04:37",
+        "end_time": "04:50",
+        "text": "Logically for us, it's here. This is the ending point. But then if you read this statement properly, this is where it starts. And this is where it ends. And there's no starting point again."
+    },
+    {
+        "id": 105,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "04:50",
+        "end_time": "05:00",
+        "text": "And then we are ending. That's what Python is saying. Okay, I'm happy with this. This looks like one particular string. What comes after I have no idea?"
+    },
+    {
+        "id": 110,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "05:00",
+        "end_time": "05:19",
+        "text": "And then you are putting extra quote here. So it says, un-terminated string literal. So this is where you start the string literal. And you're not ending it. If you end it here, then it will give you a new type of error because it says you forgot"
+    },
+    {
+        "id": 115,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "05:19",
+        "end_time": "05:27",
+        "text": "the comma or something. There's no issue with this particular thing now. It is creating issue with this. What is this S after this name? Okay, let me just clear it out."
+    },
+    {
+        "id": 120,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "05:27",
+        "end_time": "05:36",
+        "text": "And now let's try to solve it. This is what we're going to solve, right? What we want to achieve is, of course, if I remove this particular quote here, it will work. But I don't want to remove it."
+    },
+    {
+        "id": 125,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "05:36",
+        "end_time": "05:51",
+        "text": "So in this case, instead of using a single quote, you can use a double quote. So string you can represent with the help of single quote or double quote. Both works. So if I say enter now, there's no issue because it knows string is getting started with double quote."
+    },
+    {
+        "id": 130,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "05:51",
+        "end_time": "06:03",
+        "text": "It will end with double quote. This single quote here is a part of the string. There's no issue. The problem starts when you want to print, let's say, telescope in double quotes. Okay, something like this."
+    },
+    {
+        "id": 135,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "06:03",
+        "end_time": "06:13",
+        "text": "I will just delete this and I will show you what I want to print and then you help me. So I want to print something like this. I want to print Navines. What did I do? Okay."
+    },
+    {
+        "id": 140,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "06:13",
+        "end_time": "06:28",
+        "text": "So this is what I want to do. I want to print Navines, then space and then telescope in double quotes. If you want to do that, of course, you have to put that in a print. But then inside this print, you have to put some quote, single quote or double quote. Now you think what will work."
+    },
+    {
+        "id": 145,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "06:28",
+        "end_time": "06:41",
+        "text": "If you put single quote, example, something like this, if you do that, then this particular single quote will feel bad. I mean, why I'm here. But if you put double quotes, then this telescope will feel bad. Why the double quotes are here?"
+    },
+    {
+        "id": 150,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "06:41",
+        "end_time": "06:57",
+        "text": "Okay, so we have to keep something happy. So what we can do is see this single quote here. It has no special meaning because this has a meaning because this is where you are specifying starting and ending point. This has no special meaning."
+    },
+    {
+        "id": 155,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "06:57",
+        "end_time": "07:16",
+        "text": "And we have to tell that to Python, hey, we don't want to treat this something special. And if you want to cancel the special effect of the single quote, you can put a slash. So whenever you want to cancel something, we will see that in the next section of this video. If you want to cancel some special meaning, you put a slash."
+    },
+    {
+        "id": 160,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "07:16",
+        "end_time": "07:30",
+        "text": "And now when you do that, there's no problem because this particular single quote is treated as the starting of the string. This is getting treated as the ending of the string. And the special meaning of this quote is getting canceled by that backslash. So that's important."
+    },
+    {
+        "id": 165,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "07:30",
+        "end_time": "07:42",
+        "text": "Next, I will just clear this out. I just want to have a flash. So let's say I want to print Naveen here. And of course, it will work provided I put that in the single quote and I will do that enter."
+    },
+    {
+        "id": 170,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "07:42",
+        "end_time": "07:56",
+        "text": "But what if I want to print Naveen 10 times with a space, of course, I will just say Naveen space and then I will again say Naveen space and then I can keep doing that. Okay. And this will work. If I say enter, this works."
+    },
+    {
+        "id": 175,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "07:56",
+        "end_time": "08:09",
+        "text": "But then I don't want to print this multiple times. If I want to print 10 times, I have to type 10 times. Instead of that, you can simply use a math here. You can say I got a string and I want to do that 10 times. It will work."
+    },
+    {
+        "id": 180,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "08:09",
+        "end_time": "08:17",
+        "text": "Okay. It is that simple. So Python is actually fun because you can do all these things with Python. Now I want to try out one more thing. I will just clear this string."
+    },
+    {
+        "id": 185,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "08:17",
+        "end_time": "08:27",
+        "text": "And here I want to, I'm saying Python. It should be print. Good. I will say C colon slash users slash Naveen. Now when you do that, what do you think will be the answer?"
+    },
+    {
+        "id": 190,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "08:27",
+        "end_time": "08:41",
+        "text": "Of course I'm putting that in single code. There's no special symbols here. And when I say enter, it should work. The moment I do that, it is giving you error. It says the Unicode error, Unicode escape, correct, cannot decode bytes in position two"
+    },
+    {
+        "id": 195,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "08:41",
+        "end_time": "08:58",
+        "text": "and three, which is zero, one, two, and three. This too. Now, why it's saying Unicode is because when you say slash U or slash N, so when you will have a character after slash, it treats or the alphabet after slash, it treats as a special example."
+    },
+    {
+        "id": 200,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "08:58",
+        "end_time": "09:14",
+        "text": "Slash N means new line. There are multiple characters, multiple Unicodes here. And it says you will have issues when you do that. Now what I want to do is I want to cancel out the meaning of slash. Again I will do slash because slash N itself is a special meaning."
+    },
+    {
+        "id": 205,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "09:14",
+        "end_time": "09:24",
+        "text": "Okay. So when you say double slash, now it will work. So this is something you have to remember when you work with slash or special thing inside your string. You have to cancel the special meaning."
+    },
+    {
+        "id": 210,
+        "source_file": "Working With String in Python.mp3",
+        "video_title": "Working With String in Python",
+        "start_time": "09:24",
+        "end_time": "09:35",
+        "text": "You can put one more slash to cancel the meaning of the slash itself. I know that's tricky, but it's quite fun if you know how to work with it. So yeah, that's about this video. See you in the next part of string."
+    }
+]

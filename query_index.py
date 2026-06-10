@@ -10,8 +10,8 @@ def create_embedding(text_list):
     return r.json()["embeddings"]
     
 
-# --- THE FIX: Load your pre-computed vectors right here ---
-pkl_path = "transcripts_with_vectors.pkl"
+# -- Load your pre-computed vectors right here ---
+pkl_path = "new_transcripts_with_vectors.pkl"
 
 if os.path.exists(pkl_path):
     df = pd.read_pickle(pkl_path)

@@ -1,0 +1,130 @@
+[
+    {
+        "id": 0,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "00:00",
+        "end_time": "00:34",
+        "text": "So we have talked about list, we have talked about tuple. Now this comes under sequence. Now we got one more sequence which we can work with is called set. Now if you go back to maths, in maths also we have this concept of set. Now what is set? Set is basically a collection of values. Okay, there's a collection here. Set is the collection of unique elements. Okay, let me add one more thing. Set is a collection of unordered unique elements. Okay,"
+    },
+    {
+        "id": 5,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "00:34",
+        "end_time": "00:57",
+        "text": "what do I mean by that? So what I'm going to do is let me create a set to show you. So I will say set one equal to and let me assign the value. Now to assign the value, how will I do it? What kind of bracket I'm going to use because we have to put multiple values. Of course, we can't use square bracket, that's for the list. We can't use round brackets because that's for the tuple. Okay, so we only left with one which is the curly brackets."
+    },
+    {
+        "id": 10,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "00:57",
+        "end_time": "01:26",
+        "text": "And also if you talk about maths, when you try to create set there or represent a set, you use curly brackets. Now in this I'm going to say 23, 56, 78, 21 and let's say 56 again. Now when you say enter, of course there should not be any error and there is no error. But then before I print this, let's repeat that statement once again. So set is the collection of unique unordered elements. So when I say enter, you can see, I mean before entering, you can see there are"
+    },
+    {
+        "id": 15,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "01:26",
+        "end_time": "01:58",
+        "text": "two 56 values when I assigned it. But when I say enter, 56 is only once. Second, the order is not maintained. If you can see, 23 is at the end now, 21 is at the second, it should be at the second last position. Then 56 is only one and that came in first. Then 78 moved here. Now you might be thinking there might be some logic to it, some sequence because of which it is following. It's not ordered first of all because sequence is not right. It is not sorted because it's not in sorted"
+    },
+    {
+        "id": 20,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "01:58",
+        "end_time": "02:25",
+        "text": "order. Then what's the scenario? So there's a reason we use set and you will understand that reason in the next video. But then set normally stores the value in different way, the way least and double works. Now what happens is every value in a set goes through something called so what we do is we take the value, doesn't matter is it number or string or anything, it will take the value, it will do the hashing operation on that and it will give you the hash"
+    },
+    {
+        "id": 25,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "02:25",
+        "end_time": "02:51",
+        "text": "value. Now based on that hash value, it will store the elements in that fashion. So it's not stored based on the numbers you mentioned here, it is stored based on the hash value. Now why hash value? It helps you to speed up the process of saving and fetching. Okay, so set is used there. Okay, so that's why it is unordered and it only supports unique values. Cool. Now what are the things you can do with set? First of all, there is a keyword which we have used before. So let's"
+    },
+    {
+        "id": 30,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "02:51",
+        "end_time": "03:21",
+        "text": "say I want to check if 21 is there in set. Oh, okay, so I've entered wrong value. Yeah, that's true. But if I say 22, is it in set? No, that's false. So this is one option you can do. What else? Let's try to say set one dot count or maybe let's try to do length not count. So it's a length of set one. You know count will not work because it is unique element, so there's no number of occurrence there. But length is there, so length works with four. Now let's say I want to check if there was a type"
+    },
+    {
+        "id": 35,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "03:21",
+        "end_time": "03:47",
+        "text": "of set. So I'm just trying random things which we have done before. So the type of this set is of class set. So the way we have done for the list and tuple, so we have different types there. So this is set, but let's say I want to create the empty set. So the set without any values, I will say set two is equal to. Now what do you think, how do I create the empty set? So in this, basically what we have done is we got values here. But if I keep the values like this and if I say"
+    },
+    {
+        "id": 40,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "03:47",
+        "end_time": "04:17",
+        "text": "enter, there's no error. But if I try to find the type of set two, you can see it says class dict. So dict stands for dictionary. So this is of type dictionary, not the set. But why? In the upcoming videos, we'll focus on dictionary as well. So and we'll know that this is how dictionary is defined. So how do you specify the set? Now in that case, we have to use a function of set. So I will say set two is equal to. So there's a function called set, and if you keep it empty, and now if you say"
+    },
+    {
+        "id": 45,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "04:17",
+        "end_time": "04:42",
+        "text": "type, it is set. So this is an empty set. So if we try to print this, this is empty. There's nothing there. But let's say I want to specify some values. I will clear that first. And this is set two, let's say. And in this, I'm going to assign some values. And the way you can do that is, of course, with the help of set or you can put curly brackets and you can put the values. Let's say I want to have a collection of characters here, something like this. So I got a, b, c, d, m, n, o, p."
+    },
+    {
+        "id": 50,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "04:43",
+        "end_time": "05:15",
+        "text": "That's one. And then set three is some other set. Let's say vowels, a, e, i, o, u. And let me add something extra, pd at the end. Enter. Now we got two set. Let me also print them. And you can see these are the values. And it's not ordered. Okay. It is printing randomly. I should have repeated some value here, but that's fine. You can see we got unique elements here. Now, if you remember something in maths, when we worked with set, we used to create Venn diagrams. So there used to"
+    },
+    {
+        "id": 55,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "05:15",
+        "end_time": "05:45",
+        "text": "be union of a set or intersection of a set. The different symbols which we can use. And we can do that here as well. So let me try the first one, which is set one minus set two. And let's see what happens. Oh, sorry. I'm using the wrong things. Not set one, set two. It is set two minus set three. Now when you do that, you will observe when you say minus here, it is removing all the characters from set two, which is there in set three. So if you start with a, a is removed because that's here."
+    },
+    {
+        "id": 60,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "05:45",
+        "end_time": "06:21",
+        "text": "B is still there because there's no B here. C is still there. D removed because we said D here. Then M is there. N is there. O removed and P removed because P is there. So that's how minus works. Let's change the operation here. Let's say pipe. And if you observe, everything is there, either in the set two or set three. So A is there, B is there, C is there, D, M, N, O, P is there, A is there, E is there, I is there, O is there, U is there. Okay. Everything is there. So this is the,"
+    },
+    {
+        "id": 65,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "06:22",
+        "end_time": "06:54",
+        "text": "all the values of set two and set three. Let's try with and, and with and, it will only print the common one. So A is common between these two. Then P is common, D is common, and A is common. So those are the common things. Let's try one more. So instead of pipe, we will be using the carrot symbol. And this will print things which are not common. So A is removed, B is there because that's not common, C is there, C should be there. D is not there because that's there in both the"
+    },
+    {
+        "id": 70,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "06:54",
+        "end_time": "07:20",
+        "text": "set. And that's how basically you can use these operations. In fact, there's one thing which I missed in the tuple video. So in tuple, basically let me get tuple once more. And if I assign the value, so let's say I want to get a tuple of one element. How will I do that? So of course I can say 45, but if I say enter, and if I say type of tuple, it says int, it should be tuple, right? It's because you only have one value. It ignores the brackets there. So in case if you want to"
+    },
+    {
+        "id": 75,
+        "source_file": "Set in Python.mp3",
+        "video_title": "Set in Python",
+        "start_time": "07:20",
+        "end_time": "07:46",
+        "text": "have a tuple of multiple values or one value, you can give 45 and comma, then it knows that that's a tuple. Okay. This is something I've left with. So yeah, we have talked about list. We have talked about set. We have talked about tuple. And that's how this thing works. So let's see in the next video."
+    }
+]

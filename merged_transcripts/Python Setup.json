@@ -1,0 +1,290 @@
+[
+    {
+        "id": 0,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "00:00",
+        "end_time": "00:16",
+        "text": "So in the previous video, we have seen how do you run Python code online. But then I want the setup in my machine. So how do you get this setup? See, it's very simple. When you write a code, of course you want to execute somewhere."
+    },
+    {
+        "id": 5,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "00:16",
+        "end_time": "00:34",
+        "text": "And where you're going to write the code, you can use notepad or you can use any editor for that matter. Example, if I open my notepad and if I type a command or let's say if I want to print something and I'm going to explain what this print and stuff later. But let's say if I say print hello, I want to execute this and when I'm going to do this"
+    },
+    {
+        "id": 10,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "00:34",
+        "end_time": "00:53",
+        "text": "and that's where you need the Python interpreter. So to do that, go to the official website of Python and intentionally I'm saying official is because there are a lot of place where you can get the Python setup, but they might be malicious. So better to go on the official website and go to downloads and based on which OS you"
+    },
+    {
+        "id": 15,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "00:53",
+        "end_time": "01:08",
+        "text": "are working with. So if you are working with Windows, select that. If you are working with Mac and other platforms, I'm using Windows here. I will click on Windows and in this you have multiple versions. Version of Python as well as the version of Windows we are working with."
+    },
+    {
+        "id": 20,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "01:08",
+        "end_time": "01:31",
+        "text": "Example if your Windows machine is 64 bit like I5, I7, Ryzen. So you can go with the Windows installer 64. If you are using the ARM based chip, you can check that with your laptop and desktop. If it says ARM processor, go with this one. Now since in this machine I got Intel chip back to the 64 bit, I will go with this version."
+    },
+    {
+        "id": 25,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "01:31",
+        "end_time": "01:50",
+        "text": "Even the Windows is 64 bit. I will click on this and before I do that, make sure that you download the stable version. The problem is if you download the previous version, which might have a few extra features, but then all this beta versions are not fully tested properly. And if something goes wrong, you have no idea what's going wrong."
+    },
+    {
+        "id": 30,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "01:50",
+        "end_time": "02:09",
+        "text": "Is it you or your Python setup? See, of course, once you understand the language better, once you have built certain projects, you can try out the previous version. But now at this point, I won't suggest you to go with this. Go for stable version, click on this and it will download."
+    },
+    {
+        "id": 35,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "02:09",
+        "end_time": "02:26",
+        "text": "Now I do have the setup already downloaded. Now before you do this, in fact, I wanted you to check one more thing, which is do you already have Python in your machine? If you have, then that step was not required, but I don't think anyone will have by default if you have not worked before on Python."
+    },
+    {
+        "id": 40,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "02:26",
+        "end_time": "02:47",
+        "text": "Okay, so now open your terminal and how do you check if you have Python or not? Just type Python and version. And if you see something like this by saying Python was not found, that means you don't have it. Also, sometime, you know, when you install Python 3, that's the latest version of Python, sometime you get Python 3 as well."
+    },
+    {
+        "id": 45,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "02:47",
+        "end_time": "03:06",
+        "text": "So check with this command as well, Python 3, and make sure you don't have any of that. If you don't have any of that, then you can install Python. So download it and then click on this simple installation. It will open this prompt. Now on the first screen, make sure that you tick this add Python.exe to path"
+    },
+    {
+        "id": 50,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "03:06",
+        "end_time": "03:23",
+        "text": "so that you don't have to manually do all the process of setting the path. Why someone will do this is because when you save the files of Python, you store it in some other folder. The Python setup will be some other folder. So you have to link the path then."
+    },
+    {
+        "id": 55,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "03:23",
+        "end_time": "03:39",
+        "text": "If you don't want to do that, just tick this and click on install now. Simple setup you have, you might have to say next at some point and it will be done. So it's happening, happening, happening, taking some time. Okay, so Python installed successfully. That's what I'm getting."
+    },
+    {
+        "id": 60,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "03:39",
+        "end_time": "03:48",
+        "text": "Okay, so how do you verify this? Go to your terminal and say Python version. And when you say enter, it will not work. But you will say, hey, you got Python there. It's not working anymore."
+    },
+    {
+        "id": 65,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "03:48",
+        "end_time": "04:09",
+        "text": "See, the thing is when you install softwares and when you try to run the command, you have to make sure that you reopen your terminal. And why I'm saying that is because people do miss it and then they feel bad. Hey, we have done all the setups, they're not working. It's because you forgot to reopen your terminal."
+    },
+    {
+        "id": 70,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "04:09",
+        "end_time": "04:25",
+        "text": "Now, once you reopen it, just try it now and it will work. Cool, right? But in case if Python is not working, try Python 3. If that works, you still should be happy. But if that work, if Python 3 works and then you want to say, hey, you know, I want, I'm"
+    },
+    {
+        "id": 75,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "04:25",
+        "end_time": "04:33",
+        "text": "happy with this command. I don't want Python 3, then you can change it. There's allies you can use. Ask the AI models and it will give you the answer. How do you do the allies?"
+    },
+    {
+        "id": 80,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "04:33",
+        "end_time": "04:49",
+        "text": "Anyway, so for me, the Python command is working. So I will just work with that. Now once you have Python installed, what you can do is you can open the Python prompt. See if you have Python installed and in the terminal itself, if you say, hey, you know, I got print."
+    },
+    {
+        "id": 85,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "04:49",
+        "end_time": "05:14",
+        "text": "I want to execute a Python function or Python statement. If I say enter, you can't run your Python code directly here. You basically need a prompt, Python prompt. And the way you can get that is go to a terminal and just say Python and say enter. When you do this, you will get a pop up here or you will get something which says Python"
+    },
+    {
+        "id": 90,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "05:14",
+        "end_time": "05:28",
+        "text": "with the version and this three arrows here. That means now you can execute your Python code here. Now which code I want to execute? I will stick to my print. So I will say hello, enter and you got hello there."
+    },
+    {
+        "id": 95,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "05:28",
+        "end_time": "05:42",
+        "text": "Congratulations. This is your first step to run Python code on your machine. So that's how you print hello here. Okay. What if you have multiple lines of code, not just one, maybe 10 lines of code, maybe 100,"
+    },
+    {
+        "id": 100,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "05:42",
+        "end_time": "05:56",
+        "text": "maybe 1000. Not a good idea to have all the lines of code in one file, but let's say imaginary stuff. How will you do that? Of course, you can type all the statements here, but then if you do that, how will you debug?"
+    },
+    {
+        "id": 105,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "05:56",
+        "end_time": "06:03",
+        "text": "How will you modify? A lot of problems, right? In that case, you need a place where you will type the code. Not here. I don't want to type in prompt."
+    },
+    {
+        "id": 110,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "06:03",
+        "end_time": "06:15",
+        "text": "I will just say exit. Come out. Now once you're out, go to your notepad and type the code here as I did here. So you can see which says print hello. But then how will you execute this file?"
+    },
+    {
+        "id": 115,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "06:15",
+        "end_time": "06:25",
+        "text": "It's very simple. Just save this. Now when I'm going to save this, I will just store that in a C drive. So the C drive create the folder as Python codes. I already want to store it."
+    },
+    {
+        "id": 120,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "06:25",
+        "end_time": "06:38",
+        "text": "And in fact, I will just use another thing. Also Python prx because Python code I'm using for some other thing. So we got Python prx here. And give a name to your file. So I'm giving demo here."
+    },
+    {
+        "id": 125,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "06:38",
+        "end_time": "06:47",
+        "text": "Any file name will do. Click on save and done. You got your file with your Python code. How do you run it? It should be simple."
+    },
+    {
+        "id": 130,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "06:47",
+        "end_time": "07:04",
+        "text": "So type Python, first of all the command Python, and then mention the file name, which is demo.txt. Oh, unfortunately, I don't have this file in this navin folder. It's in the C drive. So we'll just go back. Go back."
+    },
+    {
+        "id": 135,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "07:04",
+        "end_time": "07:16",
+        "text": "And now in this, I have a folder called Python prx. That is a folder name. Clear. And once you are in this folder, you can check. In this folder, I have this file, which is demo.txt."
+    },
+    {
+        "id": 140,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "07:16",
+        "end_time": "07:26",
+        "text": "And now I can run that command. So Python. And I can mention the demo.txt file name. Enter and it says hello. Awesome."
+    },
+    {
+        "id": 145,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "07:26",
+        "end_time": "07:31",
+        "text": "Okay. This is working. But now the problem is. Okay. What's the problem?"
+    },
+    {
+        "id": 150,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "07:32",
+        "end_time": "07:46",
+        "text": "See, the file name is .txt. Nothing wrong with txt in a major sense. But when you create a Python file, make sure that the extension of your file is .py. Again, there's no compulsion. It will still work."
+    },
+    {
+        "id": 155,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "07:46",
+        "end_time": "08:19",
+        "text": "But there are certain features which we are going to learn later, like importing, where you need to have Python extension. Next, when you work with the IDEs, we'll talk about IDEs later. So, I will just change this file extension here. Save as."
+    },
+    {
+        "id": 160,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "08:19",
+        "end_time": "08:30",
+        "text": "And instead of txt, I will say .py. Now, when I do that, you can see the file is changed. It is demo.py. I can also check. There are two files here now."
+    },
+    {
+        "id": 165,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "08:30",
+        "end_time": "08:40",
+        "text": "One is .txt, one is .py. And now I will just try to run the command. So demo.py. Enter. It says hello."
+    },
+    {
+        "id": 170,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "08:40",
+        "end_time": "08:53",
+        "text": "So finally, we are able to run the Python code on the machine. I know a simple code. And we are not even talked about what is this print and stuff. We'll talk about that later. At this point, the Python setup is working."
+    },
+    {
+        "id": 175,
+        "source_file": "Python Setup.mp3",
+        "video_title": "Python Setup",
+        "start_time": "08:53",
+        "end_time": "08:55",
+        "text": "Catch you in the next video. Bye-bye."
+    }
+]

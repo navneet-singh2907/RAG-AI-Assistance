@@ -1,0 +1,154 @@
+[
+    {
+        "id": 0,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "00:00",
+        "end_time": "00:27",
+        "text": "So in this video, we'll focus on data types. In fact, we have worked with them before. We have to work with numbers, string. In fact, in sequence, we have talked about list, set, tuple, dictionary, right? So we have all those things. But there are certain extra things which I want to add in this video. And of course, we'll revise the old concepts as well. So let's say if I want to work with a variable and if I in that variable, let's say the variable"
+    },
+    {
+        "id": 5,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "00:27",
+        "end_time": "01:00",
+        "text": "is X and I want to store a number 10, of course, the type of this variable X is 10 is int, right? So if I say X, it's of type int. Remember this, this is a class type int. We'll talk about what is class later at this point, read it as type int. Now, apart from this, if I want to work with float values or point values, I can say pi value is 3.14. Okay, I did something weird there. It should be 3.14. And if I try to find the type of it, if I say pi, it is float. So we got a type"
+    },
+    {
+        "id": 10,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "01:00",
+        "end_time": "01:28",
+        "text": "int, we got a type float. Apart from this, we have some more types which you can look at. One of it is complex numbers. Now, if you remember, if you go back to your maths concept, we had this concept of complex numbers, which is something like A plus B I or IB, depend upon which standard or which book you're referring. But yeah, so we have this complex numbers, right? Where I defines a imaginary number. Now, if you want to define that in programming, the way you do that is not with I,"
+    },
+    {
+        "id": 15,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "01:28",
+        "end_time": "01:57",
+        "text": "but with J. And we can do that in Python. Okay, so let me show you. So let's say if I create a variable called C and if I want to create a complex number, I can say 6 plus 8 I. Okay, not I, but J. There's something to remember. In Python, we have to say J. If you say I, it will give you error and you can try it out. If I say enter, no problem. And if I try to print C, that's a complex number. How do we know that's a complex number? You can check the type of it and that is complex. In fact,"
+    },
+    {
+        "id": 20,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "01:57",
+        "end_time": "02:23",
+        "text": "there's another way of creating a complex number. So let's say if you have these values in some variable, let's say you got A equal to 2 and B equal to 3. So we got these two numbers. And with these two values, I want to create a complex number. So it should be something like 2 plus 3 I. In that case, you can create a variable C and you can use an inbuilt function in Python called complex and you can pass these two values. You can pass 2 comma 3 or since you have these values in a"
+    },
+    {
+        "id": 25,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "02:23",
+        "end_time": "02:53",
+        "text": "variable, you can say A comma B. And if you try to print C, that's the complex number. Now, these functions are inbuilt functions and not just complex. We got functions like int, float. Now, why you'll be using them? Example, let's say I got this pi value, which is pi 3.14. And if I want to store that in a variable and I want to make it type int, let's try that. So let's say the variable is k and in this, I want to store the value of pi, but in the integer format. So if you"
+    },
+    {
+        "id": 30,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "02:53",
+        "end_time": "03:20",
+        "text": "say pi, then the k becomes a float value because pi is float. Now, if you want to convert that into integer, you have to pass that pi value in the int function. This is again an inbuilt function, which will take a value and convert that into an integer value. Enter. And if you say the type of k, it is int, but what will be the value of it? Since we are converting this number into integer, you are going to lose some data. And what data you're going to lose? The point value. So if you"
+    },
+    {
+        "id": 35,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "03:20",
+        "end_time": "03:49",
+        "text": "try to print k, it will be only three. On the other hand, if you have an integer value, which is k in this case, and if I want to create a new variable, let's say p, and I want this p to be a float value and the value should be coming from k, which is of type int. So if you say k, of course the p becomes int now. In that case, you have to convert that into float by using a float function. And now if you check the type of p, it's of type float. And yes, if you try to print p, it will be"
+    },
+    {
+        "id": 40,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "03:49",
+        "end_time": "04:19",
+        "text": "3.0. Now, all these are numbers. We can also work with string, which we have talked before. So if you say a name, and if you say a name is Navin, and if you check the type of this name, it will be string. So we have talked about this. This is just a revision for you. The only new thing I think was about complex numbers. But in numbers, we got one more thing, which is of type Boolean. I know Boolean would be true and false, why it would be integers or numbers. Let's check this out. So let's"
+    },
+    {
+        "id": 45,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "04:19",
+        "end_time": "04:52",
+        "text": "say if I try to create a variable, let's say a is equal to 7 and b is equal to 6, we got these two values. And I want to check which is greater. So I believe that a is, or b is greater than a, which is not the case. But you can believe anything, right? So if I say greater equal to, and I can use an operator here, and I believe that b is greater than a, which is false. But in my mind, it's true. And let's try to print it. And that's false. I am wrong. And I'm happy with it. So this"
+    },
+    {
+        "id": 50,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "04:52",
+        "end_time": "05:22",
+        "text": "is false, right? Because b is, yes, this is smaller than a. And this is a Boolean value. So false is a Boolean value. And we got two options only. We got true or false. Example, if I convert that from less than, then greater than. So we change it to less than now. And it will be, I have to print it also. It will be true. So we got two options. We got false and we got true or true and false. In fact, you can directly store this value to a variable. I can check, is it? Okay. Doesn't matter. Is it true?"
+    },
+    {
+        "id": 55,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "05:22",
+        "end_time": "05:49",
+        "text": "And if I try to print, is it, it says true. Okay. So you can assign the values, not just true or false. I mean, not just true, it can also assign false. Now, why I'm saying these are numbers a few minutes ago, it's because you can convert this Boolean value into numbers. Example, if I say k is equal to, and if I say true, of course the value of k would be true. But what if I try to convert that into integer? What will happen? If I try to print the value of k, it is int. The same"
+    },
+    {
+        "id": 60,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "05:49",
+        "end_time": "06:17",
+        "text": "thing happens when you do that with false. It is k is zero. So true is one and false is zero. There's something to remember because we're going to talk about this in the upcoming sessions or videos. So that's the Boolean type. Apart from Boolean type, we also got something called none. If you're coming from other languages, we got something called null there. But in Python, we got none. Example, I can say result is equal to, or maybe I will say result. And if I try to print result,"
+    },
+    {
+        "id": 65,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "06:17",
+        "end_time": "06:44",
+        "text": "we're not getting anything. But if you try to print it, I just hope it will print something and it prints none because there's no value assigned to it. And you can manually assign the value, which is none. Even that works. If you try to print, it will be none. Now let's shift our focus to sequences. So we have worked with list and okay, let's say L. And in this L, if you say four, five, any value, this is the type of list. And if you try to find the type of it, it is list. Apart"
+    },
+    {
+        "id": 70,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "06:44",
+        "end_time": "07:12",
+        "text": "from this, we also got something called tuple. So we'll just change that square bracket to round bracket. And if I say T, and if I check the type of T, that's tuple. We can also create a set. And if I see the type of this S, that is set. And we have also worked with the dictionary, right? But apart from this, we got one more way of creating a sequence and that is called a range. So how do we create a range? So you say range. Let's assign the value somewhere. Let me assign that to R."
+    },
+    {
+        "id": 75,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "07:12",
+        "end_time": "07:43",
+        "text": "So R range, and I will assign, let's say 10. Now this R is a range. If you print R, that's a range. And if you try to find the type of it, it's a type range. But why you will reuse something called a range here? So first of all, range is a function which takes a parameter and it returns a range. But why do we use it? See, if you want to create a list, okay, so something like this. If you want to get a list and if you pass R in this list, see what happens. Okay, great. It gives you"
+    },
+    {
+        "id": 80,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "07:43",
+        "end_time": "08:11",
+        "text": "error. Let me try with set. Maybe I have used list as a variable somewhere before doing this. Anyway, so if you try with set, you can see we got this value. So when you say range, range starts with zero by default and ends just before the number you have assigned, which is 10. But let's say if you want to include a 10, then you will say 11. Okay, but now let's say, let me just print R, range is still there and set is still there. Okay, set, I'll specify R, this is still there."
+    },
+    {
+        "id": 85,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "08:11",
+        "end_time": "08:38",
+        "text": "But what if I want to print even numbers still 10? So the way you can do that, you can say set, and again, you will use range inside this. But if you set 10, it will print the same sequence again. So you have to start from two, because that's where the even number starts. And then you have to end at 10 because I want to include 10. So you have to end it at 11. But you have to also mention the steps. By default, the step is one and that's why you can see zero, one, two, three, that's a"
+    },
+    {
+        "id": 90,
+        "source_file": "Data Types in Python.mp3",
+        "video_title": "Data Types in Python",
+        "start_time": "08:38",
+        "end_time": "09:02",
+        "text": "sequence. But if you want a step of two, you will specify two here. And you can see it is two, four, six, eight, 10, step of two and starting from two, ending at 10. And that's how range works. There's another way of using range using loops, which we're going to see later. But at this point, this thing works. So these are the types which are available in Python, which you can use. There are other types as well, but these are highly used. See you in the next video."
+    }
+]

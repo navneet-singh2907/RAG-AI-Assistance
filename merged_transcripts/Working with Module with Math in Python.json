@@ -1,0 +1,194 @@
+[
+    {
+        "id": 0,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "00:00",
+        "end_time": "00:28",
+        "text": "Now, once we know what are functions, let's go to the next topic, which is modules. See, for different tasks, we are going to create different functions, right? And we know that now. But when you say a task or a group of tasks, normally what you do is, let's say if you talk about calculations. Now, for calculations, you might be doing additions, subtraction, division, multiplication. That comes under one particular thing. On the other hand, we"
+    },
+    {
+        "id": 5,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "00:28",
+        "end_time": "00:53",
+        "text": "can talk about, let's say, logging to a system. So login, log out, maybe creating a new user, deleting the user. Those things come under one system. On the other hand, we can also talk about e-commerce, where you are adding a product, deleting a product, or maybe adding a product to the cart. Those things come under one thing. Now, of course, if you want to do individual things here, let's say adding two numbers, we get a function. If you want"
+    },
+    {
+        "id": 10,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "00:53",
+        "end_time": "01:21",
+        "text": "to log into a user, that is one function. If you are doing a checkout of a product on e-commerce website, that is one function. But all these functions are different, right? So there's a grouping of functions which we can create. And normally what you do is, you take this grouping of functions and put that in one module. Let me repeat, you take that bunch of related functions, or maybe functions that belong to one domain and put that into"
+    },
+    {
+        "id": 15,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "01:21",
+        "end_time": "01:44",
+        "text": "one module. So what is module? You can imagine module as a box in which you have all the related functions. Of course, you can have an unrelated functions, but then why someone will do that, right? So module will have all the related functions of one particular thing. To give an example, let's go back to this thing here, and let's say I don't want to work with add anymore. We can remove it. In fact, let me remove everything. What I want"
+    },
+    {
+        "id": 20,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "01:44",
+        "end_time": "02:08",
+        "text": "to do here is, let's say I want to find a square root of a number. So if you want to find a square root of a number, let's say I will say result equal to, and in this result I want the square root of this number 25. And we know the square root of this number is five, but I want to do that with Python. Now you can write the code for it. We are expert in Python now, we are expert in maths. No, I'm kidding. We're into learning phase"
+    },
+    {
+        "id": 25,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "02:08",
+        "end_time": "02:32",
+        "text": "now, but you can do that. You can write a code to find a square root of a number using Python, like we did for finding a square root of a number. So let's say if you want to find a square root of a number four, you can simply say four into four. You will get the square root of it. But if you want to find the square root, instead of writing the complex mathematical formula here, what I can do is I can use some inbuilt functions. The way we have done with"
+    },
+    {
+        "id": 30,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "02:32",
+        "end_time": "03:02",
+        "text": "print, we have done with int. All these are inbuilt. In the same way, we got this particular function called sqrt, which is an inbuilt function. I can use that, and I can put my number, which is a num, and it should give me the square root. And at the end, I will just print it as simple as that. Okay, let me see if this works. So I'll say Python and demo.py. If I say enter, it's not working. If it is not working, let's stop the video"
+    },
+    {
+        "id": 35,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "03:02",
+        "end_time": "03:27",
+        "text": "and done. I'm not stopping the video. You can see the length of it. So why this is not working? So I'm saying that this is inbuilt and now it's not working. That means is it not inbuilt? It is actually inbuilt. It's just that this type of functions, which are not normally used, but yes, people do use it. So we don't openly put that to Python. Hey, anyone can use it because sometimes you don't want to use it. Why it is openly available."
+    },
+    {
+        "id": 40,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "03:27",
+        "end_time": "03:56",
+        "text": "See, print, int, we always use. sqrt is a very special function, belongs to mathematics. It will be used only when you want to do mathematical things. So in that scenario, we can say, okay, this is not openly available, but this belongs to a module which you can use. Okay, so what is module? A module will have a bunch of features or normally functions and this belongs to a module called math. Okay, so if you want to use that module, I can say import and I"
+    },
+    {
+        "id": 45,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "03:56",
+        "end_time": "04:23",
+        "text": "can mention the module name, which is math. There are a lot of modules available. So if you say import and control space, you will see a list here, I hope. Yeah, there are a lot of modules here. We've got base64 if you want to perform operations with that. You can use a calendar module. You can use Colorsys. Never used it, but we have an option. We've got concurrent module, important. We got date time module. In the same way, we got math"
+    },
+    {
+        "id": 50,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "04:23",
+        "end_time": "04:53",
+        "text": "module, which we're going to use. And when you say import math, basically you got this module and then using that, I can say math.sqrt. So sqrt is a function which belongs to math So if you want to use a function of a module, mention the module name dot the function name. I hope this time this will work. If not, we'll stop the video for sure. It worked. And now we are not stopping it. So the answer is 5.0 is because sqrt normally gives you float values."
+    },
+    {
+        "id": 55,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "04:53",
+        "end_time": "05:20",
+        "text": "You will get 5.0. Yeah, if you want to convert that into int, you can just pass that into int function and it should work. Okay, this is how basically you use a module. Now, of course, we can create our own modules if you want. But at this point, we are just using the existing modules. So math is a module of which we are using a function and we are able to do the things. And of course, sqrt is not the only function available in math."
+    },
+    {
+        "id": 60,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "05:20",
+        "end_time": "05:44",
+        "text": "There are other functions as well. But this video is not about math. This video is about module. How do we import a module? That's what we have seen now. In fact, I want to show you one more thing with module. So let's say in math, basically we got one function which we are using, but we have multiple functions, right? Now, the moment you say import math, you can use all the functions in the code. But what if you don't want to use all the"
+    },
+    {
+        "id": 65,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "05:44",
+        "end_time": "06:14",
+        "text": "functions? You want to restrict how many functions I want to import. Also, I don't even want to write this math at the start. I can just remove it. But then Python will not be happy. If you remove that Python will say, hey, what is this sqrt? So in that case, what you do is instead of using this particular statement, which you have used here, I will just comment it and then you say, from math, I want to import sqrt. Okay, there's a syntax for importing"
+    },
+    {
+        "id": 70,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "06:14",
+        "end_time": "06:43",
+        "text": "one or two or limited number of functions. So from math, import sqrt. Now you don't have to mention math here. And you can see there's no zigzag lines there. I can simply try this now and it worked. So yeah, that's about the working with modules. Since we are talking about math, let's check out some more functions. Now math has a few more functions to work with. In fact, if I go back here and if I say math dot, in fact, for that I have to"
+    },
+    {
+        "id": 75,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "06:43",
+        "end_time": "07:14",
+        "text": "also uncomment this part. And if I check math, there are so many functions. One of the function is seal. Now when you talk about a number, let's say float values, example, when I cleared my 10th standard, the percentage I got is 59.4. Now, whenever someone asks me, normally we do a round off, right? And when you do a round off for 59.4, it should be 59, right? Because you increase the value when it is above 0.5, but I used to say 60, because I"
+    },
+    {
+        "id": 80,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "07:14",
+        "end_time": "07:43",
+        "text": "used to always apply seal function. So what is seal basically? So let's say if you have a float and seal on top and if you have a value somewhere in between, if it is near to the lower value, it will go there, right? That's the round off. But in seal, it will always go to the maximum integer for that range. So example, if I say seal of 59.4 and if I try to save that result somewhere, so it's a result one equal to, and if I try to"
+    },
+    {
+        "id": 85,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "07:43",
+        "end_time": "08:11",
+        "text": "print the result one, let's see what output you get. So if you run this, you will get 60. Okay, that's my 10th percentage, not 59.4, because I use seal. Otherwise, if I want to talk about someone else, let's say if I talk about my friend at home, even if that person gets 59.9, it's always 59. Okay, so float will give the lowest integer and seal will get the highest integer. Now why I'm showing you this is because I wanted to show you not"
+    },
+    {
+        "id": 90,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "08:11",
+        "end_time": "08:40",
+        "text": "my 10th percentage, but in math, you got multiple functions and that's how you can try out. In fact, there's one more way of checking documentation. So let's say I will just remove this line and also if you don't want to write mat dot seal, you can also import from mat import seal so that you don't have to write that here mat dot seal every time. You can just use seal. One more way to get this, if I open terminal and if I increase"
+    },
+    {
+        "id": 95,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "08:40",
+        "end_time": "09:10",
+        "text": "the size here, that's huge. Okay, so if I go to Python now, and there's a function available, which is help. And in this help, you can mention what documentation you need. So I need a documentation for math, enter, and this is a documentation. So if you want to learn about a particular module, you can do like this. Otherwise, you can also, let me just clear this, you can also use help mat dot. Specifically, if you want to understand about seal, you can mention"
+    },
+    {
+        "id": 100,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "09:10",
+        "end_time": "09:41",
+        "text": "that it will talk about what seal does. So see the return of x as a, this is smallest integer, which is greater than x. Okay, that's the documentation. Apart from this, you can also use something called power for finding power of a value. Example result one is equal to power of, let's say, five raised to three. So it will give you five raised to three. And you can, if you want, you can just print it here. I don't want to print this square"
+    },
+    {
+        "id": 105,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "09:41",
+        "end_time": "10:03",
+        "text": "root now. I'm lazy. So if you do that, it will also work. So that's how you can find the power. So there are a lot of functions you can try it out. So for every module, which you want to talk about, you can also do that. You can check out different functions and use it. One more thing about ID is, you know, this and this is different color because seal you're not using anywhere. So it's a different color. It helps you to understand which function"
+    },
+    {
+        "id": 110,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "10:03",
+        "end_time": "10:24",
+        "text": "you are importing from the module, but you're not using it. So that's a feature you can use. I just want to show you one more thing before you go. Let's say if you don't want to use this syntax, if you want to use import math and everywhere, if you want to mention math dot something. So instead of that, you can also say, if you don't want to use math as a word, see it is small, but sometimes you have a big module name. You can create"
+    },
+    {
+        "id": 115,
+        "source_file": "Working with Module with Math in Python.mp3",
+        "video_title": "Working with Module with Math in Python",
+        "start_time": "10:24",
+        "end_time": "10:36",
+        "text": "allies of it. Something like import math as M and everywhere you can use M dot and that should work. Okay. Just to confirm. Yeah, it works. So that is from math module. See you in the next video."
+    }
+]

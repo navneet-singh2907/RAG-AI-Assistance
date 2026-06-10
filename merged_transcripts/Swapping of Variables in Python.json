@@ -1,0 +1,210 @@
+[
+    {
+        "id": 0,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "00:00",
+        "end_time": "00:17",
+        "text": "In this video, we'll talk about how to use swap to variables. Now there are multiple ways of doing this in different languages. We have different ways, but in Python, we have a very unique way, which is only for Python. Let's see that."
+    },
+    {
+        "id": 5,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "00:17",
+        "end_time": "00:29",
+        "text": "In fact, we'll talk about other techniques as well, and then we'll move towards the Python way or Pythonic way. Okay. But before we do that, let's take two variables here. We got A equal to five and B equal to six."
+    },
+    {
+        "id": 10,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "00:29",
+        "end_time": "00:48",
+        "text": "We got these two simple variables, no fancy stuff. And now I want to also print this. Let's print this first and then we'll see. So here I'm saying A colon comma A and print B colon and B. Okay."
+    },
+    {
+        "id": 15,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "00:48",
+        "end_time": "01:03",
+        "text": "So we got these two variables assigned and also printing it. So let's run this and you can see whatever value you are assigning, you are just printing it. Now what exactly is swapping mean? Swapping simply means the value of A and the value of B need to be swapped."
+    },
+    {
+        "id": 20,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "01:03",
+        "end_time": "01:21",
+        "text": "So A should get six and B should get five. Now why this is useful? When you build application and when you want to process data, sometimes swapping is important. And also when you want to sort, so there are different sorting algorithms available in which those things work when you swap variables or swap values."
+    },
+    {
+        "id": 25,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "01:21",
+        "end_time": "01:39",
+        "text": "So let's see how do we swap. Basically if you want to think as a human, what we do is we say, okay, let A get the value of B and let B get the value of A and this should solve the problem, right? But let's see, let's try. So I will just clear this and run and you can see, okay, something went wrong."
+    },
+    {
+        "id": 30,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "01:39",
+        "end_time": "01:53",
+        "text": "Both are six. Why? So if you go step by step, what is happening is in these two lines, we are assigning value, no problem with that. Here we are saying A is equal to B, that means the value of B which is six goes into"
+    },
+    {
+        "id": 35,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "01:53",
+        "end_time": "02:13",
+        "text": "A, that means the new value for A is six, okay? And then in B, we are assigning the value of A and the new value of A is six. So both are getting six. We are losing five here. So this is not the ideal way in programming."
+    },
+    {
+        "id": 40,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "02:13",
+        "end_time": "02:34",
+        "text": "So that means we have to make sure that we don't lose the value of five. And the way you can do that is keep the value of five somewhere. That should solve the problem, right? So let's take C and let's keep the value of five there which is in A now. So the value of five goes into C, then the value of six goes into A and now I want the"
+    },
+    {
+        "id": 45,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "02:34",
+        "end_time": "02:51",
+        "text": "value of five to go to B. In that case, I will not say B equal to A, I will say B equal to C, okay? Now we are able to swap. I will show you the output so that you will trust me and you can see they have been swapped. Things are working fine, but the problem is we are using extra variable."
+    },
+    {
+        "id": 50,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "02:51",
+        "end_time": "03:06",
+        "text": "See every bit is important. So when you use these two variables, they are taking some space, right? Let's say X amount of space. When you have two variables, you are taking two X of space and just to swap, we are using the third variable."
+    },
+    {
+        "id": 55,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "03:06",
+        "end_time": "03:18",
+        "text": "That means three X of the space. We are wasting that extra space there. How do we solve that? So let's avoid using the third variable. I will cut that and put it somewhere so that we can refer it later if you want."
+    },
+    {
+        "id": 60,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "03:18",
+        "end_time": "03:28",
+        "text": "Okay, let's go back here. Now I will do the second way. Second way is basically to use mathematical formula. So we have A plus B. I will just write it first and then I will explain what I have done."
+    },
+    {
+        "id": 65,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "03:28",
+        "end_time": "03:42",
+        "text": "So this is a mathematical way of solving this problem. What we are trying to do here is we want to swap, right? So when you say A equal to A plus B, what we are doing is the value of A is five, the value of B is six. So the addition is 11, okay?"
+    },
+    {
+        "id": 70,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "03:42",
+        "end_time": "03:59",
+        "text": "And then the new value of A is 11. Then with the new value of A, which is 11 minus B, which is six, 11 minus 6 is 5, the value of B becomes 5. Then the value of A, which is 11, the new value of B is 5, 11 minus 5 is 6. The value of A, which you get is 6."
+    },
+    {
+        "id": 75,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "03:59",
+        "end_time": "04:09",
+        "text": "So 5 and 6, that's what you got. And that's how basically you swap it. So I will just try to run this. Swapped. Okay, now what's the benefit of this?"
+    },
+    {
+        "id": 80,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "04:09",
+        "end_time": "04:31",
+        "text": "The benefit is you are not wasting extra memory for the third variable, okay? You are saving memory. But for saving memory, we are increasing the number of operations which you are doing. Now this is where you do the trade-off, which is more important or which is less you have. So if you have less memory and better CPU power, you will go for this way."
+    },
+    {
+        "id": 85,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "04:31",
+        "end_time": "04:46",
+        "text": "If you have more memory and less CPU power, you will go for the third variable. So none of this is a best approach. It depends upon your requirement. So this is another way, a mathematical way. But even this has some shortcomings."
+    },
+    {
+        "id": 90,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "04:46",
+        "end_time": "04:59",
+        "text": "You know what? The 5 and 6, they are small numbers, right? And this will take less memory. So let's say this takes x amount of bits. When you add them, it will increase that bit size a bit because 5 and 6, when you add,"
+    },
+    {
+        "id": 95,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "04:59",
+        "end_time": "05:15",
+        "text": "it will just 11. So 11 will take more space than 5 and 6. So we have one more way, which is XOR. It normally works with the bitwise operator and it works in the bit way. So you're not losing any extra bit also."
+    },
+    {
+        "id": 100,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "05:15",
+        "end_time": "05:33",
+        "text": "So every bit is important, as I mentioned before. So this is 6 and 5. So everything is done. Now whatever we have discussed, this is actually the other language way of doing. In Python, we have a very easy way, which is A comma B is equal to B comma A, as simple"
+    },
+    {
+        "id": 105,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "05:33",
+        "end_time": "05:48",
+        "text": "as that. When I learned my first language for the first time, it was C, then C++, then Java. And every time I was working with swapping variables, I was like, hey, why can't we just write that in one line? I learned Python a bit late."
+    },
+    {
+        "id": 110,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "05:48",
+        "end_time": "06:02",
+        "text": "And when I saw this, I was like, this is what I was waiting for. And now if you say it is swapped. But the question arises how it is working. Is it not overwriting the values? Example, in the earlier case, we were overwriting the value, right?"
+    },
+    {
+        "id": 115,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "06:02",
+        "end_time": "06:18",
+        "text": "That's why we were losing the value of A, which was 5. In this case, when you assign the value of B to A, don't you think we are losing value? So what is happening is behind the scene, there's something called tuple packing and tuple unpacking happening. So here, when you write this, it is doing tuple packing."
+    },
+    {
+        "id": 120,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "06:18",
+        "end_time": "06:38",
+        "text": "So it will fetch the values of B and A, which is 6 and 5. Once you fetch the value, it will pack it in a tuple. And then that tuple goes on this side. It will do the unpacking of the tuple and assign the value, which is 6 and 5. So it's not overwriting it in one go."
+    },
+    {
+        "id": 125,
+        "source_file": "Swapping of Variables in Python.mp3",
+        "video_title": "Swapping of Variables in Python",
+        "start_time": "06:38",
+        "end_time": "06:45",
+        "text": "So it is step by step process. And that's why this swapping is happening here. So that's how you swap two variables in Python."
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "id": 0,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "00:00",
+        "end_time": "00:33",
+        "text": "So when you want to store multiple values, we have an option of least which we have used before. But then there are other signals which we can use and one of them is tuple. So let's try tuple and let's see what it does. So I'm creating a variable called tuple or tube, doesn't matter what you call it. In this if you want to store multiple values, the way you can do that is let's say 23, 45, 67 and 43. Now when you create a list, we have used"
+    },
+    {
+        "id": 5,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "00:33",
+        "end_time": "00:59",
+        "text": "a bracket which was the square bracket, right? And when you do that, so this is your list and how do I know that? Of course with not the name there, name can be anything, but there's a function in Python called type. Now when you say type and when you mention a value there or a variable which is tuple in this case and when you say enter, you can see it says class list. Again, what is class? We'll talk about that later, but this is of"
+    },
+    {
+        "id": 10,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "00:59",
+        "end_time": "01:28",
+        "text": "type list. Now if you want to create a tuple, how do you do it? There are two options. One, you can remove the brackets and keep it empty like this. Now this is also a tuple when you say enter and when you check the tuple again or the type again, okay, that's, okay, so when you see the type, it is tuple. Okay, now there's one more thing which I did now. When I clicked on the up arrow, I can see the last commands. Normally this is how you do in the command prompt or the"
+    },
+    {
+        "id": 15,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "01:28",
+        "end_time": "01:55",
+        "text": "terminal, but in the ideally you will not get that support by default. So what you do is you go to option, click on configure and there's an option of keys here. In this if you scroll down, there should be history, next history previous. Make sure that you change these options and once you do that, you can click up and you will get the last command or last history basically. So that's one. You can keep this number without specifying any bracket or you can keep a round bracket. Both"
+    },
+    {
+        "id": 20,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "01:55",
+        "end_time": "02:23",
+        "text": "works and when you say enter, again when you check the type, it is tuple. So that's how basically you can create a tuple and the way you have done in the list, you can do that those things here. Example, let's say if you want to find the minimum value out of this thing, it's 23 which is the first value and when you say max, you will get 67. So these things work. So you can also do sum here. Now notice difference between tuple and list here. Now when you said list before, you used to get"
+    },
+    {
+        "id": 25,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "02:23",
+        "end_time": "02:52",
+        "text": "multiple options, right? We had an option of remove, pop, then we have also seen append, insert. Now you can do those things because list is mutable. That means you can change the values or you can change the elements of it. Now in this case, when you set up and when you say dot, control space if it is not popping up quickly, you can see we got two options. We got count and index. What count does? Count basically checks for a particular number, how much occurrence you have of the same number"
+    },
+    {
+        "id": 30,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "02:52",
+        "end_time": "03:19",
+        "text": "and second index will give you the index value of a particular value but there are no methods which talks about inserting or removing. That means tuple is immutable. Let me show you how. So if I want to fetch a particular value, let's say I want to fetch this 67 here, the way you can do that is by mentioning the index number. Again, we have to use square bracket whenever you want to use the index value. That's something you have to remember and when you do that, you will get 67."
+    },
+    {
+        "id": 35,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "03:19",
+        "end_time": "03:45",
+        "text": "Straightforward. But if you try to change the value, let's say if you want to have the 65 and when you say enter, it will not work. It will say tuple object does not support item assignment. That means you can't change the value or the elements of a tuple. There's something you remember. It's immutable. Now why this immutability and mutability is important. Now once we go in the upcoming sessions when you talk about different topics, I will mention, hey, you know, this"
+    },
+    {
+        "id": 40,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "03:45",
+        "end_time": "04:10",
+        "text": "particular type or the structure supports only mutable data or it only supports immutable data. So you should know which is mutable, which is not mutable and when you work on a project and if something is not working, the value is not getting changed, you should know, okay, this is tuple. I can't change the value. So those are things important and that's why this immutability and mutability makes sense. Now apart from minmax or type function, we can also use a function which"
+    },
+    {
+        "id": 45,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "04:10",
+        "end_time": "04:39",
+        "text": "is length to check the length of a tuple and it says four because you got four values here. So there's something you can do. Apart from this, we can do one more thing. Let me say tuple a is equal to, so that's the variable and in this let me have some values and it's not just you should have a value of the same type. It can be of different types. Example, I will say two here and I will say Navin and maybe I can have 7.9 as a float value. When you say enter, there's no problem."
+    },
+    {
+        "id": 50,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "04:39",
+        "end_time": "05:06",
+        "text": "If I try to print up a, you got all these values. Now there's one beauty about Python as being easiest language to work with. When you say this value, which is tuple a has all these values, we got two, Navin and 7.9. What if you want to store this value in a particular variable? So let's say I want to store this two in a variable num. The way you can do that is by saying tuple a, you can give a square back and you can say zero. So with the zero index, this will be picked and"
+    },
+    {
+        "id": 55,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "05:06",
+        "end_time": "05:35",
+        "text": "it will be stored in num. There's no problem with that. But what I want to achieve is I want to have three different variables for num, I mean for two, for my name and for this value. So I can say num, comma, I can say name, comma and I can say num one, another value. Now what will happen is all these values will go into these variables and if I want to show you how, if I say num, you can say num is two. If I say name, it's Navin and if I say num one, it is 7.9. So this is more"
+    },
+    {
+        "id": 60,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "05:35",
+        "end_time": "06:02",
+        "text": "of a unpacking sequence because we are unpacking this stuff here into the variables and this is the beauty of Python. It makes things very very easy. There's only one thing you have to remember. When you do this operation which I have done just now, so this particular operation, let's say if you try to fetch one more thing which is num two. Now will this work? Logically it should not work is because we got one value, two value and three values. So in total we got three values here."
+    },
+    {
+        "id": 65,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "06:02",
+        "end_time": "06:31",
+        "text": "So the length of this tuple a or tuple a is three and the variables you're trying to assign here is four. Now at this point, Python will feel bad and it will give you some bad words by saying what you're doing. It says not enough values to unpack. Expected value of four and got three because in tuple a, in your tuple or tuple, you got only three values. So now we know that tuple is immutable but let me show you one thing where you can make it mutable. So let's say, okay not mutable"
+    },
+    {
+        "id": 70,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "06:31",
+        "end_time": "06:58",
+        "text": "in that sense but let's see the out example. So let's say I'm creating a new tuple which is tuple, let's say this is b instead of two so that you will not get confused with the numbers and in this I'm going to have some values. Let's say 34 is the first value, then my name Navin and then I'm going to have let's say a list of values. Okay and that's right you can do this. You can have a list inside a tuple. In fact not just list inside a tuple, you can have a tuple inside the list,"
+    },
+    {
+        "id": 75,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "06:58",
+        "end_time": "07:28",
+        "text": "you can have a list inside the list, you can have a tuple inside the tuple. So because those are the types right and this is actually one element. So for a collection of values this is one element. So for the tuple this thing 34 is one element, Navin is one element and this is one element. Now with this thing if you try to change, let's say if you try to change the first value 24, of course it will give you some bad words. It will say what you're doing, no this will not work."
+    },
+    {
+        "id": 80,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "07:29",
+        "end_time": "07:53",
+        "text": "Makes sense and if you do that with the list as well, if you try to assign a different list or different value altogether or different type of data altogether, there should not be an issue. I mean of course it should not work and with this also it will not work. You can't assign the value and we have talked about this before tuples are immutable so you can't do this thing. So I'm trying to replace this with this and it is saying the same thing but let me try this. I will say"
+    },
+    {
+        "id": 85,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "07:54",
+        "end_time": "08:21",
+        "text": "and if I want to change a value of a list, so let's say in this tuple we got this list and in which I have a value which is let's say five. I want to make this five nine. So I can say tuple, first I have to target this particular list and this list is your index number two. So I'll say two here and this from this list I want to fetch this five again which is two. In fact let's try to change four because that's into other some index so that you will not get confused with two"
+    },
+    {
+        "id": 90,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "08:21",
+        "end_time": "08:49",
+        "text": "and two. So I'm trying to change this four and make it nine. So if you say nine there is no issue. If we try to print the tuple you can see it is working. So you are able to store or you are able to change the value of a list because that's immutable. Yes that's a part of a tuple but you're not changing the tuple you're changing the list. So it's just one element which is immutable but the element inside that list can be changed. I know it might look complex and that's why you"
+    },
+    {
+        "id": 95,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "08:49",
+        "end_time": "09:18",
+        "text": "have to try by yourself to make a sense out of it. In fact you can do one more thing. I want to introduce a new keyword here. So let's say I want to check if 34 is a part of this tuple or not. So I can say 34 into B it will say true. True means this is so true and false those are the Boolean values and it checks 34 is in tuple B basically in will check if it is there. If it is there it will return true. If it is not there it will return false. Example is if you try to match"
+    },
+    {
+        "id": 100,
+        "source_file": "Tuple in Python.mp3",
+        "video_title": "Tuple in Python",
+        "start_time": "09:18",
+        "end_time": "09:48",
+        "text": "Navin into B you can see it says false. Now this Navin is this Navin difference because there is a capital N here. Okay that's something you remember. Yeah that's about tuple and the most important thing is two. One is this learned brackets and second it's immutable. you"
+    }
+]

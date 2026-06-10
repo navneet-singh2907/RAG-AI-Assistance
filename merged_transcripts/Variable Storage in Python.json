@@ -1,0 +1,274 @@
+[
+    {
+        "id": 0,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "00:00",
+        "end_time": "00:22",
+        "text": "Till this point, we have talked about variables, we have talked about different type of data. So we have worked with normal variables in which we can have numbers, we can have string, we have worked with list, tuple, dictionary, set. Now let's go back to the basics of variable. So what I'm going to do is, let's say I have A as a variable and I'm trying to store the"
+    },
+    {
+        "id": 5,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "00:22",
+        "end_time": "00:35",
+        "text": "value which is five. A simple expression where you're saying A equal to five and we know when you print A, it will be five. Now what is happening behind the scene? So we are assuming that there will be a box inside the memory which will be having this"
+    },
+    {
+        "id": 10,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "00:35",
+        "end_time": "00:54",
+        "text": "value five and the name of that variable or the box is A, right? That's what we are thinking now. Now when I say B equal to five, so of course it should make a different box. So there should be two boxes, one with name A and one with name B and if you try to print B, of course it will also print five, right?"
+    },
+    {
+        "id": 15,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "00:54",
+        "end_time": "01:08",
+        "text": "So two boxes, same value, five and five and we got a name A and B. So let's say if you are storing this value in the memory, so of course there should be an address to it. Now when you say you have an address there, I want to print it. How do I do that?"
+    },
+    {
+        "id": 20,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "01:08",
+        "end_time": "01:28",
+        "text": "May not be an address but there should be some identity to it and that's what I want to print and that's where inside Python we got this inbuilt function called id where you can pass the variable which is A and it will print the identity of it and that's what you got here. So this is the huge number but remember the last three digit which is 056."
+    },
+    {
+        "id": 25,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "01:28",
+        "end_time": "01:39",
+        "text": "Let me try it for B. Of course it should have a different id but when you print it, you will get the same value. I mean that's weird. Why two different boxes have the same address? Something like this on the screen."
+    },
+    {
+        "id": 30,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "01:39",
+        "end_time": "01:54",
+        "text": "It's a conflict, right? Now what is happening is, let me try, okay so let me explain with these changes. Let me make B with value six. When I do this and when you try to find the id of a B, so before I do that, what do you think?"
+    },
+    {
+        "id": 35,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "01:54",
+        "end_time": "02:10",
+        "text": "Are you finding the value of the box from five to six with the name B? If that's what you're thinking, say this. We got a different address. That means B is not the name of the box. It's basically every box will have an id and A, B, all those things are just references."
+    },
+    {
+        "id": 40,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "02:10",
+        "end_time": "02:21",
+        "text": "But referring to what? They are referring to something called objects. Everything in Python is an object. A simple number like five is an object. A name like Navin is an object."
+    },
+    {
+        "id": 45,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "02:21",
+        "end_time": "02:38",
+        "text": "A list which have multiple values is an object. Everything in Python is an object. Okay, so what we are doing is those boxes are your objects and inside this object you got values and all this A, B and whatever variable name which you use, they are just references and they are referring to it."
+    },
+    {
+        "id": 50,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "02:38",
+        "end_time": "02:53",
+        "text": "So in the initial case when you said A equal to five, we got a box there with five and it will also check, do we already have five in the memory? If you already have five, it will not create a new box. It will use the existing box. But since we executed this as the first line, we don't have five anywhere."
+    },
+    {
+        "id": 55,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "02:53",
+        "end_time": "03:17",
+        "text": "So it will create five and it will refer A to that address. So there should be some area where you have a mapping of the references and the objects. So A is referring to five box and then when you create B equal to five, here also we are creating a variable which is referring to a box five. Now since we already have five here, it will not create a new box."
+    },
+    {
+        "id": 60,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "03:17",
+        "end_time": "03:32",
+        "text": "It will refer to the same box. So A and B referring to the same box. And that's why when you try to print the identity of it, you got the same values. But what happens when you say B equal to six? Now in this scenario, it will say, okay, I'm trying to save six."
+    },
+    {
+        "id": 65,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "03:32",
+        "end_time": "03:49",
+        "text": "I don't see six anywhere. So I need to create a new six box or a box with value six. So it will create that box and that box will have a different ID and that's what you are printing it here. So B which was initially referring to the box five, it is referring to box six now."
+    },
+    {
+        "id": 70,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "03:49",
+        "end_time": "03:59",
+        "text": "It's all references. Let me try one more thing. I will create a variable called K and K will be referring to let's say five. Now what do you think? Are we creating a new box of five?"
+    },
+    {
+        "id": 75,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "03:59",
+        "end_time": "04:18",
+        "text": "No, we have talked about that before. We have the same box of five, but K as a new variable is referring to the box five. Okay, so there are two variables referring to box five and one variable referring to box six. Now if I say B is equal to let's say nine, now we got a new value and if I try to find,"
+    },
+    {
+        "id": 80,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "04:18",
+        "end_time": "04:34",
+        "text": "okay, first of all, let me print the ID of K. We have not done that. So you can see it is the same value as A and if you try to print the ID of B, it's a new value now. Okay, so now we got two variables referring to A, referring to five, which is A and K."
+    },
+    {
+        "id": 85,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "04:34",
+        "end_time": "04:47",
+        "text": "We got one variable referring to nine and there's no variable referring to six. Now what happens to that box six? Because nobody is referring to it. It's a memory wastage, right? Because you have a box there and nobody is referring to it."
+    },
+    {
+        "id": 90,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "04:47",
+        "end_time": "04:59",
+        "text": "So what happens in this case? Now in Python, we got something called a garbage collection. So garbage collection is like a mini software which comes to your memory and say, okay, I want to clean up. Now which object will clean up?"
+    },
+    {
+        "id": 95,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "04:59",
+        "end_time": "05:14",
+        "text": "Will it clean up five? No, because five is referred by A and also K. Will it clear nine? No, because nine is referred by B. What about six? No one is referring to six. Now in this case, garbage collection will say, okay, I got this object."
+    },
+    {
+        "id": 100,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "05:14",
+        "end_time": "05:25",
+        "text": "Nobody is referring to it. Let me clean it. And that's what it is doing. And the same thing we do in our daily life, right? So let's say if you are cleaning a room and if you see a box or maybe if you see a remote"
+    },
+    {
+        "id": 105,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "05:25",
+        "end_time": "05:39",
+        "text": "lying on a floor, you know this remote is getting used for something. So you will keep it on the table. But if you find a paper, which is nobody is referring to it, you will throw it. So it's all about references. If you find an object, nobody is referring to it, just throw it."
+    },
+    {
+        "id": 110,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "05:39",
+        "end_time": "05:56",
+        "text": "And now it's not just for numbers. We can also use it for, let's say, string. So let me create a variable called name and let me have my name there, which is Navin. And let me create one more. And I will say this is name one is equal to, and I will say Navin."
+    },
+    {
+        "id": 115,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "05:56",
+        "end_time": "06:16",
+        "text": "Now when you try to print the ID of name and the ID of name one, you will find they are similar. So whatever we have talked about here is also applied for the name. So what is happening is inside your memory, you got this object called Navin. And I mean, of course, you got the object and you got a value Navin."
+    },
+    {
+        "id": 120,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "06:16",
+        "end_time": "06:34",
+        "text": "And there are two variables referring to it. And this concept is called string interning. So basically, when you create a new string, it will check, okay, we got a string pool. Inside this pool, let's create this variable or let's create this data Navin, if not found. And then when you try to do that for the next time, it will say, okay, we already have"
+    },
+    {
+        "id": 125,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "06:34",
+        "end_time": "06:45",
+        "text": "Navin in the pool. Let them refer to the same object. Why to create new one? That's the fun thing which Python does here. Now this string interning works with the normal data, right?"
+    },
+    {
+        "id": 130,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "06:45",
+        "end_time": "07:01",
+        "text": "If you have a small string, it will work when one or two words. But let's say I will just clear this out and let me get a new variable called a. And in this a, I'm going to create a string. I will say my favorite color is black. That's the first string."
+    },
+    {
+        "id": 135,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "07:01",
+        "end_time": "07:16",
+        "text": "And even b is the same. Now whatever we have talked about till now, I have not changed anything in this text here. Okay, both are same. So of course, it should be created only once in the memory. So if you try to get the idea of a, it's this."
+    },
+    {
+        "id": 140,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "07:16",
+        "end_time": "07:30",
+        "text": "And if you try to find the idea of b, it's this. And they are not matching. Why string interning is not working here? It's because string interning works with small words or maybe a couple of words, but not a string like this."
+    },
+    {
+        "id": 145,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "07:30",
+        "end_time": "07:48",
+        "text": "Why is because if you try to store everything in a string pool, you're wasting your string pool memory because it's a small memory. And if you try to put big string, it's of no use. Maybe in normal life, we don't repeat the same string again and again. You do repeat words, but not the entire string."
+    },
+    {
+        "id": 150,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "07:48",
+        "end_time": "08:01",
+        "text": "But yes, if you feel I got a message which is of 10 words and you want to repeat it, you can do string interning. There's a process for it. Manually, you can ask your Python to say, hey, you know, I want this to be done using string interning."
+    },
+    {
+        "id": 155,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "08:01",
+        "end_time": "08:13",
+        "text": "It will do it. But normally it will not. And not just for string. Let's say if you work with numbers, because earlier we have worked with small numbers, five, six, nine."
+    },
+    {
+        "id": 160,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "08:13",
+        "end_time": "08:24",
+        "text": "What happens when you work with big numbers like this? If you say a is equal to 1000 and b is equal to 1000. Now what do you think? Will it be the same idea or different idea? They're different."
+    },
+    {
+        "id": 165,
+        "source_file": "Variable Storage in Python.mp3",
+        "video_title": "Variable Storage in Python",
+        "start_time": "08:24",
+        "end_time": "08:41",
+        "text": "So even that gaseous stuff works only for the small numbers, not even for big integers. Otherwise, you're wasting memory because you repeat small numbers, not the big numbers. So Python is smart in that case. So yeah, that's what about how your variable gets stored in Python. See you in the next video."
+    }
+]

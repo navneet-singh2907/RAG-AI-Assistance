@@ -1,0 +1,426 @@
+[
+    {
+        "id": 0,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "00:00",
+        "end_time": "00:18",
+        "text": "Now, once we have the setup done for the Python, then we have done for the ideas we are going to use. Of course, we're not going to use all. We'll start with one. But before we jump into VS Code or PyCharm, the idea is when you learn a language, you"
+    },
+    {
+        "id": 5,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "00:18",
+        "end_time": "00:30",
+        "text": "want to start from the basics. And that's what we are going to do now. And when you install Python, so in fact, before we go for Python, I want to show you one more thing. When you open a command prompt on Windows, this is the command prompt which you can see"
+    },
+    {
+        "id": 10,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "00:30",
+        "end_time": "00:49",
+        "text": "on the screen. And on this command prompt, when you perform some operations, so let's try dir. Now when I say, when I do that, it will list all the files in this particular folder. So in the Naveen folder, I got all these files, right? So basically command prompt understands the command."
+    },
+    {
+        "id": 15,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "00:49",
+        "end_time": "01:04",
+        "text": "Example, cls will clear it. But when I perform 2 plus 3, it will say 2 plus 3 is not recognized as internal or external commands. That basically means your command prompt work with the commands. So pre-built commands, it can be internal or external."
+    },
+    {
+        "id": 20,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "01:04",
+        "end_time": "01:25",
+        "text": "But on the other hand, in Windows, basically we got something called a PowerShell. Now in this PowerShell, which looks like a command prompt, but bit different, this is a tool built by Microsoft to have their own shell kind of thing, which we have in Linux based OS or Mac. So we got shell there where we use bash."
+    },
+    {
+        "id": 25,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "01:25",
+        "end_time": "01:40",
+        "text": "Here they have created something called bash. I mean, sounds good. But it's more like a bash, but then for Windows. And now they have open sourced it so we can use it in multiple places. Now PowerShell supports scripting."
+    },
+    {
+        "id": 30,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "01:40",
+        "end_time": "01:57",
+        "text": "So when I say the same command dir, I think the command dir works here, command ls works here for the same thing because ls coming from the shell background. I can also use clear for clearing. I can also use cls. So it's a combination of command prompt with shell and it's fun."
+    },
+    {
+        "id": 35,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "01:57",
+        "end_time": "02:13",
+        "text": "But since you can run a scripting language, so even Python people call it scripting language and make sense because you can write scripts there. But then by default we got this shell. And in shell if you say 2 plus 3, you do get the output as 5. Okay?"
+    },
+    {
+        "id": 40,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "02:13",
+        "end_time": "02:29",
+        "text": "So this is how you run shell. Again, we're not here to run shell programming, but you can write shell commands here like echo, echo and if I say navin, it will print navin. So echo is a command in shell to print something. But if you want to do that in Python, how will you do that?"
+    },
+    {
+        "id": 45,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "02:29",
+        "end_time": "02:44",
+        "text": "So let's say I want to get into Python and that's why you can type Python in the command prompt or in the PowerShell. It works. When you say enter, it will open a prompt. Now this is called the Python IDLE."
+    },
+    {
+        "id": 50,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "02:44",
+        "end_time": "03:01",
+        "text": "In fact you can open that Python ideally in a separate window. But you can do all the things here. So let's say if you don't want to do that here, so I can say ideally and it will open a separate prompt where you can perform the operations. So we have an option of creating a file."
+    },
+    {
+        "id": 55,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "03:01",
+        "end_time": "03:15",
+        "text": "You can edit the file. You can run the script and you can configure. So there are a lot of options here which you can work with. If the font is small, okay, it's assuming the height, not the font. Okay."
+    },
+    {
+        "id": 60,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "03:15",
+        "end_time": "03:37",
+        "text": "But we have to find some setting for the increasing of the font. This is the Python IDLE, which is the integrated development learning environment. So it makes sense to test something, to learn. But then we are going to use prompt here, the Python prompt. And this is also a REPL which is read, evaluate, print, loop REPL where you can read the text,"
+    },
+    {
+        "id": 65,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "03:37",
+        "end_time": "03:46",
+        "text": "you can write the text, you can evaluate something, you can print something. So that's how it is. Okay. So here what I'm going to do. First of all, I will say 2 plus 3."
+    },
+    {
+        "id": 70,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "03:46",
+        "end_time": "03:55",
+        "text": "The space is not mandatory. I will just increase the size a bit. So the space is not mandatory here, but it looks good. I will say enter and you got 5. Okay."
+    },
+    {
+        "id": 75,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "03:55",
+        "end_time": "04:04",
+        "text": "That works. What else we can do? We can perform multiple mathematical operations here. So we have done for the addition. Maybe if you want to do subtraction, you can do that."
+    },
+    {
+        "id": 80,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "04:04",
+        "end_time": "04:16",
+        "text": "Maybe if you want to multiply, you can do that. When you can have not just one operations, but multiple. So let's say 5 plus 9 minus 4. Even that works. Okay."
+    },
+    {
+        "id": 85,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "04:16",
+        "end_time": "04:28",
+        "text": "I was, we got the same 10 10. Just a coincidence, but it has to follow some grammar, right? Example let's say if I say 8 plus 9 minus 4, it will work. But what if I miss 4 there? Will it work?"
+    },
+    {
+        "id": 90,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "04:28",
+        "end_time": "04:39",
+        "text": "If I say enter, it will give you some bad words. It will say Python has some issues in the file, which is creating the behind the scene. It says invalid syntax. So this is not a syntax which will work. Okay."
+    },
+    {
+        "id": 95,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "04:39",
+        "end_time": "04:45",
+        "text": "So I will just play it out. I want an empty screen. So yeah, you, it will follow the grammar. You have to follow it. Otherwise it will not work."
+    },
+    {
+        "id": 100,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "04:45",
+        "end_time": "04:59",
+        "text": "Let's say I'm going to say 9 plus 2 multiplied by 3. Now of course there should be some output for this. And when I read this from start to end, it will be 9 plus 2, 11. 11 into 3 is 33. That's what I'm expecting."
+    },
+    {
+        "id": 105,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "04:59",
+        "end_time": "05:11",
+        "text": "On the other hand, if you know the rules of board mass where multiplication will come first, then it will be doing the addition. In that scenario, it will be 2 into 3, which is 6. 6 plus 9 is 15. So what do you think?"
+    },
+    {
+        "id": 110,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "05:11",
+        "end_time": "05:23",
+        "text": "Will it be 33 or 15? Let's try it out. So here we got 15 is because it is following the board mass. So it is multiplying first, then it is adding it. But what if I want to add first, then I want to multiply."
+    },
+    {
+        "id": 115,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "05:23",
+        "end_time": "05:37",
+        "text": "So as for the board mass, we have to put a brackets there. So I can put a bracket 9 plus 2 and then I will say multiplied by 3. And when I say enter, it will be 33. So yeah, board mass is there. So what else we can do here?"
+    },
+    {
+        "id": 120,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "05:37",
+        "end_time": "05:48",
+        "text": "Let's say I want to find a cube of a number. So 8 into 8 into 8. That's how you find a cube. Of course, square is 8 into 8. Cube is 8 into 8 into 8."
+    },
+    {
+        "id": 125,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "05:48",
+        "end_time": "05:59",
+        "text": "If you want to find 8 power 4, it will be 8 into 8 into 8 into 8. I'm not sure how many times I have said 8. It doesn't matter. But you got the point. When I say enter, we got 5 and 2."
+    },
+    {
+        "id": 130,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "05:59",
+        "end_time": "06:16",
+        "text": "But what if I want to find 8 power 12 or 8 power 10? That's a big number. So of course, I can damage my keyboard by typing all those things. Or we can use something called a power, something like a carriage sign. This should work, but it's not working."
+    },
+    {
+        "id": 135,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "06:16",
+        "end_time": "06:24",
+        "text": "It's not working. It is doing something else. We'll talk about it, what it's doing later. Something to do with bitwise. But at this point, it's not working."
+    },
+    {
+        "id": 140,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "06:24",
+        "end_time": "06:34",
+        "text": "So we have to use double star to do the power. So 8 power 10. And this is the number. I'm not sure if 8 power 10 is that number. We just have to accept whatever Python says."
+    },
+    {
+        "id": 145,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "06:34",
+        "end_time": "06:49",
+        "text": "Or we can just find for 3. If it says 5 and 2, then the previous one should be correct. But why did the value, the output of this is not out of range? So that's the tricky part. Anyway, the point is, this is how you do the power."
+    },
+    {
+        "id": 150,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "06:49",
+        "end_time": "06:58",
+        "text": "We have not tried the division. Let's try division now. So let's say I want to do 8 divided by 2. Of course, it should be 4. But then we are not getting 4."
+    },
+    {
+        "id": 155,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "06:58",
+        "end_time": "07:10",
+        "text": "We are getting 4.0. Why? It's because when you say 9 divided by 2, you got 4.5. That means when you do divisions, you do get the point values. Now, these are called float numbers."
+    },
+    {
+        "id": 160,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "07:10",
+        "end_time": "07:29",
+        "text": "So it says 9 divided by 2, of course, you are getting 4.5. That means when you do 8 divided by 2, you might get the decimal value or the point values here. So 4.0 makes sense. But then when you try to understand the division of a number, what you get is you get two outputs."
+    },
+    {
+        "id": 165,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "07:30",
+        "end_time": "07:43",
+        "text": "So if you see on the screen here, we got, let's say if you are dividing 9 by 2, you got two things. One is the quotient, which is 4, and the remainder, which is 1. So how do I do that? What if I want quotient and remainder separately?"
+    },
+    {
+        "id": 170,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "07:43",
+        "end_time": "07:58",
+        "text": "In that case, you can say 9, you just have to put double slash. And when you say 2, now you will only get the quotient. But what if you want a remainder? In that case, you have to use something called a mod symbol. And you say 2, and you got 1."
+    },
+    {
+        "id": 175,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "07:58",
+        "end_time": "08:14",
+        "text": "This will make much more sense once we start with even our examples with the conditional statements. But you will see that later. At this point, just remember, if you want a quotient from a division, you say 4, I mean you say double slash."
+    },
+    {
+        "id": 180,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "08:14",
+        "end_time": "08:27",
+        "text": "If you want a remainder, you use a percentage symbol. We can also call it as a mod. So that's how you basically perform the operations in the Python prompt. Again, we are not using the VS code or other stuff at this point. We'll do that later."
+    },
+    {
+        "id": 185,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "08:27",
+        "end_time": "08:38",
+        "text": "But this is what it is. So let me talk about something about variables. Of course, we'll not go in detail. There should be a separate video dedicated for variables. So let's say I want to perform some operation."
+    },
+    {
+        "id": 190,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "08:38",
+        "end_time": "08:54",
+        "text": "Maybe we can pick up from any one of it. Maybe I want to pick up this particular operation here. So in the prompt, you can just keep the, you can press the arrow button up, or then you will get the previous commands. Now here, when I do that, of course I got 512."
+    },
+    {
+        "id": 195,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "08:54",
+        "end_time": "09:19",
+        "text": "And then if I want to use this value in the next operation, so let's say I'm performing 5+, and I want to say 5 plus 512, but then I'm not sure about the previous value. I'm saying 512 here, but maybe I'm not sure about the previous values. In that case, if I want to pick the last value, how will I do it? In that case, you can use something called an underscore, which is kind of a box which"
+    },
+    {
+        "id": 200,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "09:19",
+        "end_time": "09:32",
+        "text": "stores the previous value. I can say variable, but we don't have a name for it. Now what do you mean by variable? Imagine variable as a box in which you have a value, if that makes sense. So a box where you have a value and we are naming it something."
+    },
+    {
+        "id": 205,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "09:32",
+        "end_time": "09:40",
+        "text": "So here the underscore is a name for it, because that's the only box you can see in front of you. So it says 5 plus box. Okay. And box says 512."
+    },
+    {
+        "id": 210,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "09:40",
+        "end_time": "09:54",
+        "text": "When you say enter, we got 517. But now if I say 2 plus 512, I can't say underscore, because when you say underscore now, it will pick up the last value, which is 517. Okay. What I want is 512."
+    },
+    {
+        "id": 215,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "09:54",
+        "end_time": "10:04",
+        "text": "Let me show you the proof. When I say enter, we got 519, because 2 plus the previous value, which is 517. But I want 512. Now if you want to do that, we have a simple concept. Let me clear it out."
+    },
+    {
+        "id": 220,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "10:04",
+        "end_time": "10:25",
+        "text": "What you do is you store this operation, which is this, in a variable, a named variable. So let's say, I will say num1 equal to. Now what is this num1? num1 is the variable, a box with a name as num1. Then in that box, you are storing a value which is 8 power 3, that equal to is for the"
+    },
+    {
+        "id": 225,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "10:25",
+        "end_time": "10:43",
+        "text": "assignment. So this value is getting assigned to this num1. So of course, it will first evaluate the value, which is 512, goes into num1. Now when I say enter, you can see it is executed, but you're not getting anything, because in the previous operation, when you were doing, whatever we are doing, you are getting the"
+    },
+    {
+        "id": 230,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "10:43",
+        "end_time": "10:55",
+        "text": "print of it in the next line. But here it's not doing it, it's because when you assign a value, it says, okay, I am done my job. I am assigning that value to a variable. If you want to print it, just mention that you want to print it."
+    },
+    {
+        "id": 235,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "10:55",
+        "end_time": "11:07",
+        "text": "So you say num1. But then in actual programming of Python, when you do that later, you will be using something called print. Again, we have not talked about what is print till this point, but it works. We'll talk about this later what is print is."
+    },
+    {
+        "id": 240,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "11:07",
+        "end_time": "11:23",
+        "text": "This is a way you do that in the upcoming sessions, not here. But here num1 works. Now if I want to perform some operation, let's say 4 plus 8, and this is 12. But now I want to perform the operation, which is 5 plus. Now this plus, I want to add 512."
+    },
+    {
+        "id": 245,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "11:23",
+        "end_time": "11:44",
+        "text": "So of course I can type 512 or I can't use underscore, because underscore will be the last value, which is 12. I can use num1, if that makes sense. Not just num1, I can create num2 as well with a new value, let's say simply 8. And now I'm saying num1 plus num2, and you can see we got 520."
+    },
+    {
+        "id": 250,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "11:44",
+        "end_time": "11:56",
+        "text": "And the beauty is you can create another variable, you can store the addition of num1 plus num2 in this. And now I can print num3. So it's that awesome. So this is how you can store the values here."
+    },
+    {
+        "id": 255,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "11:56",
+        "end_time": "12:07",
+        "text": "So yeah, that's about it. Now what if you want to work with text, because at this point we are only working with numbers. We're not working with text. How will you do that? How will you perform operation on that?"
+    },
+    {
+        "id": 260,
+        "source_file": "Python IDLE and Exploring Number Operations.mp3",
+        "video_title": "Python IDLE and Exploring Number Operations",
+        "start_time": "12:07",
+        "end_time": "12:08",
+        "text": "Let's see that in the next video."
+    }
+]

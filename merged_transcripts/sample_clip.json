@@ -1,0 +1,10 @@
+[
+    {
+        "id": 0,
+        "source_file": "sample_clip.mp3",
+        "video_title": "sample_clip",
+        "start_time": "00:00",
+        "end_time": "00:09",
+        "text": "So we got a type int, we got a type float. Apart from this, we have some more types, which you can look at. One of it is complex numbers. Now if you remember, if you go back to your maths concept,"
+    }
+]

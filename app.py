@@ -4,7 +4,7 @@ import numpy as np
 import requests
 from sklearn.metrics.pairwise import cosine_similarity
 
-PKL_PATH = "transcripts_with_vectors.pkl"
+PKL_PATH = "new_transcripts_with_vectors.pkl"
 
 
 @st.cache_resource

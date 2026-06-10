@@ -1,0 +1,282 @@
+[
+    {
+        "id": 0,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "00:00",
+        "end_time": "00:28",
+        "text": "Now in this video, we'll talk about list. And before we do that, instead of working with the prompt on the terminal, so basically till this point I was opening Python in the terminal, but now I'm going to use IDLE and we have talked about this before. So this is one way of testing your Python code or if you are learning Python, you can use this. The reason I was using the terminal is because it looks good. The black screen, of course,"
+    },
+    {
+        "id": 5,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "00:28",
+        "end_time": "00:56",
+        "text": "I can set it black here, but then the font and other stuff are good there. But ideally provides you some extra features which we are going to see in this particular video or in the upcoming videos. In fact, when you open IDLE for the first time, it will give you a white light theme and the font will be small. So you can go to options, configure IDLE and then you can change things from here. Not that difficult. Now once you are here,"
+    },
+    {
+        "id": 10,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "00:56",
+        "end_time": "01:19",
+        "text": "now let me create a list. Now first of all, why in this world we need a list? See, when you talk about saving a number, if you want to store a string, it is very easy, right? You can simply take that value and store it in a variable and we have done that before. Example, let's say if I want to store a number, I can create a variable which is num1 and in this I can store a number, let's say 65, which is so simple. If I say enter and if"
+    },
+    {
+        "id": 15,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "01:19",
+        "end_time": "01:45",
+        "text": "I try to print num1, it will print it. But what if you have multiple numbers? In that case we can create a variable num1, of course name doesn't matter. But here let's say I'm going for a variable named num1 and in this I want to have multiple values. So let's say 45, 87, 21, 24 and 99. So we got all these numbers here and I want to store this in one variable. Even if I say enter, it will work because it's a different data type which we"
+    },
+    {
+        "id": 20,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "01:45",
+        "end_time": "02:12",
+        "text": "are going to talk about later. But if you want to create a list, okay, so what is list? List is basically a collection of values. So I'm going to put that in this square bracket. So when you have this value in a square bracket and you saw some little animations there, it completed the list. So that's one list with five values. And if I say enter, no error, everything is happy. And if I print nums, this is your list. It's that simple. Okay,"
+    },
+    {
+        "id": 25,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "02:12",
+        "end_time": "02:35",
+        "text": "so whenever you want to have multiple values, we can store that in a list. Now what if you want to, of course, when you wanted to print everything, you did that. But what if you want to print a particular value? Let's say I want to fetch the first value. Can we do this? Now if you go back to the concept of string, which we talked about in string, of course, it's a sequence of characters or a bunch of characters coming together or I can say collection of"
+    },
+    {
+        "id": 30,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "02:35",
+        "end_time": "03:03",
+        "text": "characters coming together. And if you want to fetch a particular character, of course, you can use the index numbers. Here we can use the index numbers. How? So I will say nums and in this square bracket again, I have to mention the index number. Okay. See, you have to remember where to use square bracket, where to use round bracket, and that's all about programming. Okay. Programming is fun. It's more English. It's just that you need to remember which"
+    },
+    {
+        "id": 35,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "03:03",
+        "end_time": "03:31",
+        "text": "bracket to use where. So when we use list, we have to use square bracket. In the upcoming videos, we'll see some other data structures, which will have some other type. Okay. So we got nums of zero. And if I say enter, we got 45. Yes, you can also print the 99 here. So I can say nums and maybe I can use the index number five. If you remember, this is one of the issue with index numbers. Start with zero. We got five values. So index number, if I say five, of course, it will give you"
+    },
+    {
+        "id": 40,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "03:31",
+        "end_time": "04:04",
+        "text": "bad words. It will say, stay in your limit in its own way. It says least index out of range. Okay. So I know the last index is four and this will work. But you know, since I was not sure at the start what will be the last index value, I said five and I'm saying four. It is working. But can we use negative values? Remember in string, we have done that. So here, if I say minus one, it works. Right. So this is the advantage of using the positive and negative index values."
+    },
+    {
+        "id": 45,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "04:04",
+        "end_time": "04:33",
+        "text": "Now we can also do slicing here. Now if you remember in string also, we wanted to print a specific section of a string. Now that is called slicing. Now in this example, let's say we got a list here and out of this list, I want to print the last three values or maybe last two, these two values, 21 and 24. So the index number is two here for 21 and then index number three. This is what I want to print. So I can say nums and then I can specify from where I want to start. I want to start"
+    },
+    {
+        "id": 50,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "04:33",
+        "end_time": "05:05",
+        "text": "from two and then I want to stop at three. So we have to say four because four is excluded. And if you say enter, we got those two values. Okay. So this is called slicing because you're getting a slice of a particular list. Okay. What else we can do here? Can I print from 21 to 99? Yes, we can. So the way we have done it. Okay. So when I say up, it is not printing. I think I have to do some setting for that. History previous is alt p. Okay. So if you want to get the previous"
+    },
+    {
+        "id": 55,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "05:05",
+        "end_time": "05:32",
+        "text": "value, it is alt p. That's what I got to know from the configuration. And if you ignore this, if you say two colon, it will go till the end. Is that easy? Till this point, we only had the numbers. What if you want to have different data type? Yes, you can do that. It's not just about, okay, you can't even clear it here. That's one tricky part. But okay, let me do it. You by giving enter. So I will say names. So I want to have a string array here,"
+    },
+    {
+        "id": 60,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "05:32",
+        "end_time": "06:01",
+        "text": "or string list here. So I will say Navin. So I have to make sure that you put the single code there. And then you will say, let's say, harsh, then you give a comma, you will say, Kieran. So you got all these values. And if you say enter, and when you try to print names, you got all the values. It works. Right. And not just the names, of course, you had string here, you had numbers, but we can create a separate list which will have different values."
+    },
+    {
+        "id": 65,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "06:01",
+        "end_time": "06:33",
+        "text": "So let's say I want to have a name here, then I want to have 67 as a number, then maybe I want to go for float value as well, 6.5. So you can have different type of data in one list. There's no restriction that it is homogeneous where it only has one type of data. So if you say enter, and if you try to print makes, it works. Okay. So this is the beauty of list. You can have mixed values. So we got integers, we got, I mean, we got numbers, we got string, and we also got a"
+    },
+    {
+        "id": 70,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "06:33",
+        "end_time": "07:08",
+        "text": "mixed value. But can I create the mixture of nums and names? I mean, I want to have this list. So this is first list. This is second list. Can I combine that in one list? Okay. So when I say combine, there are two meanings of it. So I will say mix here. And in this mix, I'm just using the same variable again. I can say nums and I can say names. Now what I'm trying to do is I have two lists, nums and names, and I'm putting that inside a list. So this is list inside the list. So when"
+    },
+    {
+        "id": 75,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "07:08",
+        "end_time": "07:38",
+        "text": "I say enter, there's no error. It is working. So when I say mix, you can see we got the mixed values. You can see it is starting from here and it is ending here. That's your list. And inside this list, we got two lists, one and two. Now why this is important? So let's say if you try to print the first value of a list, if I say mix zero, what do you think? Which one will print? Now this is tricky, right? Now if you think this is going to print 45, because that's the first"
+    },
+    {
+        "id": 80,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "07:38",
+        "end_time": "08:10",
+        "text": "value. No, that's not the case. It is printing the entire list of numbers. Reason? If you say the size of this mix, okay, so if you try to find the length of this mix, you can see the size is only two. That means we only got two elements in mix. This is the first element and this is the second element. So the entire list here is one element. Okay. And then you will say, okay, I want to fetch this 45. How will I do it? That's fine. You can say mix and then you can specify, okay, I want to"
+    },
+    {
+        "id": 85,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "08:10",
+        "end_time": "08:42",
+        "text": "get the first list, which is this particular entire list here. And from this list, I want to get the first value. So then again, you can write a square bracket and you can say zero. So it will print 45. What if you want to print, let's say, Kitten here? So in this case, you will say mix and inside this, you will specify, okay, from the mix list, I want to get the index value one. And from this next value one, I want index value two. So you can say two, enter and you got Kitten. So this is how"
+    },
+    {
+        "id": 90,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "08:42",
+        "end_time": "09:11",
+        "text": "basically you can have a list inside a list. In fact, if you remember, we talked about mixing this two list. So of course we got that. We got one list inside this, we got two lists. But what if you want to create a single list, which will have all the values? In that case, you can say mix equal to nums plus names. So if you want to combine the values, you do this and you can see all the values are combined now. So let's see what else we can do with list. I've restarted this window. So I have"
+    },
+    {
+        "id": 95,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "09:11",
+        "end_time": "09:42",
+        "text": "entered this value once again, nums and names. And of course I can print this, but before I do that, I also want to create mix, which is the combination of nums and names. And if I try to print mix, this is what we got here. So what I'm trying to do now, now when you check, let's say nums, and if you say dot and this only works with the IDLE, the moment I say dot, it will take some time, maybe two seconds, and it will pop up some functions there. So these functions are operations,"
+    },
+    {
+        "id": 100,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "09:42",
+        "end_time": "10:12",
+        "text": "which you can do with your list. Like you can do append. Of course, in the post, we'll try to zoom it so that you can see it. So we can say append, clear, copy. I don't want to clear now because I will lose the value. Copy, count, extend, index, insert, pop, remove, reverse, and there is also sort at the end. Okay. So we've got all these functions here. Now we'll start with append. Now what is append here? So append takes a value from you. Okay. That's what it says. So let's say I'm"
+    },
+    {
+        "id": 105,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "10:12",
+        "end_time": "10:46",
+        "text": "going to add 33. Now what will happen is we got the nums with all these values. When you say nums dot append 33, it will add that value in the list at the end. Okay. So if you say enter, and if you try to print nums, that's what you got. You got this value 33 at the end. Okay. So apart from append, what else we have? So we can say nums dot. So let's try to explore the other methods. If the popup is not coming, you can even say control space. It will be quick. Then you can also use something called"
+    },
+    {
+        "id": 110,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "10:46",
+        "end_time": "11:15",
+        "text": "count to give you the count of values. Oh, sorry. So when you say nums dot count, and you have to mention the number. So let's, I want to see how many times 14 occurred. So when you say 14, it says one. And if we use a different value here, so let's say 15, and there's no instance of 15. What else we can do here? So I will say control space. I can even find the index of a particular value. I can insert a value. Now what's the difference between insert and append? Of course, insert will"
+    },
+    {
+        "id": 115,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "11:15",
+        "end_time": "11:49",
+        "text": "also insert the value in the list. And when you say append, basically you add at the end. But using insert, you can insert in between. Let's say I want to insert a value of 55, but I want to do that at index number, let's say one. So what will happen is currently the index number one is 56 here. Now when you say at index one, I want to add 55, all this value will be pushed and then 55 will be here. So when you say enter, and if you try to print nums, you can see we got 55 and then 56 and the"
+    },
+    {
+        "id": 120,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "11:49",
+        "end_time": "12:17",
+        "text": "entire values. Now, if you observe one thing, when we were trying to work with string and when we were trying to change the values or the characters of a string, it was not allowing it because it was immutable. List on the other hand is mutable and that's why you're able to do that. So mutable simply means it can be changed. So we are able to change the values of a list because it is mutable. Okay, what else we can do? Now since we can insert or add, we should be also able to remove the"
+    },
+    {
+        "id": 125,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "12:17",
+        "end_time": "12:45",
+        "text": "value. So I can say nums.remove and in this remove, I can pass a value. So let's say I want to pass a value 56. I want to remove 56, I can simply enter that and it's removed. It is not reading anything and that's why it's not printing anything there. But if you say nums, now there's no 56. But what if you want to remove not from the value but from the index? Because here when you say remove, we are passing the value, right? If you want to provide the index, then you can't use"
+    },
+    {
+        "id": 130,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "12:45",
+        "end_time": "13:18",
+        "text": "remove. In that case, we have to use pop. And in this, you can pass the index value. Let's say I want to remove 45 from here. So this is 0, 1, 2, 3, 4. So I can remove 4. Now why this word pop? See, when you talk about programming, we have this beautiful type of data structure which is called stack and queue. So stack is a data structure like list. The difference is stack follows last in, first out. So the last element which I've added will be popped out first. And that's why it says"
+    },
+    {
+        "id": 135,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "13:18",
+        "end_time": "13:47",
+        "text": "pop. It's like when you have a stack of books and the last book which you kept will be the first book will take it out. So that pops. And when you say enter, now you can see it returns the value 45 and then it also removes it. So if I say nums now, 45 has been removed. In fact, you can also write pop without passing the index value. And you know which one it will remove? We have just discussed. Last in, first out. So the last value will be popped out. In fact, we can remove multiple values."
+    },
+    {
+        "id": 140,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "13:47",
+        "end_time": "14:16",
+        "text": "So there is a keyword in Python, an inbuilt keyword, which is called del. And you can perform the operations on list with the help of del. So you can say nums. And you can specify from where to where you want to delete. So let's say I want to delete 14 and 36, these two numbers. So I can start from 2 and I can say 4 because 4 is excluding. Enter. And it is not returning anything. So if we try to print nums, so 14, 36 have been, okay, so it is 4 is included."
+    },
+    {
+        "id": 145,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "14:17",
+        "end_time": "14:46",
+        "text": "No, 36 was already removed. And now we have removed 14 and 36. Okay. So we only left with 23 and 55. So the list which started with huge amount of values, we only got 2 now. Okay. Now, since we are removing the values, maybe I want to add more values here. So let's say, let me insert some values. Now, to insert the value, we can use append. We can use insert. But what if I want to insert multiple values? In that case, we can use something called extend. And in this extend,"
+    },
+    {
+        "id": 150,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "14:46",
+        "end_time": "15:16",
+        "text": "you can pass a list in which you can pass a value. Let's say 44, 56, 11, and 99. So when you say enter, so all these values got added to nums. So if we try to print nums, this is what you got. So we have talked about list as a immutable type, right? So what we can also do is if you try to print nums here, we got all the values, right? But let's say I want to replace these two values, 44 and 56. So in this case, I can say nums and I'm going to replace the index number 2, 2, 3. So we"
+    },
+    {
+        "id": 155,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "15:16",
+        "end_time": "15:47",
+        "text": "have to say 4 equal to, and then we can replace those values, let's say 54 and 76. Now when you do that, and if you check the new list, we have replaced those two values. So yeah, we can also replace a particular value with the help of this syntax here. Okay, now let's explore some Python inbuilt functions. In fact, okay, so let's finish the functions of list first. So we can also use something called reverse to reverse a list. So when you say reverse, and if you try to print"
+    },
+    {
+        "id": 160,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "15:47",
+        "end_time": "16:16",
+        "text": "the list, so the sequence was 23, 55, 54, 76, 11, 99. Now it is reversed. We can even do sorting. So I can say sort, and if we try to print nums, this is what you got. So these are the inbuilt functions of, or these are the functions of a list. But in Python, we got some inbuilt functions we can use on them, which is min. Now when you pass a list inside a min, it will basically find the minimum number. And when you say max, it will, of course, now you know, it will find the"
+    },
+    {
+        "id": 165,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "16:16",
+        "end_time": "16:49",
+        "text": "maximum number. We can even do sum on this nums, which will give you the sum of numbers. Okay, can I apply min on names because we do have names. There's no issue. It says, okay, minimum is hush. Now you know why it is hush? Because if you go up, this is where names and hush is minimum, is because nummin starts with n, kden starts with k, and hush starts with h. So h comes before n and k. That's why. Okay, what about max? You now, you know, you will get Navin there, but can I do"
+    },
+    {
+        "id": 170,
+        "source_file": "List in Python.mp3",
+        "video_title": "List in Python",
+        "start_time": "16:49",
+        "end_time": "17:07",
+        "text": "sum on names and Python will be unhappy with you, what you're doing. Okay. Cool. So these are the things you can do with Python. You can apply different functions and it's cool. List is cool. So that's it from list. We'll talk about other things in the upcoming videos."
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "00:00",
+        "end_time": "00:29",
+        "text": "So let's write our first Python code. See, the thing is, if you want to run Python, you need a place where you can write your code. Of course, you can use a simple notepad. But then when you write that code, your machine needs to understand it. And that's how the programming world works. So what happens is when you talk about the IT industry, it's all about data, right? And to work with that data, we need software, which will store the"
+    },
+    {
+        "id": 5,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "00:29",
+        "end_time": "00:54",
+        "text": "data, which will fetch the data, which will process the data. And to do that, we have to write some code. Now, of course, we can do that with multiple languages. But when it comes to Python, we need a place to write the code. And also, we have to convert that code into machine code. And that's where we have this concept of compilers, interpreters. So we are going to use those. And of course, we have to do that in the machine. So we have"
+    },
+    {
+        "id": 10,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "00:55",
+        "end_time": "01:25",
+        "text": "But before we do that, what if you want to try out the code before installing the software? And that's where we can use some online compilers. And this is very famous, the online GDP compiler. And if you go there, it's not just for Python. We can do that in multiple languages. Example, if I go here, if I select C, this is the C code. We have to basically write multiple lines of code just to print Hello World. And don't worry if you don't understand the code."
+    },
+    {
+        "id": 15,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "01:25",
+        "end_time": "01:53",
+        "text": "We are not even learning C here. But in Python also, when I show you the code, I will explain later. So Java, this is the Java code to print Hello World. And that's why maybe people are scared to learn Java because of all these words. And if you jump to, in fact, I want to explore VBs. It's been a long time I've worked on VB. So this is the VB code, the good old days. And coming back to Python now. Now, if you can see, it says Python 3."
+    },
+    {
+        "id": 20,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "01:53",
+        "end_time": "02:20",
+        "text": "So yeah, there are multiple versions of Python. Python 2 was there for some time and then now it's end of life. Python 3, we got different versions. And this should be the latest one which they're using. I'm not sure. But anyway, this is Python 3. And what you see on top here is the comment. And this thing here is your code. Now, what we are trying to do here is we are trying to print Hello World. And whatever code you want to write here, you"
+    },
+    {
+        "id": 25,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "02:20",
+        "end_time": "02:46",
+        "text": "can write and you can execute. Now, this will convert that code into binary. It will run on their servers because we are running online. And you will get the output. And what this print is doing, it's a function. We are going to discuss what are functions, what are those brackets later. I know. I love surprises. So here, I'm just going to click on run. There are multiple options. And let's try this. Okay. Trying the dispensing for the first"
+    },
+    {
+        "id": 30,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "02:46",
+        "end_time": "03:08",
+        "text": "time. I think it will give a new window. Let me run it here itself. And you can see we got Hello World. Now, don't get upset because of this black screen. I've seen people getting upset because of we're getting output on a black screen. So that's fine. We're learning a language here. And of course, in future, you're going to build application for web. You might be doing it for the web, the geo application. And most of the time, when you"
+    },
+    {
+        "id": 35,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "03:08",
+        "end_time": "03:33",
+        "text": "build a backend in Python, the frontend will be done with the help of HTML, CSS, JavaScript. So don't worry about the black screen here. Output doesn't matter. I mean, output matters. Where it is printing doesn't matter. Okay. So that's how you can write your first code. But then I'm not happy because we're doing it online. Of course, I'm not saying that it's not a good place, but I need more control. And that you get on the local machine. Now"
+    },
+    {
+        "id": 40,
+        "source_file": "First Code in Python.mp3",
+        "video_title": "First Code in Python",
+        "start_time": "03:33",
+        "end_time": "03:46",
+        "text": "for that, we have to install some softwares. Okay. So when you go to Python website, there's option of downloads and we have to install some softwares. So what is that? Let's see that in the next video."
+    }
+]

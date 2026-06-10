@@ -14,29 +14,29 @@ def create_embedding(text_list):
 
     return embedding
 
-a = create_embedding(["hello world", "how are you?"])
-print(a)  
+# a = create_embedding(["hello world", "how are you?"])
+# print(a)  
  
 
-# transcripsts = os.listdir('transcripts')
-# my_data = []
-# chunk_id = 0
-# for transcript in transcripsts:
-#     if not transcript.endswith('.json'):
-#         continue
+transcripsts = os.listdir('merged_transcripts')
+my_data = []
+chunk_id = 0
+for transcript in transcripsts:
+    if not transcript.endswith('.json'):
+        continue
 
-#     with open(f'transcripts/{transcript}', 'r') as f:
-#         data = json.load(f)
-#     print(f"Processing {transcript} with {len(data)} chunks.")
-#     embeddings = create_embedding([chunk["text"] for chunk in data])
-#     for i, chunk in enumerate(data):
-#         chunk["id"] = chunk_id
-#         chunk_id += 1
-#         chunk["embedding"] = embeddings[i]
-#         my_data.append(chunk)
+    with open(f'merged_transcripts/{transcript}', 'r') as f:
+        data = json.load(f)
+    print(f"Processing {transcript} with {len(data)} chunks.")
+    embeddings = create_embedding([chunk["text"] for chunk in data])
+    for i, chunk in enumerate(data):
+        chunk["id"] = chunk_id
+        chunk_id += 1
+        chunk["embedding"] = embeddings[i]
+        my_data.append(chunk)
         
-# df = pd.DataFrame.from_records(my_data)
+df = pd.DataFrame.from_records(my_data)
 
-# df.to_pickle("transcripts_with_vectors.pkl")
-# print("\n[Success] Master DataFrame saved to transcripts_with_vectors.pkl")
+df.to_pickle("new_transcripts_with_vectors.pkl")
+print("\n[Success] Master DataFrame saved to new_transcripts_with_vectors.pkl")
     

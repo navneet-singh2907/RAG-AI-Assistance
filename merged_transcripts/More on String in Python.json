@@ -1,0 +1,458 @@
+[
+    {
+        "id": 0,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "00:00",
+        "end_time": "00:22",
+        "text": "In the last video, we have talked about text and normally we call it as a string. Now in this video, let's try to focus more on string and let's see what we can do. So first of all, I will get into the Python mode and I will clear the screen. And now let's get started. So the first thing I want to do is I want to work with the string."
+    },
+    {
+        "id": 5,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "00:22",
+        "end_time": "00:35",
+        "text": "So of course I will use my name just to promote myself. Okay, maybe I'm self-office. Doesn't matter. So we got Naveen here and then when I enter, you got the name, the string itself. But what if I want two words?"
+    },
+    {
+        "id": 10,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "00:35",
+        "end_time": "00:49",
+        "text": "Of course you can put that into a string in single-code. You can put Naveen Telisko, it works, right? There's nothing wrong. But what if I got two different string? One is Naveen, one is Telisko."
+    },
+    {
+        "id": 15,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "00:49",
+        "end_time": "01:02",
+        "text": "So again, there are two string now. So this is one string and this is one string. So when you do that, what happens? Will it give you bad words? I mean, will it give you errors or you will get the output?"
+    },
+    {
+        "id": 20,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "01:02",
+        "end_time": "01:16",
+        "text": "So when you run this, it works. So basically what it is doing is it says, okay, I got two strings here. One is this, one is this written side by side. So maybe my job here is to concatenate it. And that's what it is doing."
+    },
+    {
+        "id": 25,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "01:16",
+        "end_time": "01:34",
+        "text": "It is basically concatenating these two things and things are working fine. That's cool. I should have given a space there just to have this type of output. But you got the point, right? So when you got two strings like this, you can simply skip them side by side and it will"
+    },
+    {
+        "id": 30,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "01:34",
+        "end_time": "01:52",
+        "text": "work. But let's say, let's say I got a name variable and in this name variable, I got my name. And when I say enter, okay, so I got a name variable in which I have my name Naveen. And now I want to print Naveen Telisko. So Naveen is the name, I know."
+    },
+    {
+        "id": 35,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "01:52",
+        "end_time": "02:01",
+        "text": "But what if I want to write the telisko here? What do you think? Will it work? It worked before, before when you had a string literal. So this is called a string literal."
+    },
+    {
+        "id": 40,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "02:01",
+        "end_time": "02:13",
+        "text": "So when you got two string literals, there's no issue. But now we got a variable and a string literal. What will happen? Now, maybe this time Python will not be happy with you. Python will say, what you doing?"
+    },
+    {
+        "id": 45,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "02:13",
+        "end_time": "02:26",
+        "text": "This is not how you write a variable and a string together. And that's what it says, you know, this name makes sense. What is this telisko after that? It is an invalid syntax. Now how do we solve this?"
+    },
+    {
+        "id": 50,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "02:26",
+        "end_time": "02:42",
+        "text": "Pretty simple. You can simply go back here name and then you can say telisko. It's just that you have to tell your intentions here. When you have a variable and a string literal, you tell your intentions. See, my intention here is to concatenate this two."
+    },
+    {
+        "id": 55,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "02:42",
+        "end_time": "02:56",
+        "text": "So Python says in that case, give me a plus operator. This plus operator is actually a smart operator because when you give numbers, it will add to numbers. When you give a string, it says, okay, I can't add them. I can concatenate them."
+    },
+    {
+        "id": 60,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "02:56",
+        "end_time": "03:11",
+        "text": "And that's what it's doing here. Okay. And when you center, you can see it came side by side. It's just that I wanted to give a space here and now it works. So that's how basically you do the concatenation of a string literal and a variable."
+    },
+    {
+        "id": 65,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "03:11",
+        "end_time": "03:20",
+        "text": "So now let's work with string as a collection of characters. Okay. What I mean by that. So what I will do is first of all, I will clear this. Okay."
+    },
+    {
+        "id": 70,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "03:21",
+        "end_time": "03:39",
+        "text": "And now I want to have a text as a variable and inside this, let me have a value as telisco. Now this telisco word has seven characters. Right. And I will center. So basically if I try to print text, it will print all the seven characters."
+    },
+    {
+        "id": 75,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "03:39",
+        "end_time": "03:56",
+        "text": "That's a string. But what if I don't want to print the entire set of characters or I can say that I don't want to print the entire string. How do you print a particular character here? So let's say I want to just get T out of it or maybe I want to get E out of it."
+    },
+    {
+        "id": 80,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "03:56",
+        "end_time": "04:15",
+        "text": "How will you do it? So let's take text and then you use something called a square bracket here. Now this is kind of a list which we are going to see later. But at this point, imagine if you have a string like this, it has seven characters as you can see on the screen and each character will be having some number."
+    },
+    {
+        "id": 85,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "04:15",
+        "end_time": "04:24",
+        "text": "Right. So we can count. For example, let's say if I have a desk here and on this desk I got multiple objects, I can count. Okay."
+    },
+    {
+        "id": 90,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "04:24",
+        "end_time": "04:34",
+        "text": "One, two, three, four, five, six, seven, eight. That's how we are counting. Right. And same goes for this telisco one, two, seven. But in programming, we start the number by zero."
+    },
+    {
+        "id": 95,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "04:34",
+        "end_time": "04:46",
+        "text": "Okay. So here the first character is zero index. That's a new word now. Now index we refer to a particular location. So here the T is at zero index."
+    },
+    {
+        "id": 100,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "04:46",
+        "end_time": "04:59",
+        "text": "And we got E, we got one index. L is two index. That's how it works. So the O is the sixth index. But yeah, when you call them as what location, you can say first or seventh."
+    },
+    {
+        "id": 105,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "04:59",
+        "end_time": "05:09",
+        "text": "But when you say index, it is zero to six. Okay. And if you are new to the world of programming, this is where people do struggle to work with the index numbers. But don't worry, you will get used to it."
+    },
+    {
+        "id": 110,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "05:09",
+        "end_time": "05:22",
+        "text": "Okay. There's no easy way of saying this, but you will get used to it. Okay. So let's say I want something at this zero index, which is the first position. When you say enter, you got T. Okay."
+    },
+    {
+        "id": 115,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "05:22",
+        "end_time": "05:34",
+        "text": "Now if you want to get, let's say some other location, let's say if I say three, now what is your guess? So not guess, it should be accurate. Right. You can see on the screen it is U. That's right."
+    },
+    {
+        "id": 120,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "05:34",
+        "end_time": "05:47",
+        "text": "It was a guess for me because I can't see the screen. That's post production, which you can see on the screen. Okay. So if I say six, then of course it will be O. But what if I say seven? And that's where Python is not happy."
+    },
+    {
+        "id": 125,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "05:47",
+        "end_time": "06:02",
+        "text": "Python says, Hey, stay in your limit. I mean, it says string index out of range because you're going outside the range. The range is zero to six. That's what the text here. And when you say seven, basically you're looking for the eighth location, this, which is not"
+    },
+    {
+        "id": 130,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "06:02",
+        "end_time": "06:15",
+        "text": "there. So it says string index out of range, index error. And it's important for developers to read the others as well. Just because something went wrong, you will say, Hey, let me just take the code again. No, first check what's error is."
+    },
+    {
+        "id": 135,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "06:15",
+        "end_time": "06:27",
+        "text": "Okay. Now I know I'm out of bound or out of range. I can just come back and okay, I will fetch six. That's what we can do. Now there's how you go with the range, but can we try a negative range here?"
+    },
+    {
+        "id": 140,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "06:27",
+        "end_time": "06:40",
+        "text": "So let's say I want to try with minus one. So guess what it could be in your mind. And now let's see. If I enter, it says, Oh, okay. Now that's weird."
+    },
+    {
+        "id": 145,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "06:40",
+        "end_time": "06:52",
+        "text": "Why it says, Oh, for minus one. Because see, if you try to understand the normal range, the T starts at zero. So before this, there should be empty, right? It should say out of range. It's not doing that."
+    },
+    {
+        "id": 150,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "06:52",
+        "end_time": "07:09",
+        "text": "It is for minus one. It is saying, Oh, it's because the string in Python, it allows you to have zero to the plus index like six here. Also it can allow you to have minus index, which is minus one, minus two, as you can see on the screen."
+    },
+    {
+        "id": 155,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "07:09",
+        "end_time": "07:25",
+        "text": "And it is helpful. You know why? Because when I was doing with this six, text six, in my mind, I was still calculating. Even if I know this, I've done this multiple times, but still somewhere in my mind, I have to be very accurate with what is the index for this O and that is six."
+    },
+    {
+        "id": 160,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "07:25",
+        "end_time": "07:38",
+        "text": "But let's say if I don't want to get confused, I want to get the last character. I can simply say minus one. It will give me a last character. And then minus two is second last, minus three is third last, and that's how it goes. So it is helpful in that scenario."
+    },
+    {
+        "id": 165,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "07:38",
+        "end_time": "07:51",
+        "text": "Now if you set text of minus seven, it will be T because that's the first character. But again, if you try to do minus nine, it will say the same thing. You are going out of range. Okay. So let me print text again."
+    },
+    {
+        "id": 170,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "07:51",
+        "end_time": "08:04",
+        "text": "Now let's try something else. I want to print the, let's say, USKO. I just want to print USKO. Now if you want to do that, I can simply say text and from this telescope, I want to fetch the last four characters."
+    },
+    {
+        "id": 175,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "08:04",
+        "end_time": "08:17",
+        "text": "That means I want to skip the first, the second, the third, which means index zero, index one, index two. So I want to skip this three. So I have to start from three and then I have to end where. Okay."
+    },
+    {
+        "id": 180,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "08:17",
+        "end_time": "08:31",
+        "text": "So end should be the last value which you want plus one. So the last value which I want here is USKO. O is six. I have to say seven. Enter and you can see we got USKO."
+    },
+    {
+        "id": 185,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "08:31",
+        "end_time": "08:41",
+        "text": "Now why seven if you are wondering is just that it will exclude that particular value. Okay. It will include three. It will exclude seven. Let's say I want to get the first three characters."
+    },
+    {
+        "id": 190,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "08:41",
+        "end_time": "08:52",
+        "text": "Now you help me. So it will be text and you might be thinking how you're helping me. That's all mind power. You think that I will get to know in the past because I'm recording now. Okay."
+    },
+    {
+        "id": 195,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "08:52",
+        "end_time": "09:01",
+        "text": "Such a weird example. Anyway, come back. So if I say zero and I have to start with zero, right, because I want to include T. So we are trying to print TEL. So zero, two."
+    },
+    {
+        "id": 200,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "09:01",
+        "end_time": "09:18",
+        "text": "I have to end where. So I need to get L also, which is at index two. So if I say three, it will take TEL. Let's say I want to print from L. So L starts with two and then I have to end at seven, right?"
+    },
+    {
+        "id": 205,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "09:18",
+        "end_time": "09:35",
+        "text": "But even if you say nine, there's no issue because you're starting with L and when you say nine, it simply says, okay, go till the end. I don't care where it is. Even if you say hundred, it will end at O. That also means you can skip the last part. I mean, if you just want to print at the end, why do you even have a higher number?"
+    },
+    {
+        "id": 210,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "09:35",
+        "end_time": "09:47",
+        "text": "Just say empty. It will go to the end and your job is done. And not just for the end part, you can also define for the start part. Let's say I want to end at three. I want to start from zero, but end at three."
+    },
+    {
+        "id": 215,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "09:47",
+        "end_time": "10:04",
+        "text": "You can do this. So Python is fun, right? Let me clear this and let me print text again. What else we can do here? Let's say I want to print LUSKO, but I want to change that TEL to be capital and USKO"
+    },
+    {
+        "id": 220,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "10:04",
+        "end_time": "10:14",
+        "text": "to be small. Okay. So first of all, I can assign directly a new value to it. Example something like this and enter. This will work."
+    },
+    {
+        "id": 225,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "10:14",
+        "end_time": "10:30",
+        "text": "If I say text, there is no problem. The new text itself is TEL, capital and USKO small. Now why it is working is because you are changing the value of a variable and you can change the value of a variable. Nothing wrong with that."
+    },
+    {
+        "id": 230,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "10:30",
+        "end_time": "10:48",
+        "text": "But now what I wanted to do is, okay, let me just get back to TELUSKO. And now if you say text, it is TELUSKO. Now what I want to do is I just want to change the existing string. Let me repeat. I want to change the existing string and make the first three letters capital."
+    },
+    {
+        "id": 235,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "10:48",
+        "end_time": "11:12",
+        "text": "If I want to do that, maybe I can say text and then, okay, first of all, I just want to get some extra space here. I will say text and then I can specify from 0 to 3, which is the first three characters because 3 is excluding, I can say equal to TEL. Now if we can do this, that means the first three letters will be changed to TEL, capital"
+    },
+    {
+        "id": 240,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "11:13",
+        "end_time": "11:31",
+        "text": "USKO should remain same because we are trying to change the string itself. And if you say enter, it is giving you an error. It says you can't do that. String object, which is still object, does not support item assignment. Basically you can't change the existing string."
+    },
+    {
+        "id": 245,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "11:31",
+        "end_time": "11:44",
+        "text": "Okay, that's cool. So this is one thing you have to remember. You can't change the existing string. You can change the value of a variable, but you can't change the existing string. Now if you are thinking both are same, right?"
+    },
+    {
+        "id": 250,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "11:44",
+        "end_time": "12:08",
+        "text": "This will make much more sense once we talk about references, objects, it will make sense. Okay, apart from this, I want to show you one more thing and in fact two more things and then we are going to end this. Let's say if you want to find the length of a string, you can use the len function. Again, we have not talked about functions at this point, but just imagine there is something"
+    },
+    {
+        "id": 255,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "12:08",
+        "end_time": "12:29",
+        "text": "in the world which will take your text and your data and find the length of it. That's what it's doing here. Maybe I also want to print something. Maybe I want to write a poem which is not in one line because if you say text is equal to and if you say my name is Navin Reddy, welcome to Telisco."
+    },
+    {
+        "id": 260,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "12:29",
+        "end_time": "12:50",
+        "text": "Okay, by default I'm saying T is capital. So if I do this, I'm writing this in one line, right? And maybe I want to print this in two lines. So one thing you can do is you can put a slash n here and then when you try to print text, not like this, but if you try to print text with a function, it will print on two different"
+    },
+    {
+        "id": 265,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "12:50",
+        "end_time": "13:01",
+        "text": "lines. So we have to put this slash n here for the new line. So this will get printed and then this will print a new line on which you are printing welcome to Telisco. There's another way of doing this."
+    },
+    {
+        "id": 270,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "13:01",
+        "end_time": "13:17",
+        "text": "I'll clear this. I'll say text is equal to. You can use triple double quotes. Okay, that's weird. And then you can say enter and you can say my name is Navin, welcome to Telisco."
+    },
+    {
+        "id": 275,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "13:17",
+        "end_time": "13:36",
+        "text": "And when you do this, you have to make sure that you end with triple double quotes. And when you say enter, it worked. And if you try to print text, of course it will print in this fashion. But if you print in a text or you're using a print function, this is what it does. Okay, so you want to use this syntax or this syntax, which I've used before your choice."
+    },
+    {
+        "id": 280,
+        "source_file": "More on String in Python.mp3",
+        "video_title": "More on String in Python",
+        "start_time": "13:36",
+        "end_time": "13:41",
+        "text": "So yeah, that's about string in Python. See you in the next video."
+    }
+]
