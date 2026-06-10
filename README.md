@@ -2,6 +2,10 @@
 
 A local, privacy-first RAG (Retrieval-Augmented Generation) system that helps students find exactly where a topic is explained in a course video — returning the video name, timestamp, and an AI-generated answer grounded in the transcript.
 
+**100% local. No paid APIs. No data leaves your machine.**
+
+---
+
 ## Problem
 
 Online courses can have dozens of videos. When a student wants to revise a specific concept, manually scrubbing through every video is slow and frustrating. This assistant lets you ask a plain-English question and instantly surfaces the right video and moment.
@@ -22,6 +26,8 @@ duplicate values. This concept is also referenced in Dictionary in
 Python at 07:18 when discussing set behavior.
 ```
 
+---
+
 ## Architecture
 
 ```
@@ -34,27 +40,49 @@ video_processing.py     -- ffmpeg: MP4 -> MP3
 create_chunks.py        -- Whisper (medium): audio -> timestamped JSON chunks
         |
         v
-create_chunks.py        -- Ollama BGE-M3: text chunks -> embeddings -> .pkl
+merge_chunks.py         -- merge 5 consecutive segments -> richer chunks
+        |
+        v
+read_chunks.py          -- Ollama BGE-M3: merged chunks -> embeddings -> .pkl
         |
         v
 query_index.py          -- cosine similarity search + local LLM answer generation
+        |
+        v
+app.py                  -- Streamlit UI
 ```
 
-All processing runs **100% locally** — no data leaves your machine.
+---
+
+## Performance Improvement: Chunk Merging
+
+The first version of the pipeline embedded individual Whisper segments — short snippets like *"It's a string."* that gave the LLM very little context to work with.
+
+`merge_chunks.py` was added to address this. It groups every **5 consecutive segments** from the same video into a single merged chunk, preserving the start timestamp of the first segment and the end timestamp of the last. This means each embedded chunk now represents a paragraph of speech rather than a single sentence.
+
+**The result:** richer semantic embeddings, better similarity matching, and significantly more useful context passed to the LLM for answer generation.
+
+---
 
 ## Project Structure
 
 ```
 RAG_Based_AI_Assistance/
-├── videos/                        # Source MP4 course videos (git-ignored)
-├── audios/                        # Extracted MP3 files (git-ignored)
-├── transcripts/                   # Timestamped JSON transcript chunks
-├── video_processing.py            # Convert videos to audio
-├── create_chunks.py               # Transcribe audio + generate embeddings
-├── query_index.py                 # Query interface (search + LLM answer)
-├── transcripts_with_vectors.pkl   # Pre-computed embeddings (git-ignored)
+├── videos/                              # Source MP4 course videos (git-ignored)
+├── audios/                              # Extracted MP3 files (git-ignored)
+├── transcripts/                         # Raw timestamped JSON chunks (per segment)
+├── merged_transcripts/                  # Merged JSON chunks (5 segments per chunk)
+├── video_processing.py                  # Convert videos to audio
+├── create_chunks.py                     # Transcribe audio with Whisper
+├── merge_chunks.py                      # Merge transcript segments for richer context
+├── read_chunks.py                       # Generate embeddings from merged chunks
+├── query_index.py                       # CLI query interface
+├── app.py                               # Streamlit web UI
+├── new_transcripts_with_vectors.pkl     # Pre-computed embeddings (git-ignored)
 └── README.md
 ```
+
+---
 
 ## Requirements
 
@@ -65,7 +93,7 @@ RAG_Based_AI_Assistance/
 ### Python dependencies
 
 ```
-pip install openai-whisper pandas numpy scikit-learn requests
+pip install openai-whisper pandas numpy scikit-learn requests streamlit
 ```
 
 ### Ollama models
@@ -76,6 +104,8 @@ ollama pull llama3.2      # generation model (fast)
 # or
 ollama pull deepseek-r1   # generation model (more accurate, slower)
 ```
+
+---
 
 ## Usage
 
@@ -89,21 +119,45 @@ python video_processing.py
 
 Output MP3 files are saved to `audios/`.
 
-### Step 2 — Transcribe and generate embeddings
+### Step 2 — Transcribe audio
 
 ```bash
 python create_chunks.py
 ```
 
-This runs Whisper transcription on each audio file, splits output into timestamped chunks, embeds each chunk using BGE-M3 via Ollama, and saves everything to `transcripts_with_vectors.pkl`.
+Runs Whisper transcription on each audio file and saves timestamped JSON chunks to `transcripts/`. Skips files that have already been transcribed.
 
-### Step 3 — Query the assistant
+### Step 3 — Merge chunks
 
+```bash
+python merge_chunks.py
+```
+
+Groups every 5 consecutive transcript segments into a single richer chunk. Output saved to `merged_transcripts/`. This step significantly improves retrieval and answer quality.
+
+### Step 4 — Generate embeddings
+
+```bash
+python read_chunks.py
+```
+
+Sends all merged chunks to Ollama BGE-M3 for embedding. Saves the resulting DataFrame to `new_transcripts_with_vectors.pkl`.
+
+### Step 5 — Run the assistant
+
+**CLI:**
 ```bash
 python query_index.py
 ```
 
-Enter any question. The system returns the top 3 matching video segments and an AI-generated answer using only your transcript content.
+**Web UI:**
+```bash
+python -m streamlit run app.py
+```
+
+Open your browser, type a question, and get back matching video segments with timestamps and an AI-generated answer.
+
+---
 
 ## Models Used
 
@@ -113,16 +167,23 @@ Enter any question. The system returns the top 3 matching video segments and an 
 | Embeddings | BGE-M3 | Ollama (local) |
 | Answer generation | llama3.2 / deepseek-r1 | Ollama (local) |
 
+### llama3.2 vs DeepSeek R1
+
+Both generation models work with this pipeline. llama3.2 is fast and good for quick lookups. DeepSeek R1 is slower but reasons more carefully and follows the system prompt more precisely — better for detailed explanations.
+
+---
+
 ## Current Dataset
 
 - 13 Python tutorial videos
-- 2008 embedded transcript chunks
+- 2008 raw transcript segments → merged into ~400 richer chunks
+- Covers: data types, strings, lists, tuples, sets, dictionaries, variables, modules, and more
 
-## Future Step: Connecting to a OpenAI API for Generation
+---
 
-The semantic search engine in `query_index.py` successfully retrieves the top matching context rows from the Pandas matrix. To complete the RAG (Retrieval-Augmented Generation) pipeline, you can pass these results directly into an OpenAI text generation model.
+## Future Step: Connecting to the OpenAI API for Generation
 
-Here is the blueprint for how to plug the OpenAI API into your pipeline:
+The semantic search engine in `query_index.py` successfully retrieves the top matching context rows from the Pandas matrix. To extend this pipeline to use the OpenAI API instead of a local LLM, here is the blueprint:
 
 ```python
 import os
@@ -149,12 +210,12 @@ user_prompt = f"Context from video transcripts:\n{context_text}\n\nQuestion: {in
 
 # 4. Hit the OpenAI Chat Completions endpoint
 response = client.chat.completions.create(
-    model="gpt-4o-mini", # High-speed, cost-effective model for RAG tasks
+    model="gpt-4o-mini",  # High-speed, cost-effective model for RAG tasks
     messages=[
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt}
     ],
-    temperature=0.0 # Keeps the model focused strictly on the facts provided
+    temperature=0.0  # Keeps the model focused strictly on the facts provided
 )
 
 # 5. Print your AI Assistant's final answer
